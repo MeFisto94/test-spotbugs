@@ -568,6 +568,7 @@ jobs:
         with:
           node-version: 12.x
       - run: npm --prefix bot install
+      - run: ls lsh .
       - name: Running the SpotBugs Analyzer
         run: npm --prefix bot start
         env:
