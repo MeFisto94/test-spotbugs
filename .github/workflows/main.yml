@@ -550,3 +550,25 @@ jobs:
             git push origin "$branch" --force || true
 
           fi
+          
+  SpotbugsIntegration:
+    needs: [BuildJMonkey]
+    name: Spotbugs Integration
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download spotbugs-github-integration
+        uses: actions/checkout@v2
+        with:
+          path: bot
+          repository: MeFisto94/spotbugs-github-integration
+          # token: ${{ secrets.PRIVATE_CLONE_TOKEN }}
+
+      - name: Use Node.js 12.X
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - run: npm --prefix bot install
+      - name: Running the SpotBugs Analyzer
+        run: npm --prefix bot start
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
