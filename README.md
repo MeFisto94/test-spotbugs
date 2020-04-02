@@ -1,4 +1,4 @@
-jMonkeyEngine 
+Test Repository for jme's CI 
 =============
 
 [![Build Status](https://github.com/jMonkeyEngine/jmonkeyengine/workflows/Build%20jMonkeyEngine/badge.svg)](https://github.com/jMonkeyEngine/jmonkeyengine/actions)
