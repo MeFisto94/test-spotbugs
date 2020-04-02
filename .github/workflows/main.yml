@@ -552,7 +552,6 @@ jobs:
           fi
           
   SpotbugsIntegration:
-    needs: [BuildJMonkey]
     name: Spotbugs Integration
     runs-on: ubuntu-latest
     steps:
