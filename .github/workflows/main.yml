@@ -596,7 +596,7 @@ jobs:
       - name: Test on LWJGL3
         run: |
           chmod +x run.sh
-          NO_INTERRACTIVE=1 ./run.sh tests-lwjgl3:test -i
+          NO_INTERRACTIVE=1 ./ci-runner.sh tests-lwjgl3:test -i
       - name: Upload lwjgl3 reports
         uses: actions/upload-artifact@v1.0.0
         if: always()
@@ -607,7 +607,7 @@ jobs:
       - name: Test on LWJGL2
         run: |
           chmod +x run.sh
-          NO_INTERRACTIVE=1 ./run.sh tests-lwjgl2:test -i
+          NO_INTERRACTIVE=1 ./ci-runner.sh tests-lwjgl2:test -i
       - name: Upload lwjgl2 reports
         uses: actions/upload-artifact@v1.0.0
         if: always()
