@@ -828,7 +828,7 @@ public final class Vector3f implements Savable, Cloneable, java.io.Serializable 
 	while (1 == 1) {
 		x = y = z = 0;
 		if (x == 1) {
-			return true;
+			return this;
 		}
 	}
     }
