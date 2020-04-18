@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1587222974314" analysisTimestamp="1587222974336" release="3.4.0-SNAPSHOT">
+  <Project projectName="project &apos;:jme3-desktop&apos; (main)">
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/cursors/plugins/CursorLoader$CursorImageData.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/cursors/plugins/CursorLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/texture/plugins/AWTLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/util/Screenshots.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/AWTFrameProcessor$TransferMode.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/AWTComponentRenderer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/AWTFrameProcessor$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/NativeLibraryLoader$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/AWTTaskExecutor.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/ErrorDialog.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/NativeLibrary$Key.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/AWTFrameProcessor$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/JmeCanvasContext.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/awt/AwtPanelsContext$AwtPanelsListener.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/awt/AwtPanelsContext.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/awt/AwtPanel$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/awt/AwtPanel.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/awt/PaintMode.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/awt/AwtPanel$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/awt/AwtPanelsContext$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/JmeDesktopSystem.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/ExtractNativeLibraries.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/AWTComponentRenderer$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/JmeDesktopSystem$3.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/AWTFrameProcessor.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/JmeDesktopSystem$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/NativeLibrary.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/JmeDesktopSystem$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/JmeDesktopSystem$4.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/NativeLibraryLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/AWTContext.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/system/ErrorDialog$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/input/AWTMouseInput$3.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/input/AWTInput.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/input/AWTKeyInput$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/input/AWTMouseInput$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/input/awt/AwtMouseInput.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/input/awt/AwtKeyInput.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/input/awt/AwtMouseInput$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/input/AWTMouseInput.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/input/AWTMouseInput$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/input/AWTKeyInput.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/SettingsDialog$6.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/SettingsDialog$SelectionListener.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/VideoRecorderAppState$IsoTimer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/VideoRecorderAppState$VideoProcessor$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$RIFFHeader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$AVIIndex.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$AVIIndexList.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$AVIJunk.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/AWTComponentAppState$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/VideoRecorderAppState$VideoProcessor.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$AVIMovieList.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/VideoRecorderAppState$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$AVIMainHeader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/VideoRecorderAppState$WorkItem.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/MjpegFileWriter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$AVIStreamFormat.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$AVIStreamList.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/AWTComponentAppState.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/VideoRecorderAppState.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$AVIStreamHeader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/SettingsDialog$3.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/SettingsDialog$5.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/SettingsDialog$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/SettingsDialog$7.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/AppletHarness$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/SettingsDialog$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/SettingsDialog$DisplayModeSorter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/SettingsDialog$4.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/AppletHarness.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/com/jme3/app/SettingsDialog.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/jme3tools/navigation/NavCalculator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/jme3tools/navigation/Position.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/jme3tools/navigation/RLSailing.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/jme3tools/navigation/MapModel3D.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/jme3tools/navigation/StringUtil.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/jme3tools/navigation/NavCalculator$Quadrant.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/jme3tools/navigation/NumUtil.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/jme3tools/navigation/MapModel2D.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/jme3tools/navigation/InvalidPositionException.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/jme3tools/navigation/GCSailing.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/jme3tools/navigation/Coordinate.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/jme3tools/converters/MipMapGenerator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/jme3tools/converters/ImageToAwt.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main/jme3tools/converters/ImageToAwt$DecodeParams.class</Jar>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/resources/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-core/build/libs/jme3-core-3.4.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/groovy</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/cursors/plugins/CursorLoader.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/texture/plugins/AWTLoader.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/util/Screenshots.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/system/JmeCanvasContext.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/system/AWTComponentRenderer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/system/ErrorDialog.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/system/NativeLibrary.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/system/JmeDesktopSystem.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/system/awt/PaintMode.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/system/awt/AwtPanelsContext.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/system/awt/AwtPanel.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/system/NativeLibraryLoader.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/system/AWTFrameProcessor.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/system/AWTContext.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/system/AWTTaskExecutor.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/system/ExtractNativeLibraries.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/input/AWTKeyInput.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/input/awt/AwtMouseInput.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/input/awt/AwtKeyInput.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/input/AWTInput.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/input/AWTMouseInput.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/app/AppletHarness.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/app/state/MjpegFileWriter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/app/state/VideoRecorderAppState.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/app/state/AWTComponentAppState.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/com/jme3/app/SettingsDialog.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/jme3tools/navigation/Position.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/jme3tools/navigation/GCSailing.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/jme3tools/navigation/NavCalculator.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/jme3tools/navigation/InvalidPositionException.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/jme3tools/navigation/Coordinate.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/jme3tools/navigation/NumUtil.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/jme3tools/navigation/StringUtil.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/jme3tools/navigation/MapModel2D.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/jme3tools/navigation/MapModel3D.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/jme3tools/navigation/RLSailing.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/jme3tools/converters/ImageToAwt.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/src/main/java/jme3tools/converters/MipMapGenerator.java</SrcDir>
+  </Project>
+  <BugInstance type="MS_MUTABLE_COLLECTION_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.app.AppletHarness">
+      <SourceLine classname="com.jme3.app.AppletHarness" start="51" end="183" sourcefile="AppletHarness.java" sourcepath="com/jme3/app/AppletHarness.java"/>
+    </Class>
+    <Field classname="com.jme3.app.AppletHarness" name="appToApplet" signature="Ljava/util/HashMap;" isStatic="true">
+      <SourceLine classname="com.jme3.app.AppletHarness" sourcefile="AppletHarness.java" sourcepath="com/jme3/app/AppletHarness.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.app.AppletHarness" start="53" end="53" startBytecode="7" endBytecode="7" sourcefile="AppletHarness.java" sourcepath="com/jme3/app/AppletHarness.java"/>
+  </BugInstance>
+  <BugInstance type="DM_GC" priority="1" rank="16" abbrev="Dm" category="PERFORMANCE">
+    <Class classname="com.jme3.app.SettingsDialog$4">
+      <SourceLine classname="com.jme3.app.SettingsDialog$4" start="440" end="454" sourcefile="SettingsDialog.java" sourcepath="com/jme3/app/SettingsDialog.java"/>
+    </Class>
+    <Method classname="com.jme3.app.SettingsDialog$4" name="actionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" isStatic="false">
+      <SourceLine classname="com.jme3.app.SettingsDialog$4" start="444" end="454" startBytecode="0" endBytecode="112" sourcefile="SettingsDialog.java" sourcepath="com/jme3/app/SettingsDialog.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.app.SettingsDialog$4" start="451" end="451" startBytecode="25" endBytecode="25" sourcefile="SettingsDialog.java" sourcepath="com/jme3/app/SettingsDialog.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.app.SettingsDialog$DisplayModeSorter">
+      <SourceLine classname="com.jme3.app.SettingsDialog$DisplayModeSorter" start="883" end="907" sourcefile="SettingsDialog.java" sourcepath="com/jme3/app/SettingsDialog.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.app.state.MjpegFileWriter">
+      <SourceLine classname="com.jme3.app.state.MjpegFileWriter" start="57" end="545" sourcefile="MjpegFileWriter.java" sourcepath="com/jme3/app/state/MjpegFileWriter.java"/>
+    </Class>
+    <Field classname="com.jme3.app.state.MjpegFileWriter" name="riffOffset" signature="J" isStatic="false">
+      <SourceLine classname="com.jme3.app.state.MjpegFileWriter" sourcefile="MjpegFileWriter.java" sourcepath="com/jme3/app/state/MjpegFileWriter.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.app.state.MjpegFileWriter" start="64" end="64" startBytecode="41" endBytecode="41" sourcefile="MjpegFileWriter.java" sourcepath="com/jme3/app/state/MjpegFileWriter.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.app.state.MjpegFileWriter$AVIIndex">
+      <SourceLine classname="com.jme3.app.state.MjpegFileWriter$AVIIndex" start="483" end="500" sourcefile="MjpegFileWriter.java" sourcepath="com/jme3/app/state/MjpegFileWriter.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.app.state.MjpegFileWriter$AVIJunk">
+      <SourceLine classname="com.jme3.app.state.MjpegFileWriter$AVIJunk" start="506" end="520" sourcefile="MjpegFileWriter.java" sourcepath="com/jme3/app/state/MjpegFileWriter.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.app.state.MjpegFileWriter$AVIMovieList">
+      <SourceLine classname="com.jme3.app.state.MjpegFileWriter$AVIMovieList" start="426" end="444" sourcefile="MjpegFileWriter.java" sourcepath="com/jme3/app/state/MjpegFileWriter.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.app.state.MjpegFileWriter$AVIStreamList">
+      <SourceLine classname="com.jme3.app.state.MjpegFileWriter$AVIStreamList" start="284" end="297" sourcefile="MjpegFileWriter.java" sourcepath="com/jme3/app/state/MjpegFileWriter.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.app.state.MjpegFileWriter$RIFFHeader">
+      <SourceLine classname="com.jme3.app.state.MjpegFileWriter$RIFFHeader" start="186" end="209" sourcefile="MjpegFileWriter.java" sourcepath="com/jme3/app/state/MjpegFileWriter.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE">
+    <Class classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor">
+      <SourceLine classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" start="214" end="315" sourcefile="VideoRecorderAppState.java" sourcepath="com/jme3/app/state/VideoRecorderAppState.java"/>
+    </Class>
+    <Method classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" name="addImage" signature="(Lcom/jme3/renderer/Renderer;Lcom/jme3/texture/FrameBuffer;)V" isStatic="false">
+      <SourceLine classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" start="227" end="253" startBytecode="0" endBytecode="238" sourcefile="VideoRecorderAppState.java" sourcepath="com/jme3/app/state/VideoRecorderAppState.java"/>
+    </Method>
+    <Method classname="java.util.concurrent.ExecutorService" name="submit" signature="(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.concurrent.ExecutorService" sourcefile="ExecutorService.java" sourcepath="java/util/concurrent/ExecutorService.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" start="235" end="235" startBytecode="66" endBytecode="66" sourcefile="VideoRecorderAppState.java" sourcepath="com/jme3/app/state/VideoRecorderAppState.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor">
+      <SourceLine classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" start="214" end="315" sourcefile="VideoRecorderAppState.java" sourcepath="com/jme3/app/state/VideoRecorderAppState.java"/>
+    </Class>
+    <Field classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" name="prof" signature="Lcom/jme3/profile/AppProfiler;" isStatic="false">
+      <SourceLine classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" sourcefile="VideoRecorderAppState.java" sourcepath="com/jme3/app/state/VideoRecorderAppState.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" start="314" end="314" startBytecode="2" endBytecode="2" sourcefile="VideoRecorderAppState.java" sourcepath="com/jme3/app/state/VideoRecorderAppState.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.app.state.VideoRecorderAppState$WorkItem">
+      <SourceLine classname="com.jme3.app.state.VideoRecorderAppState$WorkItem" start="207" end="211" sourcefile="VideoRecorderAppState.java" sourcepath="com/jme3/app/state/VideoRecorderAppState.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="BIT_IOR_OF_SIGNED_BYTE" priority="2" rank="2" abbrev="BIT" category="CORRECTNESS">
+    <Class classname="com.jme3.cursors.plugins.CursorLoader">
+      <SourceLine classname="com.jme3.cursors.plugins.CursorLoader" start="57" end="560" sourcefile="CursorLoader.java" sourcepath="com/jme3/cursors/plugins/CursorLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.cursors.plugins.CursorLoader" name="parseICOImage" signature="([B)[Ljava/awt/image/BufferedImage;" isStatic="false">
+      <SourceLine classname="com.jme3.cursors.plugins.CursorLoader" start="278" end="543" startBytecode="0" endBytecode="3556" sourcefile="CursorLoader.java" sourcepath="com/jme3/cursors/plugins/CursorLoader.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.cursors.plugins.CursorLoader" start="287" end="287" startBytecode="59" endBytecode="59" sourcefile="CursorLoader.java" sourcepath="com/jme3/cursors/plugins/CursorLoader.java"/>
+  </BugInstance>
+  <BugInstance type="RR_NOT_CHECKED" priority="2" rank="16" abbrev="RR" category="BAD_PRACTICE">
+    <Class classname="com.jme3.cursors.plugins.CursorLoader">
+      <SourceLine classname="com.jme3.cursors.plugins.CursorLoader" start="57" end="560" sourcefile="CursorLoader.java" sourcepath="com/jme3/cursors/plugins/CursorLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.cursors.plugins.CursorLoader" name="loadCursor" signature="(Ljava/io/InputStream;)Lcom/jme3/cursors/plugins/JmeCursor;" isStatic="false">
+      <SourceLine classname="com.jme3.cursors.plugins.CursorLoader" start="101" end="247" startBytecode="0" endBytecode="1753" sourcefile="CursorLoader.java" sourcepath="com/jme3/cursors/plugins/CursorLoader.java"/>
+    </Method>
+    <Method classname="java.io.InputStream" name="read" signature="([BII)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStream" start="162" end="187" startBytecode="0" endBytecode="243" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.cursors.plugins.CursorLoader" start="184" end="184" startBytecode="476" endBytecode="476" sourcefile="CursorLoader.java" sourcepath="com/jme3/cursors/plugins/CursorLoader.java"/>
+  </BugInstance>
+  <BugInstance type="SR_NOT_CHECKED" priority="2" rank="16" abbrev="RR" category="BAD_PRACTICE">
+    <Class classname="com.jme3.cursors.plugins.CursorLoader">
+      <SourceLine classname="com.jme3.cursors.plugins.CursorLoader" start="57" end="560" sourcefile="CursorLoader.java" sourcepath="com/jme3/cursors/plugins/CursorLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.cursors.plugins.CursorLoader" name="loadCursor" signature="(Ljava/io/InputStream;)Lcom/jme3/cursors/plugins/JmeCursor;" isStatic="false">
+      <SourceLine classname="com.jme3.cursors.plugins.CursorLoader" start="101" end="247" startBytecode="0" endBytecode="1753" sourcefile="CursorLoader.java" sourcepath="com/jme3/cursors/plugins/CursorLoader.java"/>
+    </Method>
+    <Method classname="java.io.DataInput" name="skipBytes" signature="(I)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.DataInput" sourcefile="DataInput.java" sourcepath="java/io/DataInput.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.cursors.plugins.CursorLoader" start="132" end="132" startBytecode="120" endBytecode="120" sourcefile="CursorLoader.java" sourcepath="com/jme3/cursors/plugins/CursorLoader.java"/>
+    <SourceLine classname="com.jme3.cursors.plugins.CursorLoader" start="137" end="137" startBytecode="166" endBytecode="166" sourcefile="CursorLoader.java" sourcepath="com/jme3/cursors/plugins/CursorLoader.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+    <SourceLine classname="com.jme3.cursors.plugins.CursorLoader" start="166" end="166" startBytecode="372" endBytecode="372" sourcefile="CursorLoader.java" sourcepath="com/jme3/cursors/plugins/CursorLoader.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+    <SourceLine classname="com.jme3.cursors.plugins.CursorLoader" start="181" end="181" startBytecode="454" endBytecode="454" sourcefile="CursorLoader.java" sourcepath="com/jme3/cursors/plugins/CursorLoader.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="com.jme3.cursors.plugins.CursorLoader$CursorImageData">
+      <SourceLine classname="com.jme3.cursors.plugins.CursorLoader$CursorImageData" start="573" end="757" sourcefile="CursorLoader.java" sourcepath="com/jme3/cursors/plugins/CursorLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.cursors.plugins.CursorLoader$CursorImageData" name="assembleCursor" signature="(Ljava/util/ArrayList;[I[IIIII)V" isStatic="false">
+      <SourceLine classname="com.jme3.cursors.plugins.CursorLoader$CursorImageData" start="713" end="745" startBytecode="0" endBytecode="88" sourcefile="CursorLoader.java" sourcepath="com/jme3/cursors/plugins/CursorLoader.java"/>
+    </Method>
+    <LocalVariable name="frame" register="10" pc="20" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.cursors.plugins.CursorLoader$CursorImageData" start="716" end="716" startBytecode="18" endBytecode="18" sourcefile="CursorLoader.java" sourcepath="com/jme3/cursors/plugins/CursorLoader.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="frame"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE">
+    <Class classname="com.jme3.input.AWTInput">
+      <SourceLine classname="com.jme3.input.AWTInput" start="53" end="129" sourcefile="AWTInput.java" sourcepath="com/jme3/input/AWTInput.java"/>
+    </Class>
+    <Field classname="com.jme3.input.AWTInput" name="application" signature="Lcom/jme3/app/Application;" isStatic="false">
+      <SourceLine classname="com.jme3.input.AWTInput" sourcefile="AWTInput.java" sourcepath="com/jme3/input/AWTInput.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.input.awt.AwtMouseInput">
+      <SourceLine classname="com.jme3.input.awt.AwtMouseInput" start="55" end="343" sourcefile="AwtMouseInput.java" sourcepath="com/jme3/input/awt/AwtMouseInput.java"/>
+    </Class>
+    <Field classname="com.jme3.input.awt.AwtMouseInput" name="WHEEL_AMP" signature="I" isStatic="true">
+      <SourceLine classname="com.jme3.input.awt.AwtMouseInput" sourcefile="AwtMouseInput.java" sourcepath="com/jme3/input/awt/AwtMouseInput.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.input.awt.AwtMouseInput" start="57" end="57" startBytecode="2" endBytecode="2" sourcefile="AwtMouseInput.java" sourcepath="com/jme3/input/awt/AwtMouseInput.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE">
+    <Class classname="com.jme3.system.AWTFrameProcessor">
+      <SourceLine classname="com.jme3.system.AWTFrameProcessor" start="70" end="656" sourcefile="AWTFrameProcessor.java" sourcepath="com/jme3/system/AWTFrameProcessor.java"/>
+    </Class>
+    <Field classname="com.jme3.system.AWTFrameProcessor" name="heightListener" signature="Ljava/beans/PropertyChangeListener;" isStatic="false">
+      <SourceLine classname="com.jme3.system.AWTFrameProcessor" sourcefile="AWTFrameProcessor.java" sourcepath="com/jme3/system/AWTFrameProcessor.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE">
+    <Class classname="com.jme3.system.AWTFrameProcessor">
+      <SourceLine classname="com.jme3.system.AWTFrameProcessor" start="70" end="656" sourcefile="AWTFrameProcessor.java" sourcepath="com/jme3/system/AWTFrameProcessor.java"/>
+    </Class>
+    <Field classname="com.jme3.system.AWTFrameProcessor" name="rationListener" signature="Ljava/beans/PropertyChangeListener;" isStatic="false">
+      <SourceLine classname="com.jme3.system.AWTFrameProcessor" sourcefile="AWTFrameProcessor.java" sourcepath="com/jme3/system/AWTFrameProcessor.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE">
+    <Class classname="com.jme3.system.AWTFrameProcessor">
+      <SourceLine classname="com.jme3.system.AWTFrameProcessor" start="70" end="656" sourcefile="AWTFrameProcessor.java" sourcepath="com/jme3/system/AWTFrameProcessor.java"/>
+    </Class>
+    <Field classname="com.jme3.system.AWTFrameProcessor" name="widthListener" signature="Ljava/beans/PropertyChangeListener;" isStatic="false">
+      <SourceLine classname="com.jme3.system.AWTFrameProcessor" sourcefile="AWTFrameProcessor.java" sourcepath="com/jme3/system/AWTFrameProcessor.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UL_UNRELEASED_LOCK_EXCEPTION_PATH" priority="2" rank="14" abbrev="UL" category="MT_CORRECTNESS">
+    <Class classname="com.jme3.system.AWTTaskExecutor">
+      <SourceLine classname="com.jme3.system.AWTTaskExecutor" start="52" end="113" sourcefile="AWTTaskExecutor.java" sourcepath="com/jme3/system/AWTTaskExecutor.java"/>
+    </Class>
+    <Method classname="com.jme3.system.AWTTaskExecutor" name="addToExecute" signature="(Ljava/lang/Runnable;)V" isStatic="false">
+      <SourceLine classname="com.jme3.system.AWTTaskExecutor" start="83" end="90" startBytecode="0" endBytecode="15" sourcefile="AWTTaskExecutor.java" sourcepath="com/jme3/system/AWTTaskExecutor.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.system.AWTTaskExecutor" start="83" end="83" startBytecode="9" endBytecode="9" sourcefile="AWTTaskExecutor.java" sourcepath="com/jme3/system/AWTTaskExecutor.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.system.ErrorDialog">
+      <SourceLine classname="com.jme3.system.ErrorDialog" start="20" end="64" sourcefile="ErrorDialog.java" sourcepath="com/jme3/system/ErrorDialog.java"/>
+    </Class>
+    <Field classname="com.jme3.system.ErrorDialog" name="DEFAULT_TITLE" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.jme3.system.ErrorDialog" sourcefile="ErrorDialog.java" sourcepath="com/jme3/system/ErrorDialog.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.system.ErrorDialog" start="20" end="20" startBytecode="2" endBytecode="2" sourcefile="ErrorDialog.java" sourcepath="com/jme3/system/ErrorDialog.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.system.ErrorDialog">
+      <SourceLine classname="com.jme3.system.ErrorDialog" start="20" end="64" sourcefile="ErrorDialog.java" sourcepath="com/jme3/system/ErrorDialog.java"/>
+    </Class>
+    <Field classname="com.jme3.system.ErrorDialog" name="PADDING" signature="I" isStatic="true">
+      <SourceLine classname="com.jme3.system.ErrorDialog" sourcefile="ErrorDialog.java" sourcepath="com/jme3/system/ErrorDialog.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.system.ErrorDialog" start="21" end="21" startBytecode="7" endBytecode="7" sourcefile="ErrorDialog.java" sourcepath="com/jme3/system/ErrorDialog.java"/>
+  </BugInstance>
+  <BugInstance type="BC_EQUALS_METHOD_SHOULD_WORK_FOR_ALL_OBJECTS" priority="2" rank="16" abbrev="BC" category="BAD_PRACTICE">
+    <Class classname="com.jme3.system.NativeLibrary$Key">
+      <SourceLine classname="com.jme3.system.NativeLibrary$Key" start="54" end="76" sourcefile="NativeLibrary.java" sourcepath="com/jme3/system/NativeLibrary.java"/>
+    </Class>
+    <Method classname="com.jme3.system.NativeLibrary$Key" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="com.jme3.system.NativeLibrary$Key" start="69" end="76" startBytecode="0" endBytecode="132" sourcefile="NativeLibrary.java" sourcepath="com/jme3/system/NativeLibrary.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.system.NativeLibrary$Key" start="69" end="69" startBytecode="1" endBytecode="1" sourcefile="NativeLibrary.java" sourcepath="com/jme3/system/NativeLibrary.java"/>
+  </BugInstance>
+  <BugInstance type="NP_EQUALS_SHOULD_HANDLE_NULL_ARGUMENT" priority="1" rank="9" abbrev="NP" category="BAD_PRACTICE">
+    <Class classname="com.jme3.system.NativeLibrary$Key">
+      <SourceLine classname="com.jme3.system.NativeLibrary$Key" start="54" end="76" sourcefile="NativeLibrary.java" sourcepath="com/jme3/system/NativeLibrary.java"/>
+    </Class>
+    <Method classname="com.jme3.system.NativeLibrary$Key" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="com.jme3.system.NativeLibrary$Key" start="69" end="76" startBytecode="0" endBytecode="132" sourcefile="NativeLibrary.java" sourcepath="com/jme3/system/NativeLibrary.java"/>
+    </Method>
+    <LocalVariable name="obj" register="1" pc="0" role="LOCAL_VARIABLE_PARAMETER_NAMED"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE">
+    <Class classname="com.jme3.system.NativeLibraryLoader">
+      <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="72" end="698" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.system.NativeLibraryLoader" name="extractNativeLibraries" signature="(Lcom/jme3/system/Platform;Ljava/io/File;)V" isStatic="true">
+      <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="382" end="390" startBytecode="0" endBytecode="209" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+    </Method>
+    <Method classname="java.io.File" name="mkdirs" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1340" end="1354" startBytecode="0" endBytecode="182" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="385" end="385" startBytecode="55" endBytecode="55" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE">
+    <Class classname="com.jme3.system.NativeLibraryLoader">
+      <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="72" end="698" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.system.NativeLibraryLoader" name="getExtractionFolder" signature="()Ljava/io/File;" isStatic="true">
+      <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="253" end="271" startBytecode="0" endBytecode="243" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+    </Method>
+    <Method classname="java.io.File" name="createNewFile" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1007" end="1012" startBytecode="0" endBytecode="98" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="263" end="263" startBytecode="76" endBytecode="76" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE">
+    <Class classname="com.jme3.system.NativeLibraryLoader">
+      <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="72" end="698" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.system.NativeLibraryLoader" name="getExtractionFolder" signature="()Ljava/io/File;" isStatic="true">
+      <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="253" end="271" startBytecode="0" endBytecode="243" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1034" end="1041" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="264" end="264" startBytecode="81" endBytecode="81" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE">
+    <Class classname="com.jme3.system.NativeLibraryLoader">
+      <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="72" end="698" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.system.NativeLibraryLoader" name="loadNativeLibrary" signature="(Ljava/lang/String;Z)V" isStatic="true">
+      <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="537" end="698" startBytecode="0" endBytecode="2223" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+    </Method>
+    <Method classname="java.io.File" name="setLastModified" signature="(J)Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1427" end="1435" startBytecode="0" endBytecode="113" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="665" end="665" startBytecode="628" endBytecode="628" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE">
+    <Class classname="com.jme3.system.NativeLibraryLoader">
+      <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="72" end="698" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.system.NativeLibraryLoader" name="setExtractionFolderToUserCache" signature="()V" isStatic="true">
+      <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="320" end="335" startBytecode="0" endBytecode="166" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+    </Method>
+    <Method classname="java.io.File" name="mkdir" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1309" end="1316" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="323" end="323" startBytecode="12" endBytecode="12" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+    <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="329" end="329" startBytecode="63" endBytecode="63" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.system.NativeLibraryLoader">
+      <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="72" end="698" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.system.NativeLibraryLoader" name="getJmeUserCacheFolder" signature="()Ljava/io/File;" isStatic="true">
+      <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="291" end="316" startBytecode="0" endBytecode="275" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.system.NativeLibraryLoader" start="294" end="307" startBytecode="25" endBytecode="128" sourcefile="NativeLibraryLoader.java" sourcepath="com/jme3/system/NativeLibraryLoader.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="18" abbrev="UrF" category="STYLE">
+    <Class classname="com.jme3.system.awt.AwtPanelsContext">
+      <SourceLine classname="com.jme3.system.awt.AwtPanelsContext" start="45" end="272" sourcefile="AwtPanelsContext.java" sourcepath="com/jme3/system/awt/AwtPanelsContext.java"/>
+    </Class>
+    <Field classname="com.jme3.system.awt.AwtPanelsContext" name="inputSource" signature="Lcom/jme3/system/awt/AwtPanel;" isStatic="false">
+      <SourceLine classname="com.jme3.system.awt.AwtPanelsContext" sourcefile="AwtPanelsContext.java" sourcepath="com/jme3/system/awt/AwtPanelsContext.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.system.awt.AwtPanelsContext" start="108" end="108" startBytecode="21" endBytecode="21" sourcefile="AwtPanelsContext.java" sourcepath="com/jme3/system/awt/AwtPanelsContext.java"/>
+  </BugInstance>
+  <BugInstance type="UPM_UNCALLED_PRIVATE_METHOD" priority="2" rank="18" abbrev="UPM" category="PERFORMANCE">
+    <Class classname="com.jme3.texture.plugins.AWTLoader">
+      <SourceLine classname="com.jme3.texture.plugins.AWTLoader" start="49" end="204" sourcefile="AWTLoader.java" sourcepath="com/jme3/texture/plugins/AWTLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.texture.plugins.AWTLoader" name="flipImage" signature="([SIII)V" isStatic="false">
+      <SourceLine classname="com.jme3.texture.plugins.AWTLoader" start="91" end="101" startBytecode="0" endBytecode="289" sourcefile="AWTLoader.java" sourcepath="com/jme3/texture/plugins/AWTLoader.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="IM_BAD_CHECK_FOR_ODD" priority="2" rank="13" abbrev="IM" category="STYLE">
+    <Class classname="com.jme3.util.Screenshots">
+      <SourceLine classname="com.jme3.util.Screenshots" start="41" end="118" sourcefile="Screenshots.java" sourcepath="com/jme3/util/Screenshots.java"/>
+    </Class>
+    <Method classname="com.jme3.util.Screenshots" name="convertScreenShot" signature="(Ljava/nio/ByteBuffer;Ljava/awt/image/BufferedImage;)V" isStatic="true">
+      <SourceLine classname="com.jme3.util.Screenshots" start="74" end="118" startBytecode="0" endBytecode="681" sourcefile="Screenshots.java" sourcepath="com/jme3/util/Screenshots.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.util.Screenshots" start="91" end="91" startBytecode="53" endBytecode="53" sourcefile="Screenshots.java" sourcepath="com/jme3/util/Screenshots.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="jme3tools.converters.ImageToAwt">
+      <SourceLine classname="jme3tools.converters.ImageToAwt" start="45" end="478" sourcefile="ImageToAwt.java" sourcepath="jme3tools/converters/ImageToAwt.java"/>
+    </Class>
+    <Method classname="jme3tools.converters.ImageToAwt" name="convert" signature="(Lcom/jme3/texture/Image;ZZI)Ljava/awt/image/BufferedImage;" isStatic="true">
+      <SourceLine classname="jme3tools.converters.ImageToAwt" start="370" end="478" startBytecode="0" endBytecode="395" sourcefile="ImageToAwt.java" sourcepath="jme3tools/converters/ImageToAwt.java"/>
+    </Method>
+    <LocalVariable name="format" register="4" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="jme3tools.converters.ImageToAwt" start="370" end="370" startBytecode="4" endBytecode="4" sourcefile="ImageToAwt.java" sourcepath="jme3tools/converters/ImageToAwt.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="format"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="BX_BOXING_IMMEDIATELY_UNBOXED_TO_PERFORM_COERCION" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE">
+    <Class classname="jme3tools.navigation.Coordinate">
+      <SourceLine classname="jme3tools.navigation.Coordinate" start="83" end="273" sourcefile="Coordinate.java" sourcepath="jme3tools/navigation/Coordinate.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.Coordinate" name="&lt;init&gt;" signature="(DI)V" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.Coordinate" start="98" end="113" startBytecode="0" endBytecode="257" sourcefile="Coordinate.java" sourcepath="jme3tools/navigation/Coordinate.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.Coordinate" start="104" end="104" startBytecode="41" endBytecode="41" sourcefile="Coordinate.java" sourcepath="jme3tools/navigation/Coordinate.java"/>
+  </BugInstance>
+  <BugInstance type="DM_BOXED_PRIMITIVE_FOR_PARSING" priority="1" rank="16" abbrev="Bx" category="PERFORMANCE">
+    <Class classname="jme3tools.navigation.Coordinate">
+      <SourceLine classname="jme3tools.navigation.Coordinate" start="83" end="273" sourcefile="Coordinate.java" sourcepath="jme3tools/navigation/Coordinate.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.Coordinate" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.Coordinate" start="125" end="151" startBytecode="0" endBytecode="348" sourcefile="Coordinate.java" sourcepath="jme3tools/navigation/Coordinate.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="intValue" signature="()I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer" start="893" end="893" startBytecode="0" endBytecode="28" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="parseInt" signature="(Ljava/lang/String;)I" isStatic="true" role="SHOULD_CALL"/>
+    <SourceLine classname="jme3tools.navigation.Coordinate" start="128" end="128" startBytecode="17" endBytecode="17" sourcefile="Coordinate.java" sourcepath="jme3tools/navigation/Coordinate.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="jme3tools.navigation.Coordinate">
+      <SourceLine classname="jme3tools.navigation.Coordinate" start="83" end="273" sourcefile="Coordinate.java" sourcepath="jme3tools/navigation/Coordinate.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.Coordinate" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.Coordinate" start="125" end="151" startBytecode="0" endBytecode="348" sourcefile="Coordinate.java" sourcepath="jme3tools/navigation/Coordinate.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.Coordinate" start="134" end="145" startBytecode="52" endBytecode="140" sourcefile="Coordinate.java" sourcepath="jme3tools/navigation/Coordinate.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="jme3tools.navigation.Coordinate">
+      <SourceLine classname="jme3tools.navigation.Coordinate" start="83" end="273" sourcefile="Coordinate.java" sourcepath="jme3tools/navigation/Coordinate.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.Coordinate" name="buildCoOrdinate" signature="(IFII)V" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.Coordinate" start="238" end="273" startBytecode="0" endBytecode="466" sourcefile="Coordinate.java" sourcepath="jme3tools/navigation/Coordinate.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.Coordinate" start="242" end="254" startBytecode="38" endBytecode="149" sourcefile="Coordinate.java" sourcepath="jme3tools/navigation/Coordinate.java"/>
+    <SourceLine classname="jme3tools.navigation.Coordinate" start="258" end="270" startBytecode="152" endBytecode="265" sourcefile="Coordinate.java" sourcepath="jme3tools/navigation/Coordinate.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="jme3tools.navigation.Coordinate">
+      <SourceLine classname="jme3tools.navigation.Coordinate" start="83" end="273" sourcefile="Coordinate.java" sourcepath="jme3tools/navigation/Coordinate.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.Coordinate" name="toStringDegMin" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.Coordinate" start="159" end="182" startBytecode="0" endBytecode="358" sourcefile="Coordinate.java" sourcepath="jme3tools/navigation/Coordinate.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.Coordinate" start="162" end="179" startBytecode="18" endBytecode="198" sourcefile="Coordinate.java" sourcepath="jme3tools/navigation/Coordinate.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="jme3tools.navigation.GCSailing">
+      <SourceLine classname="jme3tools.navigation.GCSailing" start="48" end="58" sourcefile="GCSailing.java" sourcepath="jme3tools/navigation/GCSailing.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.GCSailing" name="getCourses" signature="()[I" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.GCSailing" start="54" end="54" startBytecode="0" endBytecode="46" sourcefile="GCSailing.java" sourcepath="jme3tools/navigation/GCSailing.java"/>
+    </Method>
+    <Field classname="jme3tools.navigation.GCSailing" name="courses" signature="[I" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.GCSailing" sourcefile="GCSailing.java" sourcepath="jme3tools/navigation/GCSailing.java"/>
+    </Field>
+    <SourceLine classname="jme3tools.navigation.GCSailing" start="54" end="54" startBytecode="4" endBytecode="4" sourcefile="GCSailing.java" sourcepath="jme3tools/navigation/GCSailing.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="jme3tools.navigation.GCSailing">
+      <SourceLine classname="jme3tools.navigation.GCSailing" start="48" end="58" sourcefile="GCSailing.java" sourcepath="jme3tools/navigation/GCSailing.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.GCSailing" name="getDistancesNM" signature="()[F" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.GCSailing" start="58" end="58" startBytecode="0" endBytecode="46" sourcefile="GCSailing.java" sourcepath="jme3tools/navigation/GCSailing.java"/>
+    </Method>
+    <Field classname="jme3tools.navigation.GCSailing" name="distancesNM" signature="[F" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.GCSailing" sourcefile="GCSailing.java" sourcepath="jme3tools/navigation/GCSailing.java"/>
+    </Field>
+    <SourceLine classname="jme3tools.navigation.GCSailing" start="58" end="58" startBytecode="4" endBytecode="4" sourcefile="GCSailing.java" sourcepath="jme3tools/navigation/GCSailing.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="jme3tools.navigation.GCSailing">
+      <SourceLine classname="jme3tools.navigation.GCSailing" start="48" end="58" sourcefile="GCSailing.java" sourcepath="jme3tools/navigation/GCSailing.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.GCSailing" name="&lt;init&gt;" signature="([I[F)V" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.GCSailing" start="48" end="51" startBytecode="0" endBytecode="88" sourcefile="GCSailing.java" sourcepath="jme3tools/navigation/GCSailing.java"/>
+    </Method>
+    <Field classname="jme3tools.navigation.GCSailing" name="courses" signature="[I" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.GCSailing" sourcefile="GCSailing.java" sourcepath="jme3tools/navigation/GCSailing.java"/>
+    </Field>
+    <LocalVariable name="pCourses" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="jme3tools.navigation.GCSailing" start="49" end="49" startBytecode="6" endBytecode="6" sourcefile="GCSailing.java" sourcepath="jme3tools/navigation/GCSailing.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="jme3tools.navigation.GCSailing">
+      <SourceLine classname="jme3tools.navigation.GCSailing" start="48" end="58" sourcefile="GCSailing.java" sourcepath="jme3tools/navigation/GCSailing.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.GCSailing" name="&lt;init&gt;" signature="([I[F)V" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.GCSailing" start="48" end="51" startBytecode="0" endBytecode="88" sourcefile="GCSailing.java" sourcepath="jme3tools/navigation/GCSailing.java"/>
+    </Method>
+    <Field classname="jme3tools.navigation.GCSailing" name="distancesNM" signature="[F" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.GCSailing" sourcefile="GCSailing.java" sourcepath="jme3tools/navigation/GCSailing.java"/>
+    </Field>
+    <LocalVariable name="pDistancesNM" register="2" pc="11" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="jme3tools.navigation.GCSailing" start="50" end="50" startBytecode="11" endBytecode="11" sourcefile="GCSailing.java" sourcepath="jme3tools/navigation/GCSailing.java"/>
+  </BugInstance>
+  <BugInstance type="CNT_ROUGH_CONSTANT_VALUE" priority="1" rank="14" abbrev="CNT" category="BAD_PRACTICE">
+    <Class classname="jme3tools.navigation.NavCalculator">
+      <SourceLine classname="jme3tools.navigation.NavCalculator" start="71" end="616" sourcefile="NavCalculator.java" sourcepath="jme3tools/navigation/NavCalculator.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.NavCalculator" name="planeSailing" signature="(Ljme3tools/navigation/Position;Ljme3tools/navigation/Position;)Ljme3tools/navigation/RLSailing;" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.NavCalculator" start="146" end="166" startBytecode="0" endBytecode="324" sourcefile="NavCalculator.java" sourcepath="jme3tools/navigation/NavCalculator.java"/>
+    </Method>
+    <String value="3.1415927410125732"/>
+    <String value="Math.PI"/>
+    <SourceLine classname="jme3tools.navigation.NavCalculator" start="161" end="161" startBytecode="118" endBytecode="118" sourcefile="NavCalculator.java" sourcepath="jme3tools/navigation/NavCalculator.java"/>
+  </BugInstance>
+  <BugInstance type="DE_MIGHT_IGNORE" priority="2" rank="16" abbrev="DE" category="BAD_PRACTICE">
+    <Class classname="jme3tools.navigation.NavCalculator">
+      <SourceLine classname="jme3tools.navigation.NavCalculator" start="71" end="616" sourcefile="NavCalculator.java" sourcepath="jme3tools/navigation/NavCalculator.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.NavCalculator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="jme3tools.navigation.NavCalculator" start="606" end="616" startBytecode="0" endBytecode="126" sourcefile="NavCalculator.java" sourcepath="jme3tools/navigation/NavCalculator.java"/>
+    </Method>
+    <Class classname="java.lang.Exception" role="CLASS_EXCEPTION">
+      <SourceLine classname="java.lang.Exception" start="54" end="123" sourcefile="Exception.java" sourcepath="java/lang/Exception.java"/>
+    </Class>
+    <SourceLine classname="jme3tools.navigation.NavCalculator" start="609" end="609" startBytecode="36" endBytecode="36" sourcefile="NavCalculator.java" sourcepath="jme3tools/navigation/NavCalculator.java"/>
+    <SourceLine classname="jme3tools.navigation.NavCalculator" start="609" end="609" startBytecode="36" endBytecode="36" sourcefile="NavCalculator.java" sourcepath="jme3tools/navigation/NavCalculator.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT" priority="2" rank="17" abbrev="RV" category="STYLE">
+    <Class classname="jme3tools.navigation.NavCalculator">
+      <SourceLine classname="jme3tools.navigation.NavCalculator" start="71" end="616" sourcefile="NavCalculator.java" sourcepath="jme3tools/navigation/NavCalculator.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.NavCalculator" name="&lt;init&gt;" signature="(Ljme3tools/navigation/Position;Ljme3tools/navigation/Position;I)V" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.NavCalculator" start="71" end="80" startBytecode="0" endBytecode="168" sourcefile="NavCalculator.java" sourcepath="jme3tools/navigation/NavCalculator.java"/>
+    </Method>
+    <Method classname="jme3tools.navigation.NavCalculator" name="greatCircleSailing" signature="(Ljme3tools/navigation/Position;Ljme3tools/navigation/Position;)Ljme3tools/navigation/GCSailing;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="jme3tools.navigation.NavCalculator" start="95" end="95" startBytecode="0" endBytecode="75" sourcefile="NavCalculator.java" sourcepath="jme3tools/navigation/NavCalculator.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.NavCalculator" start="77" end="77" startBytecode="45" endBytecode="45" sourcefile="NavCalculator.java" sourcepath="jme3tools/navigation/NavCalculator.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="jme3tools.navigation.NavCalculator">
+      <SourceLine classname="jme3tools.navigation.NavCalculator" start="71" end="616" sourcefile="NavCalculator.java" sourcepath="jme3tools/navigation/NavCalculator.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.NavCalculator" name="&lt;init&gt;" signature="(Ljme3tools/navigation/Position;Ljme3tools/navigation/Position;I)V" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.NavCalculator" start="71" end="80" startBytecode="0" endBytecode="168" sourcefile="NavCalculator.java" sourcepath="jme3tools/navigation/NavCalculator.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.NavCalculator" start="72" end="77" startBytecode="5" endBytecode="48" sourcefile="NavCalculator.java" sourcepath="jme3tools/navigation/NavCalculator.java"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="jme3tools.navigation.NumUtil">
+      <SourceLine classname="jme3tools.navigation.NumUtil" start="42" end="55" sourcefile="NumUtil.java" sourcepath="jme3tools/navigation/NumUtil.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.NumUtil" name="Round" signature="(FI)F" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.NumUtil" start="52" end="55" startBytecode="0" endBytecode="119" sourcefile="NumUtil.java" sourcepath="jme3tools/navigation/NumUtil.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="DM_BOXED_PRIMITIVE_FOR_PARSING" priority="1" rank="16" abbrev="Bx" category="PERFORMANCE">
+    <Class classname="jme3tools.navigation.Position">
+      <SourceLine classname="jme3tools.navigation.Position" start="61" end="255" sourcefile="Position.java" sourcepath="jme3tools/navigation/Position.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.Position" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.Position" start="113" end="142" startBytecode="0" endBytecode="402" sourcefile="Position.java" sourcepath="jme3tools/navigation/Position.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="intValue" signature="()I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer" start="893" end="893" startBytecode="0" endBytecode="28" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="parseInt" signature="(Ljava/lang/String;)I" isStatic="true" role="SHOULD_CALL"/>
+    <SourceLine classname="jme3tools.navigation.Position" start="123" end="123" startBytecode="36" endBytecode="36" sourcefile="Position.java" sourcepath="jme3tools/navigation/Position.java"/>
+    <SourceLine classname="jme3tools.navigation.Position" start="135" end="135" startBytecode="102" endBytecode="102" sourcefile="Position.java" sourcepath="jme3tools/navigation/Position.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="jme3tools.navigation.Position">
+      <SourceLine classname="jme3tools.navigation.Position" start="61" end="255" sourcefile="Position.java" sourcepath="jme3tools/navigation/Position.java"/>
+    </Class>
+    <Field classname="jme3tools.navigation.Position" name="degree" signature="D" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.Position" sourcefile="Position.java" sourcepath="jme3tools/navigation/Position.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="DM_BOXED_PRIMITIVE_TOSTRING" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE">
+    <Class classname="jme3tools.navigation.StringUtil">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="42" end="285" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.StringUtil" name="prettyNum" signature="(D)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="278" end="285" startBytecode="0" endBytecode="151" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Method>
+    <Method classname="java.lang.Double" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Double" start="644" end="644" startBytecode="0" endBytecode="31" sourcefile="Double.java" sourcepath="java/lang/Double.java"/>
+    </Method>
+    <Method classname="java.lang.Double" name="toString" signature="(D)Ljava/lang/String;" isStatic="true" role="SHOULD_CALL"/>
+    <SourceLine classname="jme3tools.navigation.StringUtil" start="278" end="278" startBytecode="8" endBytecode="8" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_LOOP" priority="1" rank="8" abbrev="IL" category="CORRECTNESS">
+    <Class classname="jme3tools.navigation.StringUtil">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="42" end="285" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.StringUtil" name="padNumZero" signature="(FII)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="213" end="238" startBytecode="0" endBytecode="507" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.StringUtil" start="235" end="235" startBytecode="212" endBytecode="212" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    <SourceLine classname="jme3tools.navigation.StringUtil" start="236" end="236" startBytecode="237" endBytecode="237" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java" role="SOURCE_LINE_LOOP_BOTTOM"/>
+    <LocalVariable name="decimalPlaces" register="3" pc="212" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="jme3tools.navigation.StringUtil" start="213" end="213" startBytecode="0" endBytecode="0" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java" role="SOURCE_LINE_LAST_CHANGE"/>
+    <LocalVariable name="length" register="8" pc="212" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="jme3tools.navigation.StringUtil" start="234" end="234" startBytecode="207" endBytecode="207" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java" role="SOURCE_LINE_LAST_CHANGE"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE">
+    <Class classname="jme3tools.navigation.StringUtil">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="42" end="285" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.StringUtil" name="boolArrToStr" signature="([Z)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="261" end="269" startBytecode="0" endBytecode="183" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.StringUtil" start="266" end="266" startBytecode="40" endBytecode="40" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE">
+    <Class classname="jme3tools.navigation.StringUtil">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="42" end="285" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.StringUtil" name="padNum" signature="(DII)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="132" end="148" startBytecode="0" endBytecode="330" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.StringUtil" start="138" end="138" startBytecode="35" endBytecode="35" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE">
+    <Class classname="jme3tools.navigation.StringUtil">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="42" end="285" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.StringUtil" name="padNum" signature="(FII)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="186" end="202" startBytecode="0" endBytecode="328" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.StringUtil" start="192" end="192" startBytecode="35" endBytecode="35" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE">
+    <Class classname="jme3tools.navigation.StringUtil">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="42" end="285" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.StringUtil" name="padNum" signature="(II)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="98" end="104" startBytecode="0" endBytecode="231" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.StringUtil" start="102" end="102" startBytecode="27" endBytecode="27" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE">
+    <Class classname="jme3tools.navigation.StringUtil">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="42" end="285" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.StringUtil" name="padNum" signature="(JI)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="64" end="70" startBytecode="0" endBytecode="234" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.StringUtil" start="68" end="68" startBytecode="29" endBytecode="29" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE">
+    <Class classname="jme3tools.navigation.StringUtil">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="42" end="285" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.StringUtil" name="padNumZero" signature="(DII)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="159" end="175" startBytecode="0" endBytecode="330" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.StringUtil" start="165" end="165" startBytecode="35" endBytecode="35" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE">
+    <Class classname="jme3tools.navigation.StringUtil">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="42" end="285" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.StringUtil" name="padNumZero" signature="(FII)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="213" end="238" startBytecode="0" endBytecode="507" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.StringUtil" start="222" end="222" startBytecode="49" endBytecode="49" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE">
+    <Class classname="jme3tools.navigation.StringUtil">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="42" end="285" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.StringUtil" name="padNumZero" signature="(II)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="115" end="121" startBytecode="0" endBytecode="231" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.StringUtil" start="119" end="119" startBytecode="27" endBytecode="27" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE">
+    <Class classname="jme3tools.navigation.StringUtil">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="42" end="285" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.StringUtil" name="padNumZero" signature="(JI)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="81" end="87" startBytecode="0" endBytecode="234" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.StringUtil" start="85" end="85" startBytecode="29" endBytecode="29" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE">
+    <Class classname="jme3tools.navigation.StringUtil">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="42" end="285" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.StringUtil" name="padStringRight" signature="(Ljava/lang/String;I)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="250" end="253" startBytecode="0" endBytecode="136" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.StringUtil" start="251" end="251" startBytecode="10" endBytecode="10" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE">
+    <Class classname="jme3tools.navigation.StringUtil">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="42" end="285" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Class>
+    <Method classname="jme3tools.navigation.StringUtil" name="prettyNum" signature="(D)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="jme3tools.navigation.StringUtil" start="278" end="285" startBytecode="0" endBytecode="151" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+    </Method>
+    <SourceLine classname="jme3tools.navigation.StringUtil" start="281" end="281" startBytecode="20" endBytecode="20" sourcefile="StringUtil.java" sourcepath="jme3tools/navigation/StringUtil.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 18 Apr 2020 15:16:14 +0000" total_classes="86" referenced_classes="563" total_bugs="65" total_size="5399" num_packages="11" java_version="1.8.0_252" vm_version="25.252-b14" cpu_seconds="15.92" clock_seconds="8.12" peak_mbytes="255.49" alloc_mbytes="455.50" gc_seconds="0.51" priority_2="56" priority_1="9">
+    <PackageStats package="com.jme3.app" total_bugs="3" total_types="12" total_size="626" priority_2="2" priority_1="1">
+      <ClassStats class="com.jme3.app.AppletHarness" sourceFile="AppletHarness.java" interface="false" size="90" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.app.AppletHarness$1" sourceFile="AppletHarness.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.app.SettingsDialog" sourceFile="SettingsDialog.java" interface="false" size="443" bugs="0"/>
+      <ClassStats class="com.jme3.app.SettingsDialog$1" sourceFile="SettingsDialog.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.app.SettingsDialog$2" sourceFile="SettingsDialog.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.jme3.app.SettingsDialog$3" sourceFile="SettingsDialog.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.app.SettingsDialog$4" sourceFile="SettingsDialog.java" interface="false" size="11" bugs="1" priority_1="1"/>
+      <ClassStats class="com.jme3.app.SettingsDialog$5" sourceFile="SettingsDialog.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.app.SettingsDialog$6" sourceFile="SettingsDialog.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.jme3.app.SettingsDialog$7" sourceFile="SettingsDialog.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.app.SettingsDialog$DisplayModeSorter" sourceFile="SettingsDialog.java" interface="false" size="16" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.app.SettingsDialog$SelectionListener" sourceFile="SettingsDialog.java" interface="true" size="2" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.app.state" total_bugs="9" total_types="18" total_size="686" priority_2="9">
+      <ClassStats class="com.jme3.app.state.AWTComponentAppState" sourceFile="AWTComponentAppState.java" interface="false" size="44" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.AWTComponentAppState$1" sourceFile="AWTComponentAppState.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter" sourceFile="MjpegFileWriter.java" interface="false" size="115" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$AVIIndex" sourceFile="MjpegFileWriter.java" interface="false" size="22" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$AVIIndexList" sourceFile="MjpegFileWriter.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$AVIJunk" sourceFile="MjpegFileWriter.java" interface="false" size="18" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$AVIMainHeader" sourceFile="MjpegFileWriter.java" interface="false" size="54" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$AVIMovieList" sourceFile="MjpegFileWriter.java" interface="false" size="21" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$AVIStreamFormat" sourceFile="MjpegFileWriter.java" interface="false" size="50" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$AVIStreamHeader" sourceFile="MjpegFileWriter.java" interface="false" size="67" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$AVIStreamList" sourceFile="MjpegFileWriter.java" interface="false" size="17" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$RIFFHeader" sourceFile="MjpegFileWriter.java" interface="false" size="30" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.app.state.VideoRecorderAppState" sourceFile="VideoRecorderAppState.java" interface="false" size="79" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.VideoRecorderAppState$1" sourceFile="VideoRecorderAppState.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.VideoRecorderAppState$IsoTimer" sourceFile="VideoRecorderAppState.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" sourceFile="VideoRecorderAppState.java" interface="false" size="70" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.app.state.VideoRecorderAppState$VideoProcessor$1" sourceFile="VideoRecorderAppState.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.VideoRecorderAppState$WorkItem" sourceFile="VideoRecorderAppState.java" interface="false" size="10" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.cursors.plugins" total_bugs="4" total_types="2" total_size="400" priority_2="4">
+      <ClassStats class="com.jme3.cursors.plugins.CursorLoader" sourceFile="CursorLoader.java" interface="false" size="275" bugs="3" priority_2="3"/>
+      <ClassStats class="com.jme3.cursors.plugins.CursorLoader$CursorImageData" sourceFile="CursorLoader.java" interface="false" size="125" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.input" total_bugs="1" total_types="7" total_size="324" priority_2="1">
+      <ClassStats class="com.jme3.input.AWTInput" sourceFile="AWTInput.java" interface="false" size="43" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.input.AWTKeyInput" sourceFile="AWTKeyInput.java" interface="false" size="154" bugs="0"/>
+      <ClassStats class="com.jme3.input.AWTKeyInput$1" sourceFile="AWTKeyInput.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.input.AWTMouseInput" sourceFile="AWTMouseInput.java" interface="false" size="95" bugs="0"/>
+      <ClassStats class="com.jme3.input.AWTMouseInput$1" sourceFile="AWTMouseInput.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.input.AWTMouseInput$2" sourceFile="AWTMouseInput.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.input.AWTMouseInput$3" sourceFile="AWTMouseInput.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.input.awt" total_bugs="1" total_types="3" total_size="488" priority_1="1">
+      <ClassStats class="com.jme3.input.awt.AwtKeyInput" sourceFile="AwtKeyInput.java" interface="false" size="298" bugs="0"/>
+      <ClassStats class="com.jme3.input.awt.AwtMouseInput" sourceFile="AwtMouseInput.java" interface="false" size="180" bugs="1" priority_1="1"/>
+      <ClassStats class="com.jme3.input.awt.AwtMouseInput$1" sourceFile="AwtMouseInput.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.system" total_bugs="14" total_types="21" total_size="1156" priority_2="11" priority_1="3">
+      <ClassStats class="com.jme3.system.AWTComponentRenderer" sourceFile="AWTComponentRenderer.java" interface="false" size="123" bugs="0"/>
+      <ClassStats class="com.jme3.system.AWTComponentRenderer$1" sourceFile="AWTComponentRenderer.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.system.AWTContext" sourceFile="AWTContext.java" interface="false" size="80" bugs="0"/>
+      <ClassStats class="com.jme3.system.AWTFrameProcessor" sourceFile="AWTFrameProcessor.java" interface="false" size="241" bugs="3" priority_2="3"/>
+      <ClassStats class="com.jme3.system.AWTFrameProcessor$1" sourceFile="AWTFrameProcessor.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jme3.system.AWTFrameProcessor$2" sourceFile="AWTFrameProcessor.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.system.AWTFrameProcessor$TransferMode" sourceFile="AWTFrameProcessor.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.jme3.system.AWTTaskExecutor" sourceFile="AWTTaskExecutor.java" interface="false" size="33" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.system.ErrorDialog" sourceFile="ErrorDialog.java" interface="false" size="30" bugs="2" priority_1="2"/>
+      <ClassStats class="com.jme3.system.ErrorDialog$1" sourceFile="ErrorDialog.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.system.ExtractNativeLibraries" sourceFile="ExtractNativeLibraries.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="com.jme3.system.JmeCanvasContext" sourceFile="JmeCanvasContext.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jme3.system.JmeDesktopSystem" sourceFile="JmeDesktopSystem.java" interface="false" size="172" bugs="0"/>
+      <ClassStats class="com.jme3.system.JmeDesktopSystem$1" sourceFile="JmeDesktopSystem.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.system.JmeDesktopSystem$2" sourceFile="JmeDesktopSystem.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.system.JmeDesktopSystem$3" sourceFile="JmeDesktopSystem.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.jme3.system.JmeDesktopSystem$4" sourceFile="JmeDesktopSystem.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.system.NativeLibrary" sourceFile="NativeLibrary.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="com.jme3.system.NativeLibrary$Key" sourceFile="NativeLibrary.java" interface="false" size="20" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="com.jme3.system.NativeLibraryLoader" sourceFile="NativeLibraryLoader.java" interface="false" size="305" bugs="6" priority_2="6"/>
+      <ClassStats class="com.jme3.system.NativeLibraryLoader$1" sourceFile="NativeLibraryLoader.java" interface="false" size="4" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.system.awt" total_bugs="1" total_types="7" total_size="352" priority_2="1">
+      <ClassStats class="com.jme3.system.awt.AwtPanel" sourceFile="AwtPanel.java" interface="false" size="183" bugs="0"/>
+      <ClassStats class="com.jme3.system.awt.AwtPanel$1" sourceFile="AwtPanel.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.system.awt.AwtPanel$2" sourceFile="AwtPanel.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.system.awt.AwtPanelsContext" sourceFile="AwtPanelsContext.java" interface="false" size="112" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.system.awt.AwtPanelsContext$1" sourceFile="AwtPanelsContext.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="com.jme3.system.awt.AwtPanelsContext$AwtPanelsListener" sourceFile="AwtPanelsContext.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="com.jme3.system.awt.PaintMode" sourceFile="PaintMode.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.texture.plugins" total_bugs="1" total_types="1" total_size="107" priority_2="1">
+      <ClassStats class="com.jme3.texture.plugins.AWTLoader" sourceFile="AWTLoader.java" interface="false" size="107" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.util" total_bugs="1" total_types="1" total_size="41" priority_2="1">
+      <ClassStats class="com.jme3.util.Screenshots" sourceFile="Screenshots.java" interface="false" size="41" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="jme3tools.converters" total_bugs="1" total_types="3" total_size="358" priority_2="1">
+      <ClassStats class="jme3tools.converters.ImageToAwt" sourceFile="ImageToAwt.java" interface="false" size="249" bugs="1" priority_2="1"/>
+      <ClassStats class="jme3tools.converters.ImageToAwt$DecodeParams" sourceFile="ImageToAwt.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="jme3tools.converters.MipMapGenerator" sourceFile="MipMapGenerator.java" interface="false" size="61" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="jme3tools.navigation" total_bugs="29" total_types="11" total_size="861" priority_2="25" priority_1="4">
+      <ClassStats class="jme3tools.navigation.Coordinate" sourceFile="Coordinate.java" interface="false" size="105" bugs="5" priority_2="4" priority_1="1"/>
+      <ClassStats class="jme3tools.navigation.GCSailing" sourceFile="GCSailing.java" interface="false" size="12" bugs="4" priority_2="4"/>
+      <ClassStats class="jme3tools.navigation.InvalidPositionException" sourceFile="InvalidPositionException.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="jme3tools.navigation.MapModel2D" sourceFile="MapModel2D.java" interface="false" size="149" bugs="0"/>
+      <ClassStats class="jme3tools.navigation.MapModel3D" sourceFile="MapModel3D.java" interface="false" size="140" bugs="0"/>
+      <ClassStats class="jme3tools.navigation.NavCalculator" sourceFile="NavCalculator.java" interface="false" size="223" bugs="4" priority_2="3" priority_1="1"/>
+      <ClassStats class="jme3tools.navigation.NavCalculator$Quadrant" sourceFile="NavCalculator.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="jme3tools.navigation.NumUtil" sourceFile="NumUtil.java" interface="false" size="8" bugs="1" priority_2="1"/>
+      <ClassStats class="jme3tools.navigation.Position" sourceFile="Position.java" interface="false" size="70" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="jme3tools.navigation.RLSailing" sourceFile="RLSailing.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="jme3tools.navigation.StringUtil" sourceFile="StringUtil.java" interface="false" size="106" bugs="13" priority_2="12" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="692" invocations="2192" avgMicrosecondsPerInvocation="316" maxMicrosecondsPerInvocation="40109" standardDeviationMicrosecondsPerInvocation="1425"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="543" invocations="623" avgMicrosecondsPerInvocation="872" maxMicrosecondsPerInvocation="277109" standardDeviationMicrosecondsPerInvocation="11199"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="509" invocations="563" avgMicrosecondsPerInvocation="905" maxMicrosecondsPerInvocation="43363" standardDeviationMicrosecondsPerInvocation="2887"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="441" invocations="563" avgMicrosecondsPerInvocation="783" maxMicrosecondsPerInvocation="38432" standardDeviationMicrosecondsPerInvocation="2149"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="373" invocations="2196" avgMicrosecondsPerInvocation="170" maxMicrosecondsPerInvocation="12237" standardDeviationMicrosecondsPerInvocation="492"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="343" invocations="1734" avgMicrosecondsPerInvocation="197" maxMicrosecondsPerInvocation="13066" standardDeviationMicrosecondsPerInvocation="573"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="331" invocations="621" avgMicrosecondsPerInvocation="533" maxMicrosecondsPerInvocation="33325" standardDeviationMicrosecondsPerInvocation="1994"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="309" invocations="626" avgMicrosecondsPerInvocation="495" maxMicrosecondsPerInvocation="50886" standardDeviationMicrosecondsPerInvocation="2545"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="282" invocations="651" avgMicrosecondsPerInvocation="433" maxMicrosecondsPerInvocation="21345" standardDeviationMicrosecondsPerInvocation="1659"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="278" invocations="642" avgMicrosecondsPerInvocation="433" maxMicrosecondsPerInvocation="30146" standardDeviationMicrosecondsPerInvocation="1817"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="192" invocations="627" avgMicrosecondsPerInvocation="306" maxMicrosecondsPerInvocation="11107" standardDeviationMicrosecondsPerInvocation="1070"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="185" invocations="452" avgMicrosecondsPerInvocation="409" maxMicrosecondsPerInvocation="15739" standardDeviationMicrosecondsPerInvocation="1469"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="118" invocations="563" avgMicrosecondsPerInvocation="210" maxMicrosecondsPerInvocation="3848" standardDeviationMicrosecondsPerInvocation="438"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="109" invocations="688" avgMicrosecondsPerInvocation="159" maxMicrosecondsPerInvocation="14604" standardDeviationMicrosecondsPerInvocation="701"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="108" invocations="563" avgMicrosecondsPerInvocation="192" maxMicrosecondsPerInvocation="8851" standardDeviationMicrosecondsPerInvocation="619"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="101" invocations="629" avgMicrosecondsPerInvocation="161" maxMicrosecondsPerInvocation="51503" standardDeviationMicrosecondsPerInvocation="2076"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="101" invocations="626" avgMicrosecondsPerInvocation="162" maxMicrosecondsPerInvocation="10261" standardDeviationMicrosecondsPerInvocation="817"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="91" invocations="2127" avgMicrosecondsPerInvocation="42" maxMicrosecondsPerInvocation="8066" standardDeviationMicrosecondsPerInvocation="224"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueRangeAnalysisFactory" totalMilliseconds="81" invocations="629" avgMicrosecondsPerInvocation="129" maxMicrosecondsPerInvocation="17885" standardDeviationMicrosecondsPerInvocation="1068"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="78" invocations="563" avgMicrosecondsPerInvocation="139" maxMicrosecondsPerInvocation="7895" standardDeviationMicrosecondsPerInvocation="428"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="75" invocations="563" avgMicrosecondsPerInvocation="133" maxMicrosecondsPerInvocation="11331" standardDeviationMicrosecondsPerInvocation="540"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="73" invocations="563" avgMicrosecondsPerInvocation="130" maxMicrosecondsPerInvocation="18451" standardDeviationMicrosecondsPerInvocation="988"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="73" invocations="563" avgMicrosecondsPerInvocation="129" maxMicrosecondsPerInvocation="4647" standardDeviationMicrosecondsPerInvocation="441"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="70" invocations="86" avgMicrosecondsPerInvocation="814" maxMicrosecondsPerInvocation="15870" standardDeviationMicrosecondsPerInvocation="2509"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="69" invocations="563" avgMicrosecondsPerInvocation="123" maxMicrosecondsPerInvocation="6248" standardDeviationMicrosecondsPerInvocation="411"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="67" invocations="584" avgMicrosecondsPerInvocation="115" maxMicrosecondsPerInvocation="12874" standardDeviationMicrosecondsPerInvocation="705"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUselessObjects" totalMilliseconds="64" invocations="86" avgMicrosecondsPerInvocation="744" maxMicrosecondsPerInvocation="12746" standardDeviationMicrosecondsPerInvocation="2292"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

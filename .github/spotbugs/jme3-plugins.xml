@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1587223071429" analysisTimestamp="1587223071450" release="3.4.0-SNAPSHOT">
+  <Project projectName="project &apos;:jme3-plugins&apos; (main)">
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/export/xml/DOMInputCapsule.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/export/xml/DOMSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/export/xml/DOMOutputCapsule.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/export/xml/XMLImporter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/export/xml/XMLExporter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/material/plugin/export/material/J3MRenderStateOutputCapsule.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/material/plugin/export/material/J3MOutputCapsule$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/material/plugin/export/material/J3MOutputCapsule.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/material/plugin/export/material/J3MRootOutputCapsule.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/material/plugin/export/material/J3MExporter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/material/plugin/export/materialdef/J3mdTechniqueDefWriter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/material/plugin/export/materialdef/J3mdExporter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/material/plugin/export/materialdef/J3mdMatParamWriter$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/material/plugin/export/materialdef/J3mdMatParamWriter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/IrPolygon.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/IrBoneWeightIndex.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/RotationOrder.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/SceneKey.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/node/FbxNode.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/node/FbxRootNode.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/node/FbxNodeUtil.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/node/FbxNode$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/node/FbxNode$InheritMode.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/node/FbxNullAttribute.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/node/FbxNodeAttribute.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/mesh/FbxLayerElement$Type.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/mesh/FbxLayerElement$TextureBlendMode.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/mesh/FbxLayer$FbxLayerElementRef.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/mesh/FbxLayerElement$ReferenceInformationType.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/mesh/FbxMesh.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/mesh/FbxLayerElement$MappingInformationType.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/mesh/FbxMeshUtil.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/mesh/FbxLayerElement.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/mesh/FbxLayer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/mesh/FbxPolygon.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/mesh/FbxLayerElement$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/AnimationList.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/anim/FbxAnimStack.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/anim/FbxSkinDeformer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/anim/FbxAnimCurve.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/anim/FbxCluster.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/anim/FbxToJmeTrack.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/anim/FbxLimbNode.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/anim/FbxAnimUtil.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/anim/FbxAnimCurveNode.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/anim/FbxBindPose.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/anim/FbxAnimLayer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/material/FbxTexture.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/material/FbxMaterialProperties.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/material/FbxMaterialProperties$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/material/FbxMaterial.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/material/FbxTexture$AlphaSource.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/material/FbxMaterialProperties$FBXMaterialProperty.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/material/FbxMaterialProperties$Type.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/material/FbxImage.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/AnimationList$AnimInverval.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/ContentTextureKey.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/RotationOrder$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/FbxLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/obj/FbxObject.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/obj/FbxObjectFactory.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/obj/FbxUnknownObject.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/SceneLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/ContentTextureLocator$ContentAssetInfo.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/objects/FbxAnimNode.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/objects/FbxNode.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/objects/FbxObject.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/objects/FbxTexture.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/objects/FbxAnimCurve.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/objects/FbxSkin.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/objects/FbxMesh.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/objects/FbxCluster.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/objects/FbxMaterial.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/objects/FbxImage.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/objects/FbxBindPose.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/file/FbxReader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/file/FbxId.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/file/FbxDump.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/file/FbxId$LongFbxId.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/file/FbxId$StringFbxId.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/file/FbxElement.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/file/FbxFile.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/ContentTextureLocator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/SceneWithAnimationLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/fbx/misc/FbxGlobalSettings.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/IrVertex.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/ogre/MeshLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/ogre/SceneMeshLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/ogre/MaterialLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/ogre/OgreMeshKey.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/ogre/SceneMaterialLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/ogre/SkeletonLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/ogre/matext/MaterialExtension.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/ogre/matext/MaterialExtensionLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/ogre/matext/OgreMaterialKey.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/ogre/matext/MaterialExtensionSet.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/ogre/SceneLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/ogre/MeshLoader$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/ogre/MeshAnimationLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/ogre/AnimData.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/IrMesh.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfLoader$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfLoader$SkinData.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfLoader$Vector3fArrayPopulator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfLoader$WeightData.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/TrackData$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/PBRSpecGlossMaterialAdapter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/ExtrasLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/TrackData$TransformIndices.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfLoader$JointWrapper.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/BinDataKey.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/TrackData$KeyFrame.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfModelKey.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/TrackData$Type.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/MaterialAdapter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/TrackData$TimeData.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/PBRSpecGlossExtensionLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfLoader$JointArrayPopulator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GlbLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/TrackData.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/ExtensionLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/CustomContentManager.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfLoader$VertexBufferPopulator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfLoader$Matrix4fArrayPopulator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfUtils.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfUtils$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/PBRMaterialAdapter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/PBRMetalRoughMaterialAdapter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfUtils$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfLoader$QuaternionArrayPopulator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfLoader$FloatArrayPopulator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfLoader$Populator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/BinLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/gltf/GltfLoader$SkinBuffers.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main/com/jme3/scene/plugins/IrUtils.class</Jar>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-core/build/libs/jme3-core-3.4.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.1/2a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0/gson-2.8.1.jar</AuxClasspathEntry>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/src/main/java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/src/main/groovy</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/src/main/java/com/jme3/material/plugin/export/material/J3MRenderStateOutputCapsule.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/src/main/java/com/jme3/material/plugin/export/material/J3MExporter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/src/main/java/com/jme3/material/plugin/export/material/J3MOutputCapsule.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/src/main/java/com/jme3/material/plugin/export/material/J3MRootOutputCapsule.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/src/main/java/com/jme3/material/plugin/export/materialdef/J3mdMatParamWriter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/src/main/java/com/jme3/material/plugin/export/materialdef/J3mdExporter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/src/main/java/com/jme3/material/plugin/export/materialdef/J3mdTechniqueDefWriter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/src/main/java/com/jme3/scene/plugins/IrVertex.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/src/main/java/com/jme3/scene/plugins/IrBoneWeightIndex.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/src/main/java/com/jme3/scene/plugins/IrUtils.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/src/main/java/com/jme3/scene/plugins/IrPolygon.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/src/main/java/com/jme3/scene/plugins/IrMesh.java</SrcDir>
+  </Project>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE">
+    <Class classname="com.jme3.export.xml.DOMOutputCapsule">
+      <SourceLine classname="com.jme3.export.xml.DOMOutputCapsule" start="64" end="922" sourcefile="DOMOutputCapsule.java" sourcepath="com/jme3/export/xml/DOMOutputCapsule.java"/>
+    </Class>
+    <Method classname="com.jme3.export.xml.DOMOutputCapsule" name="writeSavableMap" signature="(Ljava/util/Map;Ljava/lang/String;Ljava/util/Map;)V" isStatic="false">
+      <SourceLine classname="com.jme3.export.xml.DOMOutputCapsule" start="691" end="710" startBytecode="0" endBytecode="362" sourcefile="DOMOutputCapsule.java" sourcepath="com/jme3/export/xml/DOMOutputCapsule.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.export.xml.DOMOutputCapsule" start="704" end="704" startBytecode="78" endBytecode="78" sourcefile="DOMOutputCapsule.java" sourcepath="com/jme3/export/xml/DOMOutputCapsule.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE">
+    <Class classname="com.jme3.export.xml.DOMOutputCapsule">
+      <SourceLine classname="com.jme3.export.xml.DOMOutputCapsule" start="64" end="922" sourcefile="DOMOutputCapsule.java" sourcepath="com/jme3/export/xml/DOMOutputCapsule.java"/>
+    </Class>
+    <Method classname="com.jme3.export.xml.DOMOutputCapsule" name="writeStringSavableMap" signature="(Ljava/util/Map;Ljava/lang/String;Ljava/util/Map;)V" isStatic="false">
+      <SourceLine classname="com.jme3.export.xml.DOMOutputCapsule" start="714" end="733" startBytecode="0" endBytecode="364" sourcefile="DOMOutputCapsule.java" sourcepath="com/jme3/export/xml/DOMOutputCapsule.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.export.xml.DOMOutputCapsule" start="727" end="727" startBytecode="80" endBytecode="80" sourcefile="DOMOutputCapsule.java" sourcepath="com/jme3/export/xml/DOMOutputCapsule.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="com.jme3.export.xml.DOMSerializer">
+      <SourceLine classname="com.jme3.export.xml.DOMSerializer" start="48" end="232" sourcefile="DOMSerializer.java" sourcepath="com/jme3/export/xml/DOMSerializer.java"/>
+    </Class>
+    <Method classname="com.jme3.export.xml.DOMSerializer" name="serialize" signature="(Lorg/w3c/dom/Document;Ljava/io/File;)V" isStatic="false">
+      <SourceLine classname="com.jme3.export.xml.DOMSerializer" start="90" end="91" startBytecode="0" endBytecode="79" sourcefile="DOMSerializer.java" sourcepath="com/jme3/export/xml/DOMSerializer.java"/>
+    </Method>
+    <Class classname="java.io.OutputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.OutputStream" start="46" end="152" sourcefile="OutputStream.java" sourcepath="java/io/OutputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.jme3.export.xml.DOMSerializer" start="90" end="90" startBytecode="7" endBytecode="7" sourcefile="DOMSerializer.java" sourcepath="com/jme3/export/xml/DOMSerializer.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.jme3.export.xml.DOMSerializer" start="91" end="91" startBytecode="13" endBytecode="13" sourcefile="DOMSerializer.java" sourcepath="com/jme3/export/xml/DOMSerializer.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{OutputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.export.xml.DOMSerializer">
+      <SourceLine classname="com.jme3.export.xml.DOMSerializer" start="48" end="232" sourcefile="DOMSerializer.java" sourcepath="com/jme3/export/xml/DOMSerializer.java"/>
+    </Class>
+    <Method classname="com.jme3.export.xml.DOMSerializer" name="write" signature="(Lorg/w3c/dom/Node;Ljava/io/Writer;I)V" isStatic="false">
+      <SourceLine classname="com.jme3.export.xml.DOMSerializer" start="141" end="173" startBytecode="0" endBytecode="526" sourcefile="DOMSerializer.java" sourcepath="com/jme3/export/xml/DOMSerializer.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.export.xml.DOMSerializer" start="141" end="170" startBytecode="6" endBytecode="286" sourcefile="DOMSerializer.java" sourcepath="com/jme3/export/xml/DOMSerializer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH" priority="2" rank="8" abbrev="NP" category="CORRECTNESS">
+    <Class classname="com.jme3.material.plugin.export.material.J3MOutputCapsule">
+      <SourceLine classname="com.jme3.material.plugin.export.material.J3MOutputCapsule" start="38" end="384" sourcefile="J3MOutputCapsule.java" sourcepath="com/jme3/material/plugin/export/material/J3MOutputCapsule.java"/>
+    </Class>
+    <Method classname="com.jme3.material.plugin.export.material.J3MOutputCapsule" name="formatMatParamTexture" signature="(Lcom/jme3/material/MatParamTexture;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.jme3.material.plugin.export.material.J3MOutputCapsule" start="133" end="163" startBytecode="0" endBytecode="381" sourcefile="J3MOutputCapsule.java" sourcepath="com/jme3/material/plugin/export/material/J3MOutputCapsule.java"/>
+    </Method>
+    <LocalVariable name="key" register="3" pc="182" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.jme3.material.plugin.export.material.J3MOutputCapsule" start="160" end="160" startBytecode="183" endBytecode="183" sourcefile="J3MOutputCapsule.java" sourcepath="com/jme3/material/plugin/export/material/J3MOutputCapsule.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="com.jme3.material.plugin.export.material.J3MOutputCapsule" start="139" end="139" startBytecode="29" endBytecode="29" sourcefile="J3MOutputCapsule.java" sourcepath="com/jme3/material/plugin/export/material/J3MOutputCapsule.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.LONG_RANGE_NULL_SOURCE" value="true"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE">
+    <Class classname="com.jme3.material.plugin.export.material.J3MOutputCapsule">
+      <SourceLine classname="com.jme3.material.plugin.export.material.J3MOutputCapsule" start="38" end="384" sourcefile="J3MOutputCapsule.java" sourcepath="com/jme3/material/plugin/export/material/J3MOutputCapsule.java"/>
+    </Class>
+    <Method classname="com.jme3.material.plugin.export.material.J3MOutputCapsule" name="writeStringSavableMap" signature="(Ljava/util/Map;Ljava/lang/String;Ljava/util/Map;)V" isStatic="false">
+      <SourceLine classname="com.jme3.material.plugin.export.material.J3MOutputCapsule" start="76" end="82" startBytecode="0" endBytecode="266" sourcefile="J3MOutputCapsule.java" sourcepath="com/jme3/material/plugin/export/material/J3MOutputCapsule.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.material.plugin.export.material.J3MOutputCapsule" start="77" end="77" startBytecode="38" endBytecode="38" sourcefile="J3MOutputCapsule.java" sourcepath="com/jme3/material/plugin/export/material/J3MOutputCapsule.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE">
+    <Class classname="com.jme3.material.plugin.export.material.J3MOutputCapsule">
+      <SourceLine classname="com.jme3.material.plugin.export.material.J3MOutputCapsule" start="38" end="384" sourcefile="J3MOutputCapsule.java" sourcepath="com/jme3/material/plugin/export/material/J3MOutputCapsule.java"/>
+    </Class>
+    <Method classname="com.jme3.material.plugin.export.material.J3MOutputCapsule" name="writeToStream" signature="(Ljava/io/OutputStreamWriter;)V" isStatic="false">
+      <SourceLine classname="com.jme3.material.plugin.export.material.J3MOutputCapsule" start="44" end="49" startBytecode="0" endBytecode="163" sourcefile="J3MOutputCapsule.java" sourcepath="com/jme3/material/plugin/export/material/J3MOutputCapsule.java"/>
+    </Method>
+    <Field classname="com.jme3.material.plugin.export.material.J3MOutputCapsule" name="parameters" signature="Ljava/util/HashMap;" isStatic="false">
+      <SourceLine classname="com.jme3.material.plugin.export.material.J3MOutputCapsule" sourcefile="J3MOutputCapsule.java" sourcepath="com/jme3/material/plugin/export/material/J3MOutputCapsule.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.material.plugin.export.material.J3MOutputCapsule" start="46" end="46" startBytecode="46" endBytecode="46" sourcefile="J3MOutputCapsule.java" sourcepath="com/jme3/material/plugin/export/material/J3MOutputCapsule.java"/>
+  </BugInstance>
+  <BugInstance type="MS_MUTABLE_COLLECTION_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.material.plugin.export.material.J3MRenderStateOutputCapsule">
+      <SourceLine classname="com.jme3.material.plugin.export.material.J3MRenderStateOutputCapsule" start="23" end="81" sourcefile="J3MRenderStateOutputCapsule.java" sourcepath="com/jme3/material/plugin/export/material/J3MRenderStateOutputCapsule.java"/>
+    </Class>
+    <Field classname="com.jme3.material.plugin.export.material.J3MRenderStateOutputCapsule" name="NAME_MAP" signature="Ljava/util/HashMap;" isStatic="true">
+      <SourceLine classname="com.jme3.material.plugin.export.material.J3MRenderStateOutputCapsule" sourcefile="J3MRenderStateOutputCapsule.java" sourcepath="com/jme3/material/plugin/export/material/J3MRenderStateOutputCapsule.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.material.plugin.export.material.J3MRenderStateOutputCapsule" start="23" end="23" startBytecode="7" endBytecode="7" sourcefile="J3MRenderStateOutputCapsule.java" sourcepath="com/jme3/material/plugin/export/material/J3MRenderStateOutputCapsule.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="com.jme3.material.plugin.export.materialdef.J3mdExporter">
+      <SourceLine classname="com.jme3.material.plugin.export.materialdef.J3mdExporter" start="33" end="74" sourcefile="J3mdExporter.java" sourcepath="com/jme3/material/plugin/export/materialdef/J3mdExporter.java"/>
+    </Class>
+    <Method classname="com.jme3.material.plugin.export.materialdef.J3mdExporter" name="save" signature="(Lcom/jme3/material/MaterialDef;Ljava/io/OutputStream;)V" isStatic="false">
+      <SourceLine classname="com.jme3.material.plugin.export.materialdef.J3mdExporter" start="39" end="67" startBytecode="0" endBytecode="495" sourcefile="J3mdExporter.java" sourcepath="com/jme3/material/plugin/export/materialdef/J3mdExporter.java"/>
+    </Method>
+    <Method classname="java.io.OutputStreamWriter" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.OutputStreamWriter" start="109" end="115" startBytecode="0" endBytecode="108" sourcefile="OutputStreamWriter.java" sourcepath="java/io/OutputStreamWriter.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.material.plugin.export.materialdef.J3mdExporter" start="39" end="39" startBytecode="5" endBytecode="5" sourcefile="J3mdExporter.java" sourcepath="com/jme3/material/plugin/export/materialdef/J3mdExporter.java"/>
+  </BugInstance>
+  <BugInstance type="CO_COMPARETO_INCORRECT_FLOATING" priority="2" rank="16" abbrev="Co" category="BAD_PRACTICE">
+    <Class classname="com.jme3.scene.plugins.IrBoneWeightIndex">
+      <SourceLine classname="com.jme3.scene.plugins.IrBoneWeightIndex" start="34" end="86" sourcefile="IrBoneWeightIndex.java" sourcepath="com/jme3/scene/plugins/IrBoneWeightIndex.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.IrBoneWeightIndex" name="compareTo" signature="(Lcom/jme3/scene/plugins/IrBoneWeightIndex;)I" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.IrBoneWeightIndex" start="81" end="86" startBytecode="0" endBytecode="107" sourcefile="IrBoneWeightIndex.java" sourcepath="com/jme3/scene/plugins/IrBoneWeightIndex.java"/>
+    </Method>
+    <Type descriptor="F"/>
+    <Method classname="java.lang.Float" name="compare" signature="(FF)I" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Float" start="907" end="916" startBytecode="0" endBytecode="111" sourcefile="Float.java" sourcepath="java/lang/Float.java"/>
+    </Method>
+    <Field classname="com.jme3.scene.plugins.IrBoneWeightIndex" name="boneWeight" signature="F" isStatic="false" role="FIELD_VALUE_OF">
+      <SourceLine classname="com.jme3.scene.plugins.IrBoneWeightIndex" sourcefile="IrBoneWeightIndex.java" sourcepath="com/jme3/scene/plugins/IrBoneWeightIndex.java"/>
+    </Field>
+    <Field classname="com.jme3.scene.plugins.IrBoneWeightIndex" name="boneWeight" signature="F" isStatic="false" role="FIELD_VALUE_OF">
+      <SourceLine classname="com.jme3.scene.plugins.IrBoneWeightIndex" sourcefile="IrBoneWeightIndex.java" sourcepath="com/jme3/scene/plugins/IrBoneWeightIndex.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.IrBoneWeightIndex" start="83" end="83" startBytecode="22" endBytecode="22" sourcefile="IrBoneWeightIndex.java" sourcepath="com/jme3/scene/plugins/IrBoneWeightIndex.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH" priority="2" rank="8" abbrev="NP" category="CORRECTNESS">
+    <Class classname="com.jme3.scene.plugins.IrUtils">
+      <SourceLine classname="com.jme3.scene.plugins.IrUtils" start="56" end="398" sourcefile="IrUtils.java" sourcepath="com/jme3/scene/plugins/IrUtils.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.IrUtils" name="convertIrMeshToJmeMesh" signature="(Lcom/jme3/scene/plugins/IrMesh;)Lcom/jme3/scene/Mesh;" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.IrUtils" start="244" end="398" startBytecode="0" endBytecode="2141" sourcefile="IrUtils.java" sourcepath="com/jme3/scene/plugins/IrUtils.java"/>
+    </Method>
+    <Field classname="com.jme3.scene.plugins.IrVertex" name="boneWeightsIndices" signature="[Lcom/jme3/scene/plugins/IrBoneWeightIndex;" isStatic="false" role="FIELD_CONTAINS_VALUE">
+      <SourceLine classname="com.jme3.scene.plugins.IrVertex" sourcefile="IrVertex.java" sourcepath="com/jme3/scene/plugins/IrVertex.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.IrUtils" start="381" end="381" startBytecode="1067" endBytecode="1067" sourcefile="IrUtils.java" sourcepath="com/jme3/scene/plugins/IrUtils.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="com.jme3.scene.plugins.IrUtils" start="363" end="363" startBytecode="913" endBytecode="913" sourcefile="IrUtils.java" sourcepath="com/jme3/scene/plugins/IrUtils.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="com.jme3.scene.plugins.IrUtils" start="377" end="377" startBytecode="1034" endBytecode="1034" sourcefile="IrUtils.java" sourcepath="com/jme3/scene/plugins/IrUtils.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.LONG_RANGE_NULL_SOURCE" value="true"/>
+  </BugInstance>
+  <BugInstance type="RC_REF_COMPARISON" priority="1" rank="1" abbrev="RC" category="CORRECTNESS">
+    <Class classname="com.jme3.scene.plugins.IrVertex">
+      <SourceLine classname="com.jme3.scene.plugins.IrVertex" start="40" end="168" sourcefile="IrVertex.java" sourcepath="com/jme3/scene/plugins/IrVertex.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.IrVertex" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.IrVertex" start="93" end="130" startBytecode="0" endBytecode="167" sourcefile="IrVertex.java" sourcepath="com/jme3/scene/plugins/IrVertex.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Integer;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Integer" start="52" end="1590" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Type>
+    <Field classname="com.jme3.scene.plugins.IrVertex" name="smoothing" signature="Ljava/lang/Integer;" isStatic="false" role="FIELD_VALUE_OF">
+      <SourceLine classname="com.jme3.scene.plugins.IrVertex" sourcefile="IrVertex.java" sourcepath="com/jme3/scene/plugins/IrVertex.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.IrVertex" start="124" end="124" startBytecode="304" endBytecode="304" sourcefile="IrVertex.java" sourcepath="com/jme3/scene/plugins/IrVertex.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.scene.plugins.fbx.ContentTextureKey">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.ContentTextureKey" start="52" end="84" sourcefile="ContentTextureKey.java" sourcepath="com/jme3/scene/plugins/fbx/ContentTextureKey.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.ContentTextureKey" name="getContent" signature="()[B" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.ContentTextureKey" start="57" end="57" startBytecode="0" endBytecode="46" sourcefile="ContentTextureKey.java" sourcepath="com/jme3/scene/plugins/fbx/ContentTextureKey.java"/>
+    </Method>
+    <Field classname="com.jme3.scene.plugins.fbx.ContentTextureKey" name="content" signature="[B" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.ContentTextureKey" sourcefile="ContentTextureKey.java" sourcepath="com/jme3/scene/plugins/fbx/ContentTextureKey.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.ContentTextureKey" start="57" end="57" startBytecode="4" endBytecode="4" sourcefile="ContentTextureKey.java" sourcepath="com/jme3/scene/plugins/fbx/ContentTextureKey.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.scene.plugins.fbx.ContentTextureKey">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.ContentTextureKey" start="52" end="84" sourcefile="ContentTextureKey.java" sourcepath="com/jme3/scene/plugins/fbx/ContentTextureKey.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.ContentTextureKey" name="&lt;init&gt;" signature="(Ljava/lang/String;[B)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.ContentTextureKey" start="52" end="54" startBytecode="0" endBytecode="80" sourcefile="ContentTextureKey.java" sourcepath="com/jme3/scene/plugins/fbx/ContentTextureKey.java"/>
+    </Method>
+    <Field classname="com.jme3.scene.plugins.fbx.ContentTextureKey" name="content" signature="[B" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.ContentTextureKey" sourcefile="ContentTextureKey.java" sourcepath="com/jme3/scene/plugins/fbx/ContentTextureKey.java"/>
+    </Field>
+    <LocalVariable name="content" register="2" pc="7" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.ContentTextureKey" start="53" end="53" startBytecode="7" endBytecode="7" sourcefile="ContentTextureKey.java" sourcepath="com/jme3/scene/plugins/fbx/ContentTextureKey.java"/>
+  </BugInstance>
+  <BugInstance type="EQ_DOESNT_OVERRIDE_EQUALS" priority="2" rank="17" abbrev="Eq" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.ContentTextureKey">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.ContentTextureKey" start="52" end="84" sourcefile="ContentTextureKey.java" sourcepath="com/jme3/scene/plugins/fbx/ContentTextureKey.java"/>
+    </Class>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.ContentTextureKey" start="1" end="1" startBytecode="0" endBytecode="0" sourcefile="ContentTextureKey.java" sourcepath="com/jme3/scene/plugins/fbx/ContentTextureKey.java"/>
+    <Method classname="com.jme3.asset.TextureKey" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_DID_YOU_MEAN_TO_OVERRIDE">
+      <SourceLine classname="com.jme3.asset.TextureKey" start="154" end="176" startBytecode="0" endBytecode="229" sourcefile="TextureKey.java" sourcepath="com/jme3/asset/TextureKey.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.scene.plugins.fbx.ContentTextureLocator$ContentAssetInfo">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.ContentTextureLocator$ContentAssetInfo" start="78" end="85" sourcefile="ContentTextureLocator.java" sourcepath="com/jme3/scene/plugins/fbx/ContentTextureLocator.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="MS_MUTABLE_ARRAY" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.scene.plugins.fbx.RotationOrder">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.RotationOrder" start="7" end="50" sourcefile="RotationOrder.java" sourcepath="com/jme3/scene/plugins/fbx/RotationOrder.java"/>
+    </Class>
+    <Field classname="com.jme3.scene.plugins.fbx.RotationOrder" name="values" signature="[Lcom/jme3/scene/plugins/fbx/RotationOrder;" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.RotationOrder" sourcefile="RotationOrder.java" sourcepath="com/jme3/scene/plugins/fbx/RotationOrder.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.RotationOrder" start="12" end="12" startBytecode="146" endBytecode="146" sourcefile="RotationOrder.java" sourcepath="com/jme3/scene/plugins/fbx/RotationOrder.java"/>
+  </BugInstance>
+  <BugInstance type="EQ_DOESNT_OVERRIDE_EQUALS" priority="2" rank="17" abbrev="Eq" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.SceneKey">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.SceneKey" start="41" end="51" sourcefile="SceneKey.java" sourcepath="com/jme3/scene/plugins/fbx/SceneKey.java"/>
+    </Class>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.SceneKey" start="1" end="1" startBytecode="0" endBytecode="0" sourcefile="SceneKey.java" sourcepath="com/jme3/scene/plugins/fbx/SceneKey.java"/>
+    <Method classname="com.jme3.asset.AssetKey" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_DID_YOU_MEAN_TO_OVERRIDE">
+      <SourceLine classname="com.jme3.asset.AssetKey" start="178" end="181" startBytecode="0" endBytecode="110" sourcefile="AssetKey.java" sourcepath="com/jme3/asset/AssetKey.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="FE_FLOATING_POINT_EQUALITY" priority="1" rank="15" abbrev="FE" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.SceneLoader">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" start="50" end="473" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.SceneLoader" name="buildAnimations" signature="()V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" start="303" end="431" startBytecode="0" endBytecode="2510" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" start="420" end="420" startBytecode="1004" endBytecode="1004" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.SceneLoader">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" start="50" end="473" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.SceneLoader" name="loadConnections" signature="(Lcom/jme3/scene/plugins/fbx/file/FbxElement;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" start="232" end="261" startBytecode="0" endBytecode="738" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" start="237" end="256" startBytecode="127" endBytecode="358" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.SceneLoader">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" start="50" end="473" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.SceneLoader" name="loadGlobalSettings" signature="(Lcom/jme3/scene/plugins/fbx/file/FbxElement;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" start="139" end="161" startBytecode="0" endBytecode="554" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" start="141" end="157" startBytecode="187" endBytecode="343" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.SceneLoader">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" start="50" end="473" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.SceneLoader" name="loadScene" signature="(Ljava/io/InputStream;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" start="117" end="136" startBytecode="0" endBytecode="414" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" start="122" end="130" startBytecode="155" endBytecode="203" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE">
+    <Class classname="com.jme3.scene.plugins.fbx.SceneLoader">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" start="50" end="473" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.SceneLoader" name="buildAnimations" signature="()V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" start="303" end="431" startBytecode="0" endBytecode="2510" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java"/>
+    </Method>
+    <Field classname="com.jme3.scene.plugins.fbx.SceneLoader" name="alayerMap" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" start="308" end="308" startBytecode="86" endBytecode="86" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java"/>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.SceneLoader" start="323" end="323" startBytecode="270" endBytecode="270" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneLoader.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="com.jme3.scene.plugins.fbx.SceneWithAnimationLoader">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.SceneWithAnimationLoader" start="17" end="64" sourcefile="SceneWithAnimationLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneWithAnimationLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.SceneWithAnimationLoader" name="load" signature="(Lcom/jme3/asset/AssetInfo;)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.SceneWithAnimationLoader" start="23" end="56" startBytecode="0" endBytecode="810" sourcefile="SceneWithAnimationLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneWithAnimationLoader.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="563" end="564" startBytecode="0" endBytecode="43" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.SceneWithAnimationLoader" start="27" end="27" startBytecode="32" endBytecode="32" sourcefile="SceneWithAnimationLoader.java" sourcepath="com/jme3/scene/plugins/fbx/SceneWithAnimationLoader.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.scene.plugins.fbx.anim.FbxAnimCurve">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.anim.FbxAnimCurve" start="45" end="142" sourcefile="FbxAnimCurve.java" sourcepath="com/jme3/scene/plugins/fbx/anim/FbxAnimCurve.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.anim.FbxAnimCurve" name="getKeyTimes" signature="()[J" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.anim.FbxAnimCurve" start="74" end="74" startBytecode="0" endBytecode="46" sourcefile="FbxAnimCurve.java" sourcepath="com/jme3/scene/plugins/fbx/anim/FbxAnimCurve.java"/>
+    </Method>
+    <Field classname="com.jme3.scene.plugins.fbx.anim.FbxAnimCurve" name="keyTimes" signature="[J" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.anim.FbxAnimCurve" sourcefile="FbxAnimCurve.java" sourcepath="com/jme3/scene/plugins/fbx/anim/FbxAnimCurve.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.anim.FbxAnimCurve" start="74" end="74" startBytecode="4" endBytecode="4" sourcefile="FbxAnimCurve.java" sourcepath="com/jme3/scene/plugins/fbx/anim/FbxAnimCurve.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.scene.plugins.fbx.anim.FbxCluster">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.anim.FbxCluster" start="42" end="97" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/anim/FbxCluster.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.anim.FbxCluster" name="getVertexIndices" signature="()[I" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.anim.FbxCluster" start="65" end="65" startBytecode="0" endBytecode="46" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/anim/FbxCluster.java"/>
+    </Method>
+    <Field classname="com.jme3.scene.plugins.fbx.anim.FbxCluster" name="indexes" signature="[I" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.anim.FbxCluster" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/anim/FbxCluster.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.anim.FbxCluster" start="65" end="65" startBytecode="4" endBytecode="4" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/anim/FbxCluster.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.scene.plugins.fbx.anim.FbxCluster">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.anim.FbxCluster" start="42" end="97" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/anim/FbxCluster.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.anim.FbxCluster" name="getWeights" signature="()[D" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.anim.FbxCluster" start="69" end="69" startBytecode="0" endBytecode="46" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/anim/FbxCluster.java"/>
+    </Method>
+    <Field classname="com.jme3.scene.plugins.fbx.anim.FbxCluster" name="weights" signature="[D" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.anim.FbxCluster" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/anim/FbxCluster.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.anim.FbxCluster" start="69" end="69" startBytecode="4" endBytecode="4" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/anim/FbxCluster.java"/>
+  </BugInstance>
+  <BugInstance type="BC_EQUALS_METHOD_SHOULD_WORK_FOR_ALL_OBJECTS" priority="2" rank="16" abbrev="BC" category="BAD_PRACTICE">
+    <Class classname="com.jme3.scene.plugins.fbx.anim.FbxToJmeTrack">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.anim.FbxToJmeTrack" start="51" end="198" sourcefile="FbxToJmeTrack.java" sourcepath="com/jme3/scene/plugins/fbx/anim/FbxToJmeTrack.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.anim.FbxToJmeTrack" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.anim.FbxToJmeTrack" start="194" end="198" startBytecode="0" endBytecode="140" sourcefile="FbxToJmeTrack.java" sourcepath="com/jme3/scene/plugins/fbx/anim/FbxToJmeTrack.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.anim.FbxToJmeTrack" start="197" end="197" startBytecode="7" endBytecode="7" sourcefile="FbxToJmeTrack.java" sourcepath="com/jme3/scene/plugins/fbx/anim/FbxToJmeTrack.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="com.jme3.scene.plugins.fbx.file.FbxDump">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.file.FbxDump" start="52" end="233" sourcefile="FbxDump.java" sourcepath="com/jme3/scene/plugins/fbx/file/FbxDump.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.file.FbxDump" name="dumpFile" signature="(Lcom/jme3/scene/plugins/fbx/file/FbxFile;Ljava/io/OutputStream;)V" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.file.FbxDump" start="98" end="103" startBytecode="0" endBytecode="201" sourcefile="FbxDump.java" sourcepath="com/jme3/scene/plugins/fbx/file/FbxDump.java"/>
+    </Method>
+    <Method classname="java.io.PrintStream" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.PrintStream" start="135" end="136" startBytecode="0" endBytecode="34" sourcefile="PrintStream.java" sourcepath="java/io/PrintStream.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.file.FbxDump" start="99" end="99" startBytecode="10" endBytecode="10" sourcefile="FbxDump.java" sourcepath="com/jme3/scene/plugins/fbx/file/FbxDump.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="com.jme3.scene.plugins.fbx.file.FbxReader">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.file.FbxReader" start="43" end="225" sourcefile="FbxReader.java" sourcepath="com/jme3/scene/plugins/fbx/file/FbxReader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.file.FbxReader" name="readData" signature="(Ljava/nio/ByteBuffer;C)Ljava/lang/Object;" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.file.FbxReader" start="107" end="137" startBytecode="0" endBytecode="484" sourcefile="FbxReader.java" sourcepath="com/jme3/scene/plugins/fbx/file/FbxReader.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="566" end="567" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.file.FbxReader" start="123" end="123" startBytecode="264" endBytecode="264" sourcefile="FbxReader.java" sourcepath="com/jme3/scene/plugins/fbx/file/FbxReader.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="com.jme3.scene.plugins.fbx.file.FbxReader">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.file.FbxReader" start="43" end="225" sourcefile="FbxReader.java" sourcepath="com/jme3/scene/plugins/fbx/file/FbxReader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.file.FbxReader" name="readFBXElement" signature="(Ljava/nio/ByteBuffer;)Lcom/jme3/scene/plugins/fbx/file/FbxElement;" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.file.FbxReader" start="80" end="103" startBytecode="0" endBytecode="388" sourcefile="FbxReader.java" sourcepath="com/jme3/scene/plugins/fbx/file/FbxReader.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="566" end="567" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.file.FbxReader" start="87" end="87" startBytecode="48" endBytecode="48" sourcefile="FbxReader.java" sourcepath="com/jme3/scene/plugins/fbx/file/FbxReader.java"/>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.scene.plugins.fbx.file.FbxReader">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.file.FbxReader" start="43" end="225" sourcefile="FbxReader.java" sourcepath="com/jme3/scene/plugins/fbx/file/FbxReader.java"/>
+    </Class>
+    <Field classname="com.jme3.scene.plugins.fbx.file.FbxReader" name="BLOCK_SENTINEL_DATA" signature="[B" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.file.FbxReader" sourcefile="FbxReader.java" sourcepath="com/jme3/scene/plugins/fbx/file/FbxReader.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.file.FbxReader" start="46" end="46" startBytecode="4" endBytecode="4" sourcefile="FbxReader.java" sourcepath="com/jme3/scene/plugins/fbx/file/FbxReader.java"/>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.scene.plugins.fbx.file.FbxReader">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.file.FbxReader" start="43" end="225" sourcefile="FbxReader.java" sourcepath="com/jme3/scene/plugins/fbx/file/FbxReader.java"/>
+    </Class>
+    <Field classname="com.jme3.scene.plugins.fbx.file.FbxReader" name="HEAD_MAGIC" signature="[B" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.file.FbxReader" sourcefile="FbxReader.java" sourcepath="com/jme3/scene/plugins/fbx/file/FbxReader.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.file.FbxReader" start="51" end="51" startBytecode="141" endBytecode="141" sourcefile="FbxReader.java" sourcepath="com/jme3/scene/plugins/fbx/file/FbxReader.java"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.obj.FbxObjectFactory">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.obj.FbxObjectFactory" start="58" end="213" sourcefile="FbxObjectFactory.java" sourcepath="com/jme3/scene/plugins/fbx/obj/FbxObjectFactory.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.obj.FbxObjectFactory" name="createObject" signature="(Lcom/jme3/scene/plugins/fbx/file/FbxElement;Lcom/jme3/asset/AssetManager;Ljava/lang/String;)Lcom/jme3/scene/plugins/fbx/obj/FbxObject;" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.obj.FbxObjectFactory" start="164" end="213" startBytecode="0" endBytecode="722" sourcefile="FbxObjectFactory.java" sourcepath="com/jme3/scene/plugins/fbx/obj/FbxObjectFactory.java"/>
+    </Method>
+    <LocalVariable name="javaFbxClass" register="5" pc="69" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="com.jme3.scene.plugins.fbx.obj.FbxObjectFactory" name="getImplementingClass" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Class;" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.obj.FbxObjectFactory" start="63" end="150" startBytecode="0" endBytecode="669" sourcefile="FbxObjectFactory.java" sourcepath="com/jme3/scene/plugins/fbx/obj/FbxObjectFactory.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.obj.FbxObjectFactory" start="180" end="180" startBytecode="71" endBytecode="71" sourcefile="FbxObjectFactory.java" sourcepath="com/jme3/scene/plugins/fbx/obj/FbxObjectFactory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxAnimCurve">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxAnimCurve" start="10" end="47" sourcefile="FbxAnimCurve.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxAnimCurve.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.objects.FbxAnimCurve" name="&lt;init&gt;" signature="(Lcom/jme3/scene/plugins/fbx/SceneLoader;Lcom/jme3/scene/plugins/fbx/file/FbxElement;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxAnimCurve" start="13" end="27" startBytecode="0" endBytecode="397" sourcefile="FbxAnimCurve.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxAnimCurve.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxAnimCurve" start="15" end="23" startBytecode="139" endBytecode="232" sourcefile="FbxAnimCurve.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxAnimCurve.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxAnimNode">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxAnimNode" start="18" end="84" sourcefile="FbxAnimNode.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxAnimNode.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.objects.FbxAnimNode" name="&lt;init&gt;" signature="(Lcom/jme3/scene/plugins/fbx/SceneLoader;Lcom/jme3/scene/plugins/fbx/file/FbxElement;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxAnimNode" start="18" end="39" startBytecode="0" endBytecode="561" sourcefile="FbxAnimNode.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxAnimNode.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxAnimNode" start="23" end="31" startBytecode="159" endBytecode="236" sourcefile="FbxAnimNode.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxAnimNode.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxAnimNode">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxAnimNode" start="18" end="84" sourcefile="FbxAnimNode.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxAnimNode.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.objects.FbxAnimNode" name="link" signature="(Lcom/jme3/scene/plugins/fbx/objects/FbxObject;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxAnimNode" start="43" end="57" startBytecode="0" endBytecode="272" sourcefile="FbxAnimNode.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxAnimNode.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxAnimNode" start="45" end="53" startBytecode="95" endBytecode="140" sourcefile="FbxAnimNode.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxAnimNode.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxBindPose">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxBindPose" start="13" end="53" sourcefile="FbxBindPose.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxBindPose.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.objects.FbxBindPose" name="&lt;init&gt;" signature="(Lcom/jme3/scene/plugins/fbx/SceneLoader;Lcom/jme3/scene/plugins/fbx/file/FbxElement;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxBindPose" start="16" end="38" startBytecode="0" endBytecode="565" sourcefile="FbxBindPose.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxBindPose.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxBindPose" start="23" end="28" startBytecode="183" endBytecode="248" sourcefile="FbxBindPose.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxBindPose.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxBindPose">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxBindPose" start="13" end="53" sourcefile="FbxBindPose.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxBindPose.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.objects.FbxBindPose" name="fillBindTransforms" signature="()V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxBindPose" start="41" end="45" startBytecode="0" endBytecode="180" sourcefile="FbxBindPose.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxBindPose.java"/>
+    </Method>
+    <Field classname="com.jme3.scene.plugins.fbx.objects.FbxBindPose" name="nodeTransforms" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxBindPose" sourcefile="FbxBindPose.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxBindPose.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxBindPose" start="43" end="43" startBytecode="68" endBytecode="68" sourcefile="FbxBindPose.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxBindPose.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxCluster">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxCluster" start="15" end="41" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxCluster.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.objects.FbxCluster" name="&lt;init&gt;" signature="(Lcom/jme3/scene/plugins/fbx/SceneLoader;Lcom/jme3/scene/plugins/fbx/file/FbxElement;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxCluster" start="15" end="32" startBytecode="0" endBytecode="447" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxCluster.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxCluster" start="17" end="28" startBytecode="155" endBytecode="276" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxCluster.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="18" abbrev="UrF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxCluster">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxCluster" start="15" end="41" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxCluster.java"/>
+    </Class>
+    <Field classname="com.jme3.scene.plugins.fbx.objects.FbxCluster" name="transform" signature="[D" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxCluster" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxCluster.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxCluster" start="25" end="25" startBytecode="250" endBytecode="250" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxCluster.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="18" abbrev="UrF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxCluster">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxCluster" start="15" end="41" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxCluster.java"/>
+    </Class>
+    <Field classname="com.jme3.scene.plugins.fbx.objects.FbxCluster" name="transformLink" signature="[D" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxCluster" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxCluster.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxCluster" start="28" end="28" startBytecode="274" endBytecode="274" sourcefile="FbxCluster.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxCluster.java"/>
+  </BugInstance>
+  <BugInstance type="DE_MIGHT_IGNORE" priority="1" rank="14" abbrev="DE" category="BAD_PRACTICE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxImage">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxImage" start="25" end="121" sourcefile="FbxImage.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxImage.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.objects.FbxImage" name="createImage" signature="()Lcom/jme3/texture/Image;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxImage" start="51" end="121" startBytecode="0" endBytecode="1301" sourcefile="FbxImage.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxImage.java"/>
+    </Method>
+    <Class classname="java.lang.Exception" role="CLASS_EXCEPTION">
+      <SourceLine classname="java.lang.Exception" start="54" end="123" sourcefile="Exception.java" sourcepath="java/lang/Exception.java"/>
+    </Class>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxImage" start="114" end="114" startBytecode="520" endBytecode="520" sourcefile="FbxImage.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxImage.java"/>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxImage" start="114" end="114" startBytecode="520" endBytecode="520" sourcefile="FbxImage.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxImage.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxImage">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxImage" start="25" end="121" sourcefile="FbxImage.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxImage.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.objects.FbxImage" name="&lt;init&gt;" signature="(Lcom/jme3/scene/plugins/fbx/SceneLoader;Lcom/jme3/scene/plugins/fbx/file/FbxElement;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxImage" start="25" end="47" startBytecode="0" endBytecode="513" sourcefile="FbxImage.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxImage.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxImage" start="28" end="41" startBytecode="191" endBytecode="320" sourcefile="FbxImage.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxImage.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxImage">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxImage" start="25" end="121" sourcefile="FbxImage.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxImage.java"/>
+    </Class>
+    <Field classname="com.jme3.scene.plugins.fbx.objects.FbxImage" name="imageType" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxImage" sourcefile="FbxImage.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxImage.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxImage" start="30" end="30" startBytecode="239" endBytecode="239" sourcefile="FbxImage.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxImage.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxMaterial">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMaterial" start="12" end="110" sourcefile="FbxMaterial.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMaterial.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.objects.FbxMaterial" name="&lt;init&gt;" signature="(Lcom/jme3/scene/plugins/fbx/SceneLoader;Lcom/jme3/scene/plugins/fbx/file/FbxElement;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMaterial" start="24" end="73" startBytecode="0" endBytecode="1319" sourcefile="FbxMaterial.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMaterial.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMaterial" start="34" end="64" startBytecode="424" endBytecode="785" sourcefile="FbxMaterial.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMaterial.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxMaterial">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMaterial" start="12" end="110" sourcefile="FbxMaterial.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMaterial.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.objects.FbxMaterial" name="link" signature="(Lcom/jme3/scene/plugins/fbx/objects/FbxObject;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMaterial" start="77" end="95" startBytecode="0" endBytecode="364" sourcefile="FbxMaterial.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMaterial.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMaterial" start="81" end="91" startBytecode="119" endBytecode="212" sourcefile="FbxMaterial.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMaterial.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="18" abbrev="UrF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxMaterial">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMaterial" start="12" end="110" sourcefile="FbxMaterial.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMaterial.java"/>
+    </Class>
+    <Field classname="com.jme3.scene.plugins.fbx.objects.FbxMaterial" name="shadingModel" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMaterial" sourcefile="FbxMaterial.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMaterial.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMaterial" start="12" end="12" startBytecode="9" endBytecode="9" sourcefile="FbxMaterial.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMaterial.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxMesh">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" start="39" end="535" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" name="&lt;init&gt;" signature="(Lcom/jme3/scene/plugins/fbx/SceneLoader;Lcom/jme3/scene/plugins/fbx/file/FbxElement;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" start="60" end="228" startBytecode="0" endBytecode="2356" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" start="76" end="94" startBytecode="491" endBytecode="614" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java"/>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" start="101" end="119" startBytecode="751" endBytecode="874" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" start="126" end="144" startBytecode="1011" endBytecode="1134" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" start="151" end="174" startBytecode="1295" endBytecode="1462" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" start="201" end="219" startBytecode="1599" endBytecode="1722" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxMesh">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" start="39" end="535" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" name="createGeometries" signature="()Ljava/util/List;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" start="260" end="528" startBytecode="0" endBytecode="4863" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" start="457" end="477" startBytecode="2200" endBytecode="2296" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="18" abbrev="UrF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxMesh">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" start="39" end="535" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java"/>
+    </Class>
+    <Field classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" name="parent" signature="Lcom/jme3/scene/plugins/fbx/objects/FbxNode;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxNode" start="264" end="264" startBytecode="264" endBytecode="264" sourcefile="FbxNode.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxNode.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxMesh">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" start="39" end="535" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java"/>
+    </Class>
+    <Field classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" name="edges" signature="[I" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxMesh">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" start="39" end="535" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java"/>
+    </Class>
+    <Field classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" name="smoothing" signature="[I" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxMesh">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" start="39" end="535" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java"/>
+    </Class>
+    <Field classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" name="smoothingMapping" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxMesh">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" start="39" end="535" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java"/>
+    </Class>
+    <Field classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" name="smoothingReference" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxMesh" sourcefile="FbxMesh.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxMesh.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxNode">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxNode" start="22" end="270" sourcefile="FbxNode.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxNode.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.objects.FbxNode" name="&lt;init&gt;" signature="(Lcom/jme3/scene/plugins/fbx/SceneLoader;Lcom/jme3/scene/plugins/fbx/file/FbxElement;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxNode" start="45" end="168" startBytecode="0" endBytecode="2334" sourcefile="FbxNode.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxNode.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxNode" start="59" end="111" startBytecode="512" endBytecode="962" sourcefile="FbxNode.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxNode.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxNode">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxNode" start="22" end="270" sourcefile="FbxNode.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxNode.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.objects.FbxNode" name="link" signature="(Lcom/jme3/scene/plugins/fbx/objects/FbxObject;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxNode" start="197" end="214" startBytecode="0" endBytecode="346" sourcefile="FbxNode.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxNode.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxNode" start="199" end="210" startBytecode="103" endBytecode="202" sourcefile="FbxNode.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxNode.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxSkin">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxSkin" start="20" end="148" sourcefile="FbxSkin.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxSkin.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.objects.FbxSkin" name="&lt;init&gt;" signature="(Lcom/jme3/scene/plugins/fbx/SceneLoader;Lcom/jme3/scene/plugins/fbx/file/FbxElement;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxSkin" start="24" end="32" startBytecode="0" endBytecode="290" sourcefile="FbxSkin.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxSkin.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxSkin" start="26" end="28" startBytecode="107" endBytecode="141" sourcefile="FbxSkin.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxSkin.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="18" abbrev="UrF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxSkin">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxSkin" start="20" end="148" sourcefile="FbxSkin.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxSkin.java"/>
+    </Class>
+    <Field classname="com.jme3.scene.plugins.fbx.objects.FbxSkin" name="skinningType" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxSkin" sourcefile="FbxSkin.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxSkin.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxSkin" start="28" end="28" startBytecode="139" endBytecode="139" sourcefile="FbxSkin.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxSkin.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxTexture">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxTexture" start="17" end="41" sourcefile="FbxTexture.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxTexture.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.fbx.objects.FbxTexture" name="&lt;init&gt;" signature="(Lcom/jme3/scene/plugins/fbx/SceneLoader;Lcom/jme3/scene/plugins/fbx/file/FbxElement;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxTexture" start="17" end="31" startBytecode="0" endBytecode="365" sourcefile="FbxTexture.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxTexture.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxTexture" start="19" end="24" startBytecode="107" endBytecode="170" sourcefile="FbxTexture.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxTexture.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxTexture">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxTexture" start="17" end="41" sourcefile="FbxTexture.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxTexture.java"/>
+    </Class>
+    <Field classname="com.jme3.scene.plugins.fbx.objects.FbxTexture" name="bindType" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxTexture" sourcefile="FbxTexture.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxTexture.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxTexture" start="21" end="21" startBytecode="147" endBytecode="147" sourcefile="FbxTexture.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxTexture.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.scene.plugins.fbx.objects.FbxTexture">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxTexture" start="17" end="41" sourcefile="FbxTexture.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxTexture.java"/>
+    </Class>
+    <Field classname="com.jme3.scene.plugins.fbx.objects.FbxTexture" name="filename" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxTexture" sourcefile="FbxTexture.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxTexture.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.fbx.objects.FbxTexture" start="24" end="24" startBytecode="168" endBytecode="168" sourcefile="FbxTexture.java" sourcepath="com/jme3/scene/plugins/fbx/objects/FbxTexture.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.gltf.GlbLoader">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GlbLoader" start="12" end="52" sourcefile="GlbLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GlbLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GlbLoader" name="load" signature="(Lcom/jme3/asset/AssetInfo;)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GlbLoader" start="21" end="47" startBytecode="0" endBytecode="69" sourcefile="GlbLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GlbLoader.java"/>
+    </Method>
+    <LocalVariable name="magic" register="3" pc="31" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GlbLoader" start="23" end="23" startBytecode="30" endBytecode="30" sourcefile="GlbLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GlbLoader.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="magic"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.gltf.GlbLoader">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GlbLoader" start="12" end="52" sourcefile="GlbLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GlbLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GlbLoader" name="load" signature="(Lcom/jme3/asset/AssetInfo;)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GlbLoader" start="21" end="47" startBytecode="0" endBytecode="69" sourcefile="GlbLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GlbLoader.java"/>
+    </Method>
+    <LocalVariable name="version" register="4" pc="37" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GlbLoader" start="24" end="24" startBytecode="35" endBytecode="35" sourcefile="GlbLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GlbLoader.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="version"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE">
+    <Class classname="com.jme3.scene.plugins.gltf.GlbLoader">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GlbLoader" start="12" end="52" sourcefile="GlbLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GlbLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GlbLoader" name="load" signature="(Lcom/jme3/asset/AssetInfo;)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GlbLoader" start="21" end="47" startBytecode="0" endBytecode="69" sourcefile="GlbLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GlbLoader.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/InputStream;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.InputStream" start="45" end="364" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Type>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GlbLoader" start="22" end="22" startBytecode="7" endBytecode="7" sourcefile="GlbLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GlbLoader.java"/>
+  </BugInstance>
+  <BugInstance type="RR_NOT_CHECKED" priority="2" rank="16" abbrev="RR" category="BAD_PRACTICE">
+    <Class classname="com.jme3.scene.plugins.gltf.GlbLoader">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GlbLoader" start="12" end="52" sourcefile="GlbLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GlbLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GlbLoader" name="load" signature="(Lcom/jme3/asset/AssetInfo;)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GlbLoader" start="21" end="47" startBytecode="0" endBytecode="382" sourcefile="GlbLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GlbLoader.java"/>
+    </Method>
+    <Method classname="com.jme3.util.LittleEndien" name="read" signature="([B)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="com.jme3.util.LittleEndien" start="62" end="62" startBytecode="0" endBytecode="60" sourcefile="LittleEndien.java" sourcepath="com/jme3/util/LittleEndien.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GlbLoader" start="37" end="37" startBytecode="82" endBytecode="82" sourcefile="GlbLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GlbLoader.java"/>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GlbLoader" start="40" end="40" startBytecode="98" endBytecode="98" sourcefile="GlbLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GlbLoader.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfLoader">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader" start="32" end="1155" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GltfLoader" name="loadFromStream" signature="(Lcom/jme3/asset/AssetInfo;Ljava/io/InputStream;)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader" start="84" end="153" startBytecode="0" endBytecode="276" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+    </Method>
+    <LocalVariable name="generator" register="4" pc="146" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader" start="99" end="99" startBytecode="144" endBytecode="144" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="generator"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfLoader">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader" start="32" end="1155" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GltfLoader" name="loadFromStream" signature="(Lcom/jme3/asset/AssetInfo;Ljava/io/InputStream;)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader" start="84" end="153" startBytecode="0" endBytecode="1094" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader" start="96" end="96" startBytecode="107" endBytecode="107" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+  </BugInstance>
+  <BugInstance type="REC_CATCH_EXCEPTION" priority="2" rank="17" abbrev="REC" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfLoader">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader" start="32" end="1155" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GltfLoader" name="loadFromStream" signature="(Lcom/jme3/asset/AssetInfo;Ljava/io/InputStream;)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader" start="84" end="153" startBytecode="0" endBytecode="1094" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader" start="149" end="149" startBytecode="571" endBytecode="571" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfLoader">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader" start="32" end="1155" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GltfLoader" name="setupControls" signature="()V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader" start="1081" end="1116" startBytecode="0" endBytecode="472" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+    </Method>
+    <Field classname="com.jme3.scene.plugins.gltf.GltfLoader" name="skinnedSpatials" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader" start="1082" end="1082" startBytecode="39" endBytecode="39" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfLoader$SkinBuffers">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader$SkinBuffers" start="1202" end="1208" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GltfLoader$SkinBuffers" name="&lt;init&gt;" signature="([SI)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader$SkinBuffers" start="1202" end="1205" startBytecode="0" endBytecode="88" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+    </Method>
+    <Field classname="com.jme3.scene.plugins.gltf.GltfLoader$SkinBuffers" name="joints" signature="[S" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader$SkinBuffers" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+    </Field>
+    <LocalVariable name="joints" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader$SkinBuffers" start="1203" end="1203" startBytecode="6" endBytecode="6" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+  </BugInstance>
+  <BugInstance type="EQ_DOESNT_OVERRIDE_EQUALS" priority="2" rank="17" abbrev="Eq" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfModelKey">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfModelKey" start="23" end="85" sourcefile="GltfModelKey.java" sourcepath="com/jme3/scene/plugins/gltf/GltfModelKey.java"/>
+    </Class>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfModelKey" start="1" end="1" startBytecode="0" endBytecode="0" sourcefile="GltfModelKey.java" sourcepath="com/jme3/scene/plugins/gltf/GltfModelKey.java"/>
+    <Method classname="com.jme3.asset.AssetKey" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_DID_YOU_MEAN_TO_OVERRIDE">
+      <SourceLine classname="com.jme3.asset.AssetKey" start="178" end="181" startBytecode="0" endBytecode="110" sourcefile="AssetKey.java" sourcepath="com/jme3/asset/AssetKey.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="SR_NOT_CHECKED" priority="2" rank="16" abbrev="RR" category="BAD_PRACTICE">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfUtils">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="20" end="835" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GltfUtils" name="populateByteArray" signature="([BLcom/jme3/util/LittleEndien;IIIILcom/jme3/scene/VertexBuffer$Format;)V" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="371" end="388" startBytecode="0" endBytecode="379" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Method>
+    <Method classname="com.jme3.util.LittleEndien" name="skipBytes" signature="(I)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="com.jme3.util.LittleEndien" start="152" end="152" startBytecode="0" endBytecode="62" sourcefile="LittleEndien.java" sourcepath="com/jme3/util/LittleEndien.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="376" end="376" startBytecode="36" endBytecode="36" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="384" end="384" startBytecode="90" endBytecode="90" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="SR_NOT_CHECKED" priority="2" rank="16" abbrev="RR" category="BAD_PRACTICE">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfUtils">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="20" end="835" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GltfUtils" name="populateFloatArray" signature="([FLcom/jme3/util/LittleEndien;IIIILcom/jme3/scene/VertexBuffer$Format;)V" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="493" end="510" startBytecode="0" endBytecode="381" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Method>
+    <Method classname="com.jme3.util.LittleEndien" name="skipBytes" signature="(I)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="com.jme3.util.LittleEndien" start="152" end="152" startBytecode="0" endBytecode="62" sourcefile="LittleEndien.java" sourcepath="com/jme3/util/LittleEndien.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="498" end="498" startBytecode="36" endBytecode="36" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="506" end="506" startBytecode="92" endBytecode="92" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="SR_NOT_CHECKED" priority="2" rank="16" abbrev="RR" category="BAD_PRACTICE">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfUtils">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="20" end="835" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GltfUtils" name="populateFloatBuffer" signature="(Ljava/nio/FloatBuffer;Lcom/jme3/util/LittleEndien;IIIILcom/jme3/scene/VertexBuffer$Format;)V" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="324" end="339" startBytecode="0" endBytecode="357" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Method>
+    <Method classname="com.jme3.util.LittleEndien" name="skipBytes" signature="(I)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="com.jme3.util.LittleEndien" start="152" end="152" startBytecode="0" endBytecode="62" sourcefile="LittleEndien.java" sourcepath="com/jme3/util/LittleEndien.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="329" end="329" startBytecode="36" endBytecode="36" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="335" end="335" startBytecode="87" endBytecode="87" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="SR_NOT_CHECKED" priority="2" rank="16" abbrev="RR" category="BAD_PRACTICE">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfUtils">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="20" end="835" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GltfUtils" name="populateIntBuffer" signature="(Ljava/nio/IntBuffer;Lcom/jme3/util/LittleEndien;IIIILcom/jme3/scene/VertexBuffer$Format;)V" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="306" end="321" startBytecode="0" endBytecode="355" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Method>
+    <Method classname="com.jme3.util.LittleEndien" name="skipBytes" signature="(I)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="com.jme3.util.LittleEndien" start="152" end="152" startBytecode="0" endBytecode="62" sourcefile="LittleEndien.java" sourcepath="com/jme3/util/LittleEndien.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="311" end="311" startBytecode="36" endBytecode="36" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="317" end="317" startBytecode="85" endBytecode="85" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="SR_NOT_CHECKED" priority="2" rank="16" abbrev="RR" category="BAD_PRACTICE">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfUtils">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="20" end="835" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GltfUtils" name="populateMatrix4fArray" signature="([Lcom/jme3/math/Matrix4f;Lcom/jme3/util/LittleEndien;IIIILcom/jme3/scene/VertexBuffer$Format;)V" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="561" end="597" startBytecode="0" endBytecode="503" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Method>
+    <Method classname="com.jme3.util.LittleEndien" name="skipBytes" signature="(I)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="com.jme3.util.LittleEndien" start="152" end="152" startBytecode="0" endBytecode="62" sourcefile="LittleEndien.java" sourcepath="com/jme3/util/LittleEndien.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="566" end="566" startBytecode="36" endBytecode="36" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="592" end="592" startBytecode="169" endBytecode="169" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="SR_NOT_CHECKED" priority="2" rank="16" abbrev="RR" category="BAD_PRACTICE">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfUtils">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="20" end="835" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GltfUtils" name="populateQuaternionArray" signature="([Lcom/jme3/math/Quaternion;Lcom/jme3/util/LittleEndien;IIIILcom/jme3/scene/VertexBuffer$Format;)V" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="537" end="558" startBytecode="0" endBytecode="381" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Method>
+    <Method classname="com.jme3.util.LittleEndien" name="skipBytes" signature="(I)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="com.jme3.util.LittleEndien" start="152" end="152" startBytecode="0" endBytecode="62" sourcefile="LittleEndien.java" sourcepath="com/jme3/util/LittleEndien.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="542" end="542" startBytecode="36" endBytecode="36" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="554" end="554" startBytecode="101" endBytecode="101" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="SR_NOT_CHECKED" priority="2" rank="16" abbrev="RR" category="BAD_PRACTICE">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfUtils">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="20" end="835" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GltfUtils" name="populateShortArray" signature="([SLcom/jme3/util/LittleEndien;IIIILcom/jme3/scene/VertexBuffer$Format;)V" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="391" end="412" startBytecode="0" endBytecode="407" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Method>
+    <Method classname="com.jme3.util.LittleEndien" name="skipBytes" signature="(I)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="com.jme3.util.LittleEndien" start="152" end="152" startBytecode="0" endBytecode="62" sourcefile="LittleEndien.java" sourcepath="com/jme3/util/LittleEndien.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="396" end="396" startBytecode="36" endBytecode="36" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="408" end="408" startBytecode="108" endBytecode="108" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="SR_NOT_CHECKED" priority="2" rank="16" abbrev="RR" category="BAD_PRACTICE">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfUtils">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="20" end="835" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GltfUtils" name="populateShortBuffer" signature="(Ljava/nio/ShortBuffer;Lcom/jme3/util/LittleEndien;IIIILcom/jme3/scene/VertexBuffer$Format;)V" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="286" end="302" startBytecode="0" endBytecode="355" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Method>
+    <Method classname="com.jme3.util.LittleEndien" name="skipBytes" signature="(I)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="com.jme3.util.LittleEndien" start="152" end="152" startBytecode="0" endBytecode="62" sourcefile="LittleEndien.java" sourcepath="com/jme3/util/LittleEndien.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="291" end="291" startBytecode="36" endBytecode="36" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="298" end="298" startBytecode="85" endBytecode="85" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="SR_NOT_CHECKED" priority="2" rank="16" abbrev="RR" category="BAD_PRACTICE">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfUtils">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="20" end="835" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GltfUtils" name="populateVector3fArray" signature="([Lcom/jme3/math/Vector3f;Lcom/jme3/util/LittleEndien;IIIILcom/jme3/scene/VertexBuffer$Format;)V" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="513" end="534" startBytecode="0" endBytecode="371" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Method>
+    <Method classname="com.jme3.util.LittleEndien" name="skipBytes" signature="(I)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="com.jme3.util.LittleEndien" start="152" end="152" startBytecode="0" endBytecode="62" sourcefile="LittleEndien.java" sourcepath="com/jme3/util/LittleEndien.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="518" end="518" startBytecode="36" endBytecode="36" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="529" end="529" startBytecode="95" endBytecode="95" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfUtils">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="20" end="835" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GltfUtils" name="findCommonAncestor" signature="(Ljava/util/List;)Lcom/jme3/scene/Spatial;" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="758" end="792" startBytecode="0" endBytecode="591" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils" start="775" end="775" startBytecode="132" endBytecode="132" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+  </BugInstance>
+  <BugInstance type="CO_COMPARETO_INCORRECT_FLOATING" priority="2" rank="16" abbrev="Co" category="BAD_PRACTICE">
+    <Class classname="com.jme3.scene.plugins.gltf.GltfUtils$1">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils$1" start="440" end="448" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.GltfUtils$1" name="compare" signature="(Lcom/jme3/scene/plugins/gltf/GltfLoader$WeightData;Lcom/jme3/scene/plugins/gltf/GltfLoader$WeightData;)I" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils$1" start="443" end="448" startBytecode="0" endBytecode="117" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+    </Method>
+    <Type descriptor="F"/>
+    <Method classname="java.lang.Float" name="compare" signature="(FF)I" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Float" start="907" end="916" startBytecode="0" endBytecode="111" sourcefile="Float.java" sourcepath="java/lang/Float.java"/>
+    </Method>
+    <Field classname="com.jme3.scene.plugins.gltf.GltfLoader$WeightData" name="value" signature="F" isStatic="false" role="FIELD_VALUE_OF">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader$WeightData" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+    </Field>
+    <Field classname="com.jme3.scene.plugins.gltf.GltfLoader$WeightData" name="value" signature="F" isStatic="false" role="FIELD_VALUE_OF">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.GltfLoader$WeightData" sourcefile="GltfLoader.java" sourcepath="com/jme3/scene/plugins/gltf/GltfLoader.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.GltfUtils$1" start="445" end="445" startBytecode="22" endBytecode="22" sourcefile="GltfUtils.java" sourcepath="com/jme3/scene/plugins/gltf/GltfUtils.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.gltf.PBRMaterialAdapter">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.PBRMaterialAdapter" start="11" end="57" sourcefile="PBRMaterialAdapter.java" sourcepath="com/jme3/scene/plugins/gltf/PBRMaterialAdapter.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.PBRMaterialAdapter" name="adaptMatParam" signature="(Lcom/jme3/material/MatParam;)Lcom/jme3/material/MatParam;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.PBRMaterialAdapter" start="28" end="57" startBytecode="0" endBytecode="378" sourcefile="PBRMaterialAdapter.java" sourcepath="com/jme3/scene/plugins/gltf/PBRMaterialAdapter.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.PBRMaterialAdapter" start="30" end="33" startBytecode="85" endBytecode="124" sourcefile="PBRMaterialAdapter.java" sourcepath="com/jme3/scene/plugins/gltf/PBRMaterialAdapter.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.scene.plugins.gltf.TrackData">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.TrackData" start="8" end="320" sourcefile="TrackData.java" sourcepath="com/jme3/scene/plugins/gltf/TrackData.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.TrackData" name="update" signature="()V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.TrackData" start="29" end="140" startBytecode="0" endBytecode="1497" sourcefile="TrackData.java" sourcepath="com/jme3/scene/plugins/gltf/TrackData.java"/>
+    </Method>
+    <Field classname="com.jme3.scene.plugins.gltf.TrackData" name="times" signature="[F" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.TrackData" sourcefile="TrackData.java" sourcepath="com/jme3/scene/plugins/gltf/TrackData.java"/>
+    </Field>
+    <LocalVariable name="?" register="-1" pc="27" role="LOCAL_VARIABLE_UNKNOWN"/>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.TrackData" start="30" end="30" startBytecode="28" endBytecode="28" sourcefile="TrackData.java" sourcepath="com/jme3/scene/plugins/gltf/TrackData.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.gltf.TrackData">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.TrackData" start="8" end="320" sourcefile="TrackData.java" sourcepath="com/jme3/scene/plugins/gltf/TrackData.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.TrackData" name="interpolate" signature="(Lcom/jme3/scene/plugins/gltf/TrackData$Type;FLcom/jme3/scene/plugins/gltf/TrackData$KeyFrame;Lcom/jme3/scene/plugins/gltf/TrackData$KeyFrame;I)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.TrackData" start="214" end="227" startBytecode="0" endBytecode="264" sourcefile="TrackData.java" sourcepath="com/jme3/scene/plugins/gltf/TrackData.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.TrackData" start="214" end="224" startBytecode="8" endBytecode="117" sourcefile="TrackData.java" sourcepath="com/jme3/scene/plugins/gltf/TrackData.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.gltf.TrackData">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.TrackData" start="8" end="320" sourcefile="TrackData.java" sourcepath="com/jme3/scene/plugins/gltf/TrackData.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.gltf.TrackData" name="setKeyFrameTransforms" signature="(Lcom/jme3/scene/plugins/gltf/TrackData$Type;Lcom/jme3/scene/plugins/gltf/TrackData$KeyFrame;[F)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.TrackData" start="292" end="307" startBytecode="0" endBytecode="234" sourcefile="TrackData.java" sourcepath="com/jme3/scene/plugins/gltf/TrackData.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.TrackData" start="296" end="304" startBytecode="34" endBytecode="98" sourcefile="TrackData.java" sourcepath="com/jme3/scene/plugins/gltf/TrackData.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.scene.plugins.gltf.TrackData">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.TrackData" start="8" end="320" sourcefile="TrackData.java" sourcepath="com/jme3/scene/plugins/gltf/TrackData.java"/>
+    </Class>
+    <Field classname="com.jme3.scene.plugins.gltf.TrackData" name="length" signature="Ljava/lang/Float;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.TrackData" sourcefile="TrackData.java" sourcepath="com/jme3/scene/plugins/gltf/TrackData.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.gltf.TrackData" start="139" end="139" startBytecode="765" endBytecode="765" sourcefile="TrackData.java" sourcepath="com/jme3/scene/plugins/gltf/TrackData.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.scene.plugins.gltf.TrackData$KeyFrame">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.TrackData$KeyFrame" start="339" end="339" sourcefile="TrackData.java" sourcepath="com/jme3/scene/plugins/gltf/TrackData.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.scene.plugins.gltf.TrackData$TransformIndices">
+      <SourceLine classname="com.jme3.scene.plugins.gltf.TrackData$TransformIndices" start="334" end="336" sourcefile="TrackData.java" sourcepath="com/jme3/scene/plugins/gltf/TrackData.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.ogre.MaterialLoader">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.MaterialLoader" start="56" end="496" sourcefile="MaterialLoader.java" sourcepath="com/jme3/scene/plugins/ogre/MaterialLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.ogre.MaterialLoader" name="readPass" signature="(Lcom/jme3/util/blockparser/Statement;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.MaterialLoader" start="284" end="297" startBytecode="0" endBytecode="35" sourcefile="MaterialLoader.java" sourcepath="com/jme3/scene/plugins/ogre/MaterialLoader.java"/>
+    </Method>
+    <LocalVariable name="name" register="2" pc="26" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.scene.plugins.ogre.MaterialLoader" start="289" end="289" startBytecode="25" endBytecode="25" sourcefile="MaterialLoader.java" sourcepath="com/jme3/scene/plugins/ogre/MaterialLoader.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="name"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.ogre.MaterialLoader">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.MaterialLoader" start="56" end="496" sourcefile="MaterialLoader.java" sourcepath="com/jme3/scene/plugins/ogre/MaterialLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.ogre.MaterialLoader" name="readTechnique" signature="(Lcom/jme3/util/blockparser/Statement;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.MaterialLoader" start="300" end="311" startBytecode="0" endBytecode="32" sourcefile="MaterialLoader.java" sourcepath="com/jme3/scene/plugins/ogre/MaterialLoader.java"/>
+    </Method>
+    <LocalVariable name="name" register="3" pc="26" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.scene.plugins.ogre.MaterialLoader" start="306" end="306" startBytecode="25" endBytecode="25" sourcefile="MaterialLoader.java" sourcepath="com/jme3/scene/plugins/ogre/MaterialLoader.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="name"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="com.jme3.scene.plugins.ogre.MeshLoader">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.MeshLoader" start="63" end="897" sourcefile="MeshLoader.java" sourcepath="com/jme3/scene/plugins/ogre/MeshLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.ogre.MeshLoader" name="load" signature="(Lcom/jme3/asset/AssetInfo;)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.MeshLoader" start="823" end="897" startBytecode="0" endBytecode="1035" sourcefile="MeshLoader.java" sourcepath="com/jme3/scene/plugins/ogre/MeshLoader.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.ogre.MeshLoader" start="881" end="881" startBytecode="384" endBytecode="384" sourcefile="MeshLoader.java" sourcepath="com/jme3/scene/plugins/ogre/MeshLoader.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.ogre.MeshLoader">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.MeshLoader" start="63" end="897" sourcefile="MeshLoader.java" sourcepath="com/jme3/scene/plugins/ogre/MeshLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.ogre.MeshLoader" name="pushFace" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.MeshLoader" start="152" end="166" startBytecode="0" endBytecode="214" sourcefile="MeshLoader.java" sourcepath="com/jme3/scene/plugins/ogre/MeshLoader.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.ogre.MeshLoader" start="152" end="163" startBytecode="14" endBytecode="93" sourcefile="MeshLoader.java" sourcepath="com/jme3/scene/plugins/ogre/MeshLoader.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.ogre.SceneLoader">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.SceneLoader" start="71" end="553" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/ogre/SceneLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.ogre.SceneLoader" name="parseEntity" signature="(Lorg/xml/sax/Attributes;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.SceneLoader" start="278" end="323" startBytecode="0" endBytecode="150" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/ogre/SceneLoader.java"/>
+    </Method>
+    <LocalVariable name="materialName" register="4" pc="99" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.scene.plugins.ogre.SceneLoader" start="291" end="291" startBytecode="97" endBytecode="97" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/ogre/SceneLoader.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="materialName"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="com.jme3.scene.plugins.ogre.SceneLoader">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.SceneLoader" start="71" end="553" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/ogre/SceneLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.ogre.SceneLoader" name="load" signature="(Lcom/jme3/asset/AssetInfo;)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.SceneLoader" start="495" end="553" startBytecode="0" endBytecode="769" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/ogre/SceneLoader.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.ogre.SceneLoader" start="537" end="537" startBytecode="244" endBytecode="244" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/ogre/SceneLoader.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" rank="17" abbrev="ST" category="STYLE">
+    <Class classname="com.jme3.scene.plugins.ogre.SceneLoader">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.SceneLoader" start="71" end="553" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/ogre/SceneLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.ogre.SceneLoader" name="startElement" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.SceneLoader" start="340" end="442" startBytecode="0" endBytecode="1605" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/ogre/SceneLoader.java"/>
+    </Method>
+    <Field classname="com.jme3.scene.plugins.ogre.SceneLoader" name="sceneIdx" signature="I" isStatic="true">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.SceneLoader" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/ogre/SceneLoader.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.scene.plugins.ogre.SceneLoader" start="355" end="355" startBytecode="137" endBytecode="137" sourcefile="SceneLoader.java" sourcepath="com/jme3/scene/plugins/ogre/SceneLoader.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="com.jme3.scene.plugins.ogre.SceneMaterialLoader">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.SceneMaterialLoader" start="61" end="155" sourcefile="SceneMaterialLoader.java" sourcepath="com/jme3/scene/plugins/ogre/SceneMaterialLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.ogre.SceneMaterialLoader" name="load" signature="(Lcom/jme3/asset/AssetManager;Ljava/lang/String;Ljava/io/InputStream;)Lcom/jme3/material/MaterialList;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.SceneMaterialLoader" start="124" end="155" startBytecode="0" endBytecode="504" sourcefile="SceneMaterialLoader.java" sourcepath="com/jme3/scene/plugins/ogre/SceneMaterialLoader.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.ogre.SceneMaterialLoader" start="139" end="139" startBytecode="59" endBytecode="59" sourcefile="SceneMaterialLoader.java" sourcepath="com/jme3/scene/plugins/ogre/SceneMaterialLoader.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="com.jme3.scene.plugins.ogre.SkeletonLoader">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.SkeletonLoader" start="50" end="304" sourcefile="SkeletonLoader.java" sourcepath="com/jme3/scene/plugins/ogre/SkeletonLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.scene.plugins.ogre.SkeletonLoader" name="load" signature="(Ljava/io/InputStream;)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="com.jme3.scene.plugins.ogre.SkeletonLoader" start="264" end="288" startBytecode="0" endBytecode="425" sourcefile="SkeletonLoader.java" sourcepath="com/jme3/scene/plugins/ogre/SkeletonLoader.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.scene.plugins.ogre.SkeletonLoader" start="270" end="270" startBytecode="36" endBytecode="36" sourcefile="SkeletonLoader.java" sourcepath="com/jme3/scene/plugins/ogre/SkeletonLoader.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 18 Apr 2020 15:17:51 +0000" total_classes="136" referenced_classes="387" total_bugs="99" total_size="10374" num_packages="16" java_version="1.8.0_252" vm_version="25.252-b14" cpu_seconds="20.94" clock_seconds="10.65" peak_mbytes="292.98" alloc_mbytes="455.50" gc_seconds="0.98" priority_2="85" priority_1="14">
+    <PackageStats package="com.jme3.export.xml" total_bugs="4" total_types="5" total_size="1755" priority_2="4">
+      <ClassStats class="com.jme3.export.xml.DOMInputCapsule" sourceFile="DOMInputCapsule.java" interface="false" size="997" bugs="0"/>
+      <ClassStats class="com.jme3.export.xml.DOMOutputCapsule" sourceFile="DOMOutputCapsule.java" interface="false" size="575" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.export.xml.DOMSerializer" sourceFile="DOMSerializer.java" interface="false" size="109" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.export.xml.XMLExporter" sourceFile="XMLExporter.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="com.jme3.export.xml.XMLImporter" sourceFile="XMLImporter.java" interface="false" size="44" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.material.plugin.export.material" total_bugs="4" total_types="5" total_size="309" priority_2="4">
+      <ClassStats class="com.jme3.material.plugin.export.material.J3MExporter" sourceFile="J3MExporter.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="com.jme3.material.plugin.export.material.J3MOutputCapsule" sourceFile="J3MOutputCapsule.java" interface="false" size="181" bugs="3" priority_2="3"/>
+      <ClassStats class="com.jme3.material.plugin.export.material.J3MOutputCapsule$1" sourceFile="J3MOutputCapsule.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.material.plugin.export.material.J3MRenderStateOutputCapsule" sourceFile="J3MRenderStateOutputCapsule.java" interface="false" size="48" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.material.plugin.export.material.J3MRootOutputCapsule" sourceFile="J3MRootOutputCapsule.java" interface="false" size="52" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.material.plugin.export.materialdef" total_bugs="1" total_types="4" total_size="271" priority_1="1">
+      <ClassStats class="com.jme3.material.plugin.export.materialdef.J3mdExporter" sourceFile="J3mdExporter.java" interface="false" size="28" bugs="1" priority_1="1"/>
+      <ClassStats class="com.jme3.material.plugin.export.materialdef.J3mdMatParamWriter" sourceFile="J3mdMatParamWriter.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="com.jme3.material.plugin.export.materialdef.J3mdMatParamWriter$1" sourceFile="J3mdMatParamWriter.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.material.plugin.export.materialdef.J3mdTechniqueDefWriter" sourceFile="J3mdTechniqueDefWriter.java" interface="false" size="203" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.scene.plugins" total_bugs="3" total_types="5" total_size="366" priority_2="2" priority_1="1">
+      <ClassStats class="com.jme3.scene.plugins.IrBoneWeightIndex" sourceFile="IrBoneWeightIndex.java" interface="false" size="36" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.scene.plugins.IrMesh" sourceFile="IrMesh.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.IrPolygon" sourceFile="IrPolygon.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.IrUtils" sourceFile="IrUtils.java" interface="false" size="216" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.scene.plugins.IrVertex" sourceFile="IrVertex.java" interface="false" size="94" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.scene.plugins.fbx" total_bugs="12" total_types="11" total_size="712" priority_2="9" priority_1="3">
+      <ClassStats class="com.jme3.scene.plugins.fbx.AnimationList" sourceFile="AnimationList.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.AnimationList$AnimInverval" sourceFile="AnimationList.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.ContentTextureKey" sourceFile="ContentTextureKey.java" interface="false" size="22" bugs="3" priority_2="3"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.ContentTextureLocator" sourceFile="ContentTextureLocator.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.ContentTextureLocator$ContentAssetInfo" sourceFile="ContentTextureLocator.java" interface="false" size="10" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.FbxLoader" sourceFile="FbxLoader.java" interface="false" size="207" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.RotationOrder" sourceFile="RotationOrder.java" interface="false" size="37" bugs="1" priority_1="1"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.RotationOrder$1" sourceFile="RotationOrder.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.SceneKey" sourceFile="SceneKey.java" interface="false" size="12" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.SceneLoader" sourceFile="SceneLoader.java" interface="false" size="339" bugs="5" priority_2="4" priority_1="1"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.SceneWithAnimationLoader" sourceFile="SceneWithAnimationLoader.java" interface="false" size="40" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.scene.plugins.fbx.anim" total_bugs="4" total_types="10" total_size="407" priority_2="4">
+      <ClassStats class="com.jme3.scene.plugins.fbx.anim.FbxAnimCurve" sourceFile="FbxAnimCurve.java" interface="false" size="53" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.anim.FbxAnimCurveNode" sourceFile="FbxAnimCurveNode.java" interface="false" size="66" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.anim.FbxAnimLayer" sourceFile="FbxAnimLayer.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.anim.FbxAnimStack" sourceFile="FbxAnimStack.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.anim.FbxAnimUtil" sourceFile="FbxAnimUtil.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.anim.FbxBindPose" sourceFile="FbxBindPose.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.anim.FbxCluster" sourceFile="FbxCluster.java" interface="false" size="38" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.anim.FbxLimbNode" sourceFile="FbxLimbNode.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.anim.FbxSkinDeformer" sourceFile="FbxSkinDeformer.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.anim.FbxToJmeTrack" sourceFile="FbxToJmeTrack.java" interface="false" size="91" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.scene.plugins.fbx.file" total_bugs="5" total_types="7" total_size="339" priority_2="2" priority_1="3">
+      <ClassStats class="com.jme3.scene.plugins.fbx.file.FbxDump" sourceFile="FbxDump.java" interface="false" size="100" bugs="1" priority_1="1"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.file.FbxElement" sourceFile="FbxElement.java" interface="false" size="53" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.file.FbxFile" sourceFile="FbxFile.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.file.FbxId" sourceFile="FbxId.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.file.FbxId$LongFbxId" sourceFile="FbxId.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.file.FbxId$StringFbxId" sourceFile="FbxId.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.file.FbxReader" sourceFile="FbxReader.java" interface="false" size="127" bugs="4" priority_2="2" priority_1="2"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.scene.plugins.fbx.material" total_bugs="0" total_types="8" total_size="492">
+      <ClassStats class="com.jme3.scene.plugins.fbx.material.FbxImage" sourceFile="FbxImage.java" interface="false" size="85" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.material.FbxMaterial" sourceFile="FbxMaterial.java" interface="false" size="195" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.material.FbxMaterialProperties" sourceFile="FbxMaterialProperties.java" interface="false" size="93" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.material.FbxMaterialProperties$1" sourceFile="FbxMaterialProperties.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.material.FbxMaterialProperties$FBXMaterialProperty" sourceFile="FbxMaterialProperties.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.material.FbxMaterialProperties$Type" sourceFile="FbxMaterialProperties.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.material.FbxTexture" sourceFile="FbxTexture.java" interface="false" size="66" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.material.FbxTexture$AlphaSource" sourceFile="FbxTexture.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.scene.plugins.fbx.mesh" total_bugs="0" total_types="11" total_size="460">
+      <ClassStats class="com.jme3.scene.plugins.fbx.mesh.FbxLayer" sourceFile="FbxLayer.java" interface="false" size="47" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.mesh.FbxLayer$FbxLayerElementRef" sourceFile="FbxLayer.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.mesh.FbxLayerElement" sourceFile="FbxLayerElement.java" interface="false" size="122" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.mesh.FbxLayerElement$1" sourceFile="FbxLayerElement.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.mesh.FbxLayerElement$MappingInformationType" sourceFile="FbxLayerElement.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.mesh.FbxLayerElement$ReferenceInformationType" sourceFile="FbxLayerElement.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.mesh.FbxLayerElement$TextureBlendMode" sourceFile="FbxLayerElement.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.mesh.FbxLayerElement$Type" sourceFile="FbxLayerElement.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.mesh.FbxMesh" sourceFile="FbxMesh.java" interface="false" size="161" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.mesh.FbxMeshUtil" sourceFile="FbxMeshUtil.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.mesh.FbxPolygon" sourceFile="FbxPolygon.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.scene.plugins.fbx.misc" total_bugs="0" total_types="1" total_size="70">
+      <ClassStats class="com.jme3.scene.plugins.fbx.misc.FbxGlobalSettings" sourceFile="FbxGlobalSettings.java" interface="false" size="70" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.scene.plugins.fbx.node" total_bugs="0" total_types="7" total_size="366">
+      <ClassStats class="com.jme3.scene.plugins.fbx.node.FbxNode" sourceFile="FbxNode.java" interface="false" size="305" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.node.FbxNode$1" sourceFile="FbxNode.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.node.FbxNode$InheritMode" sourceFile="FbxNode.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.node.FbxNodeAttribute" sourceFile="FbxNodeAttribute.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.node.FbxNodeUtil" sourceFile="FbxNodeUtil.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.node.FbxNullAttribute" sourceFile="FbxNullAttribute.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.node.FbxRootNode" sourceFile="FbxRootNode.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.scene.plugins.fbx.obj" total_bugs="1" total_types="3" total_size="166" priority_2="1">
+      <ClassStats class="com.jme3.scene.plugins.fbx.obj.FbxObject" sourceFile="FbxObject.java" interface="false" size="65" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.obj.FbxObjectFactory" sourceFile="FbxObjectFactory.java" interface="false" size="89" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.obj.FbxUnknownObject" sourceFile="FbxUnknownObject.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.scene.plugins.fbx.objects" total_bugs="28" total_types="11" total_size="984" priority_2="27" priority_1="1">
+      <ClassStats class="com.jme3.scene.plugins.fbx.objects.FbxAnimCurve" sourceFile="FbxAnimCurve.java" interface="false" size="28" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.objects.FbxAnimNode" sourceFile="FbxAnimNode.java" interface="false" size="53" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.objects.FbxBindPose" sourceFile="FbxBindPose.java" interface="false" size="34" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.objects.FbxCluster" sourceFile="FbxCluster.java" interface="false" size="25" bugs="3" priority_2="3"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.objects.FbxImage" sourceFile="FbxImage.java" interface="false" size="78" bugs="3" priority_2="2" priority_1="1"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.objects.FbxMaterial" sourceFile="FbxMaterial.java" interface="false" size="84" bugs="3" priority_2="3"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.objects.FbxMesh" sourceFile="FbxMesh.java" interface="false" size="349" bugs="6" priority_2="6"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.objects.FbxNode" sourceFile="FbxNode.java" interface="false" size="177" bugs="3" priority_2="3"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.objects.FbxObject" sourceFile="FbxObject.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.objects.FbxSkin" sourceFile="FbxSkin.java" interface="false" size="106" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.scene.plugins.fbx.objects.FbxTexture" sourceFile="FbxTexture.java" interface="false" size="23" bugs="3" priority_2="3"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.scene.plugins.gltf" total_bugs="28" total_types="34" total_size="1964" priority_2="27" priority_1="1">
+      <ClassStats class="com.jme3.scene.plugins.gltf.BinDataKey" sourceFile="BinDataKey.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.BinLoader" sourceFile="BinLoader.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.CustomContentManager" sourceFile="CustomContentManager.java" interface="false" size="66" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.ExtensionLoader" sourceFile="ExtensionLoader.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.ExtrasLoader" sourceFile="ExtrasLoader.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GlbLoader" sourceFile="GlbLoader.java" interface="false" size="30" bugs="4" priority_2="4"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfLoader" sourceFile="GltfLoader.java" interface="false" size="747" bugs="4" priority_2="3" priority_1="1"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfLoader$1" sourceFile="GltfLoader.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfLoader$FloatArrayPopulator" sourceFile="GltfLoader.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfLoader$JointArrayPopulator" sourceFile="GltfLoader.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfLoader$JointWrapper" sourceFile="GltfLoader.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfLoader$Matrix4fArrayPopulator" sourceFile="GltfLoader.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfLoader$Populator" sourceFile="GltfLoader.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfLoader$QuaternionArrayPopulator" sourceFile="GltfLoader.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfLoader$SkinBuffers" sourceFile="GltfLoader.java" interface="false" size="12" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfLoader$SkinData" sourceFile="GltfLoader.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfLoader$Vector3fArrayPopulator" sourceFile="GltfLoader.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfLoader$VertexBufferPopulator" sourceFile="GltfLoader.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfLoader$WeightData" sourceFile="GltfLoader.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfModelKey" sourceFile="GltfModelKey.java" interface="false" size="35" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfUtils" sourceFile="GltfUtils.java" interface="false" size="539" bugs="10" priority_2="10"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfUtils$1" sourceFile="GltfUtils.java" interface="false" size="10" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.GltfUtils$2" sourceFile="GltfUtils.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.MaterialAdapter" sourceFile="MaterialAdapter.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.PBRMaterialAdapter" sourceFile="PBRMaterialAdapter.java" interface="false" size="29" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.PBRMetalRoughMaterialAdapter" sourceFile="PBRMetalRoughMaterialAdapter.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.PBRSpecGlossExtensionLoader" sourceFile="PBRSpecGlossExtensionLoader.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.PBRSpecGlossMaterialAdapter" sourceFile="PBRSpecGlossMaterialAdapter.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.TrackData" sourceFile="TrackData.java" interface="false" size="188" bugs="4" priority_2="4"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.TrackData$1" sourceFile="TrackData.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.TrackData$KeyFrame" sourceFile="TrackData.java" interface="false" size="9" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.TrackData$TimeData" sourceFile="TrackData.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.TrackData$TransformIndices" sourceFile="TrackData.java" interface="false" size="9" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.scene.plugins.gltf.TrackData$Type" sourceFile="TrackData.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.scene.plugins.ogre" total_bugs="9" total_types="10" total_size="1579" priority_2="5" priority_1="4">
+      <ClassStats class="com.jme3.scene.plugins.ogre.AnimData" sourceFile="AnimData.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.ogre.MaterialLoader" sourceFile="MaterialLoader.java" interface="false" size="309" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.scene.plugins.ogre.MeshAnimationLoader" sourceFile="MeshAnimationLoader.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.ogre.MeshLoader" sourceFile="MeshLoader.java" interface="false" size="557" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="com.jme3.scene.plugins.ogre.MeshLoader$1" sourceFile="MeshLoader.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.ogre.OgreMeshKey" sourceFile="OgreMeshKey.java" interface="false" size="46" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.ogre.SceneLoader" sourceFile="SceneLoader.java" interface="false" size="344" bugs="3" priority_2="2" priority_1="1"/>
+      <ClassStats class="com.jme3.scene.plugins.ogre.SceneMaterialLoader" sourceFile="SceneMaterialLoader.java" interface="false" size="73" bugs="1" priority_1="1"/>
+      <ClassStats class="com.jme3.scene.plugins.ogre.SceneMeshLoader" sourceFile="SceneMeshLoader.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.ogre.SkeletonLoader" sourceFile="SkeletonLoader.java" interface="false" size="220" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.scene.plugins.ogre.matext" total_bugs="0" total_types="4" total_size="134">
+      <ClassStats class="com.jme3.scene.plugins.ogre.matext.MaterialExtension" sourceFile="MaterialExtension.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.ogre.matext.MaterialExtensionLoader" sourceFile="MaterialExtensionLoader.java" interface="false" size="65" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.ogre.matext.MaterialExtensionSet" sourceFile="MaterialExtensionSet.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="com.jme3.scene.plugins.ogre.matext.OgreMaterialKey" sourceFile="OgreMaterialKey.java" interface="false" size="29" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="763" invocations="893" avgMicrosecondsPerInvocation="854" maxMicrosecondsPerInvocation="45115" standardDeviationMicrosecondsPerInvocation="2983"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="667" invocations="900" avgMicrosecondsPerInvocation="741" maxMicrosecondsPerInvocation="30768" standardDeviationMicrosecondsPerInvocation="2052"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="650" invocations="817" avgMicrosecondsPerInvocation="796" maxMicrosecondsPerInvocation="250135" standardDeviationMicrosecondsPerInvocation="8969"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="638" invocations="986" avgMicrosecondsPerInvocation="647" maxMicrosecondsPerInvocation="36524" standardDeviationMicrosecondsPerInvocation="2017"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="604" invocations="885" avgMicrosecondsPerInvocation="682" maxMicrosecondsPerInvocation="63431" standardDeviationMicrosecondsPerInvocation="2441"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="556" invocations="974" avgMicrosecondsPerInvocation="571" maxMicrosecondsPerInvocation="29566" standardDeviationMicrosecondsPerInvocation="1474"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="405" invocations="1266" avgMicrosecondsPerInvocation="320" maxMicrosecondsPerInvocation="23008" standardDeviationMicrosecondsPerInvocation="1091"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="341" invocations="900" avgMicrosecondsPerInvocation="379" maxMicrosecondsPerInvocation="13326" standardDeviationMicrosecondsPerInvocation="1048"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="314" invocations="387" avgMicrosecondsPerInvocation="812" maxMicrosecondsPerInvocation="33147" standardDeviationMicrosecondsPerInvocation="2322"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="303" invocations="136" avgMicrosecondsPerInvocation="2230" maxMicrosecondsPerInvocation="269018" standardDeviationMicrosecondsPerInvocation="22977"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="291" invocations="387" avgMicrosecondsPerInvocation="753" maxMicrosecondsPerInvocation="22198" standardDeviationMicrosecondsPerInvocation="1904"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="283" invocations="1723" avgMicrosecondsPerInvocation="164" maxMicrosecondsPerInvocation="9245" standardDeviationMicrosecondsPerInvocation="410"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="201" invocations="1270" avgMicrosecondsPerInvocation="158" maxMicrosecondsPerInvocation="33376" standardDeviationMicrosecondsPerInvocation="1050"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="149" invocations="900" avgMicrosecondsPerInvocation="166" maxMicrosecondsPerInvocation="8948" standardDeviationMicrosecondsPerInvocation="544"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="127" invocations="909" avgMicrosecondsPerInvocation="140" maxMicrosecondsPerInvocation="52203" standardDeviationMicrosecondsPerInvocation="1762"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="126" invocations="1189" avgMicrosecondsPerInvocation="106" maxMicrosecondsPerInvocation="43231" standardDeviationMicrosecondsPerInvocation="1303"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="122" invocations="136" avgMicrosecondsPerInvocation="901" maxMicrosecondsPerInvocation="19228" standardDeviationMicrosecondsPerInvocation="2899"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="111" invocations="874" avgMicrosecondsPerInvocation="127" maxMicrosecondsPerInvocation="12038" standardDeviationMicrosecondsPerInvocation="574"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.MethodReturnCheck" totalMilliseconds="109" invocations="136" avgMicrosecondsPerInvocation="808" maxMicrosecondsPerInvocation="39283" standardDeviationMicrosecondsPerInvocation="3695"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="109" invocations="387" avgMicrosecondsPerInvocation="281" maxMicrosecondsPerInvocation="11346" standardDeviationMicrosecondsPerInvocation="827"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="107" invocations="341" avgMicrosecondsPerInvocation="315" maxMicrosecondsPerInvocation="12969" standardDeviationMicrosecondsPerInvocation="1142"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBadCast2" totalMilliseconds="101" invocations="136" avgMicrosecondsPerInvocation="743" maxMicrosecondsPerInvocation="15711" standardDeviationMicrosecondsPerInvocation="2260"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="89" invocations="136" avgMicrosecondsPerInvocation="656" maxMicrosecondsPerInvocation="9541" standardDeviationMicrosecondsPerInvocation="1602"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="84" invocations="480" avgMicrosecondsPerInvocation="176" maxMicrosecondsPerInvocation="13350" standardDeviationMicrosecondsPerInvocation="695"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="76" invocations="885" avgMicrosecondsPerInvocation="86" maxMicrosecondsPerInvocation="17292" standardDeviationMicrosecondsPerInvocation="598"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="71" invocations="136" avgMicrosecondsPerInvocation="527" maxMicrosecondsPerInvocation="6927" standardDeviationMicrosecondsPerInvocation="950"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueRangeAnalysisFactory" totalMilliseconds="70" invocations="909" avgMicrosecondsPerInvocation="77" maxMicrosecondsPerInvocation="11107" standardDeviationMicrosecondsPerInvocation="515"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindPuzzlers" totalMilliseconds="70" invocations="136" avgMicrosecondsPerInvocation="516" maxMicrosecondsPerInvocation="10559" standardDeviationMicrosecondsPerInvocation="1636"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="67" invocations="136" avgMicrosecondsPerInvocation="495" maxMicrosecondsPerInvocation="6749" standardDeviationMicrosecondsPerInvocation="930"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="65" invocations="136" avgMicrosecondsPerInvocation="484" maxMicrosecondsPerInvocation="9643" standardDeviationMicrosecondsPerInvocation="1159"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

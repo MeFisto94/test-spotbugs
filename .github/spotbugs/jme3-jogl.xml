@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1587223032199" analysisTimestamp="1587223032219" release="3.4.0-SNAPSHOT">
+  <Project projectName="project &apos;:jme3-jogl&apos; (main)">
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/audio/joal/JoalEFX.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/audio/joal/JoalAL.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/audio/joal/JoalALC.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/renderer/jogl/JoglGLExt.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/renderer/jogl/JoglGLFbo.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/renderer/jogl/TextureUtil$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/renderer/jogl/TextureUtil.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/renderer/jogl/TextureUtil$GLImageFormat.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/renderer/jogl/JoglGL.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglAbstractDisplay$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglNewtCanvas$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglOffscreenBuffer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglAbstractDisplay.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglNewtAbstractDisplay$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglNewtDisplay.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglDisplay$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglGLDebugOutputHandler.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglContext.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglDisplay.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglDisplay$3.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglCanvas.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglDisplay$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglNewtDisplay$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglNewtAbstractDisplay.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglNewtCanvas.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/system/jogl/JoglAbstractDisplay$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/input/jogl/NewtMouseInput$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/input/jogl/NewtKeyInput.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/input/jogl/NewtMouseInput.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclBuffer$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclKernel$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/Utils$TempBuffer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclEvent$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclProgram.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclBuffer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/Utils.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclContext.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclCommandQueue$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclDevice$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclCommandQueue$ReleaserImpl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclCommandQueue.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclImage.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclProgram$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclDevice.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclProgram$ReleaserImpl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclBuffer$ReleaserImpl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclKernel.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclKernel$ReleaserImpl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclImage$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclEvent.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclContext$ReleaserImpl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclContext$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclPlatform.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclImage$ReleaserImpl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/JoclEvent$ReleaserImpl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main/com/jme3/opencl/jocl/Utils$1.class</Jar>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-desktop/build/libs/jme3-desktop-3.4.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-core/build/libs/jme3-core-3.4.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.gluegen/gluegen-rt-main/2.3.2/6a86a9ce357c085e3052efcf639447f9957b82b8/gluegen-rt-main-2.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jogl/jogl-all-main/2.3.2/6a86a9ce357c085e3052efcf639447f9957b82b8/jogl-all-main-2.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.joal/joal-main/2.3.2/6a86a9ce357c085e3052efcf639447f9957b82b8/joal-main-2.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jocl/jocl-main/2.3.2/6a86a9ce357c085e3052efcf639447f9957b82b8/jocl-main-2.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.gluegen/gluegen-rt/2.3.2/edc35ccfc13d4a4ad02c50d580874c18bf48bbef/gluegen-rt-2.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.gluegen/gluegen-rt/2.3.2/4c104c7aef98cda5c404eacb96b1a4e04fe0dd68/gluegen-rt-2.3.2-natives-android-aarch64.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.gluegen/gluegen-rt/2.3.2/2130295b94ef5c19f85fb4ba6107ca193e987858/gluegen-rt-2.3.2-natives-android-armv6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.gluegen/gluegen-rt/2.3.2/477a6bc4f9256d8c9935b75d55e2b7b01314440b/gluegen-rt-2.3.2-natives-linux-amd64.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.gluegen/gluegen-rt/2.3.2/c55cd566d98d4fcd004b9aaa2c502c8c2dcec192/gluegen-rt-2.3.2-natives-linux-armv6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.gluegen/gluegen-rt/2.3.2/f6d3587b061d7ae6e68932fc62317e3500d2112d/gluegen-rt-2.3.2-natives-linux-armv6hf.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.gluegen/gluegen-rt/2.3.2/da68aff010edd35a9ee89b1801dce6e284c7e673/gluegen-rt-2.3.2-natives-linux-i586.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.gluegen/gluegen-rt/2.3.2/7227ae9e480354909d80f4df92b30bbb965387be/gluegen-rt-2.3.2-natives-macosx-universal.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.gluegen/gluegen-rt/2.3.2/9a23cd22c59e3f04082e7589e850b79c9e696dc4/gluegen-rt-2.3.2-natives-solaris-amd64.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.gluegen/gluegen-rt/2.3.2/a5d9ee96c7a365055fba41e30f9a10f42a3c1a3e/gluegen-rt-2.3.2-natives-solaris-i586.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.gluegen/gluegen-rt/2.3.2/85213c97a5a50d8dd37de4c35ef32cd4b0ac2ef0/gluegen-rt-2.3.2-natives-windows-amd64.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.gluegen/gluegen-rt/2.3.2/f9b848384a343f39f454e59cead435c2c0cbf542/gluegen-rt-2.3.2-natives-windows-i586.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jogl/jogl-all/2.3.2/99e0f64bb8882f054825ae4a8a527a17b544a0b5/jogl-all-2.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jogl/jogl-all/2.3.2/166147f43cf7419c4d858cd31f4b5922d6d10c81/jogl-all-2.3.2-natives-android-aarch64.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jogl/jogl-all/2.3.2/ab2c18b8a1327255cc354c19c720807d262baa75/jogl-all-2.3.2-natives-android-armv6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jogl/jogl-all/2.3.2/ffd1c6bd5f6fb088df6cad25e25721eb55ad2228/jogl-all-2.3.2-natives-linux-amd64.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jogl/jogl-all/2.3.2/6d14f46336be9e2dc5f85d5df17490cee5d09a90/jogl-all-2.3.2-natives-linux-armv6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jogl/jogl-all/2.3.2/2c434c560dbd821b0ed569e44d3d441727491dac/jogl-all-2.3.2-natives-linux-armv6hf.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jogl/jogl-all/2.3.2/59b7a336c0ee54161e33662d2ca8ac9d8f6c476d/jogl-all-2.3.2-natives-linux-i586.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jogl/jogl-all/2.3.2/2da2215dbe1091c54cb83cf2484f8a54a4d0cf7a/jogl-all-2.3.2-natives-macosx-universal.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jogl/jogl-all/2.3.2/bde11ff064181af9c307180d8f3f1744b7bdc11d/jogl-all-2.3.2-natives-solaris-amd64.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jogl/jogl-all/2.3.2/94d1ed501fe53b7f75eab0f712f39802390d0f5b/jogl-all-2.3.2-natives-solaris-i586.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jogl/jogl-all/2.3.2/becd519b1f741176561d93645abd90971ca0dca0/jogl-all-2.3.2-natives-windows-amd64.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jogl/jogl-all/2.3.2/5db8db5eca6b4445db6cd14f68938736630ae976/jogl-all-2.3.2-natives-windows-i586.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.joal/joal/2.3.2/ffabe724688a48b2e0b6795d5701f1309869eeb7/joal-2.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.joal/joal/2.3.2/35662ccb17461ea01641de9f2bd8414066022cc1/joal-2.3.2-natives-android-aarch64.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.joal/joal/2.3.2/a92df7d36bfe043e835bfc077888582ec5b17093/joal-2.3.2-natives-android-armv6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.joal/joal/2.3.2/8e8872fcb53a6a3a3e03351c8b3b5d27d068cb88/joal-2.3.2-natives-linux-amd64.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.joal/joal/2.3.2/5b3fc19c4bda6f6548bb51dd77c2f321440b6c79/joal-2.3.2-natives-linux-armv6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.joal/joal/2.3.2/484a272ce7803b511b5cf3db4354901950d43047/joal-2.3.2-natives-linux-armv6hf.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.joal/joal/2.3.2/bc4a3af9ce920a7710a20194782cc3164316f643/joal-2.3.2-natives-linux-i586.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.joal/joal/2.3.2/6ab9edff2c1563198afce17feced211e7ef1d8ec/joal-2.3.2-natives-macosx-universal.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.joal/joal/2.3.2/655172c31493ab4c0ce8b49dcf95710e88976879/joal-2.3.2-natives-solaris-amd64.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.joal/joal/2.3.2/903af6eb91da2e6c1f30b2334b83c9dcdde1566b/joal-2.3.2-natives-solaris-i586.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.joal/joal/2.3.2/2a69b875dfdadce32b32ba5d82952afc40f5078b/joal-2.3.2-natives-windows-amd64.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.joal/joal/2.3.2/de12154dbf0781f31c11152e27cf001c73357992/joal-2.3.2-natives-windows-i586.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jocl/jocl/2.3.2/35b24de2b5a0b22601a59676f036b6c9429e68d1/jocl-2.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jocl/jocl/2.3.2/86218fbd67b9170ecb2a1c9a6b56c62ea490d7c5/jocl-2.3.2-natives-android-aarch64.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jocl/jocl/2.3.2/268bd21be4a1bbf2cee5a20e94e7bbfba11efd0/jocl-2.3.2-natives-android-armv6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jocl/jocl/2.3.2/e552020f38f2bc9b926314769bb9e87d76ce4472/jocl-2.3.2-natives-linux-amd64.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jocl/jocl/2.3.2/13b56c36c2da9a2e8678fa43a8c626f57bc82a56/jocl-2.3.2-natives-linux-armv6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jocl/jocl/2.3.2/91aeb499d97910b66819c4724792b63f8eacf4e9/jocl-2.3.2-natives-linux-armv6hf.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jocl/jocl/2.3.2/dad861f5e9a7ee00f67f1056f889e51b7b080f78/jocl-2.3.2-natives-linux-i586.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jocl/jocl/2.3.2/9d5a0f0f3e26c8e0d1e99045b68098ffe75c4bce/jocl-2.3.2-natives-macosx-universal.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jocl/jocl/2.3.2/232bd97503780509c621f8f63e89f6e467c9f8a5/jocl-2.3.2-natives-solaris-amd64.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jocl/jocl/2.3.2/abbf0761f404195561944a4301b2062a83f61a27/jocl-2.3.2-natives-solaris-i586.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jocl/jocl/2.3.2/8fd74122fe98d7f8e29c4af4365d685cca21ed91/jocl-2.3.2-natives-windows-amd64.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/org.jogamp.jocl/jocl/2.3.2/6f8a5e1c10294e096748b1509b3de673d53da0f/jocl-2.3.2-natives-windows-i586.jar</AuxClasspathEntry>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/groovy</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/audio/joal/JoalEFX.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/audio/joal/JoalAL.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/audio/joal/JoalALC.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/renderer/jogl/TextureUtil.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/renderer/jogl/JoglGL.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/renderer/jogl/JoglGLExt.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/renderer/jogl/JoglGLFbo.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/system/jogl/JoglNewtCanvas.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/system/jogl/JoglOffscreenBuffer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/system/jogl/JoglCanvas.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/system/jogl/JoglContext.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/system/jogl/JoglAbstractDisplay.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/system/jogl/JoglGLDebugOutputHandler.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/system/jogl/JoglNewtAbstractDisplay.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/system/jogl/JoglDisplay.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/system/jogl/JoglNewtDisplay.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/input/jogl/NewtKeyInput.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/input/jogl/NewtMouseInput.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/opencl/jocl/JoclDevice.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/opencl/jocl/JoclProgram.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/opencl/jocl/JoclPlatform.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/opencl/jocl/JoclCommandQueue.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/opencl/jocl/JoclKernel.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/opencl/jocl/JoclContext.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/opencl/jocl/Utils.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/opencl/jocl/JoclBuffer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/opencl/jocl/JoclEvent.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-jogl/src/main/java/com/jme3/opencl/jocl/JoclImage.java</SrcDir>
+  </Project>
+  <BugInstance type="UC_USELESS_CONDITION_TYPE" priority="1" rank="14" abbrev="UC" category="STYLE">
+    <Class classname="com.jme3.input.jogl.NewtKeyInput">
+      <SourceLine classname="com.jme3.input.jogl.NewtKeyInput" start="47" end="594" sourcefile="NewtKeyInput.java" sourcepath="com/jme3/input/jogl/NewtKeyInput.java"/>
+    </Class>
+    <Method classname="com.jme3.input.jogl.NewtKeyInput" name="convertNewtKey" signature="(S)I" isStatic="true">
+      <SourceLine classname="com.jme3.input.jogl.NewtKeyInput" start="370" end="594" startBytecode="0" endBytecode="1606" sourcefile="NewtKeyInput.java" sourcepath="com/jme3/input/jogl/NewtKeyInput.java"/>
+    </Method>
+    <String value="key &lt; 65536 (0x10000)"/>
+    <Type descriptor="S"/>
+    <SourceLine classname="com.jme3.input.jogl.NewtKeyInput" start="591" end="591" startBytecode="1000" endBytecode="1000" sourcefile="NewtKeyInput.java" sourcepath="com/jme3/input/jogl/NewtKeyInput.java" role="SOURCE_UNREACHABLE_CODE"/>
+    <SourceLine classname="com.jme3.input.jogl.NewtKeyInput" start="590" end="590" startBytecode="997" endBytecode="997" sourcefile="NewtKeyInput.java" sourcepath="com/jme3/input/jogl/NewtKeyInput.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.input.jogl.NewtMouseInput">
+      <SourceLine classname="com.jme3.input.jogl.NewtMouseInput" start="56" end="326" sourcefile="NewtMouseInput.java" sourcepath="com/jme3/input/jogl/NewtMouseInput.java"/>
+    </Class>
+    <Field classname="com.jme3.input.jogl.NewtMouseInput" name="WHEEL_AMP" signature="I" isStatic="true">
+      <SourceLine classname="com.jme3.input.jogl.NewtMouseInput" sourcefile="NewtMouseInput.java" sourcepath="com/jme3/input/jogl/NewtMouseInput.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.input.jogl.NewtMouseInput" start="58" end="58" startBytecode="2" endBytecode="2" sourcefile="NewtMouseInput.java" sourcepath="com/jme3/input/jogl/NewtMouseInput.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="com.jme3.opencl.jocl.JoclImage">
+      <SourceLine classname="com.jme3.opencl.jocl.JoclImage" start="48" end="528" sourcefile="JoclImage.java" sourcepath="com/jme3/opencl/jocl/JoclImage.java"/>
+    </Class>
+    <Method classname="com.jme3.opencl.jocl.JoclImage" name="getImageType" signature="()Lcom/jme3/opencl/Image$ImageType;" isStatic="false">
+      <SourceLine classname="com.jme3.opencl.jocl.JoclImage" start="293" end="296" startBytecode="0" endBytecode="28" sourcefile="JoclImage.java" sourcepath="com/jme3/opencl/jocl/JoclImage.java"/>
+    </Method>
+    <LocalVariable name="ret" register="1" pc="41" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.opencl.jocl.JoclImage" start="294" end="294" startBytecode="40" endBytecode="40" sourcefile="JoclImage.java" sourcepath="com/jme3/opencl/jocl/JoclImage.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="ret"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.jme3.opencl.jocl.JoclKernel">
+      <SourceLine classname="com.jme3.opencl.jocl.JoclKernel" start="58" end="274" sourcefile="JoclKernel.java" sourcepath="com/jme3/opencl/jocl/JoclKernel.java"/>
+    </Class>
+    <Method classname="com.jme3.opencl.jocl.JoclKernel" name="Run" signature="(Lcom/jme3/opencl/CommandQueue;)Lcom/jme3/opencl/Event;" isStatic="false">
+      <SourceLine classname="com.jme3.opencl.jocl.JoclKernel" start="240" end="255" startBytecode="0" endBytecode="328" sourcefile="JoclKernel.java" sourcepath="com/jme3/opencl/jocl/JoclKernel.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.jme3.opencl.jocl.JoclKernel">
+      <SourceLine classname="com.jme3.opencl.jocl.JoclKernel" start="58" end="274" sourcefile="JoclKernel.java" sourcepath="com/jme3/opencl/jocl/JoclKernel.java"/>
+    </Class>
+    <Method classname="com.jme3.opencl.jocl.JoclKernel" name="RunNoEvent" signature="(Lcom/jme3/opencl/CommandQueue;)V" isStatic="false">
+      <SourceLine classname="com.jme3.opencl.jocl.JoclKernel" start="260" end="274" startBytecode="0" endBytecode="295" sourcefile="JoclKernel.java" sourcepath="com/jme3/opencl/jocl/JoclKernel.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.opencl.jocl.Utils">
+      <SourceLine classname="com.jme3.opencl.jocl.Utils" start="50" end="152" sourcefile="Utils.java" sourcepath="com/jme3/opencl/jocl/Utils.java"/>
+    </Class>
+    <Field classname="com.jme3.opencl.jocl.Utils" name="pointers" signature="[Lcom/jogamp/common/nio/PointerBuffer;" isStatic="true">
+      <SourceLine classname="com.jme3.opencl.jocl.Utils" sourcefile="Utils.java" sourcepath="com/jme3/opencl/jocl/Utils.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.opencl.jocl.Utils" start="85" end="85" startBytecode="24" endBytecode="24" sourcefile="Utils.java" sourcepath="com/jme3/opencl/jocl/Utils.java"/>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.opencl.jocl.Utils">
+      <SourceLine classname="com.jme3.opencl.jocl.Utils" start="50" end="152" sourcefile="Utils.java" sourcepath="com/jme3/opencl/jocl/Utils.java"/>
+    </Class>
+    <Field classname="com.jme3.opencl.jocl.Utils" name="tempBuffers" signature="[Lcom/jme3/opencl/jocl/Utils$TempBuffer;" isStatic="true">
+      <SourceLine classname="com.jme3.opencl.jocl.Utils" sourcefile="Utils.java" sourcepath="com/jme3/opencl/jocl/Utils.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.opencl.jocl.Utils" start="84" end="84" startBytecode="16" endBytecode="16" sourcefile="Utils.java" sourcepath="com/jme3/opencl/jocl/Utils.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.opencl.jocl.Utils">
+      <SourceLine classname="com.jme3.opencl.jocl.Utils" start="50" end="152" sourcefile="Utils.java" sourcepath="com/jme3/opencl/jocl/Utils.java"/>
+    </Class>
+    <Field classname="com.jme3.opencl.jocl.Utils" name="errorBuffer" signature="Ljava/nio/IntBuffer;" isStatic="true">
+      <SourceLine classname="com.jme3.opencl.jocl.Utils" sourcefile="Utils.java" sourcepath="com/jme3/opencl/jocl/Utils.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.opencl.jocl.Utils" start="91" end="91" startBytecode="66" endBytecode="66" sourcefile="Utils.java" sourcepath="com/jme3/opencl/jocl/Utils.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="com.jme3.renderer.jogl.JoglGL">
+      <SourceLine classname="com.jme3.renderer.jogl.JoglGL" start="12" end="661" sourcefile="JoglGL.java" sourcepath="com/jme3/renderer/jogl/JoglGL.java"/>
+    </Class>
+    <Method classname="com.jme3.renderer.jogl.JoglGL" name="glGetProgramInfoLog" signature="(II)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.jme3.renderer.jogl.JoglGL" start="568" end="578" startBytecode="0" endBytecode="231" sourcefile="JoglGL.java" sourcepath="com/jme3/renderer/jogl/JoglGL.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="566" end="567" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.renderer.jogl.JoglGL" start="578" end="578" startBytecode="80" endBytecode="80" sourcefile="JoglGL.java" sourcepath="com/jme3/renderer/jogl/JoglGL.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="com.jme3.renderer.jogl.JoglGL">
+      <SourceLine classname="com.jme3.renderer.jogl.JoglGL" start="12" end="661" sourcefile="JoglGL.java" sourcepath="com/jme3/renderer/jogl/JoglGL.java"/>
+    </Class>
+    <Method classname="com.jme3.renderer.jogl.JoglGL" name="glGetShaderInfoLog" signature="(II)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.jme3.renderer.jogl.JoglGL" start="597" end="607" startBytecode="0" endBytecode="231" sourcefile="JoglGL.java" sourcepath="com/jme3/renderer/jogl/JoglGL.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="566" end="567" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.renderer.jogl.JoglGL" start="607" end="607" startBytecode="80" endBytecode="80" sourcefile="JoglGL.java" sourcepath="com/jme3/renderer/jogl/JoglGL.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N">
+    <Class classname="com.jme3.renderer.jogl.JoglGL">
+      <SourceLine classname="com.jme3.renderer.jogl.JoglGL" start="12" end="661" sourcefile="JoglGL.java" sourcepath="com/jme3/renderer/jogl/JoglGL.java"/>
+    </Class>
+    <Method classname="com.jme3.renderer.jogl.JoglGL" name="glShaderSource" signature="(I[Ljava/lang/String;Ljava/nio/IntBuffer;)V" isStatic="false">
+      <SourceLine classname="com.jme3.renderer.jogl.JoglGL" start="553" end="564" startBytecode="0" endBytecode="287" sourcefile="JoglGL.java" sourcepath="com/jme3/renderer/jogl/JoglGL.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="958" end="958" startBytecode="0" endBytecode="37" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.renderer.jogl.JoglGL" start="558" end="558" startBytecode="43" endBytecode="43" sourcefile="JoglGL.java" sourcepath="com/jme3/renderer/jogl/JoglGL.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH" priority="2" rank="8" abbrev="NP" category="CORRECTNESS">
+    <Class classname="com.jme3.system.jogl.JoglCanvas">
+      <SourceLine classname="com.jme3.system.jogl.JoglCanvas" start="42" end="153" sourcefile="JoglCanvas.java" sourcepath="com/jme3/system/jogl/JoglCanvas.java"/>
+    </Class>
+    <Method classname="com.jme3.system.jogl.JoglCanvas" name="display" signature="(Lcom/jogamp/opengl/GLAutoDrawable;)V" isStatic="false">
+      <SourceLine classname="com.jme3.system.jogl.JoglCanvas" start="115" end="144" startBytecode="0" endBytecode="379" sourcefile="JoglCanvas.java" sourcepath="com/jme3/system/jogl/JoglCanvas.java"/>
+    </Method>
+    <Field classname="com.jme3.system.jogl.JoglContext" name="listener" signature="Lcom/jme3/system/SystemListener;" isStatic="false" role="FIELD_CONTAINS_VALUE">
+      <SourceLine classname="com.jme3.system.jogl.JoglContext" sourcefile="JoglContext.java" sourcepath="com/jme3/system/jogl/JoglContext.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.system.jogl.JoglCanvas" start="141" end="141" startBytecode="179" endBytecode="179" sourcefile="JoglCanvas.java" sourcepath="com/jme3/system/jogl/JoglCanvas.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="com.jme3.system.jogl.JoglCanvas" start="127" end="127" startBytecode="93" endBytecode="93" sourcefile="JoglCanvas.java" sourcepath="com/jme3/system/jogl/JoglCanvas.java" role="SOURCE_LINE_KNOWN_NULL"/>
+  </BugInstance>
+  <BugInstance type="VA_FORMAT_STRING_USES_NEWLINE" priority="2" rank="20" abbrev="FS" category="BAD_PRACTICE">
+    <Class classname="com.jme3.system.jogl.JoglGLDebugOutputHandler">
+      <SourceLine classname="com.jme3.system.jogl.JoglGLDebugOutputHandler" start="40" end="78" sourcefile="JoglGLDebugOutputHandler.java" sourcepath="com/jme3/system/jogl/JoglGLDebugOutputHandler.java"/>
+    </Class>
+    <Method classname="com.jme3.system.jogl.JoglGLDebugOutputHandler" name="messageSent" signature="(Lcom/jogamp/opengl/GLDebugMessage;)V" isStatic="false">
+      <SourceLine classname="com.jme3.system.jogl.JoglGLDebugOutputHandler" start="73" end="78" startBytecode="0" endBytecode="195" sourcefile="JoglGLDebugOutputHandler.java" sourcepath="com/jme3/system/jogl/JoglGLDebugOutputHandler.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="format" signature="(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="2940" end="2940" startBytecode="0" endBytecode="39" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <String value="[JME3] OpenGL debug message\r\n       ID: %d\r\n       Source: %s\r\n       Type: %s\r\n       Severity: %s\r\n       Message: %s" role="STRING_FORMAT_STRING"/>
+    <SourceLine classname="com.jme3.system.jogl.JoglGLDebugOutputHandler" start="77" end="77" startBytecode="91" endBytecode="91" sourcefile="JoglGLDebugOutputHandler.java" sourcepath="com/jme3/system/jogl/JoglGLDebugOutputHandler.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH" priority="2" rank="8" abbrev="NP" category="CORRECTNESS">
+    <Class classname="com.jme3.system.jogl.JoglNewtCanvas">
+      <SourceLine classname="com.jme3.system.jogl.JoglNewtCanvas" start="40" end="175" sourcefile="JoglNewtCanvas.java" sourcepath="com/jme3/system/jogl/JoglNewtCanvas.java"/>
+    </Class>
+    <Method classname="com.jme3.system.jogl.JoglNewtCanvas" name="display" signature="(Lcom/jogamp/opengl/GLAutoDrawable;)V" isStatic="false">
+      <SourceLine classname="com.jme3.system.jogl.JoglNewtCanvas" start="137" end="166" startBytecode="0" endBytecode="379" sourcefile="JoglNewtCanvas.java" sourcepath="com/jme3/system/jogl/JoglNewtCanvas.java"/>
+    </Method>
+    <Field classname="com.jme3.system.jogl.JoglContext" name="listener" signature="Lcom/jme3/system/SystemListener;" isStatic="false" role="FIELD_CONTAINS_VALUE">
+      <SourceLine classname="com.jme3.system.jogl.JoglContext" sourcefile="JoglContext.java" sourcepath="com/jme3/system/jogl/JoglContext.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.system.jogl.JoglNewtCanvas" start="163" end="163" startBytecode="179" endBytecode="179" sourcefile="JoglNewtCanvas.java" sourcepath="com/jme3/system/jogl/JoglNewtCanvas.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="com.jme3.system.jogl.JoglNewtCanvas" start="149" end="149" startBytecode="93" endBytecode="93" sourcefile="JoglNewtCanvas.java" sourcepath="com/jme3/system/jogl/JoglNewtCanvas.java" role="SOURCE_LINE_KNOWN_NULL"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 18 Apr 2020 15:17:12 +0000" total_classes="56" referenced_classes="507" total_bugs="14" total_size="3578" num_packages="5" java_version="1.8.0_252" vm_version="25.252-b14" cpu_seconds="13.03" clock_seconds="6.67" peak_mbytes="254.52" alloc_mbytes="455.50" gc_seconds="0.46" priority_2="8" priority_1="6">
+    <PackageStats package="com.jme3.audio.joal" total_bugs="0" total_types="3" total_size="138">
+      <ClassStats class="com.jme3.audio.joal.JoalAL" sourceFile="JoalAL.java" interface="false" size="66" bugs="0"/>
+      <ClassStats class="com.jme3.audio.joal.JoalALC" sourceFile="JoalALC.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="com.jme3.audio.joal.JoalEFX" sourceFile="JoalEFX.java" interface="false" size="39" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.input.jogl" total_bugs="2" total_types="3" total_size="465" priority_1="2">
+      <ClassStats class="com.jme3.input.jogl.NewtKeyInput" sourceFile="NewtKeyInput.java" interface="false" size="283" bugs="1" priority_1="1"/>
+      <ClassStats class="com.jme3.input.jogl.NewtMouseInput" sourceFile="NewtMouseInput.java" interface="false" size="171" bugs="1" priority_1="1"/>
+      <ClassStats class="com.jme3.input.jogl.NewtMouseInput$1" sourceFile="NewtMouseInput.java" interface="false" size="11" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.opencl.jocl" total_bugs="6" total_types="27" total_size="1236" priority_2="5" priority_1="1">
+      <ClassStats class="com.jme3.opencl.jocl.JoclBuffer" sourceFile="JoclBuffer.java" interface="false" size="129" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclBuffer$1" sourceFile="JoclBuffer.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclBuffer$ReleaserImpl" sourceFile="JoclBuffer.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclCommandQueue" sourceFile="JoclCommandQueue.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclCommandQueue$1" sourceFile="JoclCommandQueue.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclCommandQueue$ReleaserImpl" sourceFile="JoclCommandQueue.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclContext" sourceFile="JoclContext.java" interface="false" size="125" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclContext$1" sourceFile="JoclContext.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclContext$ReleaserImpl" sourceFile="JoclContext.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclDevice" sourceFile="JoclDevice.java" interface="false" size="118" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclDevice$1" sourceFile="JoclDevice.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclEvent" sourceFile="JoclEvent.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclEvent$1" sourceFile="JoclEvent.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclEvent$ReleaserImpl" sourceFile="JoclEvent.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclImage" sourceFile="JoclImage.java" interface="false" size="294" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclImage$1" sourceFile="JoclImage.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclImage$ReleaserImpl" sourceFile="JoclImage.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclKernel" sourceFile="JoclKernel.java" interface="false" size="173" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclKernel$1" sourceFile="JoclKernel.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclKernel$ReleaserImpl" sourceFile="JoclKernel.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclPlatform" sourceFile="JoclPlatform.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclProgram" sourceFile="JoclProgram.java" interface="false" size="95" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclProgram$1" sourceFile="JoclProgram.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.JoclProgram$ReleaserImpl" sourceFile="JoclProgram.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.Utils" sourceFile="Utils.java" interface="false" size="70" bugs="3" priority_2="2" priority_1="1"/>
+      <ClassStats class="com.jme3.opencl.jocl.Utils$1" sourceFile="Utils.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.jme3.opencl.jocl.Utils$TempBuffer" sourceFile="Utils.java" interface="false" size="16" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.renderer.jogl" total_bugs="3" total_types="6" total_size="744" priority_1="3">
+      <ClassStats class="com.jme3.renderer.jogl.JoglGL" sourceFile="JoglGL.java" interface="false" size="399" bugs="3" priority_1="3"/>
+      <ClassStats class="com.jme3.renderer.jogl.JoglGLExt" sourceFile="JoglGLExt.java" interface="false" size="49" bugs="0"/>
+      <ClassStats class="com.jme3.renderer.jogl.JoglGLFbo" sourceFile="JoglGLFbo.java" interface="false" size="56" bugs="0"/>
+      <ClassStats class="com.jme3.renderer.jogl.TextureUtil" sourceFile="TextureUtil.java" interface="false" size="224" bugs="0"/>
+      <ClassStats class="com.jme3.renderer.jogl.TextureUtil$1" sourceFile="TextureUtil.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.renderer.jogl.TextureUtil$GLImageFormat" sourceFile="TextureUtil.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.system.jogl" total_bugs="3" total_types="17" total_size="995" priority_2="3">
+      <ClassStats class="com.jme3.system.jogl.JoglAbstractDisplay" sourceFile="JoglAbstractDisplay.java" interface="false" size="76" bugs="0"/>
+      <ClassStats class="com.jme3.system.jogl.JoglAbstractDisplay$1" sourceFile="JoglAbstractDisplay.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="com.jme3.system.jogl.JoglAbstractDisplay$2" sourceFile="JoglAbstractDisplay.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.system.jogl.JoglCanvas" sourceFile="JoglCanvas.java" interface="false" size="76" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.system.jogl.JoglContext" sourceFile="JoglContext.java" interface="false" size="210" bugs="0"/>
+      <ClassStats class="com.jme3.system.jogl.JoglDisplay" sourceFile="JoglDisplay.java" interface="false" size="164" bugs="0"/>
+      <ClassStats class="com.jme3.system.jogl.JoglDisplay$1" sourceFile="JoglDisplay.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.jme3.system.jogl.JoglDisplay$2" sourceFile="JoglDisplay.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.system.jogl.JoglDisplay$3" sourceFile="JoglDisplay.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.system.jogl.JoglGLDebugOutputHandler" sourceFile="JoglGLDebugOutputHandler.java" interface="false" size="29" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.system.jogl.JoglNewtAbstractDisplay" sourceFile="JoglNewtAbstractDisplay.java" interface="false" size="72" bugs="0"/>
+      <ClassStats class="com.jme3.system.jogl.JoglNewtAbstractDisplay$1" sourceFile="JoglNewtAbstractDisplay.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.system.jogl.JoglNewtCanvas" sourceFile="JoglNewtCanvas.java" interface="false" size="83" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.system.jogl.JoglNewtCanvas$1" sourceFile="JoglNewtCanvas.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.jme3.system.jogl.JoglNewtDisplay" sourceFile="JoglNewtDisplay.java" interface="false" size="106" bugs="0"/>
+      <ClassStats class="com.jme3.system.jogl.JoglNewtDisplay$1" sourceFile="JoglNewtDisplay.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.jme3.system.jogl.JoglOffscreenBuffer" sourceFile="JoglOffscreenBuffer.java" interface="false" size="93" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="632" invocations="2140" avgMicrosecondsPerInvocation="295" maxMicrosecondsPerInvocation="26505" standardDeviationMicrosecondsPerInvocation="1058"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="393" invocations="507" avgMicrosecondsPerInvocation="776" maxMicrosecondsPerInvocation="34451" standardDeviationMicrosecondsPerInvocation="2285"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="350" invocations="507" avgMicrosecondsPerInvocation="690" maxMicrosecondsPerInvocation="18002" standardDeviationMicrosecondsPerInvocation="1694"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="298" invocations="590" avgMicrosecondsPerInvocation="505" maxMicrosecondsPerInvocation="18704" standardDeviationMicrosecondsPerInvocation="1542"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueRangeAnalysisFactory" totalMilliseconds="296" invocations="592" avgMicrosecondsPerInvocation="500" maxMicrosecondsPerInvocation="257104" standardDeviationMicrosecondsPerInvocation="10566"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="272" invocations="2144" avgMicrosecondsPerInvocation="126" maxMicrosecondsPerInvocation="5675" standardDeviationMicrosecondsPerInvocation="195"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="242" invocations="592" avgMicrosecondsPerInvocation="409" maxMicrosecondsPerInvocation="16730" standardDeviationMicrosecondsPerInvocation="1412"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="231" invocations="590" avgMicrosecondsPerInvocation="393" maxMicrosecondsPerInvocation="19468" standardDeviationMicrosecondsPerInvocation="1395"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="228" invocations="599" avgMicrosecondsPerInvocation="381" maxMicrosecondsPerInvocation="19520" standardDeviationMicrosecondsPerInvocation="1418"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="217" invocations="1346" avgMicrosecondsPerInvocation="161" maxMicrosecondsPerInvocation="9577" standardDeviationMicrosecondsPerInvocation="503"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="214" invocations="595" avgMicrosecondsPerInvocation="361" maxMicrosecondsPerInvocation="22594" standardDeviationMicrosecondsPerInvocation="1567"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="152" invocations="2082" avgMicrosecondsPerInvocation="73" maxMicrosecondsPerInvocation="37012" standardDeviationMicrosecondsPerInvocation="851"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="142" invocations="592" avgMicrosecondsPerInvocation="240" maxMicrosecondsPerInvocation="12085" standardDeviationMicrosecondsPerInvocation="871"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="130" invocations="507" avgMicrosecondsPerInvocation="256" maxMicrosecondsPerInvocation="18445" standardDeviationMicrosecondsPerInvocation="937"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="118" invocations="531" avgMicrosecondsPerInvocation="222" maxMicrosecondsPerInvocation="11176" standardDeviationMicrosecondsPerInvocation="903"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="116" invocations="507" avgMicrosecondsPerInvocation="230" maxMicrosecondsPerInvocation="13319" standardDeviationMicrosecondsPerInvocation="877"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="101" invocations="641" avgMicrosecondsPerInvocation="157" maxMicrosecondsPerInvocation="14512" standardDeviationMicrosecondsPerInvocation="702"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="100" invocations="506" avgMicrosecondsPerInvocation="198" maxMicrosecondsPerInvocation="28333" standardDeviationMicrosecondsPerInvocation="1341"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="90" invocations="592" avgMicrosecondsPerInvocation="152" maxMicrosecondsPerInvocation="53364" standardDeviationMicrosecondsPerInvocation="2194"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="72" invocations="507" avgMicrosecondsPerInvocation="142" maxMicrosecondsPerInvocation="2717" standardDeviationMicrosecondsPerInvocation="323"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="62" invocations="506" avgMicrosecondsPerInvocation="123" maxMicrosecondsPerInvocation="29427" standardDeviationMicrosecondsPerInvocation="1310"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="60" invocations="592" avgMicrosecondsPerInvocation="102" maxMicrosecondsPerInvocation="9367" standardDeviationMicrosecondsPerInvocation="531"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="58" invocations="56" avgMicrosecondsPerInvocation="1050" maxMicrosecondsPerInvocation="10743" standardDeviationMicrosecondsPerInvocation="2084"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="57" invocations="507" avgMicrosecondsPerInvocation="113" maxMicrosecondsPerInvocation="3263" standardDeviationMicrosecondsPerInvocation="285"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

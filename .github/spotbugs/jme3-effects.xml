@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1587222985151" analysisTimestamp="1587222985174" release="3.4.0-SNAPSHOT">
+  <Project projectName="project &apos;:jme3-effects&apos; (main)">
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/water/SimpleWaterProcessor.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/water/WaterFilter$AreaShape.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/water/WaterUtils.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/water/ReflectionProcessor.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/water/SimpleWaterProcessor$RefractionProcessor.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/water/WaterFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/FadeFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/ToneMapFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/BloomFilter$3.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/BloomFilter$GlowMode.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/FXAAFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/BloomFilter$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/GammaCorrectionFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/ColorOverlayFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/LightScatteringFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/FogFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/PosterizationFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/DepthOfFieldFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/CrossHatchFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/RadialBlurFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/CartoonEdgeFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/BloomFilter$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/ComposeFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/TranslucentBucketFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/filters/BloomFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/ssao/SSAOFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main/com/jme3/post/ssao/SSAOFilter$1.class</Jar>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/build/resources/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-core/build/libs/jme3-core-3.4.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/groovy</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/water/WaterUtils.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/water/ReflectionProcessor.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/water/WaterFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/water/SimpleWaterProcessor.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/post/filters/FogFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/post/filters/FXAAFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/post/filters/LightScatteringFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/post/filters/BloomFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/post/filters/FadeFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/post/filters/ColorOverlayFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/post/filters/CrossHatchFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/post/filters/RadialBlurFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/post/filters/TranslucentBucketFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/post/filters/GammaCorrectionFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/post/filters/DepthOfFieldFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/post/filters/ComposeFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/post/filters/PosterizationFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/post/filters/CartoonEdgeFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/post/filters/ToneMapFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-effects/src/main/java/com/jme3/post/ssao/SSAOFilter.java</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="com.jme3.post.filters.ComposeFilter">
+      <SourceLine classname="com.jme3.post.filters.ComposeFilter" start="65" end="117" sourcefile="ComposeFilter.java" sourcepath="com/jme3/post/filters/ComposeFilter.java"/>
+    </Class>
+    <Method classname="com.jme3.post.filters.ComposeFilter" name="read" signature="(Lcom/jme3/export/JmeImporter;)V" isStatic="false">
+      <SourceLine classname="com.jme3.post.filters.ComposeFilter" start="115" end="117" startBytecode="0" endBytecode="7" sourcefile="ComposeFilter.java" sourcepath="com/jme3/post/filters/ComposeFilter.java"/>
+    </Method>
+    <LocalVariable name="ic" register="2" pc="13" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.post.filters.ComposeFilter" start="116" end="116" startBytecode="12" endBytecode="12" sourcefile="ComposeFilter.java" sourcepath="com/jme3/post/filters/ComposeFilter.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="ic"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="com.jme3.post.filters.ComposeFilter">
+      <SourceLine classname="com.jme3.post.filters.ComposeFilter" start="65" end="117" sourcefile="ComposeFilter.java" sourcepath="com/jme3/post/filters/ComposeFilter.java"/>
+    </Class>
+    <Method classname="com.jme3.post.filters.ComposeFilter" name="write" signature="(Lcom/jme3/export/JmeExporter;)V" isStatic="false">
+      <SourceLine classname="com.jme3.post.filters.ComposeFilter" start="109" end="111" startBytecode="0" endBytecode="7" sourcefile="ComposeFilter.java" sourcepath="com/jme3/post/filters/ComposeFilter.java"/>
+    </Method>
+    <LocalVariable name="oc" register="2" pc="13" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.post.filters.ComposeFilter" start="110" end="110" startBytecode="12" endBytecode="12" sourcefile="ComposeFilter.java" sourcepath="com/jme3/post/filters/ComposeFilter.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="oc"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.water.ReflectionProcessor">
+      <SourceLine classname="com.jme3.water.ReflectionProcessor" start="62" end="165" sourcefile="ReflectionProcessor.java" sourcepath="com/jme3/water/ReflectionProcessor.java"/>
+    </Class>
+    <Field classname="com.jme3.water.ReflectionProcessor" name="prof" signature="Lcom/jme3/profile/AppProfiler;" isStatic="false">
+      <SourceLine classname="com.jme3.water.ReflectionProcessor" sourcefile="ReflectionProcessor.java" sourcepath="com/jme3/water/ReflectionProcessor.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.water.ReflectionProcessor" start="114" end="114" startBytecode="2" endBytecode="2" sourcefile="ReflectionProcessor.java" sourcepath="com/jme3/water/ReflectionProcessor.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.water.SimpleWaterProcessor">
+      <SourceLine classname="com.jme3.water.SimpleWaterProcessor" start="86" end="587" sourcefile="SimpleWaterProcessor.java" sourcepath="com/jme3/water/SimpleWaterProcessor.java"/>
+    </Class>
+    <Field classname="com.jme3.water.SimpleWaterProcessor" name="prof" signature="Lcom/jme3/profile/AppProfiler;" isStatic="false">
+      <SourceLine classname="com.jme3.water.SimpleWaterProcessor" sourcefile="SimpleWaterProcessor.java" sourcepath="com/jme3/water/SimpleWaterProcessor.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.water.SimpleWaterProcessor" start="230" end="230" startBytecode="2" endBytecode="2" sourcefile="SimpleWaterProcessor.java" sourcepath="com/jme3/water/SimpleWaterProcessor.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="18" abbrev="UrF" category="STYLE">
+    <Class classname="com.jme3.water.SimpleWaterProcessor">
+      <SourceLine classname="com.jme3.water.SimpleWaterProcessor" start="86" end="587" sourcefile="SimpleWaterProcessor.java" sourcepath="com/jme3/water/SimpleWaterProcessor.java"/>
+    </Class>
+    <Field classname="com.jme3.water.SimpleWaterProcessor" name="ray" signature="Lcom/jme3/math/Ray;" isStatic="false">
+      <SourceLine classname="com.jme3.water.SimpleWaterProcessor" sourcefile="SimpleWaterProcessor.java" sourcepath="com/jme3/water/SimpleWaterProcessor.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.water.SimpleWaterProcessor" start="106" end="106" startBytecode="55" endBytecode="55" sourcefile="SimpleWaterProcessor.java" sourcepath="com/jme3/water/SimpleWaterProcessor.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="18" abbrev="UrF" category="STYLE">
+    <Class classname="com.jme3.water.SimpleWaterProcessor">
+      <SourceLine classname="com.jme3.water.SimpleWaterProcessor" start="86" end="587" sourcefile="SimpleWaterProcessor.java" sourcepath="com/jme3/water/SimpleWaterProcessor.java"/>
+    </Class>
+    <Field classname="com.jme3.water.SimpleWaterProcessor" name="targetLocation" signature="Lcom/jme3/math/Vector3f;" isStatic="false">
+      <SourceLine classname="com.jme3.water.SimpleWaterProcessor" sourcefile="SimpleWaterProcessor.java" sourcepath="com/jme3/water/SimpleWaterProcessor.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.water.SimpleWaterProcessor" start="107" end="107" startBytecode="66" endBytecode="66" sourcefile="SimpleWaterProcessor.java" sourcepath="com/jme3/water/SimpleWaterProcessor.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.water.SimpleWaterProcessor$RefractionProcessor">
+      <SourceLine classname="com.jme3.water.SimpleWaterProcessor$RefractionProcessor" start="592" end="634" sourcefile="SimpleWaterProcessor.java" sourcepath="com/jme3/water/SimpleWaterProcessor.java"/>
+    </Class>
+    <Field classname="com.jme3.water.SimpleWaterProcessor$RefractionProcessor" name="prof" signature="Lcom/jme3/profile/AppProfiler;" isStatic="false">
+      <SourceLine classname="com.jme3.water.SimpleWaterProcessor$RefractionProcessor" sourcefile="SimpleWaterProcessor.java" sourcepath="com/jme3/water/SimpleWaterProcessor.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.water.SimpleWaterProcessor$RefractionProcessor" start="633" end="633" startBytecode="2" endBytecode="2" sourcefile="SimpleWaterProcessor.java" sourcepath="com/jme3/water/SimpleWaterProcessor.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.water.SimpleWaterProcessor$RefractionProcessor">
+      <SourceLine classname="com.jme3.water.SimpleWaterProcessor$RefractionProcessor" start="592" end="634" sourcefile="SimpleWaterProcessor.java" sourcepath="com/jme3/water/SimpleWaterProcessor.java"/>
+    </Class>
+    <Field classname="com.jme3.water.SimpleWaterProcessor$RefractionProcessor" name="vp" signature="Lcom/jme3/renderer/ViewPort;" isStatic="false">
+      <SourceLine classname="com.jme3.water.SimpleWaterProcessor$RefractionProcessor" sourcefile="SimpleWaterProcessor.java" sourcepath="com/jme3/water/SimpleWaterProcessor.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.water.SimpleWaterProcessor$RefractionProcessor" start="601" end="601" startBytecode="7" endBytecode="7" sourcefile="SimpleWaterProcessor.java" sourcepath="com/jme3/water/SimpleWaterProcessor.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 18 Apr 2020 15:16:25 +0000" total_classes="27" referenced_classes="109" total_bugs="8" total_size="2276" num_packages="3" java_version="1.8.0_252" vm_version="25.252-b14" cpu_seconds="7.65" clock_seconds="3.88" peak_mbytes="213.05" alloc_mbytes="455.50" gc_seconds="0.24" priority_2="8">
+    <PackageStats package="com.jme3.post.filters" total_bugs="2" total_types="19" total_size="1085" priority_2="2">
+      <ClassStats class="com.jme3.post.filters.BloomFilter" sourceFile="BloomFilter.java" interface="false" size="143" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.BloomFilter$1" sourceFile="BloomFilter.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.BloomFilter$2" sourceFile="BloomFilter.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.BloomFilter$3" sourceFile="BloomFilter.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.BloomFilter$GlowMode" sourceFile="BloomFilter.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.CartoonEdgeFilter" sourceFile="CartoonEdgeFilter.java" interface="false" size="101" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.ColorOverlayFilter" sourceFile="ColorOverlayFilter.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.ComposeFilter" sourceFile="ComposeFilter.java" interface="false" size="28" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.post.filters.CrossHatchFilter" sourceFile="CrossHatchFilter.java" interface="false" size="124" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.DepthOfFieldFilter" sourceFile="DepthOfFieldFilter.java" interface="false" size="84" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.FXAAFilter" sourceFile="FXAAFilter.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.FadeFilter" sourceFile="FadeFilter.java" interface="false" size="67" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.FogFilter" sourceFile="FogFilter.java" interface="false" size="61" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.GammaCorrectionFilter" sourceFile="GammaCorrectionFilter.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.LightScatteringFilter" sourceFile="LightScatteringFilter.java" interface="false" size="104" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.PosterizationFilter" sourceFile="PosterizationFilter.java" interface="false" size="47" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.RadialBlurFilter" sourceFile="RadialBlurFilter.java" interface="false" size="50" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.ToneMapFilter" sourceFile="ToneMapFilter.java" interface="false" size="38" bugs="0"/>
+      <ClassStats class="com.jme3.post.filters.TranslucentBucketFilter" sourceFile="TranslucentBucketFilter.java" interface="false" size="85" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.post.ssao" total_bugs="0" total_types="2" total_size="165">
+      <ClassStats class="com.jme3.post.ssao.SSAOFilter" sourceFile="SSAOFilter.java" interface="false" size="159" bugs="0"/>
+      <ClassStats class="com.jme3.post.ssao.SSAOFilter$1" sourceFile="SSAOFilter.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.water" total_bugs="6" total_types="6" total_size="1026" priority_2="6">
+      <ClassStats class="com.jme3.water.ReflectionProcessor" sourceFile="ReflectionProcessor.java" interface="false" size="56" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.water.SimpleWaterProcessor" sourceFile="SimpleWaterProcessor.java" interface="false" size="278" bugs="3" priority_2="3"/>
+      <ClassStats class="com.jme3.water.SimpleWaterProcessor$RefractionProcessor" sourceFile="SimpleWaterProcessor.java" interface="false" size="27" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.water.WaterFilter" sourceFile="WaterFilter.java" interface="false" size="623" bugs="0"/>
+      <ClassStats class="com.jme3.water.WaterFilter$AreaShape" sourceFile="WaterFilter.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.jme3.water.WaterUtils" sourceFile="WaterUtils.java" interface="false" size="31" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="363" invocations="596" avgMicrosecondsPerInvocation="610" maxMicrosecondsPerInvocation="20757" standardDeviationMicrosecondsPerInvocation="1694"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="355" invocations="422" avgMicrosecondsPerInvocation="842" maxMicrosecondsPerInvocation="152950" standardDeviationMicrosecondsPerInvocation="7546"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="193" invocations="109" avgMicrosecondsPerInvocation="1772" maxMicrosecondsPerInvocation="36572" standardDeviationMicrosecondsPerInvocation="4564"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="145" invocations="109" avgMicrosecondsPerInvocation="1332" maxMicrosecondsPerInvocation="16521" standardDeviationMicrosecondsPerInvocation="2278"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="142" invocations="599" avgMicrosecondsPerInvocation="237" maxMicrosecondsPerInvocation="9466" standardDeviationMicrosecondsPerInvocation="540"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="136" invocations="422" avgMicrosecondsPerInvocation="324" maxMicrosecondsPerInvocation="18690" standardDeviationMicrosecondsPerInvocation="1222"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="132" invocations="422" avgMicrosecondsPerInvocation="315" maxMicrosecondsPerInvocation="8369" standardDeviationMicrosecondsPerInvocation="786"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="132" invocations="422" avgMicrosecondsPerInvocation="314" maxMicrosecondsPerInvocation="16604" standardDeviationMicrosecondsPerInvocation="1131"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="123" invocations="422" avgMicrosecondsPerInvocation="293" maxMicrosecondsPerInvocation="12492" standardDeviationMicrosecondsPerInvocation="1080"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="100" invocations="422" avgMicrosecondsPerInvocation="237" maxMicrosecondsPerInvocation="12134" standardDeviationMicrosecondsPerInvocation="842"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="87" invocations="422" avgMicrosecondsPerInvocation="208" maxMicrosecondsPerInvocation="53770" standardDeviationMicrosecondsPerInvocation="2616"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="73" invocations="620" avgMicrosecondsPerInvocation="118" maxMicrosecondsPerInvocation="3452" standardDeviationMicrosecondsPerInvocation="272"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="61" invocations="551" avgMicrosecondsPerInvocation="111" maxMicrosecondsPerInvocation="6867" standardDeviationMicrosecondsPerInvocation="358"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="59" invocations="155" avgMicrosecondsPerInvocation="383" maxMicrosecondsPerInvocation="14998" standardDeviationMicrosecondsPerInvocation="1400"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="58" invocations="225" avgMicrosecondsPerInvocation="258" maxMicrosecondsPerInvocation="12264" standardDeviationMicrosecondsPerInvocation="849"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="51" invocations="109" avgMicrosecondsPerInvocation="469" maxMicrosecondsPerInvocation="7819" standardDeviationMicrosecondsPerInvocation="892"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="49" invocations="27" avgMicrosecondsPerInvocation="1842" maxMicrosecondsPerInvocation="14337" standardDeviationMicrosecondsPerInvocation="3312"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="46" invocations="27" avgMicrosecondsPerInvocation="1723" maxMicrosecondsPerInvocation="8625" standardDeviationMicrosecondsPerInvocation="1886"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="45" invocations="422" avgMicrosecondsPerInvocation="106" maxMicrosecondsPerInvocation="7190" standardDeviationMicrosecondsPerInvocation="512"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="37" invocations="109" avgMicrosecondsPerInvocation="343" maxMicrosecondsPerInvocation="6509" standardDeviationMicrosecondsPerInvocation="757"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="35" invocations="27" avgMicrosecondsPerInvocation="1302" maxMicrosecondsPerInvocation="13192" standardDeviationMicrosecondsPerInvocation="2785"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="34" invocations="109" avgMicrosecondsPerInvocation="317" maxMicrosecondsPerInvocation="4495" standardDeviationMicrosecondsPerInvocation="679"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="32" invocations="109" avgMicrosecondsPerInvocation="301" maxMicrosecondsPerInvocation="3711" standardDeviationMicrosecondsPerInvocation="464"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="32" invocations="27" avgMicrosecondsPerInvocation="1200" maxMicrosecondsPerInvocation="9516" standardDeviationMicrosecondsPerInvocation="1887"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="30" invocations="4429" avgMicrosecondsPerInvocation="6" maxMicrosecondsPerInvocation="6270" standardDeviationMicrosecondsPerInvocation="98"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="29" invocations="109" avgMicrosecondsPerInvocation="272" maxMicrosecondsPerInvocation="8615" standardDeviationMicrosecondsPerInvocation="954"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBadCast2" totalMilliseconds="26" invocations="27" avgMicrosecondsPerInvocation="983" maxMicrosecondsPerInvocation="18650" standardDeviationMicrosecondsPerInvocation="3560"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

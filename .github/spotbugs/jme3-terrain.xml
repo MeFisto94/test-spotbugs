@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1587223083726" analysisTimestamp="1587223083749" release="3.4.0-SNAPSHOT">
+  <Project projectName="project &apos;:jme3-terrain&apos; (main)">
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/heightmap/CombinerHeightMap.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/heightmap/FluidSimHeightMap.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/heightmap/ParticleDepositionHeightMap.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/heightmap/HeightMapGrid.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/heightmap/HeightMap.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/heightmap/HillHeightMap.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/heightmap/Namer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/heightmap/FaultHeightMap.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/heightmap/AbstractHeightMap.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/heightmap/ImageBasedHeightMap.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/heightmap/RawHeightMap.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/heightmap/MidpointDisplacementHeightMap.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/executor/TerrainExecutorService$1$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/executor/TerrainExecutorService.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/executor/TerrainExecutorService$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/executor/TerrainExecutorService$LazyInitializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/ProgressMonitor.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/GeoMap.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/Terrain.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/TerrainGrid$UpdateQuadCache$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/MultiTerrainLodControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/TerrainQuad$LocationHeight.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/LRUCache.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/TerrainGrid$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/TerrainQuad.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/NeighbourFinder.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/NormalRecalcControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/TerrainPatch.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/LODGeomap$VerboseBuffer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/TerrainLodControl$UpdateLOD.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/picking/BresenhamTerrainPicker$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/picking/TerrainPicker.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/picking/BresenhamYUpGridTracer$Direction.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/picking/BresenhamYUpGridTracer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/picking/BresenhamTerrainPicker.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/picking/TerrainPickData.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/LODGeomap.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/TerrainGridLodControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/TerrainQuad$QuadrantChild.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/UpdatedTerrainPatch.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/TerrainGridListener.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/TerrainGrid$UpdateQuadCache.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/LRUCache$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/TerrainGrid$UpdateQuadCache$3.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/TerrainGrid$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/TerrainLodControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/MultiTerrainLodControl$UpdateMultiLOD.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/TerrainGrid$UpdateQuadCache$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/grid/ImageTileLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/grid/FractalTileLoader$FloatBufferHeightMap.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/grid/FractalTileLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/grid/AssetTileLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/grid/ImageTileLoader$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/TerrainGridTileLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/lodcalc/SimpleLodThreshold.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/lodcalc/LodCalculator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/lodcalc/DistanceLodCalculator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/lodcalc/LodThreshold.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/lodcalc/util/EntropyComputeUtil.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/lodcalc/PerspectiveLodCalculator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/LODGeomap$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/geomipmap/TerrainGrid.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/Filter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/Color.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/ShaderUtils.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/Basis.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/modulator/CatRom2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/modulator/Modulator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/modulator/NoiseModulator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/fractal/Fractal.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/fractal/FractalSum.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/basis/Noise.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/basis/ImprovedNoise.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/basis/FilteredBasis.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/basis/NoiseAggregator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/filter/PerturbFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/filter/ThermalErodeFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/filter/SmoothFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/filter/HydraulicErodeFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/filter/AbstractFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/filter/OptimizedErode.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main/com/jme3/terrain/noise/filter/IterativeFilter.class</Jar>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/resources/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-core/build/libs/jme3-core-3.4.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/groovy</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/heightmap/RawHeightMap.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/heightmap/ImageBasedHeightMap.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/heightmap/FaultHeightMap.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/heightmap/HeightMapGrid.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/heightmap/Namer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/heightmap/HeightMap.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/heightmap/CombinerHeightMap.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/heightmap/ParticleDepositionHeightMap.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/heightmap/MidpointDisplacementHeightMap.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/heightmap/HillHeightMap.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/heightmap/FluidSimHeightMap.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/heightmap/AbstractHeightMap.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/executor/TerrainExecutorService.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/Terrain.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/TerrainGrid.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/TerrainGridTileLoader.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/UpdatedTerrainPatch.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/TerrainLodControl.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/picking/BresenhamYUpGridTracer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/picking/BresenhamTerrainPicker.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/picking/TerrainPickData.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/picking/TerrainPicker.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/NormalRecalcControl.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/TerrainGridListener.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/TerrainQuad.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/LODGeomap.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/TerrainGridLodControl.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/grid/ImageTileLoader.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/grid/FractalTileLoader.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/grid/AssetTileLoader.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/lodcalc/PerspectiveLodCalculator.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/lodcalc/SimpleLodThreshold.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/lodcalc/LodThreshold.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/lodcalc/util/EntropyComputeUtil.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/lodcalc/DistanceLodCalculator.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/lodcalc/LodCalculator.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/MultiTerrainLodControl.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/NeighbourFinder.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/LRUCache.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/geomipmap/TerrainPatch.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/GeoMap.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/ShaderUtils.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/modulator/Modulator.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/modulator/NoiseModulator.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/modulator/CatRom2.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/fractal/FractalSum.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/fractal/Fractal.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/basis/ImprovedNoise.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/basis/Noise.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/basis/NoiseAggregator.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/basis/FilteredBasis.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/Filter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/Color.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/Basis.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/filter/AbstractFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/filter/HydraulicErodeFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/filter/OptimizedErode.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/filter/SmoothFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/filter/IterativeFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/filter/ThermalErodeFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/noise/filter/PerturbFilter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/src/main/java/com/jme3/terrain/ProgressMonitor.java</SrcDir>
+  </Project>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.terrain.GeoMap">
+      <SourceLine classname="com.jme3.terrain.GeoMap" start="48" end="349" sourcefile="GeoMap.java" sourcepath="com/jme3/terrain/GeoMap.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.GeoMap" name="getHeightArray" signature="()[F" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.GeoMap" start="63" end="65" startBytecode="0" endBytecode="72" sourcefile="GeoMap.java" sourcepath="com/jme3/terrain/GeoMap.java"/>
+    </Method>
+    <Field classname="com.jme3.terrain.GeoMap" name="hdata" signature="[F" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.GeoMap" sourcefile="GeoMap.java" sourcepath="com/jme3/terrain/GeoMap.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.terrain.GeoMap" start="65" end="65" startBytecode="13" endBytecode="13" sourcefile="GeoMap.java" sourcepath="com/jme3/terrain/GeoMap.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.terrain.GeoMap">
+      <SourceLine classname="com.jme3.terrain.GeoMap" start="48" end="349" sourcefile="GeoMap.java" sourcepath="com/jme3/terrain/GeoMap.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.GeoMap" name="&lt;init&gt;" signature="([FIII)V" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.GeoMap" start="55" end="60" startBytecode="0" endBytecode="127" sourcefile="GeoMap.java" sourcepath="com/jme3/terrain/GeoMap.java"/>
+    </Method>
+    <Field classname="com.jme3.terrain.GeoMap" name="hdata" signature="[F" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.GeoMap" sourcefile="GeoMap.java" sourcepath="com/jme3/terrain/GeoMap.java"/>
+    </Field>
+    <LocalVariable name="heightData" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.terrain.GeoMap" start="56" end="56" startBytecode="6" endBytecode="6" sourcefile="GeoMap.java" sourcepath="com/jme3/terrain/GeoMap.java"/>
+  </BugInstance>
+  <BugInstance type="DC_DOUBLECHECK" priority="2" rank="14" abbrev="DC" category="MT_CORRECTNESS">
+    <Class classname="com.jme3.terrain.executor.TerrainExecutorService">
+      <SourceLine classname="com.jme3.terrain.executor.TerrainExecutorService" start="11" end="107" sourcefile="TerrainExecutorService.java" sourcepath="com/jme3/terrain/executor/TerrainExecutorService.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.executor.TerrainExecutorService" name="getInstance" signature="()Lcom/jme3/terrain/executor/TerrainExecutorService;" isStatic="true">
+      <SourceLine classname="com.jme3.terrain.executor.TerrainExecutorService" start="65" end="77" startBytecode="0" endBytecode="168" sourcefile="TerrainExecutorService.java" sourcepath="com/jme3/terrain/executor/TerrainExecutorService.java"/>
+    </Method>
+    <Field classname="com.jme3.terrain.executor.TerrainExecutorService" name="initializer" signature="Lcom/jme3/terrain/executor/TerrainExecutorService$LazyInitializer;" isStatic="true" role="FIELD_ON">
+      <SourceLine classname="com.jme3.terrain.executor.TerrainExecutorService" sourcefile="TerrainExecutorService.java" sourcepath="com/jme3/terrain/executor/TerrainExecutorService.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.terrain.executor.TerrainExecutorService" start="67" end="70" startBytecode="5" endBytecode="18" sourcefile="TerrainExecutorService.java" sourcepath="com/jme3/terrain/executor/TerrainExecutorService.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.terrain.geomipmap.LODGeomap">
+      <SourceLine classname="com.jme3.terrain.geomipmap.LODGeomap" start="69" end="1200" sourcefile="LODGeomap.java" sourcepath="com/jme3/terrain/geomipmap/LODGeomap.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.geomipmap.LODGeomap" name="createMesh" signature="(Lcom/jme3/math/Vector3f;Lcom/jme3/math/Vector2f;Lcom/jme3/math/Vector2f;FIZIZZZZ)Lcom/jme3/scene/Mesh;" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.geomipmap.LODGeomap" start="81" end="108" startBytecode="0" endBytecode="642" sourcefile="LODGeomap.java" sourcepath="com/jme3/terrain/geomipmap/LODGeomap.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.terrain.geomipmap.LODGeomap" start="95" end="103" startBytecode="179" endBytecode="260" sourcefile="LODGeomap.java" sourcepath="com/jme3/terrain/geomipmap/LODGeomap.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.terrain.geomipmap.LODGeomap$VerboseBuffer">
+      <SourceLine classname="com.jme3.terrain.geomipmap.LODGeomap$VerboseBuffer" start="911" end="954" sourcefile="LODGeomap.java" sourcepath="com/jme3/terrain/geomipmap/LODGeomap.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" rank="17" abbrev="ICAST" category="STYLE">
+    <Class classname="com.jme3.terrain.geomipmap.TerrainGridLodControl">
+      <SourceLine classname="com.jme3.terrain.geomipmap.TerrainGridLodControl" start="49" end="76" sourcefile="TerrainGridLodControl.java" sourcepath="com/jme3/terrain/geomipmap/TerrainGridLodControl.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.geomipmap.TerrainGridLodControl" name="updateLOD" signature="(Lcom/jme3/util/SafeArrayList;Lcom/jme3/terrain/geomipmap/lodcalc/LodCalculator;)V" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.geomipmap.TerrainGridLodControl" start="54" end="76" startBytecode="0" endBytecode="413" sourcefile="TerrainGridLodControl.java" sourcepath="com/jme3/terrain/geomipmap/TerrainGridLodControl.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.terrain.geomipmap.TerrainGridLodControl" start="63" end="63" startBytecode="66" endBytecode="66" sourcefile="TerrainGridLodControl.java" sourcepath="com/jme3/terrain/geomipmap/TerrainGridLodControl.java"/>
+    <SourceLine classname="com.jme3.terrain.geomipmap.TerrainGridLodControl" start="64" end="64" startBytecode="88" endBytecode="88" sourcefile="TerrainGridLodControl.java" sourcepath="com/jme3/terrain/geomipmap/TerrainGridLodControl.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="CN_IDIOM_NO_SUPER_CALL" priority="2" rank="16" abbrev="CN" category="BAD_PRACTICE">
+    <Class classname="com.jme3.terrain.geomipmap.TerrainPatch">
+      <SourceLine classname="com.jme3.terrain.geomipmap.TerrainPatch" start="83" end="1028" sourcefile="TerrainPatch.java" sourcepath="com/jme3/terrain/geomipmap/TerrainPatch.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.geomipmap.TerrainPatch" name="clone" signature="()Lcom/jme3/terrain/geomipmap/TerrainPatch;" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.geomipmap.TerrainPatch" start="934" end="950" startBytecode="0" endBytecode="265" sourcefile="TerrainPatch.java" sourcepath="com/jme3/terrain/geomipmap/TerrainPatch.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.terrain.geomipmap.TerrainPatch">
+      <SourceLine classname="com.jme3.terrain.geomipmap.TerrainPatch" start="83" end="1028" sourcefile="TerrainPatch.java" sourcepath="com/jme3/terrain/geomipmap/TerrainPatch.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.geomipmap.TerrainPatch" name="getLodEntropies" signature="()[F" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.geomipmap.TerrainPatch" start="211" end="214" startBytecode="0" endBytecode="74" sourcefile="TerrainPatch.java" sourcepath="com/jme3/terrain/geomipmap/TerrainPatch.java"/>
+    </Method>
+    <Field classname="com.jme3.terrain.geomipmap.TerrainPatch" name="lodEntropy" signature="[F" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.geomipmap.TerrainPatch" sourcefile="TerrainPatch.java" sourcepath="com/jme3/terrain/geomipmap/TerrainPatch.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.terrain.geomipmap.TerrainPatch" start="214" end="214" startBytecode="15" endBytecode="15" sourcefile="TerrainPatch.java" sourcepath="com/jme3/terrain/geomipmap/TerrainPatch.java"/>
+  </BugInstance>
+  <BugInstance type="CN_IDIOM_NO_SUPER_CALL" priority="1" rank="14" abbrev="CN" category="BAD_PRACTICE">
+    <Class classname="com.jme3.terrain.geomipmap.TerrainQuad">
+      <SourceLine classname="com.jme3.terrain.geomipmap.TerrainQuad" start="109" end="1936" sourcefile="TerrainQuad.java" sourcepath="com/jme3/terrain/geomipmap/TerrainQuad.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.geomipmap.TerrainQuad" name="clone" signature="()Lcom/jme3/terrain/geomipmap/TerrainQuad;" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.geomipmap.TerrainQuad" start="1763" end="1763" startBytecode="0" endBytecode="47" sourcefile="TerrainQuad.java" sourcepath="com/jme3/terrain/geomipmap/TerrainQuad.java"/>
+    </Method>
+    <Class classname="com.jme3.terrain.geomipmap.TerrainGrid" role="CLASS_SUBCLASS">
+      <SourceLine classname="com.jme3.terrain.geomipmap.TerrainGrid" start="110" end="561" sourcefile="TerrainGrid.java" sourcepath="com/jme3/terrain/geomipmap/TerrainGrid.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="com.jme3.terrain.geomipmap.TerrainQuad">
+      <SourceLine classname="com.jme3.terrain.geomipmap.TerrainQuad" start="109" end="1936" sourcefile="TerrainQuad.java" sourcepath="com/jme3/terrain/geomipmap/TerrainQuad.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.geomipmap.TerrainQuad" name="clone" signature="(Z)Lcom/jme3/terrain/geomipmap/TerrainQuad;" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.geomipmap.TerrainQuad" start="1768" end="1793" startBytecode="0" endBytecode="69" sourcefile="TerrainQuad.java" sourcepath="com/jme3/terrain/geomipmap/TerrainQuad.java"/>
+    </Method>
+    <LocalVariable name="lodControl" register="4" pc="111" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.terrain.geomipmap.TerrainQuad" start="1784" end="1784" startBytecode="109" endBytecode="109" sourcefile="TerrainQuad.java" sourcepath="com/jme3/terrain/geomipmap/TerrainQuad.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="lodControl"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT" priority="2" rank="17" abbrev="RV" category="STYLE">
+    <Class classname="com.jme3.terrain.geomipmap.TerrainQuad">
+      <SourceLine classname="com.jme3.terrain.geomipmap.TerrainQuad" start="109" end="1936" sourcefile="TerrainQuad.java" sourcepath="com/jme3/terrain/geomipmap/TerrainQuad.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.geomipmap.TerrainQuad" name="findPick" signature="(Lcom/jme3/math/Ray;Ljava/util/List;)V" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.geomipmap.TerrainQuad" start="1670" end="1692" startBytecode="0" endBytecode="364" sourcefile="TerrainQuad.java" sourcepath="com/jme3/terrain/geomipmap/TerrainQuad.java"/>
+    </Method>
+    <Method classname="com.jme3.collision.CollisionResult" name="getDistance" signature="()F" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="com.jme3.collision.CollisionResult" start="127" end="127" startBytecode="0" endBytecode="46" sourcefile="CollisionResult.java" sourcepath="com/jme3/collision/CollisionResult.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.terrain.geomipmap.TerrainQuad" start="1681" end="1681" startBytecode="106" endBytecode="106" sourcefile="TerrainQuad.java" sourcepath="com/jme3/terrain/geomipmap/TerrainQuad.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.terrain.geomipmap.TerrainQuad$LocationHeight">
+      <SourceLine classname="com.jme3.terrain.geomipmap.TerrainQuad$LocationHeight" start="1176" end="1182" sourcefile="TerrainQuad.java" sourcepath="com/jme3/terrain/geomipmap/TerrainQuad.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.terrain.geomipmap.TerrainQuad$QuadrantChild">
+      <SourceLine classname="com.jme3.terrain.geomipmap.TerrainQuad$QuadrantChild" start="1006" end="1010" sourcefile="TerrainQuad.java" sourcepath="com/jme3/terrain/geomipmap/TerrainQuad.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="com.jme3.terrain.geomipmap.grid.AssetTileLoader">
+      <SourceLine classname="com.jme3.terrain.geomipmap.grid.AssetTileLoader" start="59" end="123" sourcefile="AssetTileLoader.java" sourcepath="com/jme3/terrain/geomipmap/grid/AssetTileLoader.java"/>
+    </Class>
+    <Field classname="com.jme3.terrain.geomipmap.grid.AssetTileLoader" name="size" signature="I" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.geomipmap.grid.AssetTileLoader" sourcefile="AssetTileLoader.java" sourcepath="com/jme3/terrain/geomipmap/grid/AssetTileLoader.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE">
+    <Class classname="com.jme3.terrain.geomipmap.grid.FractalTileLoader">
+      <SourceLine classname="com.jme3.terrain.geomipmap.grid.FractalTileLoader" start="73" end="117" sourcefile="FractalTileLoader.java" sourcepath="com/jme3/terrain/geomipmap/grid/FractalTileLoader.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.geomipmap.grid.FractalTileLoader" name="getTerrainQuadAt" signature="(Lcom/jme3/math/Vector3f;)Lcom/jme3/terrain/geomipmap/TerrainQuad;" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.geomipmap.grid.FractalTileLoader" start="94" end="96" startBytecode="0" endBytecode="201" sourcefile="FractalTileLoader.java" sourcepath="com/jme3/terrain/geomipmap/grid/FractalTileLoader.java"/>
+    </Method>
+    <LocalVariable name="heightMapAt" register="2" pc="37" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="com.jme3.terrain.geomipmap.grid.FractalTileLoader" name="getHeightMapAt" signature="(Lcom/jme3/math/Vector3f;)Lcom/jme3/terrain/heightmap/HeightMap;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="com.jme3.terrain.geomipmap.grid.FractalTileLoader" start="79" end="89" startBytecode="0" endBytecode="253" sourcefile="FractalTileLoader.java" sourcepath="com/jme3/terrain/geomipmap/grid/FractalTileLoader.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.terrain.geomipmap.grid.FractalTileLoader" start="95" end="95" startBytecode="38" endBytecode="38" sourcefile="FractalTileLoader.java" sourcepath="com/jme3/terrain/geomipmap/grid/FractalTileLoader.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.terrain.geomipmap.grid.FractalTileLoader$FloatBufferHeightMap">
+      <SourceLine classname="com.jme3.terrain.geomipmap.grid.FractalTileLoader$FloatBufferHeightMap" start="56" end="63" sourcefile="FractalTileLoader.java" sourcepath="com/jme3/terrain/geomipmap/grid/FractalTileLoader.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="CN_IDIOM_NO_SUPER_CALL" priority="2" rank="16" abbrev="CN" category="BAD_PRACTICE">
+    <Class classname="com.jme3.terrain.geomipmap.lodcalc.DistanceLodCalculator">
+      <SourceLine classname="com.jme3.terrain.geomipmap.lodcalc.DistanceLodCalculator" start="51" end="188" sourcefile="DistanceLodCalculator.java" sourcepath="com/jme3/terrain/geomipmap/lodcalc/DistanceLodCalculator.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.geomipmap.lodcalc.DistanceLodCalculator" name="clone" signature="()Lcom/jme3/terrain/geomipmap/lodcalc/LodCalculator;" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.geomipmap.lodcalc.DistanceLodCalculator" start="134" end="135" startBytecode="0" endBytecode="73" sourcefile="DistanceLodCalculator.java" sourcepath="com/jme3/terrain/geomipmap/lodcalc/DistanceLodCalculator.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" rank="17" abbrev="ICAST" category="STYLE">
+    <Class classname="com.jme3.terrain.geomipmap.lodcalc.PerspectiveLodCalculator">
+      <SourceLine classname="com.jme3.terrain.geomipmap.lodcalc.PerspectiveLodCalculator" start="45" end="182" sourcefile="PerspectiveLodCalculator.java" sourcepath="com/jme3/terrain/geomipmap/lodcalc/PerspectiveLodCalculator.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.geomipmap.lodcalc.PerspectiveLodCalculator" name="getCenterLocation" signature="(Lcom/jme3/terrain/geomipmap/TerrainPatch;)Lcom/jme3/math/Vector3f;" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.geomipmap.lodcalc.PerspectiveLodCalculator" start="128" end="131" startBytecode="0" endBytecode="115" sourcefile="PerspectiveLodCalculator.java" sourcepath="com/jme3/terrain/geomipmap/lodcalc/PerspectiveLodCalculator.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.terrain.geomipmap.lodcalc.PerspectiveLodCalculator" start="129" end="129" startBytecode="19" endBytecode="19" sourcefile="PerspectiveLodCalculator.java" sourcepath="com/jme3/terrain/geomipmap/lodcalc/PerspectiveLodCalculator.java"/>
+    <SourceLine classname="com.jme3.terrain.geomipmap.lodcalc.PerspectiveLodCalculator" start="130" end="130" startBytecode="35" endBytecode="35" sourcefile="PerspectiveLodCalculator.java" sourcepath="com/jme3/terrain/geomipmap/lodcalc/PerspectiveLodCalculator.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="CN_IDIOM_NO_SUPER_CALL" priority="2" rank="16" abbrev="CN" category="BAD_PRACTICE">
+    <Class classname="com.jme3.terrain.geomipmap.lodcalc.SimpleLodThreshold">
+      <SourceLine classname="com.jme3.terrain.geomipmap.lodcalc.SimpleLodThreshold" start="51" end="116" sourcefile="SimpleLodThreshold.java" sourcepath="com/jme3/terrain/geomipmap/lodcalc/SimpleLodThreshold.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.geomipmap.lodcalc.SimpleLodThreshold" name="clone" signature="()Lcom/jme3/terrain/geomipmap/lodcalc/LodThreshold;" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.geomipmap.lodcalc.SimpleLodThreshold" start="107" end="111" startBytecode="0" endBytecode="89" sourcefile="SimpleLodThreshold.java" sourcepath="com/jme3/terrain/geomipmap/lodcalc/SimpleLodThreshold.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.terrain.geomipmap.picking.BresenhamTerrainPicker">
+      <SourceLine classname="com.jme3.terrain.geomipmap.picking.BresenhamTerrainPicker" start="60" end="325" sourcefile="BresenhamTerrainPicker.java" sourcepath="com/jme3/terrain/geomipmap/picking/BresenhamTerrainPicker.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.geomipmap.picking.BresenhamTerrainPicker" name="getTerrainIntersection" signature="(Lcom/jme3/math/Ray;Lcom/jme3/collision/CollisionResults;)I" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.geomipmap.picking.BresenhamTerrainPicker" start="87" end="219" startBytecode="0" endBytecode="1340" sourcefile="BresenhamTerrainPicker.java" sourcepath="com/jme3/terrain/geomipmap/picking/BresenhamTerrainPicker.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.terrain.geomipmap.picking.BresenhamTerrainPicker" start="176" end="185" startBytecode="535" endBytecode="578" sourcefile="BresenhamTerrainPicker.java" sourcepath="com/jme3/terrain/geomipmap/picking/BresenhamTerrainPicker.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.terrain.geomipmap.picking.BresenhamYUpGridTracer">
+      <SourceLine classname="com.jme3.terrain.geomipmap.picking.BresenhamYUpGridTracer" start="44" end="191" sourcefile="BresenhamYUpGridTracer.java" sourcepath="com/jme3/terrain/geomipmap/picking/BresenhamYUpGridTracer.java"/>
+    </Class>
+    <Field classname="com.jme3.terrain.geomipmap.picking.BresenhamYUpGridTracer" name="TOLERANCE" signature="F" isStatic="true">
+      <SourceLine classname="com.jme3.terrain.geomipmap.picking.BresenhamYUpGridTracer" sourcefile="BresenhamYUpGridTracer.java" sourcepath="com/jme3/terrain/geomipmap/picking/BresenhamYUpGridTracer.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.terrain.geomipmap.picking.BresenhamYUpGridTracer" start="61" end="61" startBytecode="2" endBytecode="2" sourcefile="BresenhamYUpGridTracer.java" sourcepath="com/jme3/terrain/geomipmap/picking/BresenhamYUpGridTracer.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.terrain.geomipmap.picking.BresenhamYUpGridTracer">
+      <SourceLine classname="com.jme3.terrain.geomipmap.picking.BresenhamYUpGridTracer" start="44" end="191" sourcefile="BresenhamYUpGridTracer.java" sourcepath="com/jme3/terrain/geomipmap/picking/BresenhamYUpGridTracer.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.geomipmap.picking.BresenhamYUpGridTracer" name="next" signature="()V" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.geomipmap.picking.BresenhamYUpGridTracer" start="124" end="157" startBytecode="0" endBytecode="386" sourcefile="BresenhamYUpGridTracer.java" sourcepath="com/jme3/terrain/geomipmap/picking/BresenhamYUpGridTracer.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.terrain.geomipmap.picking.BresenhamYUpGridTracer" start="128" end="136" startBytecode="54" endBytecode="106" sourcefile="BresenhamYUpGridTracer.java" sourcepath="com/jme3/terrain/geomipmap/picking/BresenhamYUpGridTracer.java"/>
+    <SourceLine classname="com.jme3.terrain.geomipmap.picking.BresenhamYUpGridTracer" start="143" end="151" startBytecode="152" endBytecode="206" sourcefile="BresenhamYUpGridTracer.java" sourcepath="com/jme3/terrain/geomipmap/picking/BresenhamYUpGridTracer.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="HE_EQUALS_USE_HASHCODE" priority="1" rank="14" abbrev="HE" category="BAD_PRACTICE">
+    <Class classname="com.jme3.terrain.geomipmap.picking.TerrainPickData">
+      <SourceLine classname="com.jme3.terrain.geomipmap.picking.TerrainPickData" start="48" end="76" sourcefile="TerrainPickData.java" sourcepath="com/jme3/terrain/geomipmap/picking/TerrainPickData.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.geomipmap.picking.TerrainPickData" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.geomipmap.picking.TerrainPickData" start="73" end="76" startBytecode="0" endBytecode="101" sourcefile="TerrainPickData.java" sourcepath="com/jme3/terrain/geomipmap/picking/TerrainPickData.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.terrain.heightmap.AbstractHeightMap">
+      <SourceLine classname="com.jme3.terrain.heightmap.AbstractHeightMap" start="54" end="504" sourcefile="AbstractHeightMap.java" sourcepath="com/jme3/terrain/heightmap/AbstractHeightMap.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.heightmap.AbstractHeightMap" name="getHeightMap" signature="()[F" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.heightmap.AbstractHeightMap" start="223" end="223" startBytecode="0" endBytecode="46" sourcefile="AbstractHeightMap.java" sourcepath="com/jme3/terrain/heightmap/AbstractHeightMap.java"/>
+    </Method>
+    <Field classname="com.jme3.terrain.heightmap.AbstractHeightMap" name="heightData" signature="[F" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.heightmap.AbstractHeightMap" sourcefile="AbstractHeightMap.java" sourcepath="com/jme3/terrain/heightmap/AbstractHeightMap.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.terrain.heightmap.AbstractHeightMap" start="223" end="223" startBytecode="4" endBytecode="4" sourcefile="AbstractHeightMap.java" sourcepath="com/jme3/terrain/heightmap/AbstractHeightMap.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.terrain.heightmap.AbstractHeightMap">
+      <SourceLine classname="com.jme3.terrain.heightmap.AbstractHeightMap" start="54" end="504" sourcefile="AbstractHeightMap.java" sourcepath="com/jme3/terrain/heightmap/AbstractHeightMap.java"/>
+    </Class>
+    <Field classname="com.jme3.terrain.heightmap.AbstractHeightMap" name="NORMALIZE_RANGE" signature="F" isStatic="true">
+      <SourceLine classname="com.jme3.terrain.heightmap.AbstractHeightMap" sourcefile="AbstractHeightMap.java" sourcepath="com/jme3/terrain/heightmap/AbstractHeightMap.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.terrain.heightmap.AbstractHeightMap" start="66" end="66" startBytecode="13" endBytecode="13" sourcefile="AbstractHeightMap.java" sourcepath="com/jme3/terrain/heightmap/AbstractHeightMap.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_RANDOM_USED_ONLY_ONCE" priority="1" rank="14" abbrev="DMI" category="BAD_PRACTICE">
+    <Class classname="com.jme3.terrain.heightmap.FaultHeightMap">
+      <SourceLine classname="com.jme3.terrain.heightmap.FaultHeightMap" start="47" end="326" sourcefile="FaultHeightMap.java" sourcepath="com/jme3/terrain/heightmap/FaultHeightMap.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.heightmap.FaultHeightMap" name="&lt;init&gt;" signature="(IIFF)V" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.heightmap.FaultHeightMap" start="129" end="130" startBytecode="0" endBytecode="108" sourcefile="FaultHeightMap.java" sourcepath="com/jme3/terrain/heightmap/FaultHeightMap.java"/>
+    </Method>
+    <Method classname="java.util.Random" name="nextLong" signature="()J" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Random" start="424" end="424" startBytecode="0" endBytecode="42" sourcefile="Random.java" sourcepath="java/util/Random.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.terrain.heightmap.FaultHeightMap" start="129" end="129" startBytecode="16" endBytecode="16" sourcefile="FaultHeightMap.java" sourcepath="com/jme3/terrain/heightmap/FaultHeightMap.java"/>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" rank="17" abbrev="ICAST" category="STYLE">
+    <Class classname="com.jme3.terrain.heightmap.FaultHeightMap">
+      <SourceLine classname="com.jme3.terrain.heightmap.FaultHeightMap" start="47" end="326" sourcefile="FaultHeightMap.java" sourcepath="com/jme3/terrain/heightmap/FaultHeightMap.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.heightmap.FaultHeightMap" name="&lt;init&gt;" signature="(IIIIFFJ)V" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.heightmap.FaultHeightMap" start="103" end="119" startBytecode="0" endBytecode="293" sourcefile="FaultHeightMap.java" sourcepath="com/jme3/terrain/heightmap/FaultHeightMap.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.terrain.heightmap.FaultHeightMap" start="116" end="116" startBytecode="78" endBytecode="78" sourcefile="FaultHeightMap.java" sourcepath="com/jme3/terrain/heightmap/FaultHeightMap.java"/>
+    <SourceLine classname="com.jme3.terrain.heightmap.FaultHeightMap" start="117" end="117" startBytecode="86" endBytecode="86" sourcefile="FaultHeightMap.java" sourcepath="com/jme3/terrain/heightmap/FaultHeightMap.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.terrain.heightmap.FaultHeightMap">
+      <SourceLine classname="com.jme3.terrain.heightmap.FaultHeightMap" start="47" end="326" sourcefile="FaultHeightMap.java" sourcepath="com/jme3/terrain/heightmap/FaultHeightMap.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.heightmap.FaultHeightMap" name="addFault" signature="([[FLjava/util/Random;)V" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.heightmap.FaultHeightMap" start="159" end="169" startBytecode="0" endBytecode="214" sourcefile="FaultHeightMap.java" sourcepath="com/jme3/terrain/heightmap/FaultHeightMap.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.terrain.heightmap.FaultHeightMap" start="161" end="166" startBytecode="45" endBytecode="92" sourcefile="FaultHeightMap.java" sourcepath="com/jme3/terrain/heightmap/FaultHeightMap.java"/>
+  </BugInstance>
+  <BugInstance type="ICAST_IDIV_CAST_TO_DOUBLE" priority="2" rank="17" abbrev="ICAST" category="STYLE">
+    <Class classname="com.jme3.terrain.heightmap.FluidSimHeightMap">
+      <SourceLine classname="com.jme3.terrain.heightmap.FluidSimHeightMap" start="50" end="308" sourcefile="FluidSimHeightMap.java" sourcepath="com/jme3/terrain/heightmap/FluidSimHeightMap.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.heightmap.FluidSimHeightMap" name="load" signature="()Z" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.heightmap.FluidSimHeightMap" start="144" end="222" startBytecode="0" endBytecode="1160" sourcefile="FluidSimHeightMap.java" sourcepath="com/jme3/terrain/heightmap/FluidSimHeightMap.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.terrain.heightmap.FluidSimHeightMap" start="202" end="202" startBytecode="431" endBytecode="431" sourcefile="FluidSimHeightMap.java" sourcepath="com/jme3/terrain/heightmap/FluidSimHeightMap.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_RANDOM_USED_ONLY_ONCE" priority="1" rank="14" abbrev="DMI" category="BAD_PRACTICE">
+    <Class classname="com.jme3.terrain.heightmap.HillHeightMap">
+      <SourceLine classname="com.jme3.terrain.heightmap.HillHeightMap" start="48" end="261" sourcefile="HillHeightMap.java" sourcepath="com/jme3/terrain/heightmap/HillHeightMap.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.heightmap.HillHeightMap" name="&lt;init&gt;" signature="(IIFF)V" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.heightmap.HillHeightMap" start="113" end="114" startBytecode="0" endBytecode="105" sourcefile="HillHeightMap.java" sourcepath="com/jme3/terrain/heightmap/HillHeightMap.java"/>
+    </Method>
+    <Method classname="java.util.Random" name="nextLong" signature="()J" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Random" start="424" end="424" startBytecode="0" endBytecode="42" sourcefile="Random.java" sourcepath="java/util/Random.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.terrain.heightmap.HillHeightMap" start="113" end="113" startBytecode="13" endBytecode="13" sourcefile="HillHeightMap.java" sourcepath="com/jme3/terrain/heightmap/HillHeightMap.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_RANDOM_USED_ONLY_ONCE" priority="1" rank="14" abbrev="DMI" category="BAD_PRACTICE">
+    <Class classname="com.jme3.terrain.heightmap.MidpointDisplacementHeightMap">
+      <SourceLine classname="com.jme3.terrain.heightmap.MidpointDisplacementHeightMap" start="46" end="271" sourcefile="MidpointDisplacementHeightMap.java" sourcepath="com/jme3/terrain/heightmap/MidpointDisplacementHeightMap.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.heightmap.MidpointDisplacementHeightMap" name="&lt;init&gt;" signature="(IFF)V" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.heightmap.MidpointDisplacementHeightMap" start="108" end="109" startBytecode="0" endBytecode="93" sourcefile="MidpointDisplacementHeightMap.java" sourcepath="com/jme3/terrain/heightmap/MidpointDisplacementHeightMap.java"/>
+    </Method>
+    <Method classname="java.util.Random" name="nextLong" signature="()J" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Random" start="424" end="424" startBytecode="0" endBytecode="42" sourcefile="Random.java" sourcepath="java/util/Random.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.terrain.heightmap.MidpointDisplacementHeightMap" start="108" end="108" startBytecode="11" endBytecode="11" sourcefile="MidpointDisplacementHeightMap.java" sourcepath="com/jme3/terrain/heightmap/MidpointDisplacementHeightMap.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.terrain.heightmap.RawHeightMap">
+      <SourceLine classname="com.jme3.terrain.heightmap.RawHeightMap" start="50" end="247" sourcefile="RawHeightMap.java" sourcepath="com/jme3/terrain/heightmap/RawHeightMap.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.heightmap.RawHeightMap" name="&lt;init&gt;" signature="([F)V" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.heightmap.RawHeightMap" start="85" end="89" startBytecode="0" endBytecode="93" sourcefile="RawHeightMap.java" sourcepath="com/jme3/terrain/heightmap/RawHeightMap.java"/>
+    </Method>
+    <Field classname="com.jme3.terrain.heightmap.RawHeightMap" name="heightData" signature="[F" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.heightmap.RawHeightMap" sourcefile="RawHeightMap.java" sourcepath="com/jme3/terrain/heightmap/RawHeightMap.java"/>
+    </Field>
+    <LocalVariable name="heightData" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.terrain.heightmap.RawHeightMap" start="86" end="86" startBytecode="6" endBytecode="6" sourcefile="RawHeightMap.java" sourcepath="com/jme3/terrain/heightmap/RawHeightMap.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="com.jme3.terrain.heightmap.RawHeightMap">
+      <SourceLine classname="com.jme3.terrain.heightmap.RawHeightMap" start="50" end="247" sourcefile="RawHeightMap.java" sourcepath="com/jme3/terrain/heightmap/RawHeightMap.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.heightmap.RawHeightMap" name="&lt;init&gt;" signature="(Ljava/lang/String;IIZ)V" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.heightmap.RawHeightMap" start="91" end="102" startBytecode="0" endBytecode="229" sourcefile="RawHeightMap.java" sourcepath="com/jme3/terrain/heightmap/RawHeightMap.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" start="45" end="364" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.jme3.terrain.heightmap.RawHeightMap" start="98" end="98" startBytecode="29" endBytecode="29" sourcefile="RawHeightMap.java" sourcepath="com/jme3/terrain/heightmap/RawHeightMap.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.jme3.terrain.heightmap.RawHeightMap" start="101" end="101" startBytecode="39" endBytecode="39" sourcefile="RawHeightMap.java" sourcepath="com/jme3/terrain/heightmap/RawHeightMap.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.jme3.terrain.heightmap.RawHeightMap" start="102" end="102" startBytecode="71" endBytecode="71" sourcefile="RawHeightMap.java" sourcepath="com/jme3/terrain/heightmap/RawHeightMap.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE">
+    <Class classname="com.jme3.terrain.noise.ShaderUtils">
+      <SourceLine classname="com.jme3.terrain.noise.ShaderUtils" start="48" end="286" sourcefile="ShaderUtils.java" sourcepath="com/jme3/terrain/noise/ShaderUtils.java"/>
+    </Class>
+    <Method classname="com.jme3.terrain.noise.ShaderUtils" name="getImageDataFromImage" signature="(Ljava/awt/image/BufferedImage;)Ljava/nio/ByteBuffer;" isStatic="true">
+      <SourceLine classname="com.jme3.terrain.noise.ShaderUtils" start="259" end="274" startBytecode="0" endBytecode="49" sourcefile="ShaderUtils.java" sourcepath="com/jme3/terrain/noise/ShaderUtils.java"/>
+    </Method>
+    <LocalVariable name="bufferedImage" register="0" pc="31" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.terrain.noise.ShaderUtils" start="262" end="262" startBytecode="30" endBytecode="30" sourcefile="ShaderUtils.java" sourcepath="com/jme3/terrain/noise/ShaderUtils.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="bufferedImage"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.terrain.noise.filter.HydraulicErodeFilter">
+      <SourceLine classname="com.jme3.terrain.noise.filter.HydraulicErodeFilter" start="35" end="150" sourcefile="HydraulicErodeFilter.java" sourcepath="com/jme3/terrain/noise/filter/HydraulicErodeFilter.java"/>
+    </Class>
+    <Field classname="com.jme3.terrain.noise.filter.HydraulicErodeFilter" name="sedimentMap" signature="Lcom/jme3/terrain/noise/Basis;" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.noise.filter.HydraulicErodeFilter" sourcefile="HydraulicErodeFilter.java" sourcepath="com/jme3/terrain/noise/filter/HydraulicErodeFilter.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.terrain.noise.filter.HydraulicErodeFilter" start="62" end="62" startBytecode="2" endBytecode="2" sourcefile="HydraulicErodeFilter.java" sourcepath="com/jme3/terrain/noise/filter/HydraulicErodeFilter.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.terrain.noise.filter.HydraulicErodeFilter">
+      <SourceLine classname="com.jme3.terrain.noise.filter.HydraulicErodeFilter" start="35" end="150" sourcefile="HydraulicErodeFilter.java" sourcepath="com/jme3/terrain/noise/filter/HydraulicErodeFilter.java"/>
+    </Class>
+    <Field classname="com.jme3.terrain.noise.filter.HydraulicErodeFilter" name="waterMap" signature="Lcom/jme3/terrain/noise/Basis;" isStatic="false">
+      <SourceLine classname="com.jme3.terrain.noise.filter.HydraulicErodeFilter" sourcefile="HydraulicErodeFilter.java" sourcepath="com/jme3/terrain/noise/filter/HydraulicErodeFilter.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.terrain.noise.filter.HydraulicErodeFilter" start="70" end="70" startBytecode="2" endBytecode="2" sourcefile="HydraulicErodeFilter.java" sourcepath="com/jme3/terrain/noise/filter/HydraulicErodeFilter.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 18 Apr 2020 15:18:03 +0000" total_classes="82" referenced_classes="296" total_bugs="36" total_size="5735" num_packages="13" java_version="1.8.0_252" vm_version="25.252-b14" cpu_seconds="15.37" clock_seconds="7.81" peak_mbytes="274.17" alloc_mbytes="455.50" gc_seconds="0.67" priority_2="28" priority_1="8">
+    <PackageStats package="com.jme3.terrain" total_bugs="2" total_types="3" total_size="169" priority_2="2">
+      <ClassStats class="com.jme3.terrain.GeoMap" sourceFile="GeoMap.java" interface="false" size="148" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.terrain.ProgressMonitor" sourceFile="ProgressMonitor.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.Terrain" sourceFile="Terrain.java" interface="true" size="16" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.terrain.executor" total_bugs="1" total_types="4" total_size="62" priority_2="1">
+      <ClassStats class="com.jme3.terrain.executor.TerrainExecutorService" sourceFile="TerrainExecutorService.java" interface="false" size="39" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.terrain.executor.TerrainExecutorService$1" sourceFile="TerrainExecutorService.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.executor.TerrainExecutorService$1$1" sourceFile="TerrainExecutorService.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.executor.TerrainExecutorService$LazyInitializer" sourceFile="TerrainExecutorService.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.terrain.geomipmap" total_bugs="10" total_types="26" total_size="2985" priority_2="9" priority_1="1">
+      <ClassStats class="com.jme3.terrain.geomipmap.LODGeomap" sourceFile="LODGeomap.java" interface="false" size="561" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.LODGeomap$1" sourceFile="LODGeomap.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.LODGeomap$VerboseBuffer" sourceFile="LODGeomap.java" interface="false" size="17" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.LRUCache" sourceFile="LRUCache.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.LRUCache$1" sourceFile="LRUCache.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.MultiTerrainLodControl" sourceFile="MultiTerrainLodControl.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.MultiTerrainLodControl$UpdateMultiLOD" sourceFile="MultiTerrainLodControl.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.NeighbourFinder" sourceFile="NeighbourFinder.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.NormalRecalcControl" sourceFile="NormalRecalcControl.java" interface="false" size="41" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.TerrainGrid" sourceFile="TerrainGrid.java" interface="false" size="205" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.TerrainGrid$1" sourceFile="TerrainGrid.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.TerrainGrid$2" sourceFile="TerrainGrid.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.TerrainGrid$UpdateQuadCache" sourceFile="TerrainGrid.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.TerrainGrid$UpdateQuadCache$1" sourceFile="TerrainGrid.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.TerrainGrid$UpdateQuadCache$2" sourceFile="TerrainGrid.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.TerrainGrid$UpdateQuadCache$3" sourceFile="TerrainGrid.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.TerrainGridListener" sourceFile="TerrainGridListener.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.TerrainGridLodControl" sourceFile="TerrainGridLodControl.java" interface="false" size="20" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.TerrainGridTileLoader" sourceFile="TerrainGridTileLoader.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.TerrainLodControl" sourceFile="TerrainLodControl.java" interface="false" size="208" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.TerrainLodControl$UpdateLOD" sourceFile="TerrainLodControl.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.TerrainPatch" sourceFile="TerrainPatch.java" interface="false" size="492" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.TerrainQuad" sourceFile="TerrainQuad.java" interface="false" size="1096" bugs="3" priority_2="2" priority_1="1"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.TerrainQuad$LocationHeight" sourceFile="TerrainQuad.java" interface="false" size="13" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.TerrainQuad$QuadrantChild" sourceFile="TerrainQuad.java" interface="false" size="11" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.UpdatedTerrainPatch" sourceFile="UpdatedTerrainPatch.java" interface="false" size="87" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.terrain.geomipmap.grid" total_bugs="3" total_types="5" total_size="155" priority_2="3">
+      <ClassStats class="com.jme3.terrain.geomipmap.grid.AssetTileLoader" sourceFile="AssetTileLoader.java" interface="false" size="52" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.grid.FractalTileLoader" sourceFile="FractalTileLoader.java" interface="false" size="33" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.grid.FractalTileLoader$FloatBufferHeightMap" sourceFile="FractalTileLoader.java" interface="false" size="10" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.grid.ImageTileLoader" sourceFile="ImageTileLoader.java" interface="false" size="53" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.grid.ImageTileLoader$1" sourceFile="ImageTileLoader.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.terrain.geomipmap.lodcalc" total_bugs="3" total_types="5" total_size="222" priority_2="3">
+      <ClassStats class="com.jme3.terrain.geomipmap.lodcalc.DistanceLodCalculator" sourceFile="DistanceLodCalculator.java" interface="false" size="85" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.lodcalc.LodCalculator" sourceFile="LodCalculator.java" interface="true" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.lodcalc.LodThreshold" sourceFile="LodThreshold.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.lodcalc.PerspectiveLodCalculator" sourceFile="PerspectiveLodCalculator.java" interface="false" size="80" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.lodcalc.SimpleLodThreshold" sourceFile="SimpleLodThreshold.java" interface="false" size="47" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.terrain.geomipmap.lodcalc.util" total_bugs="0" total_types="1" total_size="32">
+      <ClassStats class="com.jme3.terrain.geomipmap.lodcalc.util.EntropyComputeUtil" sourceFile="EntropyComputeUtil.java" interface="false" size="32" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.terrain.geomipmap.picking" total_bugs="4" total_types="6" total_size="287" priority_2="2" priority_1="2">
+      <ClassStats class="com.jme3.terrain.geomipmap.picking.BresenhamTerrainPicker" sourceFile="BresenhamTerrainPicker.java" interface="false" size="142" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.picking.BresenhamTerrainPicker$1" sourceFile="BresenhamTerrainPicker.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.picking.BresenhamYUpGridTracer" sourceFile="BresenhamYUpGridTracer.java" interface="false" size="100" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.picking.BresenhamYUpGridTracer$Direction" sourceFile="BresenhamYUpGridTracer.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.picking.TerrainPickData" sourceFile="TerrainPickData.java" interface="false" size="24" bugs="1" priority_1="1"/>
+      <ClassStats class="com.jme3.terrain.geomipmap.picking.TerrainPicker" sourceFile="TerrainPicker.java" interface="true" size="2" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.terrain.heightmap" total_bugs="10" total_types="12" total_size="1011" priority_2="6" priority_1="4">
+      <ClassStats class="com.jme3.terrain.heightmap.AbstractHeightMap" sourceFile="AbstractHeightMap.java" interface="false" size="175" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="com.jme3.terrain.heightmap.CombinerHeightMap" sourceFile="CombinerHeightMap.java" interface="false" size="80" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.heightmap.FaultHeightMap" sourceFile="FaultHeightMap.java" interface="false" size="159" bugs="3" priority_2="2" priority_1="1"/>
+      <ClassStats class="com.jme3.terrain.heightmap.FluidSimHeightMap" sourceFile="FluidSimHeightMap.java" interface="false" size="112" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.terrain.heightmap.HeightMap" sourceFile="HeightMap.java" interface="true" size="13" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.heightmap.HeightMapGrid" sourceFile="HeightMapGrid.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.heightmap.HillHeightMap" sourceFile="HillHeightMap.java" interface="false" size="78" bugs="1" priority_1="1"/>
+      <ClassStats class="com.jme3.terrain.heightmap.ImageBasedHeightMap" sourceFile="ImageBasedHeightMap.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.heightmap.MidpointDisplacementHeightMap" sourceFile="MidpointDisplacementHeightMap.java" interface="false" size="107" bugs="1" priority_1="1"/>
+      <ClassStats class="com.jme3.terrain.heightmap.Namer" sourceFile="Namer.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.heightmap.ParticleDepositionHeightMap" sourceFile="ParticleDepositionHeightMap.java" interface="false" size="137" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.heightmap.RawHeightMap" sourceFile="RawHeightMap.java" interface="false" size="97" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.terrain.noise" total_bugs="1" total_types="4" total_size="246" priority_1="1">
+      <ClassStats class="com.jme3.terrain.noise.Basis" sourceFile="Basis.java" interface="true" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.noise.Color" sourceFile="Color.java" interface="false" size="78" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.noise.Filter" sourceFile="Filter.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.noise.ShaderUtils" sourceFile="ShaderUtils.java" interface="false" size="155" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.terrain.noise.basis" total_bugs="0" total_types="4" total_size="146">
+      <ClassStats class="com.jme3.terrain.noise.basis.FilteredBasis" sourceFile="FilteredBasis.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.noise.basis.ImprovedNoise" sourceFile="ImprovedNoise.java" interface="false" size="58" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.noise.basis.Noise" sourceFile="Noise.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.noise.basis.NoiseAggregator" sourceFile="NoiseAggregator.java" interface="false" size="16" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.terrain.noise.filter" total_bugs="2" total_types="7" total_size="327" priority_2="2">
+      <ClassStats class="com.jme3.terrain.noise.filter.AbstractFilter" sourceFile="AbstractFilter.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.noise.filter.HydraulicErodeFilter" sourceFile="HydraulicErodeFilter.java" interface="false" size="77" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.terrain.noise.filter.IterativeFilter" sourceFile="IterativeFilter.java" interface="false" size="47" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.noise.filter.OptimizedErode" sourceFile="OptimizedErode.java" interface="false" size="49" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.noise.filter.PerturbFilter" sourceFile="PerturbFilter.java" interface="false" size="40" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.noise.filter.SmoothFilter" sourceFile="SmoothFilter.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.noise.filter.ThermalErodeFilter" sourceFile="ThermalErodeFilter.java" interface="false" size="42" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.terrain.noise.fractal" total_bugs="0" total_types="2" total_size="60">
+      <ClassStats class="com.jme3.terrain.noise.fractal.Fractal" sourceFile="Fractal.java" interface="true" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.noise.fractal.FractalSum" sourceFile="FractalSum.java" interface="false" size="53" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.terrain.noise.modulator" total_bugs="0" total_types="3" total_size="33">
+      <ClassStats class="com.jme3.terrain.noise.modulator.CatRom2" sourceFile="CatRom2.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.noise.modulator.Modulator" sourceFile="Modulator.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jme3.terrain.noise.modulator.NoiseModulator" sourceFile="NoiseModulator.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="518" invocations="718" avgMicrosecondsPerInvocation="722" maxMicrosecondsPerInvocation="252551" standardDeviationMicrosecondsPerInvocation="9505"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="452" invocations="699" avgMicrosecondsPerInvocation="647" maxMicrosecondsPerInvocation="39614" standardDeviationMicrosecondsPerInvocation="2669"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="435" invocations="735" avgMicrosecondsPerInvocation="592" maxMicrosecondsPerInvocation="37526" standardDeviationMicrosecondsPerInvocation="2356"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="420" invocations="1064" avgMicrosecondsPerInvocation="394" maxMicrosecondsPerInvocation="30061" standardDeviationMicrosecondsPerInvocation="1341"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="403" invocations="699" avgMicrosecondsPerInvocation="577" maxMicrosecondsPerInvocation="22525" standardDeviationMicrosecondsPerInvocation="1809"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="369" invocations="712" avgMicrosecondsPerInvocation="519" maxMicrosecondsPerInvocation="29615" standardDeviationMicrosecondsPerInvocation="1720"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="301" invocations="713" avgMicrosecondsPerInvocation="422" maxMicrosecondsPerInvocation="36301" standardDeviationMicrosecondsPerInvocation="1960"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="262" invocations="296" avgMicrosecondsPerInvocation="888" maxMicrosecondsPerInvocation="17493" standardDeviationMicrosecondsPerInvocation="2125"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison" totalMilliseconds="227" invocations="82" avgMicrosecondsPerInvocation="2777" maxMicrosecondsPerInvocation="186370" standardDeviationMicrosecondsPerInvocation="20455"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="218" invocations="296" avgMicrosecondsPerInvocation="738" maxMicrosecondsPerInvocation="28267" standardDeviationMicrosecondsPerInvocation="1951"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="212" invocations="1247" avgMicrosecondsPerInvocation="170" maxMicrosecondsPerInvocation="10707" standardDeviationMicrosecondsPerInvocation="482"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="203" invocations="1068" avgMicrosecondsPerInvocation="190" maxMicrosecondsPerInvocation="8314" standardDeviationMicrosecondsPerInvocation="396"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="161" invocations="468" avgMicrosecondsPerInvocation="345" maxMicrosecondsPerInvocation="13732" standardDeviationMicrosecondsPerInvocation="954"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="132" invocations="712" avgMicrosecondsPerInvocation="185" maxMicrosecondsPerInvocation="13318" standardDeviationMicrosecondsPerInvocation="890"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="101" invocations="785" avgMicrosecondsPerInvocation="129" maxMicrosecondsPerInvocation="50960" standardDeviationMicrosecondsPerInvocation="1827"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="99" invocations="82" avgMicrosecondsPerInvocation="1215" maxMicrosecondsPerInvocation="18308" standardDeviationMicrosecondsPerInvocation="2714"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="93" invocations="374" avgMicrosecondsPerInvocation="250" maxMicrosecondsPerInvocation="15714" standardDeviationMicrosecondsPerInvocation="981"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="85" invocations="296" avgMicrosecondsPerInvocation="287" maxMicrosecondsPerInvocation="15430" standardDeviationMicrosecondsPerInvocation="962"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="78" invocations="694" avgMicrosecondsPerInvocation="113" maxMicrosecondsPerInvocation="8634" standardDeviationMicrosecondsPerInvocation="572"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="71" invocations="82" avgMicrosecondsPerInvocation="875" maxMicrosecondsPerInvocation="10139" standardDeviationMicrosecondsPerInvocation="2002"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="65" invocations="1010" avgMicrosecondsPerInvocation="65" maxMicrosecondsPerInvocation="5376" standardDeviationMicrosecondsPerInvocation="203"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBadCast2" totalMilliseconds="65" invocations="82" avgMicrosecondsPerInvocation="793" maxMicrosecondsPerInvocation="44641" standardDeviationMicrosecondsPerInvocation="4918"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="64" invocations="296" avgMicrosecondsPerInvocation="216" maxMicrosecondsPerInvocation="5529" standardDeviationMicrosecondsPerInvocation="566"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueRangeAnalysisFactory" totalMilliseconds="62" invocations="785" avgMicrosecondsPerInvocation="79" maxMicrosecondsPerInvocation="7462" standardDeviationMicrosecondsPerInvocation="456"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="62" invocations="82" avgMicrosecondsPerInvocation="757" maxMicrosecondsPerInvocation="17187" standardDeviationMicrosecondsPerInvocation="2230"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="60" invocations="82" avgMicrosecondsPerInvocation="743" maxMicrosecondsPerInvocation="7797" standardDeviationMicrosecondsPerInvocation="1420"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="59" invocations="296" avgMicrosecondsPerInvocation="201" maxMicrosecondsPerInvocation="12520" standardDeviationMicrosecondsPerInvocation="955"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="58" invocations="296" avgMicrosecondsPerInvocation="197" maxMicrosecondsPerInvocation="10586" standardDeviationMicrosecondsPerInvocation="806"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="56" invocations="16226" avgMicrosecondsPerInvocation="3" maxMicrosecondsPerInvocation="7951" standardDeviationMicrosecondsPerInvocation="84"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="54" invocations="296" avgMicrosecondsPerInvocation="185" maxMicrosecondsPerInvocation="6784" standardDeviationMicrosecondsPerInvocation="478"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUselessObjects" totalMilliseconds="53" invocations="82" avgMicrosecondsPerInvocation="650" maxMicrosecondsPerInvocation="13509" standardDeviationMicrosecondsPerInvocation="2074"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindHEmismatch" totalMilliseconds="48" invocations="82" avgMicrosecondsPerInvocation="595" maxMicrosecondsPerInvocation="8284" standardDeviationMicrosecondsPerInvocation="1542"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

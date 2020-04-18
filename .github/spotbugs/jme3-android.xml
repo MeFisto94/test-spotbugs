@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1587222910157" analysisTimestamp="1587222910178" release="3.4.0-SNAPSHOT">
+  <Project projectName="project &apos;:jme3-android&apos; (main)">
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/audio/plugins/NativeVorbisLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/audio/plugins/NativeVorbisLoader$VorbisInputStream.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/audio/plugins/AndroidAudioLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/audio/plugins/NativeVorbisFile.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/audio/android/AndroidAL.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/audio/android/AndroidEFX.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/audio/android/AndroidAudioData.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/audio/android/AndroidALC.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/renderer/android/RendererUtil.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/renderer/android/AndroidGL.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/texture/plugins/AndroidBufferImageLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/texture/plugins/AndroidBufferImageLoader$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/texture/plugins/AndroidNativeImageLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/util/AndroidBufferAllocator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/util/AndroidLogHandler.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/util/RingBuffer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/util/RingBuffer$RingBufferIterator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/util/AndroidLogHandler$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/util/RingBuffer$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/util/AndroidScreenshots.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/system/android/AndroidConfigChooser.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/system/android/JmeAndroidSystem$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/system/android/OGLESContext$2$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/system/android/AndroidConfigChooser$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/system/android/OGLESContext.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/system/android/OGLESContext$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/system/android/JmeAndroidSystem.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/system/android/OGLESContext$2$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/system/android/AndroidConfigChooser$Config.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/system/android/OGLESContext$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/system/android/JmeAndroidSystem$3.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/system/android/JmeAndroidSystem$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/asset/plugins/AndroidLocator$AndroidAssetInfo.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/asset/plugins/AndroidLocator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/input/android/AndroidSensorJoyInput.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/input/android/AndroidJoystickJoyInput14.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/input/android/AndroidJoystickJoyInput14$AndroidJoystick.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/input/android/AndroidKeyMapping.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/input/android/AndroidSensorJoyInput$AndroidSensorJoystickAxis.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/input/android/AndroidTouchInput.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/input/android/AndroidJoyInput14.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/input/android/AndroidTouchInput$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/input/android/AndroidInputHandler.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/input/android/AndroidSensorJoyInput$AndroidSensorJoystick.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/input/android/AndroidGestureProcessor.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/input/android/AndroidTouchInput14.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/input/android/TouchEventPool.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/input/android/AndroidSensorJoyInput$SensorData.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/input/android/AndroidInputHandler14.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/input/android/AndroidJoyInput.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/AndroidHarnessFragment.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/AndroidHarness$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/AndroidHarnessFragment$4.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/AndroidHarness.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/state/VideoRecorderAppState$IsoTimer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/state/VideoRecorderAppState$VideoProcessor$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$RIFFHeader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$AVIIndex.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$AVIIndexList.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$AVIJunk.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/state/VideoRecorderAppState$VideoProcessor.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$AVIMovieList.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/state/VideoRecorderAppState$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$AVIMainHeader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/state/VideoRecorderAppState$WorkItem.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/state/MjpegFileWriter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$AVIStreamFormat.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$AVIStreamList.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/state/VideoRecorderAppState.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/state/MjpegFileWriter$AVIStreamHeader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/AndroidHarnessFragment$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/DefaultAndroidProfiler.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/AndroidHarness$3.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/AndroidHarness$DataObject.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/AndroidHarnessFragment$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/DefaultAndroidProfiler$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/AndroidHarnessFragment$3.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/AndroidHarness$4.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main/com/jme3/app/AndroidHarness$1.class</Jar>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/build/resources/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/libs/jme3-plugins-3.4.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-core/build/libs/jme3-core-3.4.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.1/2a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0/gson-2.8.1.jar</AuxClasspathEntry>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/groovy</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/audio/plugins/NativeVorbisLoader.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/audio/plugins/AndroidAudioLoader.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/audio/plugins/NativeVorbisFile.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/audio/android/AndroidEFX.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/audio/android/AndroidAudioData.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/audio/android/AndroidAL.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/audio/android/AndroidALC.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/renderer/android/RendererUtil.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/renderer/android/AndroidGL.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/texture/plugins/AndroidNativeImageLoader.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/texture/plugins/AndroidBufferImageLoader.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/util/AndroidLogHandler.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/util/AndroidScreenshots.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/util/RingBuffer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/util/AndroidBufferAllocator.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/system/android/AndroidConfigChooser.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/system/android/JmeAndroidSystem.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/system/android/OGLESContext.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/asset/plugins/AndroidLocator.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/input/android/AndroidTouchInput.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/input/android/AndroidInputHandler14.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/input/android/AndroidTouchInput14.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/input/android/AndroidJoyInput.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/input/android/AndroidInputHandler.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/input/android/AndroidKeyMapping.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/input/android/AndroidJoystickJoyInput14.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/input/android/AndroidSensorJoyInput.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/input/android/AndroidJoyInput14.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/input/android/AndroidGestureProcessor.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/input/android/TouchEventPool.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/app/state/MjpegFileWriter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/app/state/VideoRecorderAppState.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/app/AndroidHarness.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/app/DefaultAndroidProfiler.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-android/src/main/java/com/jme3/app/AndroidHarnessFragment.java</SrcDir>
+  </Project>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.app.AndroidHarness$DataObject">
+      <SourceLine classname="com.jme3.app.AndroidHarness$DataObject" start="179" end="180" sourcefile="AndroidHarness.java" sourcepath="com/jme3/app/AndroidHarness.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="RpC_REPEATED_CONDITIONAL_TEST" priority="2" rank="8" abbrev="RpC" category="CORRECTNESS">
+    <Class classname="com.jme3.app.AndroidHarnessFragment">
+      <SourceLine classname="com.jme3.app.AndroidHarnessFragment" start="73" end="705" sourcefile="AndroidHarnessFragment.java" sourcepath="com/jme3/app/AndroidHarnessFragment.java"/>
+    </Class>
+    <Method classname="com.jme3.app.AndroidHarnessFragment" name="onLayoutChange" signature="(Landroid/view/View;IIIIIIII)V" isStatic="false">
+      <SourceLine classname="com.jme3.app.AndroidHarnessFragment" start="668" end="705" startBytecode="0" endBytecode="653" sourcefile="AndroidHarnessFragment.java" sourcepath="com/jme3/app/AndroidHarnessFragment.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.app.AndroidHarnessFragment" start="668" end="668" startBytecode="0" endBytecode="7" sourcefile="AndroidHarnessFragment.java" sourcepath="com/jme3/app/AndroidHarnessFragment.java"/>
+    <SourceLine classname="com.jme3.app.AndroidHarnessFragment" start="672" end="672" startBytecode="11" endBytecode="18" sourcefile="AndroidHarnessFragment.java" sourcepath="com/jme3/app/AndroidHarnessFragment.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.app.DefaultAndroidProfiler">
+      <SourceLine classname="com.jme3.app.DefaultAndroidProfiler" start="82" end="177" sourcefile="DefaultAndroidProfiler.java" sourcepath="com/jme3/app/DefaultAndroidProfiler.java"/>
+    </Class>
+    <Method classname="com.jme3.app.DefaultAndroidProfiler" name="vpStep" signature="(Lcom/jme3/profile/VpStep;Lcom/jme3/renderer/ViewPort;Lcom/jme3/renderer/queue/RenderQueue$Bucket;)V" isStatic="false">
+      <SourceLine classname="com.jme3.app.DefaultAndroidProfiler" start="146" end="172" startBytecode="0" endBytecode="366" sourcefile="DefaultAndroidProfiler.java" sourcepath="com/jme3/app/DefaultAndroidProfiler.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.app.DefaultAndroidProfiler" start="147" end="168" startBytecode="17" endBytecode="210" sourcefile="DefaultAndroidProfiler.java" sourcepath="com/jme3/app/DefaultAndroidProfiler.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.app.state.MjpegFileWriter$AVIIndex">
+      <SourceLine classname="com.jme3.app.state.MjpegFileWriter$AVIIndex" start="493" end="511" sourcefile="MjpegFileWriter.java" sourcepath="com/jme3/app/state/MjpegFileWriter.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.app.state.MjpegFileWriter$AVIJunk">
+      <SourceLine classname="com.jme3.app.state.MjpegFileWriter$AVIJunk" start="517" end="532" sourcefile="MjpegFileWriter.java" sourcepath="com/jme3/app/state/MjpegFileWriter.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.app.state.MjpegFileWriter$AVIMovieList">
+      <SourceLine classname="com.jme3.app.state.MjpegFileWriter$AVIMovieList" start="433" end="452" sourcefile="MjpegFileWriter.java" sourcepath="com/jme3/app/state/MjpegFileWriter.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.app.state.MjpegFileWriter$AVIStreamList">
+      <SourceLine classname="com.jme3.app.state.MjpegFileWriter$AVIStreamList" start="288" end="302" sourcefile="MjpegFileWriter.java" sourcepath="com/jme3/app/state/MjpegFileWriter.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.app.state.MjpegFileWriter$RIFFHeader">
+      <SourceLine classname="com.jme3.app.state.MjpegFileWriter$RIFFHeader" start="188" end="212" sourcefile="MjpegFileWriter.java" sourcepath="com/jme3/app/state/MjpegFileWriter.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE">
+    <Class classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor">
+      <SourceLine classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" start="219" end="330" sourcefile="VideoRecorderAppState.java" sourcepath="com/jme3/app/state/VideoRecorderAppState.java"/>
+    </Class>
+    <Method classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" name="addImage" signature="(Lcom/jme3/renderer/Renderer;Lcom/jme3/texture/FrameBuffer;)V" isStatic="false">
+      <SourceLine classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" start="233" end="263" startBytecode="0" endBytecode="238" sourcefile="VideoRecorderAppState.java" sourcepath="com/jme3/app/state/VideoRecorderAppState.java"/>
+    </Method>
+    <Method classname="java.util.concurrent.ExecutorService" name="submit" signature="(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.concurrent.ExecutorService" sourcefile="ExecutorService.java" sourcepath="java/util/concurrent/ExecutorService.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" start="241" end="241" startBytecode="66" endBytecode="66" sourcefile="VideoRecorderAppState.java" sourcepath="com/jme3/app/state/VideoRecorderAppState.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor">
+      <SourceLine classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" start="219" end="330" sourcefile="VideoRecorderAppState.java" sourcepath="com/jme3/app/state/VideoRecorderAppState.java"/>
+    </Class>
+    <Field classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" name="prof" signature="Lcom/jme3/profile/AppProfiler;" isStatic="false">
+      <SourceLine classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" sourcefile="VideoRecorderAppState.java" sourcepath="com/jme3/app/state/VideoRecorderAppState.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" start="329" end="329" startBytecode="2" endBytecode="2" sourcefile="VideoRecorderAppState.java" sourcepath="com/jme3/app/state/VideoRecorderAppState.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.app.state.VideoRecorderAppState$WorkItem">
+      <SourceLine classname="com.jme3.app.state.VideoRecorderAppState$WorkItem" start="212" end="216" sourcefile="VideoRecorderAppState.java" sourcepath="com/jme3/app/state/VideoRecorderAppState.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.asset.plugins.AndroidLocator$AndroidAssetInfo">
+      <SourceLine classname="com.jme3.asset.plugins.AndroidLocator$AndroidAssetInfo" start="94" end="139" sourcefile="AndroidLocator.java" sourcepath="com/jme3/asset/plugins/AndroidLocator.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="BIT_AND_ZZ" priority="1" rank="1" abbrev="BIT" category="CORRECTNESS">
+    <Class classname="com.jme3.input.android.AndroidInputHandler14">
+      <SourceLine classname="com.jme3.input.android.AndroidInputHandler14" start="53" end="156" sourcefile="AndroidInputHandler14.java" sourcepath="com/jme3/input/android/AndroidInputHandler14.java"/>
+    </Class>
+    <Method classname="com.jme3.input.android.AndroidInputHandler14" name="onKey" signature="(Landroid/view/View;ILandroid/view/KeyEvent;)Z" isStatic="false">
+      <SourceLine classname="com.jme3.input.android.AndroidInputHandler14" start="124" end="156" startBytecode="0" endBytecode="362" sourcefile="AndroidInputHandler14.java" sourcepath="com/jme3/input/android/AndroidInputHandler14.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.input.android.AndroidInputHandler14" start="141" end="141" startBytecode="83" endBytecode="83" sourcefile="AndroidInputHandler14.java" sourcepath="com/jme3/input/android/AndroidInputHandler14.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.input.android.AndroidJoyInput">
+      <SourceLine classname="com.jme3.input.android.AndroidJoyInput" start="82" end="237" sourcefile="AndroidJoyInput.java" sourcepath="com/jme3/input/android/AndroidJoyInput.java"/>
+    </Class>
+    <Field classname="com.jme3.input.android.AndroidJoyInput" name="disableSensors" signature="Z" isStatic="true">
+      <SourceLine classname="com.jme3.input.android.AndroidJoyInput" sourcefile="AndroidJoyInput.java" sourcepath="com/jme3/input/android/AndroidJoyInput.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.input.android.AndroidJoyInput" start="83" end="83" startBytecode="12" endBytecode="12" sourcefile="AndroidJoyInput.java" sourcepath="com/jme3/input/android/AndroidJoyInput.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.input.android.AndroidJoystickJoyInput14$AndroidJoystick">
+      <SourceLine classname="com.jme3.input.android.AndroidJoystickJoyInput14$AndroidJoystick" start="248" end="413" sourcefile="AndroidJoystickJoyInput14.java" sourcepath="com/jme3/input/android/AndroidJoystickJoyInput14.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.input.android.AndroidJoystickJoyInput14$AndroidJoystick">
+      <SourceLine classname="com.jme3.input.android.AndroidJoystickJoyInput14$AndroidJoystick" start="248" end="413" sourcefile="AndroidJoystickJoyInput14.java" sourcepath="com/jme3/input/android/AndroidJoystickJoyInput14.java"/>
+    </Class>
+    <Field classname="com.jme3.input.android.AndroidJoystickJoyInput14$AndroidJoystick" name="device" signature="Landroid/view/InputDevice;" isStatic="false">
+      <SourceLine classname="com.jme3.input.android.AndroidJoystickJoyInput14$AndroidJoystick" sourcefile="AndroidJoystickJoyInput14.java" sourcepath="com/jme3/input/android/AndroidJoystickJoyInput14.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.input.android.AndroidJoystickJoyInput14$AndroidJoystick" start="255" end="255" startBytecode="40" endBytecode="40" sourcefile="AndroidJoystickJoyInput14.java" sourcepath="com/jme3/input/android/AndroidJoystickJoyInput14.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.input.android.AndroidSensorJoyInput$AndroidSensorJoystickAxis">
+      <SourceLine classname="com.jme3.input.android.AndroidSensorJoyInput$AndroidSensorJoystickAxis" start="658" end="710" sourcefile="AndroidSensorJoyInput.java" sourcepath="com/jme3/input/android/AndroidSensorJoyInput.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.input.android.AndroidSensorJoyInput$AndroidSensorJoystickAxis">
+      <SourceLine classname="com.jme3.input.android.AndroidSensorJoyInput$AndroidSensorJoystickAxis" start="658" end="710" sourcefile="AndroidSensorJoyInput.java" sourcepath="com/jme3/input/android/AndroidSensorJoyInput.java"/>
+    </Class>
+    <Field classname="com.jme3.input.android.AndroidSensorJoyInput$AndroidSensorJoystickAxis" name="enabled" signature="Z" isStatic="false">
+      <SourceLine classname="com.jme3.input.android.AndroidSensorJoyInput$AndroidSensorJoystickAxis" sourcefile="AndroidSensorJoyInput.java" sourcepath="com/jme3/input/android/AndroidSensorJoyInput.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.input.android.AndroidSensorJoyInput$AndroidSensorJoystickAxis" start="663" end="663" startBytecode="51" endBytecode="51" sourcefile="AndroidSensorJoyInput.java" sourcepath="com/jme3/input/android/AndroidSensorJoyInput.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.input.android.AndroidSensorJoyInput$SensorData">
+      <SourceLine classname="com.jme3.input.android.AndroidSensorJoyInput$SensorData" start="93" end="106" sourcefile="AndroidSensorJoyInput.java" sourcepath="com/jme3/input/android/AndroidSensorJoyInput.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.input.android.AndroidSensorJoyInput$SensorData">
+      <SourceLine classname="com.jme3.input.android.AndroidSensorJoyInput$SensorData" start="93" end="106" sourcefile="AndroidSensorJoyInput.java" sourcepath="com/jme3/input/android/AndroidSensorJoyInput.java"/>
+    </Class>
+    <Field classname="com.jme3.input.android.AndroidSensorJoyInput$SensorData" name="androidSensorType" signature="I" isStatic="false">
+      <SourceLine classname="com.jme3.input.android.AndroidSensorJoyInput$SensorData" sourcefile="AndroidSensorJoyInput.java" sourcepath="com/jme3/input/android/AndroidSensorJoyInput.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.input.android.AndroidSensorJoyInput$SensorData" start="93" end="93" startBytecode="11" endBytecode="11" sourcefile="AndroidSensorJoyInput.java" sourcepath="com/jme3/input/android/AndroidSensorJoyInput.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="com.jme3.input.android.AndroidTouchInput">
+      <SourceLine classname="com.jme3.input.android.AndroidTouchInput" start="66" end="473" sourcefile="AndroidTouchInput.java" sourcepath="com/jme3/input/android/AndroidTouchInput.java"/>
+    </Class>
+    <Method classname="com.jme3.input.android.AndroidTouchInput" name="onTouch" signature="(Landroid/view/MotionEvent;)Z" isStatic="false">
+      <SourceLine classname="com.jme3.input.android.AndroidTouchInput" start="158" end="253" startBytecode="0" endBytecode="272" sourcefile="AndroidTouchInput.java" sourcepath="com/jme3/input/android/AndroidTouchInput.java"/>
+    </Method>
+    <LocalVariable name="action" register="4" pc="20" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.input.android.AndroidTouchInput" start="165" end="165" startBytecode="18" endBytecode="18" sourcefile="AndroidTouchInput.java" sourcepath="com/jme3/input/android/AndroidTouchInput.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="action"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.input.android.AndroidTouchInput">
+      <SourceLine classname="com.jme3.input.android.AndroidTouchInput" start="66" end="473" sourcefile="AndroidTouchInput.java" sourcepath="com/jme3/input/android/AndroidTouchInput.java"/>
+    </Class>
+    <Method classname="com.jme3.input.android.AndroidTouchInput" name="generateMouseEvent" signature="(Lcom/jme3/input/event/TouchEvent;)Lcom/jme3/input/event/InputEvent;" isStatic="false">
+      <SourceLine classname="com.jme3.input.android.AndroidTouchInput" start="258" end="306" startBytecode="0" endBytecode="507" sourcefile="AndroidTouchInput.java" sourcepath="com/jme3/input/android/AndroidTouchInput.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.input.android.AndroidTouchInput" start="286" end="302" startBytecode="116" endBytecode="228" sourcefile="AndroidTouchInput.java" sourcepath="com/jme3/input/android/AndroidTouchInput.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.renderer.android.RendererUtil">
+      <SourceLine classname="com.jme3.renderer.android.RendererUtil" start="46" end="159" sourcefile="RendererUtil.java" sourcepath="com/jme3/renderer/android/RendererUtil.java"/>
+    </Class>
+    <Field classname="com.jme3.renderer.android.RendererUtil" name="ENABLE_ERROR_CHECKING" signature="Z" isStatic="true">
+      <SourceLine classname="com.jme3.renderer.android.RendererUtil" sourcefile="RendererUtil.java" sourcepath="com/jme3/renderer/android/RendererUtil.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.renderer.android.RendererUtil" start="52" end="52" startBytecode="1" endBytecode="1" sourcefile="RendererUtil.java" sourcepath="com/jme3/renderer/android/RendererUtil.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.system.android.AndroidConfigChooser$Config">
+      <SourceLine classname="com.jme3.system.android.AndroidConfigChooser$Config" start="330" end="347" sourcefile="AndroidConfigChooser.java" sourcepath="com/jme3/system/android/AndroidConfigChooser.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE">
+    <Class classname="com.jme3.system.android.JmeAndroidSystem">
+      <SourceLine classname="com.jme3.system.android.JmeAndroidSystem" start="27" end="219" sourcefile="JmeAndroidSystem.java" sourcepath="com/jme3/system/android/JmeAndroidSystem.java"/>
+    </Class>
+    <Method classname="com.jme3.system.android.JmeAndroidSystem" name="newContext" signature="(Lcom/jme3/system/AppSettings;Lcom/jme3/system/JmeContext$Type;)Lcom/jme3/system/JmeContext;" isStatic="false">
+      <SourceLine classname="com.jme3.system.android.JmeAndroidSystem" start="83" end="94" startBytecode="0" endBytecode="197" sourcefile="JmeAndroidSystem.java" sourcepath="com/jme3/system/android/JmeAndroidSystem.java"/>
+    </Method>
+    <Field classname="com.jme3.system.android.JmeAndroidSystem" name="audioRendererType" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.jme3.system.android.JmeAndroidSystem" sourcefile="JmeAndroidSystem.java" sourcepath="com/jme3/system/android/JmeAndroidSystem.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.system.android.JmeAndroidSystem" start="84" end="84" startBytecode="14" endBytecode="14" sourcefile="JmeAndroidSystem.java" sourcepath="com/jme3/system/android/JmeAndroidSystem.java"/>
+    <SourceLine classname="com.jme3.system.android.JmeAndroidSystem" start="86" end="86" startBytecode="34" endBytecode="34" sourcefile="JmeAndroidSystem.java" sourcepath="com/jme3/system/android/JmeAndroidSystem.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+    <SourceLine classname="com.jme3.system.android.JmeAndroidSystem" start="89" end="89" startBytecode="54" endBytecode="54" sourcefile="JmeAndroidSystem.java" sourcepath="com/jme3/system/android/JmeAndroidSystem.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH" priority="2" rank="8" abbrev="NP" category="CORRECTNESS">
+    <Class classname="com.jme3.system.android.OGLESContext">
+      <SourceLine classname="com.jme3.system.android.OGLESContext" start="67" end="480" sourcefile="OGLESContext.java" sourcepath="com/jme3/system/android/OGLESContext.java"/>
+    </Class>
+    <Method classname="com.jme3.system.android.OGLESContext" name="createView" signature="(Landroid/content/Context;)Landroid/opengl/GLSurfaceView;" isStatic="false">
+      <SourceLine classname="com.jme3.system.android.OGLESContext" start="107" end="173" startBytecode="0" endBytecode="618" sourcefile="OGLESContext.java" sourcepath="com/jme3/system/android/OGLESContext.java"/>
+    </Method>
+    <Field classname="com.jme3.system.android.OGLESContext" name="androidInput" signature="Lcom/jme3/input/android/AndroidInputHandler;" isStatic="false" role="FIELD_CONTAINS_VALUE">
+      <SourceLine classname="com.jme3.system.android.OGLESContext" sourcefile="OGLESContext.java" sourcepath="com/jme3/system/android/OGLESContext.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.system.android.OGLESContext" start="129" end="129" startBytecode="141" endBytecode="141" sourcefile="OGLESContext.java" sourcepath="com/jme3/system/android/OGLESContext.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="com.jme3.system.android.OGLESContext" start="122" end="122" startBytecode="91" endBytecode="91" sourcefile="OGLESContext.java" sourcepath="com/jme3/system/android/OGLESContext.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="com.jme3.system.android.OGLESContext" start="125" end="125" startBytecode="121" endBytecode="121" sourcefile="OGLESContext.java" sourcepath="com/jme3/system/android/OGLESContext.java" role="SOURCE_LINE_KNOWN_NULL"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="com.jme3.util.AndroidLogHandler">
+      <SourceLine classname="com.jme3.util.AndroidLogHandler" start="16" end="107" sourcefile="AndroidLogHandler.java" sourcepath="com/jme3/util/AndroidLogHandler.java"/>
+    </Class>
+    <Method classname="com.jme3.util.AndroidLogHandler" name="loggerNameToTag" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.jme3.util.AndroidLogHandler" start="96" end="107" startBytecode="0" endBytecode="21" sourcefile="AndroidLogHandler.java" sourcepath="com/jme3/util/AndroidLogHandler.java"/>
+    </Method>
+    <LocalVariable name="length" register="1" pc="12" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.util.AndroidLogHandler" start="100" end="100" startBytecode="11" endBytecode="11" sourcefile="AndroidLogHandler.java" sourcepath="com/jme3/util/AndroidLogHandler.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="length"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DE_MIGHT_IGNORE" priority="2" rank="16" abbrev="DE" category="BAD_PRACTICE">
+    <Class classname="com.jme3.util.AndroidLogHandler$1">
+      <SourceLine classname="com.jme3.util.AndroidLogHandler$1" start="18" end="40" sourcefile="AndroidLogHandler.java" sourcepath="com/jme3/util/AndroidLogHandler.java"/>
+    </Class>
+    <Method classname="com.jme3.util.AndroidLogHandler$1" name="format" signature="(Ljava/util/logging/LogRecord;)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.jme3.util.AndroidLogHandler$1" start="24" end="40" startBytecode="0" endBytecode="260" sourcefile="AndroidLogHandler.java" sourcepath="com/jme3/util/AndroidLogHandler.java"/>
+    </Method>
+    <Class classname="java.lang.Exception" role="CLASS_EXCEPTION">
+      <SourceLine classname="java.lang.Exception" start="54" end="123" sourcefile="Exception.java" sourcepath="java/lang/Exception.java"/>
+    </Class>
+    <SourceLine classname="com.jme3.util.AndroidLogHandler$1" start="36" end="36" startBytecode="93" endBytecode="93" sourcefile="AndroidLogHandler.java" sourcepath="com/jme3/util/AndroidLogHandler.java"/>
+    <SourceLine classname="com.jme3.util.AndroidLogHandler$1" start="36" end="36" startBytecode="93" endBytecode="93" sourcefile="AndroidLogHandler.java" sourcepath="com/jme3/util/AndroidLogHandler.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="62">
+    <MissingClass>android.app.Activity</MissingClass>
+    <MissingClass>android.app.ActivityManager</MissingClass>
+    <MissingClass>android.app.AlertDialog</MissingClass>
+    <MissingClass>android.app.AlertDialog$Builder</MissingClass>
+    <MissingClass>android.app.Fragment</MissingClass>
+    <MissingClass>android.content.Context</MissingClass>
+    <MissingClass>android.content.DialogInterface$OnClickListener</MissingClass>
+    <MissingClass>android.content.pm.ConfigurationInfo</MissingClass>
+    <MissingClass>android.content.res.AssetFileDescriptor</MissingClass>
+    <MissingClass>android.content.res.AssetManager</MissingClass>
+    <MissingClass>android.content.res.Resources</MissingClass>
+    <MissingClass>android.graphics.Bitmap</MissingClass>
+    <MissingClass>android.graphics.Bitmap$CompressFormat</MissingClass>
+    <MissingClass>android.graphics.Bitmap$Config</MissingClass>
+    <MissingClass>android.graphics.BitmapFactory</MissingClass>
+    <MissingClass>android.graphics.BitmapFactory$Options</MissingClass>
+    <MissingClass>android.graphics.Matrix</MissingClass>
+    <MissingClass>android.graphics.drawable.Drawable</MissingClass>
+    <MissingClass>android.hardware.Sensor</MissingClass>
+    <MissingClass>android.hardware.SensorEvent</MissingClass>
+    <MissingClass>android.hardware.SensorEventListener</MissingClass>
+    <MissingClass>android.hardware.SensorManager</MissingClass>
+    <MissingClass>android.opengl.GLES20</MissingClass>
+    <MissingClass>android.opengl.GLES30</MissingClass>
+    <MissingClass>android.opengl.GLES31</MissingClass>
+    <MissingClass>android.opengl.GLSurfaceView</MissingClass>
+    <MissingClass>android.opengl.GLSurfaceView$EGLConfigChooser</MissingClass>
+    <MissingClass>android.opengl.GLSurfaceView$Renderer</MissingClass>
+    <MissingClass>android.opengl.GLU</MissingClass>
+    <MissingClass>android.os.Build$VERSION</MissingClass>
+    <MissingClass>android.os.Bundle</MissingClass>
+    <MissingClass>android.os.Environment</MissingClass>
+    <MissingClass>android.os.Handler</MissingClass>
+    <MissingClass>android.os.ParcelFileDescriptor</MissingClass>
+    <MissingClass>android.os.Trace</MissingClass>
+    <MissingClass>android.os.Vibrator</MissingClass>
+    <MissingClass>android.util.Log</MissingClass>
+    <MissingClass>android.view.Display</MissingClass>
+    <MissingClass>android.view.GestureDetector</MissingClass>
+    <MissingClass>android.view.GestureDetector$OnDoubleTapListener</MissingClass>
+    <MissingClass>android.view.GestureDetector$OnGestureListener</MissingClass>
+    <MissingClass>android.view.InputDevice</MissingClass>
+    <MissingClass>android.view.InputDevice$MotionRange</MissingClass>
+    <MissingClass>android.view.KeyCharacterMap</MissingClass>
+    <MissingClass>android.view.KeyEvent</MissingClass>
+    <MissingClass>android.view.MotionEvent</MissingClass>
+    <MissingClass>android.view.ScaleGestureDetector</MissingClass>
+    <MissingClass>android.view.ScaleGestureDetector$OnScaleGestureListener</MissingClass>
+    <MissingClass>android.view.SurfaceHolder</MissingClass>
+    <MissingClass>android.view.View</MissingClass>
+    <MissingClass>android.view.View$OnHoverListener</MissingClass>
+    <MissingClass>android.view.View$OnTouchListener</MissingClass>
+    <MissingClass>android.view.ViewGroup</MissingClass>
+    <MissingClass>android.view.Window</MissingClass>
+    <MissingClass>android.view.WindowManager</MissingClass>
+    <MissingClass>android.view.inputmethod.InputMethodManager</MissingClass>
+    <MissingClass>android.widget.EditText</MissingClass>
+    <MissingClass>android.widget.FrameLayout</MissingClass>
+    <MissingClass>android.widget.FrameLayout$LayoutParams</MissingClass>
+    <MissingClass>android.widget.ImageView</MissingClass>
+    <MissingClass>android.widget.TextView</MissingClass>
+    <MissingClass>javax.microedition.khronos.egl.EGL10</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Sat, 18 Apr 2020 15:15:10 +0000" total_classes="79" referenced_classes="303" total_bugs="28" total_size="4252" num_packages="10" java_version="1.8.0_252" vm_version="25.252-b14" cpu_seconds="12.52" clock_seconds="6.40" peak_mbytes="233.67" alloc_mbytes="455.50" gc_seconds="0.34" priority_2="25" priority_1="3">
+    <PackageStats package="com.jme3.app" total_bugs="3" total_types="13" total_size="736" priority_2="3">
+      <ClassStats class="com.jme3.app.AndroidHarness" sourceFile="AndroidHarness.java" interface="false" size="285" bugs="0"/>
+      <ClassStats class="com.jme3.app.AndroidHarness$1" sourceFile="AndroidHarness.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.jme3.app.AndroidHarness$2" sourceFile="AndroidHarness.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jme3.app.AndroidHarness$3" sourceFile="AndroidHarness.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.app.AndroidHarness$4" sourceFile="AndroidHarness.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.app.AndroidHarness$DataObject" sourceFile="AndroidHarness.java" interface="false" size="7" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.app.AndroidHarnessFragment" sourceFile="AndroidHarnessFragment.java" interface="false" size="302" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.app.AndroidHarnessFragment$1" sourceFile="AndroidHarnessFragment.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.app.AndroidHarnessFragment$2" sourceFile="AndroidHarnessFragment.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.jme3.app.AndroidHarnessFragment$3" sourceFile="AndroidHarnessFragment.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.app.AndroidHarnessFragment$4" sourceFile="AndroidHarnessFragment.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.app.DefaultAndroidProfiler" sourceFile="DefaultAndroidProfiler.java" interface="false" size="65" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.app.DefaultAndroidProfiler$1" sourceFile="DefaultAndroidProfiler.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.app.state" total_bugs="8" total_types="16" total_size="668" priority_2="8">
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter" sourceFile="MjpegFileWriter.java" interface="false" size="118" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$AVIIndex" sourceFile="MjpegFileWriter.java" interface="false" size="23" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$AVIIndexList" sourceFile="MjpegFileWriter.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$AVIJunk" sourceFile="MjpegFileWriter.java" interface="false" size="19" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$AVIMainHeader" sourceFile="MjpegFileWriter.java" interface="false" size="55" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$AVIMovieList" sourceFile="MjpegFileWriter.java" interface="false" size="22" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$AVIStreamFormat" sourceFile="MjpegFileWriter.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$AVIStreamHeader" sourceFile="MjpegFileWriter.java" interface="false" size="68" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$AVIStreamList" sourceFile="MjpegFileWriter.java" interface="false" size="18" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.app.state.MjpegFileWriter$RIFFHeader" sourceFile="MjpegFileWriter.java" interface="false" size="31" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.app.state.VideoRecorderAppState" sourceFile="VideoRecorderAppState.java" interface="false" size="89" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.VideoRecorderAppState$1" sourceFile="VideoRecorderAppState.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.VideoRecorderAppState$IsoTimer" sourceFile="VideoRecorderAppState.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.VideoRecorderAppState$VideoProcessor" sourceFile="VideoRecorderAppState.java" interface="false" size="78" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.app.state.VideoRecorderAppState$VideoProcessor$1" sourceFile="VideoRecorderAppState.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="com.jme3.app.state.VideoRecorderAppState$WorkItem" sourceFile="VideoRecorderAppState.java" interface="false" size="10" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.asset.plugins" total_bugs="1" total_types="2" total_size="76" priority_2="1">
+      <ClassStats class="com.jme3.asset.plugins.AndroidLocator" sourceFile="AndroidLocator.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="com.jme3.asset.plugins.AndroidLocator$AndroidAssetInfo" sourceFile="AndroidLocator.java" interface="false" size="34" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.audio.android" total_bugs="0" total_types="4" total_size="89">
+      <ClassStats class="com.jme3.audio.android.AndroidAL" sourceFile="AndroidAL.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="com.jme3.audio.android.AndroidALC" sourceFile="AndroidALC.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="com.jme3.audio.android.AndroidAudioData" sourceFile="AndroidAudioData.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="com.jme3.audio.android.AndroidEFX" sourceFile="AndroidEFX.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.audio.plugins" total_bugs="0" total_types="4" total_size="103">
+      <ClassStats class="com.jme3.audio.plugins.AndroidAudioLoader" sourceFile="AndroidAudioLoader.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.audio.plugins.NativeVorbisFile" sourceFile="NativeVorbisFile.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="com.jme3.audio.plugins.NativeVorbisLoader" sourceFile="NativeVorbisLoader.java" interface="false" size="47" bugs="0"/>
+      <ClassStats class="com.jme3.audio.plugins.NativeVorbisLoader$VorbisInputStream" sourceFile="NativeVorbisLoader.java" interface="false" size="26" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.input.android" total_bugs="10" total_types="16" total_size="1273" priority_2="9" priority_1="1">
+      <ClassStats class="com.jme3.input.android.AndroidGestureProcessor" sourceFile="AndroidGestureProcessor.java" interface="false" size="132" bugs="0"/>
+      <ClassStats class="com.jme3.input.android.AndroidInputHandler" sourceFile="AndroidInputHandler.java" interface="false" size="64" bugs="0"/>
+      <ClassStats class="com.jme3.input.android.AndroidInputHandler14" sourceFile="AndroidInputHandler14.java" interface="false" size="50" bugs="1" priority_1="1"/>
+      <ClassStats class="com.jme3.input.android.AndroidJoyInput" sourceFile="AndroidJoyInput.java" interface="false" size="94" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.input.android.AndroidJoyInput14" sourceFile="AndroidJoyInput14.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="com.jme3.input.android.AndroidJoystickJoyInput14" sourceFile="AndroidJoystickJoyInput14.java" interface="false" size="95" bugs="0"/>
+      <ClassStats class="com.jme3.input.android.AndroidJoystickJoyInput14$AndroidJoystick" sourceFile="AndroidJoystickJoyInput14.java" interface="false" size="106" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.input.android.AndroidKeyMapping" sourceFile="AndroidKeyMapping.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="com.jme3.input.android.AndroidSensorJoyInput" sourceFile="AndroidSensorJoyInput.java" interface="false" size="239" bugs="0"/>
+      <ClassStats class="com.jme3.input.android.AndroidSensorJoyInput$AndroidSensorJoystick" sourceFile="AndroidSensorJoyInput.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="com.jme3.input.android.AndroidSensorJoyInput$AndroidSensorJoystickAxis" sourceFile="AndroidSensorJoyInput.java" interface="false" size="42" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.input.android.AndroidSensorJoyInput$SensorData" sourceFile="AndroidSensorJoyInput.java" interface="false" size="24" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.input.android.AndroidTouchInput" sourceFile="AndroidTouchInput.java" interface="false" size="241" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.input.android.AndroidTouchInput$1" sourceFile="AndroidTouchInput.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.input.android.AndroidTouchInput14" sourceFile="AndroidTouchInput14.java" interface="false" size="61" bugs="0"/>
+      <ClassStats class="com.jme3.input.android.TouchEventPool" sourceFile="TouchEventPool.java" interface="false" size="42" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.renderer.android" total_bugs="1" total_types="2" total_size="456" priority_1="1">
+      <ClassStats class="com.jme3.renderer.android.AndroidGL" sourceFile="AndroidGL.java" interface="false" size="396" bugs="0"/>
+      <ClassStats class="com.jme3.renderer.android.RendererUtil" sourceFile="RendererUtil.java" interface="false" size="60" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.system.android" total_bugs="3" total_types="12" total_size="592" priority_2="2" priority_1="1">
+      <ClassStats class="com.jme3.system.android.AndroidConfigChooser" sourceFile="AndroidConfigChooser.java" interface="false" size="189" bugs="0"/>
+      <ClassStats class="com.jme3.system.android.AndroidConfigChooser$1" sourceFile="AndroidConfigChooser.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="com.jme3.system.android.AndroidConfigChooser$Config" sourceFile="AndroidConfigChooser.java" interface="false" size="24" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.system.android.JmeAndroidSystem" sourceFile="JmeAndroidSystem.java" interface="false" size="100" bugs="1" priority_1="1"/>
+      <ClassStats class="com.jme3.system.android.JmeAndroidSystem$1" sourceFile="JmeAndroidSystem.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.jme3.system.android.JmeAndroidSystem$2" sourceFile="JmeAndroidSystem.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.jme3.system.android.JmeAndroidSystem$3" sourceFile="JmeAndroidSystem.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.system.android.OGLESContext" sourceFile="OGLESContext.java" interface="false" size="199" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.system.android.OGLESContext$1" sourceFile="OGLESContext.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.system.android.OGLESContext$2" sourceFile="OGLESContext.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="com.jme3.system.android.OGLESContext$2$1" sourceFile="OGLESContext.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.system.android.OGLESContext$2$2" sourceFile="OGLESContext.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.texture.plugins" total_bugs="0" total_types="3" total_size="98">
+      <ClassStats class="com.jme3.texture.plugins.AndroidBufferImageLoader" sourceFile="AndroidBufferImageLoader.java" interface="false" size="76" bugs="0"/>
+      <ClassStats class="com.jme3.texture.plugins.AndroidBufferImageLoader$1" sourceFile="AndroidBufferImageLoader.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.texture.plugins.AndroidNativeImageLoader" sourceFile="AndroidNativeImageLoader.java" interface="false" size="18" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.util" total_bugs="2" total_types="7" total_size="161" priority_2="2">
+      <ClassStats class="com.jme3.util.AndroidBufferAllocator" sourceFile="AndroidBufferAllocator.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="com.jme3.util.AndroidLogHandler" sourceFile="AndroidLogHandler.java" interface="false" size="36" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.util.AndroidLogHandler$1" sourceFile="AndroidLogHandler.java" interface="false" size="18" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.util.AndroidScreenshots" sourceFile="AndroidScreenshots.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.jme3.util.RingBuffer" sourceFile="RingBuffer.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="com.jme3.util.RingBuffer$1" sourceFile="RingBuffer.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="com.jme3.util.RingBuffer$RingBufferIterator" sourceFile="RingBuffer.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="495" invocations="1219" avgMicrosecondsPerInvocation="406" maxMicrosecondsPerInvocation="21140" standardDeviationMicrosecondsPerInvocation="1199"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="293" invocations="596" avgMicrosecondsPerInvocation="492" maxMicrosecondsPerInvocation="14355" standardDeviationMicrosecondsPerInvocation="1587"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="272" invocations="594" avgMicrosecondsPerInvocation="458" maxMicrosecondsPerInvocation="14751" standardDeviationMicrosecondsPerInvocation="1427"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="242" invocations="595" avgMicrosecondsPerInvocation="406" maxMicrosecondsPerInvocation="23261" standardDeviationMicrosecondsPerInvocation="1691"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="237" invocations="303" avgMicrosecondsPerInvocation="782" maxMicrosecondsPerInvocation="17343" standardDeviationMicrosecondsPerInvocation="2136"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="235" invocations="1230" avgMicrosecondsPerInvocation="191" maxMicrosecondsPerInvocation="8222" standardDeviationMicrosecondsPerInvocation="449"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="231" invocations="79" avgMicrosecondsPerInvocation="2933" maxMicrosecondsPerInvocation="182526" standardDeviationMicrosecondsPerInvocation="20387"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="223" invocations="618" avgMicrosecondsPerInvocation="361" maxMicrosecondsPerInvocation="13515" standardDeviationMicrosecondsPerInvocation="1230"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="222" invocations="600" avgMicrosecondsPerInvocation="370" maxMicrosecondsPerInvocation="14551" standardDeviationMicrosecondsPerInvocation="1284"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="213" invocations="596" avgMicrosecondsPerInvocation="358" maxMicrosecondsPerInvocation="12675" standardDeviationMicrosecondsPerInvocation="1275"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="198" invocations="303" avgMicrosecondsPerInvocation="654" maxMicrosecondsPerInvocation="16400" standardDeviationMicrosecondsPerInvocation="1537"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="169" invocations="484" avgMicrosecondsPerInvocation="350" maxMicrosecondsPerInvocation="14553" standardDeviationMicrosecondsPerInvocation="1322"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="158" invocations="642" avgMicrosecondsPerInvocation="246" maxMicrosecondsPerInvocation="92200" standardDeviationMicrosecondsPerInvocation="3666"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="156" invocations="1103" avgMicrosecondsPerInvocation="141" maxMicrosecondsPerInvocation="10690" standardDeviationMicrosecondsPerInvocation="480"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="130" invocations="417" avgMicrosecondsPerInvocation="312" maxMicrosecondsPerInvocation="32463" standardDeviationMicrosecondsPerInvocation="1826"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="115" invocations="596" avgMicrosecondsPerInvocation="193" maxMicrosecondsPerInvocation="36384" standardDeviationMicrosecondsPerInvocation="1622"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="85" invocations="1088" avgMicrosecondsPerInvocation="78" maxMicrosecondsPerInvocation="8527" standardDeviationMicrosecondsPerInvocation="328"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="80" invocations="303" avgMicrosecondsPerInvocation="264" maxMicrosecondsPerInvocation="4045" standardDeviationMicrosecondsPerInvocation="596"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="71" invocations="303" avgMicrosecondsPerInvocation="237" maxMicrosecondsPerInvocation="23124" standardDeviationMicrosecondsPerInvocation="1395"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="68" invocations="303" avgMicrosecondsPerInvocation="224" maxMicrosecondsPerInvocation="7480" standardDeviationMicrosecondsPerInvocation="652"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="58" invocations="79" avgMicrosecondsPerInvocation="741" maxMicrosecondsPerInvocation="9545" standardDeviationMicrosecondsPerInvocation="1679"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReadOfInstanceFieldInMethodInvokedByConstructorInSuperclass" totalMilliseconds="55" invocations="79" avgMicrosecondsPerInvocation="704" maxMicrosecondsPerInvocation="14104" standardDeviationMicrosecondsPerInvocation="2481"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="55" invocations="79" avgMicrosecondsPerInvocation="697" maxMicrosecondsPerInvocation="8486" standardDeviationMicrosecondsPerInvocation="1376"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="53" invocations="79" avgMicrosecondsPerInvocation="683" maxMicrosecondsPerInvocation="13134" standardDeviationMicrosecondsPerInvocation="2346"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="53" invocations="303" avgMicrosecondsPerInvocation="177" maxMicrosecondsPerInvocation="3095" standardDeviationMicrosecondsPerInvocation="389"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="53" invocations="79" avgMicrosecondsPerInvocation="672" maxMicrosecondsPerInvocation="9505" standardDeviationMicrosecondsPerInvocation="1457"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="51" invocations="594" avgMicrosecondsPerInvocation="87" maxMicrosecondsPerInvocation="12007" standardDeviationMicrosecondsPerInvocation="666"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindHEmismatch" totalMilliseconds="51" invocations="79" avgMicrosecondsPerInvocation="646" maxMicrosecondsPerInvocation="11442" standardDeviationMicrosecondsPerInvocation="1997"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="49" invocations="79" avgMicrosecondsPerInvocation="630" maxMicrosecondsPerInvocation="6625" standardDeviationMicrosecondsPerInvocation="1223"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison" totalMilliseconds="46" invocations="79" avgMicrosecondsPerInvocation="582" maxMicrosecondsPerInvocation="9957" standardDeviationMicrosecondsPerInvocation="1727"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="45" invocations="303" avgMicrosecondsPerInvocation="150" maxMicrosecondsPerInvocation="7717" standardDeviationMicrosecondsPerInvocation="573"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

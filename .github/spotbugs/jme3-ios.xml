@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1587223013291" analysisTimestamp="1587223013311" release="3.4.0-SNAPSHOT">
+  <Project projectName="project &apos;:jme3-ios&apos; (main)">
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/audio/ios/IosAL.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/audio/ios/IosEFX.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/audio/ios/IosALC.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/renderer/ios/JmeIosGLES.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/renderer/ios/IosGL.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/util/RingBuffer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/util/RingBuffer$RingBufferIterator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/util/RingBuffer$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/system/ios/IosHarness.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/system/ios/JmeIosSystem.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/system/ios/IosLogHandler.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/system/ios/IGLESContext.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/system/ios/IosImageLoader.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/system/ios/ObjcNativeObject.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/input/ios/IosTouchHandler.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/input/ios/IosTouchHandler$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/input/ios/TouchEventPool.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main/com/jme3/input/ios/IosInputHandler.class</Jar>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/build/resources/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-plugins/build/libs/jme3-plugins-3.4.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-core/build/libs/jme3-core-3.4.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.1/2a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0/gson-2.8.1.jar</AuxClasspathEntry>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/groovy</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java/com/jme3/audio/ios/IosEFX.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java/com/jme3/audio/ios/IosAL.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java/com/jme3/audio/ios/IosALC.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java/com/jme3/renderer/ios/JmeIosGLES.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java/com/jme3/renderer/ios/IosGL.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java/com/jme3/util/RingBuffer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java/com/jme3/system/ios/IosImageLoader.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java/com/jme3/system/ios/IosHarness.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java/com/jme3/system/ios/JmeIosSystem.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java/com/jme3/system/ios/IosLogHandler.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java/com/jme3/system/ios/IGLESContext.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java/com/jme3/system/ios/ObjcNativeObject.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java/com/jme3/asset/IOS.cfg</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java/com/jme3/input/ios/IosTouchHandler.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java/com/jme3/input/ios/TouchEventPool.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-ios/src/main/java/com/jme3/input/ios/IosInputHandler.java</SrcDir>
+  </Project>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.input.ios.IosTouchHandler">
+      <SourceLine classname="com.jme3.input.ios.IosTouchHandler" start="57" end="188" sourcefile="IosTouchHandler.java" sourcepath="com/jme3/input/ios/IosTouchHandler.java"/>
+    </Class>
+    <Method classname="com.jme3.input.ios.IosTouchHandler" name="generateMouseEvent" signature="(Lcom/jme3/input/event/TouchEvent;)Lcom/jme3/input/event/InputEvent;" isStatic="false">
+      <SourceLine classname="com.jme3.input.ios.IosTouchHandler" start="146" end="188" startBytecode="0" endBytecode="489" sourcefile="IosTouchHandler.java" sourcepath="com/jme3/input/ios/IosTouchHandler.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.input.ios.IosTouchHandler" start="168" end="184" startBytecode="111" endBytecode="220" sourcefile="IosTouchHandler.java" sourcepath="com/jme3/input/ios/IosTouchHandler.java"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE">
+    <Class classname="com.jme3.renderer.ios.JmeIosGLES">
+      <SourceLine classname="com.jme3.renderer.ios.JmeIosGLES" start="15" end="249" sourcefile="JmeIosGLES.java" sourcepath="com/jme3/renderer/ios/JmeIosGLES.java"/>
+    </Class>
+    <Method classname="com.jme3.renderer.ios.JmeIosGLES" name="checkGLError" signature="()V" isStatic="true">
+      <SourceLine classname="com.jme3.renderer.ios.JmeIosGLES" start="237" end="249" startBytecode="0" endBytecode="183" sourcefile="JmeIosGLES.java" sourcepath="com/jme3/renderer/ios/JmeIosGLES.java"/>
+    </Method>
+    <LocalVariable name="message" register="1" pc="17" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.jme3.renderer.ios.JmeIosGLES" start="243" end="243" startBytecode="18" endBytecode="18" sourcefile="JmeIosGLES.java" sourcepath="com/jme3/renderer/ios/JmeIosGLES.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE">
+    <Class classname="com.jme3.system.ios.IosHarness">
+      <SourceLine classname="com.jme3.system.ios.IosHarness" start="45" end="47" sourcefile="IosHarness.java" sourcepath="com/jme3/system/ios/IosHarness.java"/>
+    </Class>
+    <Field classname="com.jme3.system.ios.IosHarness" name="app" signature="Lcom/jme3/app/LegacyApplication;" isStatic="false">
+      <SourceLine classname="com.jme3.system.ios.IosHarness" sourcefile="IosHarness.java" sourcepath="com/jme3/system/ios/IosHarness.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="DB_DUPLICATE_BRANCHES" priority="2" rank="17" abbrev="DB" category="STYLE">
+    <Class classname="com.jme3.system.ios.IosLogHandler">
+      <SourceLine classname="com.jme3.system.ios.IosLogHandler" start="45" end="71" sourcefile="IosLogHandler.java" sourcepath="com/jme3/system/ios/IosLogHandler.java"/>
+    </Class>
+    <Method classname="com.jme3.system.ios.IosLogHandler" name="publish" signature="(Ljava/util/logging/LogRecord;)V" isStatic="false">
+      <SourceLine classname="com.jme3.system.ios.IosLogHandler" start="52" end="61" startBytecode="0" endBytecode="157" sourcefile="IosLogHandler.java" sourcepath="com/jme3/system/ios/IosLogHandler.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.system.ios.IosLogHandler" start="56" end="56" startBytecode="43" endBytecode="57" sourcefile="IosLogHandler.java" sourcepath="com/jme3/system/ios/IosLogHandler.java"/>
+    <SourceLine classname="com.jme3.system.ios.IosLogHandler" start="59" end="59" startBytecode="60" endBytecode="71" sourcefile="IosLogHandler.java" sourcepath="com/jme3/system/ios/IosLogHandler.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 18 Apr 2020 15:16:53 +0000" total_classes="18" referenced_classes="114" total_bugs="4" total_size="1169" num_packages="5" java_version="1.8.0_252" vm_version="25.252-b14" cpu_seconds="6.24" clock_seconds="3.19" peak_mbytes="183.91" alloc_mbytes="455.50" gc_seconds="0.18" priority_2="4">
+    <PackageStats package="com.jme3.audio.ios" total_bugs="0" total_types="3" total_size="51">
+      <ClassStats class="com.jme3.audio.ios.IosAL" sourceFile="IosAL.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="com.jme3.audio.ios.IosALC" sourceFile="IosALC.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="com.jme3.audio.ios.IosEFX" sourceFile="IosEFX.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.input.ios" total_bugs="1" total_types="4" total_size="259" priority_2="1">
+      <ClassStats class="com.jme3.input.ios.IosInputHandler" sourceFile="IosInputHandler.java" interface="false" size="125" bugs="0"/>
+      <ClassStats class="com.jme3.input.ios.IosTouchHandler" sourceFile="IosTouchHandler.java" interface="false" size="88" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.input.ios.IosTouchHandler$1" sourceFile="IosTouchHandler.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.input.ios.TouchEventPool" sourceFile="TouchEventPool.java" interface="false" size="42" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.renderer.ios" total_bugs="1" total_types="2" total_size="604" priority_2="1">
+      <ClassStats class="com.jme3.renderer.ios.IosGL" sourceFile="IosGL.java" interface="false" size="375" bugs="0"/>
+      <ClassStats class="com.jme3.renderer.ios.JmeIosGLES" sourceFile="JmeIosGLES.java" interface="false" size="229" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.system.ios" total_bugs="2" total_types="6" total_size="203" priority_2="2">
+      <ClassStats class="com.jme3.system.ios.IGLESContext" sourceFile="IGLESContext.java" interface="false" size="99" bugs="0"/>
+      <ClassStats class="com.jme3.system.ios.IosHarness" sourceFile="IosHarness.java" interface="false" size="12" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.system.ios.IosImageLoader" sourceFile="IosImageLoader.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.system.ios.IosLogHandler" sourceFile="IosLogHandler.java" interface="false" size="17" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.system.ios.JmeIosSystem" sourceFile="JmeIosSystem.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="com.jme3.system.ios.ObjcNativeObject" sourceFile="ObjcNativeObject.java" interface="false" size="28" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.util" total_bugs="0" total_types="3" total_size="52">
+      <ClassStats class="com.jme3.util.RingBuffer" sourceFile="RingBuffer.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="com.jme3.util.RingBuffer$1" sourceFile="RingBuffer.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="com.jme3.util.RingBuffer$RingBufferIterator" sourceFile="RingBuffer.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="326" invocations="737" avgMicrosecondsPerInvocation="443" maxMicrosecondsPerInvocation="15988" standardDeviationMicrosecondsPerInvocation="1203"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="151" invocations="114" avgMicrosecondsPerInvocation="1324" maxMicrosecondsPerInvocation="21665" standardDeviationMicrosecondsPerInvocation="3122"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="147" invocations="18" avgMicrosecondsPerInvocation="8190" maxMicrosecondsPerInvocation="117323" standardDeviationMicrosecondsPerInvocation="26613"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="147" invocations="740" avgMicrosecondsPerInvocation="199" maxMicrosecondsPerInvocation="8098" standardDeviationMicrosecondsPerInvocation="387"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="125" invocations="377" avgMicrosecondsPerInvocation="333" maxMicrosecondsPerInvocation="81208" standardDeviationMicrosecondsPerInvocation="4254"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="109" invocations="229" avgMicrosecondsPerInvocation="479" maxMicrosecondsPerInvocation="10577" standardDeviationMicrosecondsPerInvocation="1395"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="107" invocations="114" avgMicrosecondsPerInvocation="946" maxMicrosecondsPerInvocation="11482" standardDeviationMicrosecondsPerInvocation="1812"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="96" invocations="699" avgMicrosecondsPerInvocation="138" maxMicrosecondsPerInvocation="21815" standardDeviationMicrosecondsPerInvocation="925"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="96" invocations="229" avgMicrosecondsPerInvocation="420" maxMicrosecondsPerInvocation="12141" standardDeviationMicrosecondsPerInvocation="1488"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="88" invocations="445" avgMicrosecondsPerInvocation="198" maxMicrosecondsPerInvocation="13973" standardDeviationMicrosecondsPerInvocation="789"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="86" invocations="232" avgMicrosecondsPerInvocation="372" maxMicrosecondsPerInvocation="12078" standardDeviationMicrosecondsPerInvocation="1341"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="85" invocations="229" avgMicrosecondsPerInvocation="372" maxMicrosecondsPerInvocation="11863" standardDeviationMicrosecondsPerInvocation="1089"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="71" invocations="229" avgMicrosecondsPerInvocation="314" maxMicrosecondsPerInvocation="13116" standardDeviationMicrosecondsPerInvocation="1095"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="71" invocations="167" avgMicrosecondsPerInvocation="428" maxMicrosecondsPerInvocation="16893" standardDeviationMicrosecondsPerInvocation="1758"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="71" invocations="229" avgMicrosecondsPerInvocation="312" maxMicrosecondsPerInvocation="9261" standardDeviationMicrosecondsPerInvocation="1122"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="53" invocations="197" avgMicrosecondsPerInvocation="271" maxMicrosecondsPerInvocation="10863" standardDeviationMicrosecondsPerInvocation="1106"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="48" invocations="114" avgMicrosecondsPerInvocation="428" maxMicrosecondsPerInvocation="12394" standardDeviationMicrosecondsPerInvocation="1282"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="47" invocations="114" avgMicrosecondsPerInvocation="413" maxMicrosecondsPerInvocation="9115" standardDeviationMicrosecondsPerInvocation="1078"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="42" invocations="18" avgMicrosecondsPerInvocation="2350" maxMicrosecondsPerInvocation="14501" standardDeviationMicrosecondsPerInvocation="4025"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="39" invocations="114" avgMicrosecondsPerInvocation="343" maxMicrosecondsPerInvocation="5602" standardDeviationMicrosecondsPerInvocation="843"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="38" invocations="1174" avgMicrosecondsPerInvocation="32" maxMicrosecondsPerInvocation="8021" standardDeviationMicrosecondsPerInvocation="311"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="37" invocations="114" avgMicrosecondsPerInvocation="330" maxMicrosecondsPerInvocation="9666" standardDeviationMicrosecondsPerInvocation="1156"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="35" invocations="114" avgMicrosecondsPerInvocation="312" maxMicrosecondsPerInvocation="8405" standardDeviationMicrosecondsPerInvocation="909"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref" totalMilliseconds="32" invocations="18" avgMicrosecondsPerInvocation="1794" maxMicrosecondsPerInvocation="13194" standardDeviationMicrosecondsPerInvocation="3598"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

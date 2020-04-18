@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1587223065975" analysisTimestamp="1587223066002" release="3.4.0-SNAPSHOT">
+  <Project projectName="project &apos;:jme3-niftygui&apos; (main)">
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/NiftyJmeDisplay$ResourceLocationJme.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/SoundDeviceJme.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/JmeBatchRenderBackend$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/RenderDeviceJme$CachedTextKey.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/NiftyJmeDisplay.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/RenderImageJme.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/RenderDeviceJme.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/SoundHandleJme.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/JmeBatchRenderBackend$Batch.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/RenderDeviceJme$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/InputSystemJme.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/JmeBatchRenderBackend$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/RenderDeviceJme$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/RenderFontJme.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/JmeBatchRenderBackend$3.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/InputSystemJme$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/JmeBatchRenderBackend$ModifyTexture.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/InputSystemJme$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/JmeBatchRenderBackend.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/niftygui/JmeBatchRenderBackend$ImageImpl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/cinematic/events/GuiTrack.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main/com/jme3/cinematic/events/GuiEvent.class</Jar>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/build/resources/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-core/build/libs/jme3-core-3.4.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/com.github.nifty-gui/nifty-default-controls/1.4.3/2ccafe0182a73da87657ca24b639b6e8c1accd50/nifty-default-controls-1.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/com.github.nifty-gui/nifty/1.4.3/fa9ac16e00d1b375d10f58d1c1eb576950ae8c9d/nifty-1.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/com.github.nifty-gui/nifty-style-black/1.4.3/c20a02dbdeb0bd9d2be258955fceb55c13185a8/nifty-style-black-1.4.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/xpp3/xpp3/1.1.4c/9b988ea84b9e4e9f1874e390ce099b8ac12cfff5/xpp3-1.1.4c.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.2/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.2.jar</AuxClasspathEntry>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/src/main/java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/src/main/groovy</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/src/main/java/com/jme3/niftygui/InputSystemJme.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/src/main/java/com/jme3/niftygui/RenderDeviceJme.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/src/main/java/com/jme3/niftygui/RenderFontJme.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/src/main/java/com/jme3/niftygui/RenderImageJme.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/src/main/java/com/jme3/niftygui/SoundHandleJme.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/src/main/java/com/jme3/niftygui/JmeBatchRenderBackend.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/src/main/java/com/jme3/niftygui/SoundDeviceJme.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/src/main/java/com/jme3/niftygui/NiftyJmeDisplay.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/src/main/java/com/jme3/cinematic/events/GuiTrack.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-niftygui/src/main/java/com/jme3/cinematic/events/GuiEvent.java</SrcDir>
+  </Project>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE">
+    <Class classname="com.jme3.niftygui.InputSystemJme">
+      <SourceLine classname="com.jme3.niftygui.InputSystemJme" start="55" end="344" sourcefile="InputSystemJme.java" sourcepath="com/jme3/niftygui/InputSystemJme.java"/>
+    </Class>
+    <Method classname="com.jme3.niftygui.InputSystemJme" name="processSoftKeyboard" signature="()V" isStatic="false">
+      <SourceLine classname="com.jme3.niftygui.InputSystemJme" start="319" end="344" startBytecode="0" endBytecode="258" sourcefile="InputSystemJme.java" sourcepath="com/jme3/niftygui/InputSystemJme.java"/>
+    </Method>
+    <LocalVariable name="initialValue" register="4" pc="70" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="de.lessvoid.nifty.controls.TextField" name="getRealText" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="de.lessvoid.nifty.controls.TextField" sourcefile="TextField.java" sourcepath="de/lessvoid/nifty/controls/TextField.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.niftygui.InputSystemJme" start="327" end="327" startBytecode="72" endBytecode="72" sourcefile="InputSystemJme.java" sourcepath="com/jme3/niftygui/InputSystemJme.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.niftygui.InputSystemJme">
+      <SourceLine classname="com.jme3.niftygui.InputSystemJme" start="55" end="344" sourcefile="InputSystemJme.java" sourcepath="com/jme3/niftygui/InputSystemJme.java"/>
+    </Class>
+    <Method classname="com.jme3.niftygui.InputSystemJme" name="onTouchEventQueued" signature="(Lcom/jme3/input/event/TouchEvent;Lde/lessvoid/nifty/NiftyInputConsumer;)V" isStatic="false">
+      <SourceLine classname="com.jme3.niftygui.InputSystemJme" start="187" end="220" startBytecode="0" endBytecode="261" sourcefile="InputSystemJme.java" sourcepath="com/jme3/niftygui/InputSystemJme.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.niftygui.InputSystemJme" start="196" end="216" startBytecode="46" endBytecode="128" sourcefile="InputSystemJme.java" sourcepath="com/jme3/niftygui/InputSystemJme.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="com.jme3.niftygui.NiftyJmeDisplay">
+      <SourceLine classname="com.jme3.niftygui.NiftyJmeDisplay" start="58" end="376" sourcefile="NiftyJmeDisplay.java" sourcepath="com/jme3/niftygui/NiftyJmeDisplay.java"/>
+    </Class>
+    <Field classname="com.jme3.niftygui.NiftyJmeDisplay" name="prof" signature="Lcom/jme3/profile/AppProfiler;" isStatic="false">
+      <SourceLine classname="com.jme3.niftygui.NiftyJmeDisplay" sourcefile="NiftyJmeDisplay.java" sourcepath="com/jme3/niftygui/NiftyJmeDisplay.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.niftygui.NiftyJmeDisplay" start="375" end="375" startBytecode="2" endBytecode="2" sourcefile="NiftyJmeDisplay.java" sourcepath="com/jme3/niftygui/NiftyJmeDisplay.java"/>
+  </BugInstance>
+  <BugInstance type="BC_EQUALS_METHOD_SHOULD_WORK_FOR_ALL_OBJECTS" priority="2" rank="16" abbrev="BC" category="BAD_PRACTICE">
+    <Class classname="com.jme3.niftygui.RenderDeviceJme$CachedTextKey">
+      <SourceLine classname="com.jme3.niftygui.RenderDeviceJme$CachedTextKey" start="89" end="109" sourcefile="RenderDeviceJme.java" sourcepath="com/jme3/niftygui/RenderDeviceJme.java"/>
+    </Class>
+    <Method classname="com.jme3.niftygui.RenderDeviceJme$CachedTextKey" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="com.jme3.niftygui.RenderDeviceJme$CachedTextKey" start="97" end="98" startBytecode="0" endBytecode="128" sourcefile="RenderDeviceJme.java" sourcepath="com/jme3/niftygui/RenderDeviceJme.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.niftygui.RenderDeviceJme$CachedTextKey" start="97" end="97" startBytecode="1" endBytecode="1" sourcefile="RenderDeviceJme.java" sourcepath="com/jme3/niftygui/RenderDeviceJme.java"/>
+  </BugInstance>
+  <BugInstance type="NP_EQUALS_SHOULD_HANDLE_NULL_ARGUMENT" priority="2" rank="11" abbrev="NP" category="BAD_PRACTICE">
+    <Class classname="com.jme3.niftygui.RenderDeviceJme$CachedTextKey">
+      <SourceLine classname="com.jme3.niftygui.RenderDeviceJme$CachedTextKey" start="89" end="109" sourcefile="RenderDeviceJme.java" sourcepath="com/jme3/niftygui/RenderDeviceJme.java"/>
+    </Class>
+    <Method classname="com.jme3.niftygui.RenderDeviceJme$CachedTextKey" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="com.jme3.niftygui.RenderDeviceJme$CachedTextKey" start="97" end="98" startBytecode="0" endBytecode="128" sourcefile="RenderDeviceJme.java" sourcepath="com/jme3/niftygui/RenderDeviceJme.java"/>
+    </Method>
+    <LocalVariable name="other" register="1" pc="0" role="LOCAL_VARIABLE_PARAMETER_NAMED"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 18 Apr 2020 15:17:45 +0000" total_classes="22" referenced_classes="149" total_bugs="5" total_size="1104" num_packages="2" java_version="1.8.0_252" vm_version="25.252-b14" cpu_seconds="7.20" clock_seconds="3.68" peak_mbytes="213.70" alloc_mbytes="455.50" gc_seconds="0.21" priority_2="5">
+    <PackageStats package="com.jme3.cinematic.events" total_bugs="0" total_types="2" total_size="113">
+      <ClassStats class="com.jme3.cinematic.events.GuiEvent" sourceFile="GuiEvent.java" interface="false" size="58" bugs="0"/>
+      <ClassStats class="com.jme3.cinematic.events.GuiTrack" sourceFile="GuiTrack.java" interface="false" size="55" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.niftygui" total_bugs="5" total_types="20" total_size="991" priority_2="5">
+      <ClassStats class="com.jme3.niftygui.InputSystemJme" sourceFile="InputSystemJme.java" interface="false" size="145" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.niftygui.InputSystemJme$1" sourceFile="InputSystemJme.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jme3.niftygui.InputSystemJme$2" sourceFile="InputSystemJme.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.niftygui.JmeBatchRenderBackend" sourceFile="JmeBatchRenderBackend.java" interface="false" size="174" bugs="0"/>
+      <ClassStats class="com.jme3.niftygui.JmeBatchRenderBackend$1" sourceFile="JmeBatchRenderBackend.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.niftygui.JmeBatchRenderBackend$2" sourceFile="JmeBatchRenderBackend.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.niftygui.JmeBatchRenderBackend$3" sourceFile="JmeBatchRenderBackend.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.niftygui.JmeBatchRenderBackend$Batch" sourceFile="JmeBatchRenderBackend.java" interface="false" size="112" bugs="0"/>
+      <ClassStats class="com.jme3.niftygui.JmeBatchRenderBackend$ImageImpl" sourceFile="JmeBatchRenderBackend.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="com.jme3.niftygui.JmeBatchRenderBackend$ModifyTexture" sourceFile="JmeBatchRenderBackend.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="com.jme3.niftygui.NiftyJmeDisplay" sourceFile="NiftyJmeDisplay.java" interface="false" size="122" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.niftygui.NiftyJmeDisplay$ResourceLocationJme" sourceFile="NiftyJmeDisplay.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="com.jme3.niftygui.RenderDeviceJme" sourceFile="RenderDeviceJme.java" interface="false" size="199" bugs="0"/>
+      <ClassStats class="com.jme3.niftygui.RenderDeviceJme$1" sourceFile="RenderDeviceJme.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.niftygui.RenderDeviceJme$2" sourceFile="RenderDeviceJme.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.niftygui.RenderDeviceJme$CachedTextKey" sourceFile="RenderDeviceJme.java" interface="false" size="17" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.niftygui.RenderFontJme" sourceFile="RenderFontJme.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="com.jme3.niftygui.RenderImageJme" sourceFile="RenderImageJme.java" interface="false" size="34" bugs="0"/>
+      <ClassStats class="com.jme3.niftygui.SoundDeviceJme" sourceFile="SoundDeviceJme.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="com.jme3.niftygui.SoundHandleJme" sourceFile="SoundHandleJme.java" interface="false" size="48" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="397" invocations="871" avgMicrosecondsPerInvocation="456" maxMicrosecondsPerInvocation="33218" standardDeviationMicrosecondsPerInvocation="1649"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="223" invocations="195" avgMicrosecondsPerInvocation="1148" maxMicrosecondsPerInvocation="154146" standardDeviationMicrosecondsPerInvocation="11595"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="187" invocations="149" avgMicrosecondsPerInvocation="1255" maxMicrosecondsPerInvocation="15769" standardDeviationMicrosecondsPerInvocation="2496"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="176" invocations="876" avgMicrosecondsPerInvocation="201" maxMicrosecondsPerInvocation="2558" standardDeviationMicrosecondsPerInvocation="180"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="165" invocations="194" avgMicrosecondsPerInvocation="852" maxMicrosecondsPerInvocation="13254" standardDeviationMicrosecondsPerInvocation="2041"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="155" invocations="149" avgMicrosecondsPerInvocation="1040" maxMicrosecondsPerInvocation="9781" standardDeviationMicrosecondsPerInvocation="1885"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="109" invocations="195" avgMicrosecondsPerInvocation="561" maxMicrosecondsPerInvocation="9865" standardDeviationMicrosecondsPerInvocation="1461"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="105" invocations="195" avgMicrosecondsPerInvocation="539" maxMicrosecondsPerInvocation="17805" standardDeviationMicrosecondsPerInvocation="1914"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="103" invocations="496" avgMicrosecondsPerInvocation="209" maxMicrosecondsPerInvocation="10320" standardDeviationMicrosecondsPerInvocation="594"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="94" invocations="194" avgMicrosecondsPerInvocation="487" maxMicrosecondsPerInvocation="9844" standardDeviationMicrosecondsPerInvocation="1299"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="79" invocations="149" avgMicrosecondsPerInvocation="532" maxMicrosecondsPerInvocation="6429" standardDeviationMicrosecondsPerInvocation="1089"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="77" invocations="197" avgMicrosecondsPerInvocation="391" maxMicrosecondsPerInvocation="10200" standardDeviationMicrosecondsPerInvocation="1076"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="72" invocations="218" avgMicrosecondsPerInvocation="331" maxMicrosecondsPerInvocation="15987" standardDeviationMicrosecondsPerInvocation="1250"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="69" invocations="195" avgMicrosecondsPerInvocation="356" maxMicrosecondsPerInvocation="12110" standardDeviationMicrosecondsPerInvocation="1110"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="66" invocations="822" avgMicrosecondsPerInvocation="81" maxMicrosecondsPerInvocation="6289" standardDeviationMicrosecondsPerInvocation="266"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="59" invocations="134" avgMicrosecondsPerInvocation="443" maxMicrosecondsPerInvocation="15279" standardDeviationMicrosecondsPerInvocation="1570"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="59" invocations="149" avgMicrosecondsPerInvocation="398" maxMicrosecondsPerInvocation="12623" standardDeviationMicrosecondsPerInvocation="1436"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="55" invocations="149" avgMicrosecondsPerInvocation="369" maxMicrosecondsPerInvocation="7832" standardDeviationMicrosecondsPerInvocation="882"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="48" invocations="149" avgMicrosecondsPerInvocation="327" maxMicrosecondsPerInvocation="11246" standardDeviationMicrosecondsPerInvocation="1190"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="46" invocations="149" avgMicrosecondsPerInvocation="310" maxMicrosecondsPerInvocation="10618" standardDeviationMicrosecondsPerInvocation="943"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="43" invocations="22" avgMicrosecondsPerInvocation="1981" maxMicrosecondsPerInvocation="10878" standardDeviationMicrosecondsPerInvocation="3374"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="38" invocations="149" avgMicrosecondsPerInvocation="258" maxMicrosecondsPerInvocation="6604" standardDeviationMicrosecondsPerInvocation="788"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="33" invocations="195" avgMicrosecondsPerInvocation="171" maxMicrosecondsPerInvocation="10148" standardDeviationMicrosecondsPerInvocation="793"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

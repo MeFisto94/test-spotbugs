@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1587223058145" analysisTimestamp="1587223058167" release="3.4.0-SNAPSHOT">
+  <Project projectName="project &apos;:jme3-networking&apos; (main)">
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/ClientService.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/AbstractHostedConnectionService.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/Service.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/HostedServiceManager.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rpc/RpcHandler.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rpc/RpcClientService.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rpc/RpcHostedService.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rpc/RpcConnection$ResponseHolder.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rpc/RpcConnection.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rpc/msg/RpcCallMessage.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rpc/msg/RpcResponseMessage.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rmi/ClassInfoRegistry.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rmi/RmiRegistry$ObjectIndex.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rmi/RmiHostedService$GlobalShare.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rmi/RemoteObjectHandler.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rmi/ClassInfo.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rmi/CallType.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rmi/Asynchronous.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rmi/RmiHostedService.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rmi/RmiRegistry$RmiHandler.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rmi/MethodInfo.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rmi/RmiRegistry$SharedObject.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rmi/RmiRegistry.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rmi/RmiRegistry$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rmi/RmiClientService.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rmi/RmiContext.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/rmi/RmiClientService$ObjectInfo.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/HostedService.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/AbstractClientService.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/ClientServiceManager.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/serializer/ClientSerializerRegistrationsService.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/serializer/ServerSerializerRegistrationsService.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/HostedServiceManager$ConnectionObserver.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/AbstractService.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/AbstractHostedService.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/service/ServiceManager.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/AbstractMessage.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/NetworkClient.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/Server.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/ConnectionListener.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/Filter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/HostedConnection.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/Filters$NotFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/Message.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/MessageListener.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/SavableSerializer$BufferOutputStream.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/ByteSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/CharSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/GZIPSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/DoubleSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/IntSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/MapSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/ArraySerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/StringSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/ZIPSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/FloatSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/BooleanSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/Vector3Serializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/SavableSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/SerializableSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/DateSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/LongSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/SavableSerializer$BufferInputStream.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/EnumSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/ShortSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/FieldSerializer$SavedField.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/CollectionSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/FieldSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/serializers/FieldSerializer$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/SerializerException.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/Serializable.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/SerializerRegistration.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/serializing/Serializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/MessageListenerRegistry.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/DefaultServer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/DefaultServer$Redispatch.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/ConnectorAdapter$WriterThread.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/protocol/SerializerMessageProtocol.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/protocol/GreedyMessageBuffer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/protocol/LazyMessageBuffer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/TcpConnectorFactory.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/ConnectorFactory.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/NioKernelFactory.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/DefaultClient$Redispatch.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/DefaultServer$FilterAdapter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/KernelAdapter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/MessageProtocol.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/DefaultClient.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/MessageBuffer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/KernelFactory.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/DefaultServer$Connection.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/base/ConnectorAdapter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/ClientStateListener.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/Filters.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/Client.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/ClientStateListener$DisconnectInfo.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/message/CompressedMessage.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/message/ChannelInfoMessage.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/message/SerializerRegistrationsMessage$Registration.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/message/DisconnectMessage.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/message/DisconnectMessage$DisconnectSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/message/ClientRegistrationMessage$ClientRegistrationSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/message/GZIPCompressedMessage.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/message/SerializerRegistrationsMessage.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/message/ZIPCompressedMessage.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/message/ClientRegistrationMessage.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/rmi/LocalObject.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/rmi/RmiSerializer.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/rmi/ObjectStore$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/rmi/RemoteObjectDefMessage.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/rmi/ObjectStore$ServerEventHandler.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/rmi/ObjectDef.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/rmi/ObjectStore$Invocation.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/rmi/ObjectStore.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/rmi/ObjectStore$ClientEventHandler.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/rmi/MethodDef.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/rmi/RemoteMethodCallMessage.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/rmi/RemoteObject.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/rmi/RemoteMethodReturnMessage.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/util/AbstractMessageDelegator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/util/SessionDataDelegator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/util/ObjectMessageDelegator.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/ErrorListener.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/Network$NetworkClientImpl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/Network.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/Filters$EqualToFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/tcp/SelectorKernel.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/tcp/NioEndpoint.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/tcp/SelectorKernel$SelectorThread.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/tcp/SocketConnector.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/EndpointEvent.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/ConnectorException.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/Kernel.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/EndpointEvent$Type.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/AbstractKernel.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/Envelope.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/Endpoint.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/udp/UdpKernel$MessageWriter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/udp/UdpKernel.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/udp/UdpConnector.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/udp/UdpEndpoint.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/udp/UdpKernel$HostThread.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/Connector.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/KernelException.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/kernel/NamedThreadFactory.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/Filters$InFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main/com/jme3/network/MessageConnection.class</Jar>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-core/build/libs/jme3-core-3.4.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/groovy</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/AbstractService.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/rpc/RpcConnection.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/rpc/RpcHandler.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/rpc/RpcHostedService.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/rpc/RpcClientService.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/rpc/msg/RpcCallMessage.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/rpc/msg/RpcResponseMessage.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/ClientServiceManager.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/HostedService.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/AbstractClientService.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/ServiceManager.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/rmi/RmiHostedService.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/rmi/RemoteObjectHandler.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/rmi/Asynchronous.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/rmi/RmiContext.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/rmi/RmiClientService.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/rmi/MethodInfo.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/rmi/RmiRegistry.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/rmi/ClassInfoRegistry.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/rmi/ClassInfo.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/rmi/CallType.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/Service.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/HostedServiceManager.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/ClientService.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/serializer/ServerSerializerRegistrationsService.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/serializer/ClientSerializerRegistrationsService.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/AbstractHostedService.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/service/AbstractHostedConnectionService.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/Message.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/Network.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/AbstractMessage.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/Client.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/ConnectionListener.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/package.html</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/MapSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/ZIPSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/BooleanSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/StringSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/CollectionSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/FieldSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/FloatSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/CharSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/ShortSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/DateSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/DoubleSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/Vector3Serializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/LongSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/SerializableSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/ByteSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/GZIPSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/EnumSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/ArraySerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/SavableSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/serializers/IntSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/SerializerRegistration.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/Serializable.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/Serializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/serializing/SerializerException.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/base/ConnectorFactory.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/base/DefaultServer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/base/DefaultClient.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/base/ConnectorAdapter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/base/package.html</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/base/protocol/GreedyMessageBuffer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/base/protocol/SerializerMessageProtocol.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/base/protocol/LazyMessageBuffer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/base/MessageProtocol.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/base/TcpConnectorFactory.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/base/MessageListenerRegistry.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/base/NioKernelFactory.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/base/MessageBuffer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/base/KernelFactory.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/base/KernelAdapter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/Filters.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/message/ZIPCompressedMessage.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/message/SerializerRegistrationsMessage.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/message/ChannelInfoMessage.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/message/CompressedMessage.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/message/ClientRegistrationMessage.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/message/GZIPCompressedMessage.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/message/DisconnectMessage.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/rmi/RmiSerializer.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/rmi/RemoteObject.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/rmi/LocalObject.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/rmi/MethodDef.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/rmi/ObjectStore.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/rmi/ObjectDef.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/rmi/RemoteMethodReturnMessage.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/rmi/RemoteObjectDefMessage.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/rmi/RemoteMethodCallMessage.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/util/SessionDataDelegator.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/util/ObjectMessageDelegator.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/util/AbstractMessageDelegator.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/MessageConnection.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/ClientStateListener.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/HostedConnection.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/NetworkClient.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/ErrorListener.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/kernel/Endpoint.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/kernel/tcp/SocketConnector.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/kernel/tcp/SelectorKernel.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/kernel/tcp/NioEndpoint.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/kernel/KernelException.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/kernel/package.html</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/kernel/NamedThreadFactory.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/kernel/EndpointEvent.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/kernel/ConnectorException.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/kernel/AbstractKernel.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/kernel/udp/UdpConnector.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/kernel/udp/UdpEndpoint.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/kernel/udp/UdpKernel.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/kernel/Connector.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/kernel/Envelope.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/kernel/Kernel.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/MessageListener.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/Filter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-networking/src/main/java/com/jme3/network/Server.java</SrcDir>
+  </Project>
+  <BugInstance type="DB_DUPLICATE_BRANCHES" priority="2" rank="17" abbrev="DB" category="STYLE">
+    <Class classname="com.jme3.network.base.DefaultServer">
+      <SourceLine classname="com.jme3.network.base.DefaultServer" start="59" end="517" sourcefile="DefaultServer.java" sourcepath="com/jme3/network/base/DefaultServer.java"/>
+    </Class>
+    <Method classname="com.jme3.network.base.DefaultServer" name="connectionClosed" signature="(Lcom/jme3/network/kernel/Endpoint;)V" isStatic="false">
+      <SourceLine classname="com.jme3.network.base.DefaultServer" start="479" end="517" startBytecode="0" endBytecode="365" sourcefile="DefaultServer.java" sourcepath="com/jme3/network/base/DefaultServer.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.network.base.DefaultServer" start="480" end="480" startBytecode="9" endBytecode="21" sourcefile="DefaultServer.java" sourcepath="com/jme3/network/base/DefaultServer.java"/>
+    <SourceLine classname="com.jme3.network.base.DefaultServer" start="482" end="482" startBytecode="24" endBytecode="33" sourcefile="DefaultServer.java" sourcepath="com/jme3/network/base/DefaultServer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_LOAD_OF_KNOWN_NULL_VALUE" priority="2" rank="16" abbrev="NP" category="STYLE">
+    <Class classname="com.jme3.network.base.DefaultServer">
+      <SourceLine classname="com.jme3.network.base.DefaultServer" start="59" end="517" sourcefile="DefaultServer.java" sourcepath="com/jme3/network/base/DefaultServer.java"/>
+    </Class>
+    <Method classname="com.jme3.network.base.DefaultServer" name="dispatch" signature="(Lcom/jme3/network/HostedConnection;Lcom/jme3/network/Message;)V" isStatic="false">
+      <SourceLine classname="com.jme3.network.base.DefaultServer" start="331" end="346" startBytecode="0" endBytecode="43" sourcefile="DefaultServer.java" sourcepath="com/jme3/network/base/DefaultServer.java"/>
+    </Method>
+    <LocalVariable name="source" register="1" pc="40" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.jme3.network.base.DefaultServer" start="336" end="336" startBytecode="43" endBytecode="43" sourcefile="DefaultServer.java" sourcepath="com/jme3/network/base/DefaultServer.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.network.kernel.Envelope">
+      <SourceLine classname="com.jme3.network.kernel.Envelope" start="53" end="77" sourcefile="Envelope.java" sourcepath="com/jme3/network/kernel/Envelope.java"/>
+    </Class>
+    <Method classname="com.jme3.network.kernel.Envelope" name="getData" signature="()[B" isStatic="false">
+      <SourceLine classname="com.jme3.network.kernel.Envelope" start="66" end="66" startBytecode="0" endBytecode="46" sourcefile="Envelope.java" sourcepath="com/jme3/network/kernel/Envelope.java"/>
+    </Method>
+    <Field classname="com.jme3.network.kernel.Envelope" name="data" signature="[B" isStatic="false">
+      <SourceLine classname="com.jme3.network.kernel.Envelope" sourcefile="Envelope.java" sourcepath="com/jme3/network/kernel/Envelope.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.network.kernel.Envelope" start="66" end="66" startBytecode="4" endBytecode="4" sourcefile="Envelope.java" sourcepath="com/jme3/network/kernel/Envelope.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.network.kernel.Envelope">
+      <SourceLine classname="com.jme3.network.kernel.Envelope" start="53" end="77" sourcefile="Envelope.java" sourcepath="com/jme3/network/kernel/Envelope.java"/>
+    </Class>
+    <Method classname="com.jme3.network.kernel.Envelope" name="&lt;init&gt;" signature="(Lcom/jme3/network/kernel/Endpoint;[BZ)V" isStatic="false">
+      <SourceLine classname="com.jme3.network.kernel.Envelope" start="53" end="57" startBytecode="0" endBytecode="107" sourcefile="Envelope.java" sourcepath="com/jme3/network/kernel/Envelope.java"/>
+    </Method>
+    <Field classname="com.jme3.network.kernel.Envelope" name="data" signature="[B" isStatic="false">
+      <SourceLine classname="com.jme3.network.kernel.Envelope" sourcefile="Envelope.java" sourcepath="com/jme3/network/kernel/Envelope.java"/>
+    </Field>
+    <LocalVariable name="data" register="2" pc="11" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.network.kernel.Envelope" start="55" end="55" startBytecode="11" endBytecode="11" sourcefile="Envelope.java" sourcepath="com/jme3/network/kernel/Envelope.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="com.jme3.network.kernel.tcp.SelectorKernel$SelectorThread">
+      <SourceLine classname="com.jme3.network.kernel.tcp.SelectorKernel$SelectorThread" start="223" end="472" sourcefile="SelectorKernel.java" sourcepath="com/jme3/network/kernel/tcp/SelectorKernel.java"/>
+    </Class>
+    <Method classname="com.jme3.network.kernel.tcp.SelectorKernel$SelectorThread" name="cancel" signature="(Ljava/nio/channels/SelectionKey;Ljava/nio/channels/SocketChannel;)V" isStatic="false">
+      <SourceLine classname="com.jme3.network.kernel.tcp.SelectorKernel$SelectorThread" start="343" end="352" startBytecode="0" endBytecode="31" sourcefile="SelectorKernel.java" sourcepath="com/jme3/network/kernel/tcp/SelectorKernel.java"/>
+    </Method>
+    <LocalVariable name="o" register="4" pc="32" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.network.kernel.tcp.SelectorKernel$SelectorThread" start="345" end="345" startBytecode="30" endBytecode="30" sourcefile="SelectorKernel.java" sourcepath="com/jme3/network/kernel/tcp/SelectorKernel.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="o"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="com.jme3.network.kernel.udp.UdpConnector">
+      <SourceLine classname="com.jme3.network.kernel.udp.UdpConnector" start="51" end="146" sourcefile="UdpConnector.java" sourcepath="com/jme3/network/kernel/udp/UdpConnector.java"/>
+    </Class>
+    <Field classname="com.jme3.network.kernel.udp.UdpConnector" name="pending" signature="Ljava/net/DatagramPacket;" isStatic="false">
+      <SourceLine classname="com.jme3.network.kernel.udp.UdpConnector" sourcefile="UdpConnector.java" sourcepath="com/jme3/network/kernel/udp/UdpConnector.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="BC_IMPOSSIBLE_INSTANCEOF" priority="2" rank="9" abbrev="BC" category="CORRECTNESS">
+    <Class classname="com.jme3.network.kernel.udp.UdpEndpoint">
+      <SourceLine classname="com.jme3.network.kernel.udp.UdpEndpoint" start="59" end="152" sourcefile="UdpEndpoint.java" sourcepath="com/jme3/network/kernel/udp/UdpEndpoint.java"/>
+    </Class>
+    <Method classname="com.jme3.network.kernel.udp.UdpEndpoint" name="send" signature="(Ljava/nio/ByteBuffer;)V" isStatic="false">
+      <SourceLine classname="com.jme3.network.kernel.udp.UdpEndpoint" start="124" end="147" startBytecode="0" endBytecode="62" sourcefile="UdpEndpoint.java" sourcepath="com/jme3/network/kernel/udp/UdpEndpoint.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/RuntimeException;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.RuntimeException" start="51" end="118" sourcefile="RuntimeException.java" sourcepath="java/lang/RuntimeException.java"/>
+    </Type>
+    <Type descriptor="Ljava/net/SocketException;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.net.SocketException" start="47" end="54" sourcefile="SocketException.java" sourcepath="java/net/SocketException.java"/>
+    </Type>
+    <LocalVariable name="e" register="2" pc="71" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.jme3.network.kernel.udp.UdpEndpoint" start="139" end="139" startBytecode="72" endBytecode="72" sourcefile="UdpEndpoint.java" sourcepath="com/jme3/network/kernel/udp/UdpEndpoint.java"/>
+  </BugInstance>
+  <BugInstance type="BC_VACUOUS_INSTANCEOF" priority="2" rank="17" abbrev="BC" category="STYLE">
+    <Class classname="com.jme3.network.kernel.udp.UdpEndpoint">
+      <SourceLine classname="com.jme3.network.kernel.udp.UdpEndpoint" start="59" end="152" sourcefile="UdpEndpoint.java" sourcepath="com/jme3/network/kernel/udp/UdpEndpoint.java"/>
+    </Class>
+    <Method classname="com.jme3.network.kernel.udp.UdpEndpoint" name="send" signature="(Ljava/nio/ByteBuffer;)V" isStatic="false">
+      <SourceLine classname="com.jme3.network.kernel.udp.UdpEndpoint" start="124" end="147" startBytecode="0" endBytecode="62" sourcefile="UdpEndpoint.java" sourcepath="com/jme3/network/kernel/udp/UdpEndpoint.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/RuntimeException;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.RuntimeException" start="51" end="118" sourcefile="RuntimeException.java" sourcepath="java/lang/RuntimeException.java"/>
+    </Type>
+    <Type descriptor="Ljava/lang/RuntimeException;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.RuntimeException" start="51" end="118" sourcefile="RuntimeException.java" sourcepath="java/lang/RuntimeException.java"/>
+    </Type>
+    <SourceLine classname="com.jme3.network.kernel.udp.UdpEndpoint" start="141" end="141" startBytecode="110" endBytecode="110" sourcefile="UdpEndpoint.java" sourcepath="com/jme3/network/kernel/udp/UdpEndpoint.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.network.message.ChannelInfoMessage">
+      <SourceLine classname="com.jme3.network.message.ChannelInfoMessage" start="50" end="72" sourcefile="ChannelInfoMessage.java" sourcepath="com/jme3/network/message/ChannelInfoMessage.java"/>
+    </Class>
+    <Method classname="com.jme3.network.message.ChannelInfoMessage" name="getPorts" signature="()[I" isStatic="false">
+      <SourceLine classname="com.jme3.network.message.ChannelInfoMessage" start="67" end="67" startBytecode="0" endBytecode="46" sourcefile="ChannelInfoMessage.java" sourcepath="com/jme3/network/message/ChannelInfoMessage.java"/>
+    </Method>
+    <Field classname="com.jme3.network.message.ChannelInfoMessage" name="ports" signature="[I" isStatic="false">
+      <SourceLine classname="com.jme3.network.message.ChannelInfoMessage" sourcefile="ChannelInfoMessage.java" sourcepath="com/jme3/network/message/ChannelInfoMessage.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.network.message.ChannelInfoMessage" start="67" end="67" startBytecode="4" endBytecode="4" sourcefile="ChannelInfoMessage.java" sourcepath="com/jme3/network/message/ChannelInfoMessage.java"/>
+  </BugInstance>
+  <BugInstance type="MS_CANNOT_BE_FINAL" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.network.message.SerializerRegistrationsMessage">
+      <SourceLine classname="com.jme3.network.message.SerializerRegistrationsMessage" start="41" end="160" sourcefile="SerializerRegistrationsMessage.java" sourcepath="com/jme3/network/message/SerializerRegistrationsMessage.java"/>
+    </Class>
+    <Field classname="com.jme3.network.message.SerializerRegistrationsMessage" name="INSTANCE" signature="Lcom/jme3/network/message/SerializerRegistrationsMessage;" isStatic="true">
+      <SourceLine classname="com.jme3.network.message.SerializerRegistrationsMessage" sourcefile="SerializerRegistrationsMessage.java" sourcepath="com/jme3/network/message/SerializerRegistrationsMessage.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_MUTABLE_COLLECTION_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.network.message.SerializerRegistrationsMessage">
+      <SourceLine classname="com.jme3.network.message.SerializerRegistrationsMessage" start="41" end="160" sourcefile="SerializerRegistrationsMessage.java" sourcepath="com/jme3/network/message/SerializerRegistrationsMessage.java"/>
+    </Class>
+    <Field classname="com.jme3.network.message.SerializerRegistrationsMessage" name="ignore" signature="Ljava/util/Set;" isStatic="true">
+      <SourceLine classname="com.jme3.network.message.SerializerRegistrationsMessage" sourcefile="SerializerRegistrationsMessage.java" sourcepath="com/jme3/network/message/SerializerRegistrationsMessage.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.network.message.SerializerRegistrationsMessage" start="45" end="45" startBytecode="18" endBytecode="18" sourcefile="SerializerRegistrationsMessage.java" sourcepath="com/jme3/network/message/SerializerRegistrationsMessage.java"/>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.network.message.SerializerRegistrationsMessage">
+      <SourceLine classname="com.jme3.network.message.SerializerRegistrationsMessage" start="41" end="160" sourcefile="SerializerRegistrationsMessage.java" sourcepath="com/jme3/network/message/SerializerRegistrationsMessage.java"/>
+    </Class>
+    <Field classname="com.jme3.network.message.SerializerRegistrationsMessage" name="compiled" signature="[Lcom/jme3/network/message/SerializerRegistrationsMessage$Registration;" isStatic="true">
+      <SourceLine classname="com.jme3.network.message.SerializerRegistrationsMessage" sourcefile="SerializerRegistrationsMessage.java" sourcepath="com/jme3/network/message/SerializerRegistrationsMessage.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="18" abbrev="UrF" category="STYLE">
+    <Class classname="com.jme3.network.rmi.MethodDef">
+      <SourceLine classname="com.jme3.network.rmi.MethodDef" start="41" end="41" sourcefile="MethodDef.java" sourcepath="com/jme3/network/rmi/MethodDef.java"/>
+    </Class>
+    <Field classname="com.jme3.network.rmi.MethodDef" name="retType" signature="Ljava/lang/Class;" isStatic="false">
+      <SourceLine classname="com.jme3.network.rmi.MethodDef" sourcefile="MethodDef.java" sourcepath="com/jme3/network/rmi/MethodDef.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.network.rmi.RmiSerializer" start="130" end="130" startBytecode="80" endBytecode="80" sourcefile="RmiSerializer.java" sourcepath="com/jme3/network/rmi/RmiSerializer.java"/>
+  </BugInstance>
+  <BugInstance type="UW_UNCOND_WAIT" priority="2" rank="14" abbrev="UW" category="MT_CORRECTNESS">
+    <Class classname="com.jme3.network.rmi.ObjectStore">
+      <SourceLine classname="com.jme3.network.rmi.ObjectStore" start="48" end="347" sourcefile="ObjectStore.java" sourcepath="com/jme3/network/rmi/ObjectStore.java"/>
+    </Class>
+    <Method classname="com.jme3.network.rmi.ObjectStore" name="getExposedObject" signature="(Ljava/lang/String;Ljava/lang/Class;Z)Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="com.jme3.network.rmi.ObjectStore" start="191" end="206" startBytecode="0" endBytecode="335" sourcefile="ObjectStore.java" sourcepath="com/jme3/network/rmi/ObjectStore.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.network.rmi.ObjectStore" start="198" end="198" startBytecode="61" endBytecode="61" sourcefile="ObjectStore.java" sourcepath="com/jme3/network/rmi/ObjectStore.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE">
+    <Class classname="com.jme3.network.serializing.Serializer">
+      <SourceLine classname="com.jme3.network.serializing.Serializer" start="57" end="486" sourcefile="Serializer.java" sourcepath="com/jme3/network/serializing/Serializer.java"/>
+    </Class>
+    <Method classname="com.jme3.network.serializing.Serializer" name="registerClass" signature="(Ljava/lang/Class;Z)Lcom/jme3/network/serializing/SerializerRegistration;" isStatic="true">
+      <SourceLine classname="com.jme3.network.serializing.Serializer" start="234" end="256" startBytecode="0" endBytecode="62" sourcefile="Serializer.java" sourcepath="com/jme3/network/serializing/Serializer.java"/>
+    </Method>
+    <LocalVariable name="reg" register="7" pc="93" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.network.serializing.Serializer" start="249" end="249" startBytecode="91" endBytecode="91" sourcefile="Serializer.java" sourcepath="com/jme3/network/serializing/Serializer.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="reg"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE" priority="2" rank="13" abbrev="NP" category="STYLE">
+    <Class classname="com.jme3.network.serializing.Serializer">
+      <SourceLine classname="com.jme3.network.serializing.Serializer" start="57" end="486" sourcefile="Serializer.java" sourcepath="com/jme3/network/serializing/Serializer.java"/>
+    </Class>
+    <Method classname="com.jme3.network.serializing.Serializer" name="findClasses" signature="(Ljava/io/File;Ljava/lang/String;)Ljava/util/List;" isStatic="true">
+      <SourceLine classname="com.jme3.network.serializing.Serializer" start="292" end="305" startBytecode="0" endBytecode="391" sourcefile="Serializer.java" sourcepath="com/jme3/network/serializing/Serializer.java"/>
+    </Method>
+    <LocalVariable name="files" register="3" pc="25" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.jme3.network.serializing.Serializer" start="297" end="297" startBytecode="27" endBytecode="27" sourcefile="Serializer.java" sourcepath="com/jme3/network/serializing/Serializer.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="com.jme3.network.serializing.Serializer" start="296" end="296" startBytecode="18" endBytecode="18" sourcefile="Serializer.java" sourcepath="com/jme3/network/serializing/Serializer.java" role="SOURCE_LINE_KNOWN_NULL"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.network.serializing.serializers.FieldSerializer$SavedField">
+      <SourceLine classname="com.jme3.network.serializing.serializers.FieldSerializer$SavedField" start="218" end="218" sourcefile="FieldSerializer.java" sourcepath="com/jme3/network/serializing/serializers/FieldSerializer.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.network.service.rmi.ClassInfo">
+      <SourceLine classname="com.jme3.network.service.rmi.ClassInfo" start="56" end="110" sourcefile="ClassInfo.java" sourcepath="com/jme3/network/service/rmi/ClassInfo.java"/>
+    </Class>
+    <Method classname="com.jme3.network.service.rmi.ClassInfo" name="getMethods" signature="()[Lcom/jme3/network/service/rmi/MethodInfo;" isStatic="false">
+      <SourceLine classname="com.jme3.network.service.rmi.ClassInfo" start="105" end="105" startBytecode="0" endBytecode="46" sourcefile="ClassInfo.java" sourcepath="com/jme3/network/service/rmi/ClassInfo.java"/>
+    </Method>
+    <Field classname="com.jme3.network.service.rmi.ClassInfo" name="methods" signature="[Lcom/jme3/network/service/rmi/MethodInfo;" isStatic="false">
+      <SourceLine classname="com.jme3.network.service.rmi.ClassInfo" sourcefile="ClassInfo.java" sourcepath="com/jme3/network/service/rmi/ClassInfo.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.network.service.rmi.ClassInfo" start="105" end="105" startBytecode="4" endBytecode="4" sourcefile="ClassInfo.java" sourcepath="com/jme3/network/service/rmi/ClassInfo.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.network.service.rmi.RmiClientService$ObjectInfo">
+      <SourceLine classname="com.jme3.network.service.rmi.RmiClientService$ObjectInfo" start="182" end="191" sourcefile="RmiClientService.java" sourcepath="com/jme3/network/service/rmi/RmiClientService.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.network.service.rmi.RmiHostedService$GlobalShare">
+      <SourceLine classname="com.jme3.network.service.rmi.RmiHostedService$GlobalShare" start="260" end="264" sourcefile="RmiHostedService.java" sourcepath="com/jme3/network/service/rmi/RmiHostedService.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.network.service.rmi.RmiRegistry">
+      <SourceLine classname="com.jme3.network.service.rmi.RmiRegistry" start="55" end="335" sourcefile="RmiRegistry.java" sourcepath="com/jme3/network/service/rmi/RmiRegistry.java"/>
+    </Class>
+    <Method classname="com.jme3.network.service.rmi.RmiRegistry" name="rmiUpdate" signature="(S[Ljava/lang/Object;)V" isStatic="false">
+      <SourceLine classname="com.jme3.network.service.rmi.RmiRegistry" start="296" end="311" startBytecode="0" endBytecode="281" sourcefile="RmiRegistry.java" sourcepath="com/jme3/network/service/rmi/RmiRegistry.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.network.service.rmi.RmiRegistry" start="299" end="308" startBytecode="55" endBytecode="159" sourcefile="RmiRegistry.java" sourcepath="com/jme3/network/service/rmi/RmiRegistry.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.network.service.rmi.RmiRegistry$ObjectIndex">
+      <SourceLine classname="com.jme3.network.service.rmi.RmiRegistry$ObjectIndex" start="381" end="387" sourcefile="RmiRegistry.java" sourcepath="com/jme3/network/service/rmi/RmiRegistry.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.network.service.rpc.RpcConnection$ResponseHolder">
+      <SourceLine classname="com.jme3.network.service.rpc.RpcConnection$ResponseHolder" start="230" end="268" sourcefile="RpcConnection.java" sourcepath="com/jme3/network/service/rpc/RpcConnection.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.network.service.rpc.msg.RpcCallMessage">
+      <SourceLine classname="com.jme3.network.service.rpc.msg.RpcCallMessage" start="54" end="92" sourcefile="RpcCallMessage.java" sourcepath="com/jme3/network/service/rpc/msg/RpcCallMessage.java"/>
+    </Class>
+    <Method classname="com.jme3.network.service.rpc.msg.RpcCallMessage" name="getArguments" signature="()[Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="com.jme3.network.service.rpc.msg.RpcCallMessage" start="86" end="86" startBytecode="0" endBytecode="46" sourcefile="RpcCallMessage.java" sourcepath="com/jme3/network/service/rpc/msg/RpcCallMessage.java"/>
+    </Method>
+    <Field classname="com.jme3.network.service.rpc.msg.RpcCallMessage" name="args" signature="[Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="com.jme3.network.service.rpc.msg.RpcCallMessage" sourcefile="RpcCallMessage.java" sourcepath="com/jme3/network/service/rpc/msg/RpcCallMessage.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.network.service.rpc.msg.RpcCallMessage" start="86" end="86" startBytecode="4" endBytecode="4" sourcefile="RpcCallMessage.java" sourcepath="com/jme3/network/service/rpc/msg/RpcCallMessage.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.network.service.rpc.msg.RpcCallMessage">
+      <SourceLine classname="com.jme3.network.service.rpc.msg.RpcCallMessage" start="54" end="92" sourcefile="RpcCallMessage.java" sourcepath="com/jme3/network/service/rpc/msg/RpcCallMessage.java"/>
+    </Class>
+    <Method classname="com.jme3.network.service.rpc.msg.RpcCallMessage" name="&lt;init&gt;" signature="(JBSS[Ljava/lang/Object;)V" isStatic="false">
+      <SourceLine classname="com.jme3.network.service.rpc.msg.RpcCallMessage" start="57" end="63" startBytecode="0" endBytecode="148" sourcefile="RpcCallMessage.java" sourcepath="com/jme3/network/service/rpc/msg/RpcCallMessage.java"/>
+    </Method>
+    <Field classname="com.jme3.network.service.rpc.msg.RpcCallMessage" name="args" signature="[Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="com.jme3.network.service.rpc.msg.RpcCallMessage" sourcefile="RpcCallMessage.java" sourcepath="com/jme3/network/service/rpc/msg/RpcCallMessage.java"/>
+    </Field>
+    <LocalVariable name="args" register="6" pc="29" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.network.service.rpc.msg.RpcCallMessage" start="62" end="62" startBytecode="29" endBytecode="29" sourcefile="RpcCallMessage.java" sourcepath="com/jme3/network/service/rpc/msg/RpcCallMessage.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.network.util.AbstractMessageDelegator">
+      <SourceLine classname="com.jme3.network.util.AbstractMessageDelegator" start="57" end="311" sourcefile="AbstractMessageDelegator.java" sourcepath="com/jme3/network/util/AbstractMessageDelegator.java"/>
+    </Class>
+    <Method classname="com.jme3.network.util.AbstractMessageDelegator" name="getMessageTypes" signature="()[Ljava/lang/Class;" isStatic="false">
+      <SourceLine classname="com.jme3.network.util.AbstractMessageDelegator" start="84" end="87" startBytecode="0" endBytecode="121" sourcefile="AbstractMessageDelegator.java" sourcepath="com/jme3/network/util/AbstractMessageDelegator.java"/>
+    </Method>
+    <Field classname="com.jme3.network.util.AbstractMessageDelegator" name="messageTypes" signature="[Ljava/lang/Class;" isStatic="false">
+      <SourceLine classname="com.jme3.network.util.AbstractMessageDelegator" sourcefile="AbstractMessageDelegator.java" sourcepath="com/jme3/network/util/AbstractMessageDelegator.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.network.util.AbstractMessageDelegator" start="87" end="87" startBytecode="44" endBytecode="44" sourcefile="AbstractMessageDelegator.java" sourcepath="com/jme3/network/util/AbstractMessageDelegator.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 18 Apr 2020 15:17:38 +0000" total_classes="147" referenced_classes="337" total_bugs="26" total_size="4712" num_packages="16" java_version="1.8.0_252" vm_version="25.252-b14" cpu_seconds="11.86" clock_seconds="6.05" peak_mbytes="233.10" alloc_mbytes="455.50" gc_seconds="0.33" priority_2="25" priority_1="1">
+    <PackageStats package="com.jme3.network" total_bugs="0" total_types="19" total_size="173">
+      <ClassStats class="com.jme3.network.AbstractMessage" sourceFile="AbstractMessage.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="com.jme3.network.Client" sourceFile="Client.java" interface="true" size="19" bugs="0"/>
+      <ClassStats class="com.jme3.network.ClientStateListener" sourceFile="ClientStateListener.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="com.jme3.network.ClientStateListener$DisconnectInfo" sourceFile="ClientStateListener.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.network.ConnectionListener" sourceFile="ConnectionListener.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="com.jme3.network.ErrorListener" sourceFile="ErrorListener.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jme3.network.Filter" sourceFile="Filter.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jme3.network.Filters" sourceFile="Filters.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="com.jme3.network.Filters$EqualToFilter" sourceFile="Filters.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.network.Filters$InFilter" sourceFile="Filters.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.network.Filters$NotFilter" sourceFile="Filters.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.network.HostedConnection" sourceFile="HostedConnection.java" interface="true" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.network.Message" sourceFile="Message.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="com.jme3.network.MessageConnection" sourceFile="MessageConnection.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="com.jme3.network.MessageListener" sourceFile="MessageListener.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jme3.network.Network" sourceFile="Network.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="com.jme3.network.Network$NetworkClientImpl" sourceFile="Network.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="com.jme3.network.NetworkClient" sourceFile="NetworkClient.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="com.jme3.network.Server" sourceFile="Server.java" interface="true" size="20" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.network.base" total_bugs="2" total_types="16" total_size="892" priority_2="2">
+      <ClassStats class="com.jme3.network.base.ConnectorAdapter" sourceFile="ConnectorAdapter.java" interface="false" size="64" bugs="0"/>
+      <ClassStats class="com.jme3.network.base.ConnectorAdapter$WriterThread" sourceFile="ConnectorAdapter.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="com.jme3.network.base.ConnectorFactory" sourceFile="ConnectorFactory.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jme3.network.base.DefaultClient" sourceFile="DefaultClient.java" interface="false" size="249" bugs="0"/>
+      <ClassStats class="com.jme3.network.base.DefaultClient$Redispatch" sourceFile="DefaultClient.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.network.base.DefaultServer" sourceFile="DefaultServer.java" interface="false" size="244" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.network.base.DefaultServer$Connection" sourceFile="DefaultServer.java" interface="false" size="81" bugs="0"/>
+      <ClassStats class="com.jme3.network.base.DefaultServer$FilterAdapter" sourceFile="DefaultServer.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.network.base.DefaultServer$Redispatch" sourceFile="DefaultServer.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.network.base.KernelAdapter" sourceFile="KernelAdapter.java" interface="false" size="114" bugs="0"/>
+      <ClassStats class="com.jme3.network.base.KernelFactory" sourceFile="KernelFactory.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="com.jme3.network.base.MessageBuffer" sourceFile="MessageBuffer.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.network.base.MessageListenerRegistry" sourceFile="MessageListenerRegistry.java" interface="false" size="55" bugs="0"/>
+      <ClassStats class="com.jme3.network.base.MessageProtocol" sourceFile="MessageProtocol.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.network.base.NioKernelFactory" sourceFile="NioKernelFactory.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.jme3.network.base.TcpConnectorFactory" sourceFile="TcpConnectorFactory.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.network.base.protocol" total_bugs="0" total_types="3" total_size="106">
+      <ClassStats class="com.jme3.network.base.protocol.GreedyMessageBuffer" sourceFile="GreedyMessageBuffer.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="com.jme3.network.base.protocol.LazyMessageBuffer" sourceFile="LazyMessageBuffer.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="com.jme3.network.base.protocol.SerializerMessageProtocol" sourceFile="SerializerMessageProtocol.java" interface="false" size="21" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.network.kernel" total_bugs="2" total_types="10" total_size="147" priority_2="2">
+      <ClassStats class="com.jme3.network.kernel.AbstractKernel" sourceFile="AbstractKernel.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="com.jme3.network.kernel.Connector" sourceFile="Connector.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="com.jme3.network.kernel.ConnectorException" sourceFile="ConnectorException.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.network.kernel.Endpoint" sourceFile="Endpoint.java" interface="true" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.network.kernel.EndpointEvent" sourceFile="EndpointEvent.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="com.jme3.network.kernel.EndpointEvent$Type" sourceFile="EndpointEvent.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jme3.network.kernel.Envelope" sourceFile="Envelope.java" interface="false" size="18" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.network.kernel.Kernel" sourceFile="Kernel.java" interface="true" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.network.kernel.KernelException" sourceFile="KernelException.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.network.kernel.NamedThreadFactory" sourceFile="NamedThreadFactory.java" interface="false" size="25" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.network.kernel.tcp" total_bugs="1" total_types="4" total_size="340" priority_2="1">
+      <ClassStats class="com.jme3.network.kernel.tcp.NioEndpoint" sourceFile="NioEndpoint.java" interface="false" size="63" bugs="0"/>
+      <ClassStats class="com.jme3.network.kernel.tcp.SelectorKernel" sourceFile="SelectorKernel.java" interface="false" size="81" bugs="0"/>
+      <ClassStats class="com.jme3.network.kernel.tcp.SelectorKernel$SelectorThread" sourceFile="SelectorKernel.java" interface="false" size="137" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.network.kernel.tcp.SocketConnector" sourceFile="SocketConnector.java" interface="false" size="59" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.network.kernel.udp" total_bugs="3" total_types="5" total_size="242" priority_2="3">
+      <ClassStats class="com.jme3.network.kernel.udp.UdpConnector" sourceFile="UdpConnector.java" interface="false" size="52" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.network.kernel.udp.UdpEndpoint" sourceFile="UdpEndpoint.java" interface="false" size="50" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.network.kernel.udp.UdpKernel" sourceFile="UdpKernel.java" interface="false" size="86" bugs="0"/>
+      <ClassStats class="com.jme3.network.kernel.udp.UdpKernel$HostThread" sourceFile="UdpKernel.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="com.jme3.network.kernel.udp.UdpKernel$MessageWriter" sourceFile="UdpKernel.java" interface="false" size="19" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.network.message" total_bugs="4" total_types="10" total_size="274" priority_2="4">
+      <ClassStats class="com.jme3.network.message.ChannelInfoMessage" sourceFile="ChannelInfoMessage.java" interface="false" size="19" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.network.message.ClientRegistrationMessage" sourceFile="ClientRegistrationMessage.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="com.jme3.network.message.ClientRegistrationMessage$ClientRegistrationSerializer" sourceFile="ClientRegistrationMessage.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="com.jme3.network.message.CompressedMessage" sourceFile="CompressedMessage.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.jme3.network.message.DisconnectMessage" sourceFile="DisconnectMessage.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="com.jme3.network.message.DisconnectMessage$DisconnectSerializer" sourceFile="DisconnectMessage.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.jme3.network.message.GZIPCompressedMessage" sourceFile="GZIPCompressedMessage.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.network.message.SerializerRegistrationsMessage" sourceFile="SerializerRegistrationsMessage.java" interface="false" size="88" bugs="3" priority_2="3"/>
+      <ClassStats class="com.jme3.network.message.SerializerRegistrationsMessage$Registration" sourceFile="SerializerRegistrationsMessage.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="com.jme3.network.message.ZIPCompressedMessage" sourceFile="ZIPCompressedMessage.java" interface="false" size="19" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.network.rmi" total_bugs="2" total_types="13" total_size="474" priority_2="2">
+      <ClassStats class="com.jme3.network.rmi.LocalObject" sourceFile="LocalObject.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.network.rmi.MethodDef" sourceFile="MethodDef.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.jme3.network.rmi.ObjectDef" sourceFile="ObjectDef.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jme3.network.rmi.ObjectStore" sourceFile="ObjectStore.java" interface="false" size="182" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.network.rmi.ObjectStore$1" sourceFile="ObjectStore.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="com.jme3.network.rmi.ObjectStore$ClientEventHandler" sourceFile="ObjectStore.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="com.jme3.network.rmi.ObjectStore$Invocation" sourceFile="ObjectStore.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jme3.network.rmi.ObjectStore$ServerEventHandler" sourceFile="ObjectStore.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.jme3.network.rmi.RemoteMethodCallMessage" sourceFile="RemoteMethodCallMessage.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.jme3.network.rmi.RemoteMethodReturnMessage" sourceFile="RemoteMethodReturnMessage.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.network.rmi.RemoteObject" sourceFile="RemoteObject.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="com.jme3.network.rmi.RemoteObjectDefMessage" sourceFile="RemoteObjectDefMessage.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="com.jme3.network.rmi.RmiSerializer" sourceFile="RmiSerializer.java" interface="false" size="153" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.network.serializing" total_bugs="2" total_types="4" total_size="249" priority_2="1" priority_1="1">
+      <ClassStats class="com.jme3.network.serializing.Serializable" sourceFile="Serializable.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.Serializer" sourceFile="Serializer.java" interface="false" size="220" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="com.jme3.network.serializing.SerializerException" sourceFile="SerializerException.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.SerializerRegistration" sourceFile="SerializerRegistration.java" interface="false" size="18" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.network.serializing.serializers" total_bugs="1" total_types="24" total_size="603" priority_2="1">
+      <ClassStats class="com.jme3.network.serializing.serializers.ArraySerializer" sourceFile="ArraySerializer.java" interface="false" size="76" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.BooleanSerializer" sourceFile="BooleanSerializer.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.ByteSerializer" sourceFile="ByteSerializer.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.CharSerializer" sourceFile="CharSerializer.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.CollectionSerializer" sourceFile="CollectionSerializer.java" interface="false" size="47" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.DateSerializer" sourceFile="DateSerializer.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.DoubleSerializer" sourceFile="DoubleSerializer.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.EnumSerializer" sourceFile="EnumSerializer.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.FieldSerializer" sourceFile="FieldSerializer.java" interface="false" size="91" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.FieldSerializer$1" sourceFile="FieldSerializer.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.FieldSerializer$SavedField" sourceFile="FieldSerializer.java" interface="false" size="7" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.FloatSerializer" sourceFile="FloatSerializer.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.GZIPSerializer" sourceFile="GZIPSerializer.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.IntSerializer" sourceFile="IntSerializer.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.LongSerializer" sourceFile="LongSerializer.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.MapSerializer" sourceFile="MapSerializer.java" interface="false" size="78" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.SavableSerializer" sourceFile="SavableSerializer.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.SavableSerializer$BufferInputStream" sourceFile="SavableSerializer.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.SavableSerializer$BufferOutputStream" sourceFile="SavableSerializer.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.SerializableSerializer" sourceFile="SerializableSerializer.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.ShortSerializer" sourceFile="ShortSerializer.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.StringSerializer" sourceFile="StringSerializer.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.Vector3Serializer" sourceFile="Vector3Serializer.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="com.jme3.network.serializing.serializers.ZIPSerializer" sourceFile="ZIPSerializer.java" interface="false" size="39" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.network.service" total_bugs="0" total_types="11" total_size="242">
+      <ClassStats class="com.jme3.network.service.AbstractClientService" sourceFile="AbstractClientService.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.AbstractHostedConnectionService" sourceFile="AbstractHostedConnectionService.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.AbstractHostedService" sourceFile="AbstractHostedService.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.AbstractService" sourceFile="AbstractService.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.ClientService" sourceFile="ClientService.java" interface="true" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.ClientServiceManager" sourceFile="ClientServiceManager.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.HostedService" sourceFile="HostedService.java" interface="true" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.HostedServiceManager" sourceFile="HostedServiceManager.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.HostedServiceManager$ConnectionObserver" sourceFile="HostedServiceManager.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.Service" sourceFile="Service.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.ServiceManager" sourceFile="ServiceManager.java" interface="false" size="75" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.network.service.rmi" total_bugs="5" total_types="16" total_size="533" priority_2="5">
+      <ClassStats class="com.jme3.network.service.rmi.Asynchronous" sourceFile="Asynchronous.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.rmi.CallType" sourceFile="CallType.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.rmi.ClassInfo" sourceFile="ClassInfo.java" interface="false" size="38" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.network.service.rmi.ClassInfoRegistry" sourceFile="ClassInfoRegistry.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.rmi.MethodInfo" sourceFile="MethodInfo.java" interface="false" size="61" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.rmi.RemoteObjectHandler" sourceFile="RemoteObjectHandler.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.rmi.RmiClientService" sourceFile="RmiClientService.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.rmi.RmiClientService$ObjectInfo" sourceFile="RmiClientService.java" interface="false" size="15" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.network.service.rmi.RmiContext" sourceFile="RmiContext.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.rmi.RmiHostedService" sourceFile="RmiHostedService.java" interface="false" size="85" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.rmi.RmiHostedService$GlobalShare" sourceFile="RmiHostedService.java" interface="false" size="11" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.network.service.rmi.RmiRegistry" sourceFile="RmiRegistry.java" interface="false" size="136" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.network.service.rmi.RmiRegistry$1" sourceFile="RmiRegistry.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.rmi.RmiRegistry$ObjectIndex" sourceFile="RmiRegistry.java" interface="false" size="13" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.network.service.rmi.RmiRegistry$RmiHandler" sourceFile="RmiRegistry.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.rmi.RmiRegistry$SharedObject" sourceFile="RmiRegistry.java" interface="false" size="23" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.network.service.rpc" total_bugs="1" total_types="5" total_size="188" priority_2="1">
+      <ClassStats class="com.jme3.network.service.rpc.RpcClientService" sourceFile="RpcClientService.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.rpc.RpcConnection" sourceFile="RpcConnection.java" interface="false" size="73" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.rpc.RpcConnection$ResponseHolder" sourceFile="RpcConnection.java" interface="false" size="36" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.network.service.rpc.RpcHandler" sourceFile="RpcHandler.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.rpc.RpcHostedService" sourceFile="RpcHostedService.java" interface="false" size="44" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.network.service.rpc.msg" total_bugs="2" total_types="2" total_size="73" priority_2="2">
+      <ClassStats class="com.jme3.network.service.rpc.msg.RpcCallMessage" sourceFile="RpcCallMessage.java" interface="false" size="32" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.network.service.rpc.msg.RpcResponseMessage" sourceFile="RpcResponseMessage.java" interface="false" size="41" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.network.service.serializer" total_bugs="0" total_types="2" total_size="34">
+      <ClassStats class="com.jme3.network.service.serializer.ClientSerializerRegistrationsService" sourceFile="ClientSerializerRegistrationsService.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.jme3.network.service.serializer.ServerSerializerRegistrationsService" sourceFile="ServerSerializerRegistrationsService.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.network.util" total_bugs="1" total_types="3" total_size="142" priority_2="1">
+      <ClassStats class="com.jme3.network.util.AbstractMessageDelegator" sourceFile="AbstractMessageDelegator.java" interface="false" size="113" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.network.util.ObjectMessageDelegator" sourceFile="ObjectMessageDelegator.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.network.util.SessionDataDelegator" sourceFile="SessionDataDelegator.java" interface="false" size="21" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="391" invocations="1149" avgMicrosecondsPerInvocation="340" maxMicrosecondsPerInvocation="16877" standardDeviationMicrosecondsPerInvocation="966"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="326" invocations="743" avgMicrosecondsPerInvocation="439" maxMicrosecondsPerInvocation="29561" standardDeviationMicrosecondsPerInvocation="1671"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="315" invocations="786" avgMicrosecondsPerInvocation="401" maxMicrosecondsPerInvocation="12093" standardDeviationMicrosecondsPerInvocation="1172"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="240" invocations="813" avgMicrosecondsPerInvocation="296" maxMicrosecondsPerInvocation="10081" standardDeviationMicrosecondsPerInvocation="842"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="239" invocations="786" avgMicrosecondsPerInvocation="304" maxMicrosecondsPerInvocation="12297" standardDeviationMicrosecondsPerInvocation="1040"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="228" invocations="823" avgMicrosecondsPerInvocation="277" maxMicrosecondsPerInvocation="12228" standardDeviationMicrosecondsPerInvocation="917"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="221" invocations="784" avgMicrosecondsPerInvocation="282" maxMicrosecondsPerInvocation="8650" standardDeviationMicrosecondsPerInvocation="741"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="217" invocations="786" avgMicrosecondsPerInvocation="276" maxMicrosecondsPerInvocation="158385" standardDeviationMicrosecondsPerInvocation="5646"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="215" invocations="668" avgMicrosecondsPerInvocation="322" maxMicrosecondsPerInvocation="31985" standardDeviationMicrosecondsPerInvocation="1796"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="207" invocations="337" avgMicrosecondsPerInvocation="617" maxMicrosecondsPerInvocation="32194" standardDeviationMicrosecondsPerInvocation="2270"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="166" invocations="1421" avgMicrosecondsPerInvocation="117" maxMicrosecondsPerInvocation="8932" standardDeviationMicrosecondsPerInvocation="373"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="139" invocations="337" avgMicrosecondsPerInvocation="414" maxMicrosecondsPerInvocation="7809" standardDeviationMicrosecondsPerInvocation="767"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="118" invocations="1153" avgMicrosecondsPerInvocation="102" maxMicrosecondsPerInvocation="5983" standardDeviationMicrosecondsPerInvocation="180"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="115" invocations="892" avgMicrosecondsPerInvocation="129" maxMicrosecondsPerInvocation="53179" standardDeviationMicrosecondsPerInvocation="1810"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="76" invocations="404" avgMicrosecondsPerInvocation="189" maxMicrosecondsPerInvocation="13283" standardDeviationMicrosecondsPerInvocation="748"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="76" invocations="1099" avgMicrosecondsPerInvocation="69" maxMicrosecondsPerInvocation="7957" standardDeviationMicrosecondsPerInvocation="276"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="73" invocations="337" avgMicrosecondsPerInvocation="219" maxMicrosecondsPerInvocation="10265" standardDeviationMicrosecondsPerInvocation="771"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="61" invocations="147" avgMicrosecondsPerInvocation="419" maxMicrosecondsPerInvocation="15429" standardDeviationMicrosecondsPerInvocation="1691"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="58" invocations="14578" avgMicrosecondsPerInvocation="4" maxMicrosecondsPerInvocation="7405" standardDeviationMicrosecondsPerInvocation="92"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.RuntimeExceptionCapture" totalMilliseconds="57" invocations="147" avgMicrosecondsPerInvocation="388" maxMicrosecondsPerInvocation="10831" standardDeviationMicrosecondsPerInvocation="1546"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="56" invocations="337" avgMicrosecondsPerInvocation="167" maxMicrosecondsPerInvocation="18156" standardDeviationMicrosecondsPerInvocation="1103"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="54" invocations="337" avgMicrosecondsPerInvocation="162" maxMicrosecondsPerInvocation="10408" standardDeviationMicrosecondsPerInvocation="667"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="53" invocations="147" avgMicrosecondsPerInvocation="364" maxMicrosecondsPerInvocation="8467" standardDeviationMicrosecondsPerInvocation="964"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.Naming" totalMilliseconds="52" invocations="147" avgMicrosecondsPerInvocation="357" maxMicrosecondsPerInvocation="16124" standardDeviationMicrosecondsPerInvocation="1560"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="49" invocations="337" avgMicrosecondsPerInvocation="147" maxMicrosecondsPerInvocation="15423" standardDeviationMicrosecondsPerInvocation="1176"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="49" invocations="147" avgMicrosecondsPerInvocation="337" maxMicrosecondsPerInvocation="8214" standardDeviationMicrosecondsPerInvocation="831"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueRangeAnalysisFactory" totalMilliseconds="48" invocations="892" avgMicrosecondsPerInvocation="54" maxMicrosecondsPerInvocation="9389" standardDeviationMicrosecondsPerInvocation="443"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="45" invocations="147" avgMicrosecondsPerInvocation="308" maxMicrosecondsPerInvocation="8820" standardDeviationMicrosecondsPerInvocation="790"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="43" invocations="337" avgMicrosecondsPerInvocation="130" maxMicrosecondsPerInvocation="21026" standardDeviationMicrosecondsPerInvocation="1168"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="42" invocations="147" avgMicrosecondsPerInvocation="287" maxMicrosecondsPerInvocation="8718" standardDeviationMicrosecondsPerInvocation="779"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="41" invocations="337" avgMicrosecondsPerInvocation="124" maxMicrosecondsPerInvocation="4747" standardDeviationMicrosecondsPerInvocation="329"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="40" invocations="743" avgMicrosecondsPerInvocation="54" maxMicrosecondsPerInvocation="12332" standardDeviationMicrosecondsPerInvocation="456"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="40" invocations="337" avgMicrosecondsPerInvocation="119" maxMicrosecondsPerInvocation="6398" standardDeviationMicrosecondsPerInvocation="452"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="36" invocations="709" avgMicrosecondsPerInvocation="51" maxMicrosecondsPerInvocation="5519" standardDeviationMicrosecondsPerInvocation="220"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUselessObjects" totalMilliseconds="36" invocations="147" avgMicrosecondsPerInvocation="245" maxMicrosecondsPerInvocation="9272" standardDeviationMicrosecondsPerInvocation="810"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

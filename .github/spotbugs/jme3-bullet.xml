@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1587222933337" analysisTimestamp="1587222933359" release="3.4.0-SNAPSHOT">
+  <Project projectName="project &apos;:jme3-bullet&apos; (main)">
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/BulletAppState$ThreadingType.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/BulletAppState$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/PhysicsCollisionEventFactory.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/CollisionFlag.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/PhysicsCollisionListener.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/shapes/CylinderCollisionShape.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/shapes/PlaneCollisionShape.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/shapes/SimplexCollisionShape.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/shapes/HullCollisionShape.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/shapes/GImpactCollisionShape.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/shapes/MeshCollisionShape.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/shapes/CompoundCollisionShape.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/shapes/infos/ChildCollisionShape.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/shapes/BoxCollisionShape.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/shapes/CapsuleCollisionShape.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/shapes/ConeCollisionShape.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/shapes/HeightfieldCollisionShape.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/shapes/SphereCollisionShape.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/shapes/CollisionShape.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/RagdollCollisionListener.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/PhysicsCollisionEvent.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/PhysicsSweepTestResult.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/PhysicsCollisionObject.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/PhysicsCollisionGroupListener.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/collision/PhysicsRayTestResult.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/PhysicsSpace$BroadphaseType.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/joints/SliderJoint.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/joints/SixDofJoint.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/joints/HingeJoint.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/joints/Point2PointJoint.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/joints/ConeJoint.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/joints/PhysicsJoint.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/joints/SixDofSpringJoint.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/joints/motors/TranslationalLimitMotor.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/joints/motors/RotationalLimitMotor.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/BulletAppState.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/PhysicsSpace$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/control/ragdoll/HumanoidRagdollPreset.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/control/ragdoll/RagdollPreset.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/control/ragdoll/RagdollPreset$LexiconEntry.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/control/ragdoll/RagdollUtils.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/control/ragdoll/RagdollPreset$JointPreset.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/control/CharacterControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/control/BetterCharacterControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/control/KinematicRagdollControl$Mode.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/control/PhysicsControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/control/VehicleControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/control/KinematicRagdollControl$PhysicsBoneLink.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/control/GhostControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/control/AbstractPhysicsControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/control/KinematicRagdollControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/control/RigidBodyControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/debug/BulletCharacterDebugControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/debug/BulletGhostObjectDebugControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/debug/BulletVehicleDebugControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/debug/BulletJointDebugControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/debug/BulletRigidBodyDebugControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/debug/AbstractPhysicsDebugControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/debug/BulletDebugAppState$DebugAppStateFilter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/debug/DebugTools.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/debug/BulletDebugAppState.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/PhysicsSpace$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/util/NativeMeshUtil.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/util/DebugMeshCallback.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/util/DebugShapeFactory.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/util/CollisionShapeFactory.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/PhysicsSpace.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/BulletAppState$2.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/animation/KinematicSubmode.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/animation/DacLinks.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/animation/DynamicAnimControl.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/animation/PhysicsLink.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/animation/RagdollCollisionListener.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/animation/RagUtils.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/animation/DacConfiguration.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/animation/TorsoLink$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/animation/BoneLink$1.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/animation/VectorSet.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/animation/TorsoLink.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/animation/RangeOfMotion.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/animation/BoneLink.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/objects/VehicleWheel.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/objects/infos/VehicleTuning.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/objects/infos/RigidBodyMotionState.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/objects/PhysicsRigidBody.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/objects/PhysicsCharacter.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/objects/PhysicsGhostObject.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/objects/PhysicsVehicle.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/BulletAppState$4.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/BulletAppState$3.class</Jar>
+    <Jar>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main/com/jme3/bullet/PhysicsTickListener.class</Jar>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-terrain/build/libs/jme3-terrain-3.4.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/runner/work/test-spotbugs/test-spotbugs/jme3-core/build/libs/jme3-core-3.4.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/groovy</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/CollisionFlag.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/PhysicsSweepTestResult.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/shapes/SimplexCollisionShape.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/shapes/GImpactCollisionShape.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/shapes/CylinderCollisionShape.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/shapes/PlaneCollisionShape.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/shapes/SphereCollisionShape.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/shapes/HeightfieldCollisionShape.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/shapes/CollisionShape.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/shapes/CompoundCollisionShape.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/shapes/ConeCollisionShape.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/shapes/CapsuleCollisionShape.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/shapes/MeshCollisionShape.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/shapes/BoxCollisionShape.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/shapes/HullCollisionShape.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/PhysicsCollisionEventFactory.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/PhysicsRayTestResult.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/PhysicsCollisionObject.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/collision/PhysicsCollisionEvent.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/joints/ConeJoint.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/joints/PhysicsJoint.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/joints/SixDofJoint.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/joints/Point2PointJoint.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/joints/SliderJoint.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/joints/motors/TranslationalLimitMotor.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/joints/motors/RotationalLimitMotor.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/joints/SixDofSpringJoint.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/joints/HingeJoint.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/PhysicsSpace.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/util/DebugMeshCallback.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/util/DebugShapeFactory.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/util/NativeMeshUtil.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/objects/PhysicsCharacter.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/objects/PhysicsGhostObject.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/objects/infos/VehicleTuning.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/objects/infos/RigidBodyMotionState.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/objects/PhysicsVehicle.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/objects/PhysicsRigidBody.java</SrcDir>
+    <SrcDir>/home/runner/work/test-spotbugs/test-spotbugs/jme3-bullet/src/main/java/com/jme3/bullet/objects/VehicleWheel.java</SrcDir>
+  </Project>
+  <BugInstance type="UC_USELESS_CONDITION" priority="1" rank="14" abbrev="UC" category="STYLE">
+    <Class classname="com.jme3.bullet.BulletAppState">
+      <SourceLine classname="com.jme3.bullet.BulletAppState" start="52" end="503" sourcefile="BulletAppState.java" sourcepath="com/jme3/bullet/BulletAppState.java"/>
+    </Class>
+    <Method classname="com.jme3.bullet.BulletAppState" name="render" signature="(Lcom/jme3/renderer/RenderManager;)V" isStatic="false">
+      <SourceLine classname="com.jme3.bullet.BulletAppState" start="367" end="377" startBytecode="0" endBytecode="190" sourcefile="BulletAppState.java" sourcepath="com/jme3/bullet/BulletAppState.java"/>
+    </Method>
+    <String value="this.active == true"/>
+    <SourceLine classname="com.jme3.bullet.BulletAppState" start="374" end="374" startBytecode="74" endBytecode="74" sourcefile="BulletAppState.java" sourcepath="com/jme3/bullet/BulletAppState.java" role="SOURCE_UNREACHABLE_CODE"/>
+    <SourceLine classname="com.jme3.bullet.BulletAppState" start="374" end="374" startBytecode="59" endBytecode="59" sourcefile="BulletAppState.java" sourcepath="com/jme3/bullet/BulletAppState.java"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.jme3.bullet.PhysicsSpace">
+      <SourceLine classname="com.jme3.bullet.PhysicsSpace" start="70" end="1374" sourcefile="PhysicsSpace.java" sourcepath="com/jme3/bullet/PhysicsSpace.java"/>
+    </Class>
+    <Method classname="com.jme3.bullet.PhysicsSpace" name="GetRayTestFlags" signature="()I" isStatic="false">
+      <SourceLine classname="com.jme3.bullet.PhysicsSpace" start="1047" end="1047" startBytecode="0" endBytecode="46" sourcefile="PhysicsSpace.java" sourcepath="com/jme3/bullet/PhysicsSpace.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.jme3.bullet.PhysicsSpace">
+      <SourceLine classname="com.jme3.bullet.PhysicsSpace" start="70" end="1374" sourcefile="PhysicsSpace.java" sourcepath="com/jme3/bullet/PhysicsSpace.java"/>
+    </Class>
+    <Method classname="com.jme3.bullet.PhysicsSpace" name="SetRayTestFlags" signature="(I)V" isStatic="false">
+      <SourceLine classname="com.jme3.bullet.PhysicsSpace" start="1036" end="1037" startBytecode="0" endBytecode="61" sourcefile="PhysicsSpace.java" sourcepath="com/jme3/bullet/PhysicsSpace.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="INT_BAD_COMPARISON_WITH_NONNEGATIVE_VALUE" priority="2" rank="7" abbrev="INT" category="CORRECTNESS">
+    <Class classname="com.jme3.bullet.animation.RagUtils">
+      <SourceLine classname="com.jme3.bullet.animation.RagUtils" start="71" end="705" sourcefile="RagUtils.java" sourcepath="com/jme3/bullet/animation/RagUtils.java"/>
+    </Class>
+    <Method classname="com.jme3.bullet.animation.RagUtils" name="readIndex" signature="(Ljava/nio/Buffer;)I" isStatic="true">
+      <SourceLine classname="com.jme3.bullet.animation.RagUtils" start="518" end="531" startBytecode="0" endBytecode="250" sourcefile="RagUtils.java" sourcepath="com/jme3/bullet/animation/RagUtils.java"/>
+    </Method>
+    <Int value="0" role="INT_VALUE"/>
+    <LocalVariable name="result" register="1" pc="66" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.bullet.animation.RagUtils" start="530" end="530" startBytecode="66" endBytecode="66" sourcefile="RagUtils.java" sourcepath="com/jme3/bullet/animation/RagUtils.java"/>
+  </BugInstance>
+  <BugInstance type="INT_BAD_COMPARISON_WITH_NONNEGATIVE_VALUE" priority="2" rank="7" abbrev="INT" category="CORRECTNESS">
+    <Class classname="com.jme3.bullet.animation.VectorSet">
+      <SourceLine classname="com.jme3.bullet.animation.VectorSet" start="49" end="149" sourcefile="VectorSet.java" sourcepath="com/jme3/bullet/animation/VectorSet.java"/>
+    </Class>
+    <Method classname="com.jme3.bullet.animation.VectorSet" name="numVectors" signature="()I" isStatic="false">
+      <SourceLine classname="com.jme3.bullet.animation.VectorSet" start="128" end="130" startBytecode="0" endBytecode="102" sourcefile="VectorSet.java" sourcepath="com/jme3/bullet/animation/VectorSet.java"/>
+    </Method>
+    <Int value="0" role="INT_VALUE"/>
+    <LocalVariable name="numVectors" register="1" pc="17" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.bullet.animation.VectorSet" start="129" end="129" startBytecode="17" endBytecode="17" sourcefile="VectorSet.java" sourcepath="com/jme3/bullet/animation/VectorSet.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS">
+    <Class classname="com.jme3.bullet.collision.PhysicsRayTestResult">
+      <SourceLine classname="com.jme3.bullet.collision.PhysicsRayTestResult" start="58" end="100" sourcefile="PhysicsRayTestResult.java" sourcepath="com/jme3/bullet/collision/PhysicsRayTestResult.java"/>
+    </Class>
+    <Field classname="com.jme3.bullet.collision.PhysicsRayTestResult" name="collisionObject" signature="Lcom/jme3/bullet/collision/PhysicsCollisionObject;" isStatic="false">
+      <SourceLine classname="com.jme3.bullet.collision.PhysicsRayTestResult" sourcefile="PhysicsRayTestResult.java" sourcepath="com/jme3/bullet/collision/PhysicsRayTestResult.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.bullet.collision.PhysicsRayTestResult" start="73" end="73" startBytecode="1" endBytecode="1" sourcefile="PhysicsRayTestResult.java" sourcepath="com/jme3/bullet/collision/PhysicsRayTestResult.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS">
+    <Class classname="com.jme3.bullet.collision.PhysicsRayTestResult">
+      <SourceLine classname="com.jme3.bullet.collision.PhysicsRayTestResult" start="58" end="100" sourcefile="PhysicsRayTestResult.java" sourcepath="com/jme3/bullet/collision/PhysicsRayTestResult.java"/>
+    </Class>
+    <Field classname="com.jme3.bullet.collision.PhysicsRayTestResult" name="hitNormalLocal" signature="Lcom/jme3/math/Vector3f;" isStatic="false">
+      <SourceLine classname="com.jme3.bullet.collision.PhysicsRayTestResult" sourcefile="PhysicsRayTestResult.java" sourcepath="com/jme3/bullet/collision/PhysicsRayTestResult.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.bullet.collision.PhysicsRayTestResult" start="82" end="82" startBytecode="1" endBytecode="1" sourcefile="PhysicsRayTestResult.java" sourcepath="com/jme3/bullet/collision/PhysicsRayTestResult.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.bullet.collision.shapes.HullCollisionShape">
+      <SourceLine classname="com.jme3.bullet.collision.shapes.HullCollisionShape" start="59" end="170" sourcefile="HullCollisionShape.java" sourcepath="com/jme3/bullet/collision/shapes/HullCollisionShape.java"/>
+    </Class>
+    <Method classname="com.jme3.bullet.collision.shapes.HullCollisionShape" name="&lt;init&gt;" signature="([F)V" isStatic="false">
+      <SourceLine classname="com.jme3.bullet.collision.shapes.HullCollisionShape" start="82" end="85" startBytecode="0" endBytecode="77" sourcefile="HullCollisionShape.java" sourcepath="com/jme3/bullet/collision/shapes/HullCollisionShape.java"/>
+    </Method>
+    <Field classname="com.jme3.bullet.collision.shapes.HullCollisionShape" name="points" signature="[F" isStatic="false">
+      <SourceLine classname="com.jme3.bullet.collision.shapes.HullCollisionShape" sourcefile="HullCollisionShape.java" sourcepath="com/jme3/bullet/collision/shapes/HullCollisionShape.java"/>
+    </Field>
+    <LocalVariable name="points" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.bullet.collision.shapes.HullCollisionShape" start="83" end="83" startBytecode="6" endBytecode="6" sourcefile="HullCollisionShape.java" sourcepath="com/jme3/bullet/collision/shapes/HullCollisionShape.java"/>
+  </BugInstance>
+  <BugInstance type="FI_PUBLIC_SHOULD_BE_PROTECTED" priority="2" rank="18" abbrev="FI" category="MALICIOUS_CODE">
+    <Class classname="com.jme3.bullet.collision.shapes.MeshCollisionShape">
+      <SourceLine classname="com.jme3.bullet.collision.shapes.MeshCollisionShape" start="70" end="252" sourcefile="MeshCollisionShape.java" sourcepath="com/jme3/bullet/collision/shapes/MeshCollisionShape.java"/>
+    </Class>
+    <Method classname="com.jme3.bullet.collision.shapes.MeshCollisionShape" name="finalize" signature="()V" isStatic="false">
+      <SourceLine classname="com.jme3.bullet.collision.shapes.MeshCollisionShape" start="247" end="252" startBytecode="0" endBytecode="117" sourcefile="MeshCollisionShape.java" sourcepath="com/jme3/bullet/collision/shapes/MeshCollisionShape.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="BC_IMPOSSIBLE_CAST" priority="1" rank="9" abbrev="BC" category="CORRECTNESS">
+    <Class classname="com.jme3.bullet.control.KinematicRagdollControl">
+      <SourceLine classname="com.jme3.bullet.control.KinematicRagdollControl" start="94" end="1334" sourcefile="KinematicRagdollControl.java" sourcepath="com/jme3/bullet/control/KinematicRagdollControl.java"/>
+    </Class>
+    <Method classname="com.jme3.bullet.control.KinematicRagdollControl" name="applyUserControl" signature="()V" isStatic="false">
+      <SourceLine classname="com.jme3.bullet.control.KinematicRagdollControl" start="1183" end="1207" startBytecode="0" endBytecode="71" sourcefile="KinematicRagdollControl.java" sourcepath="com/jme3/bullet/control/KinematicRagdollControl.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Type descriptor="Lcom/jme3/animation/Bone;" role="TYPE_EXPECTED">
+      <SourceLine classname="com.jme3.animation.Bone" start="79" end="967" sourcefile="Bone.java" sourcepath="com/jme3/animation/Bone.java"/>
+    </Type>
+    <Method classname="java.util.Iterator" name="next" signature="()Ljava/lang/Object;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="java.util.Iterator" sourcefile="Iterator.java" sourcepath="java/util/Iterator.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.bullet.control.KinematicRagdollControl" start="1195" end="1195" startBytecode="88" endBytecode="88" sourcefile="KinematicRagdollControl.java" sourcepath="com/jme3/bullet/control/KinematicRagdollControl.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE">
+    <Class classname="com.jme3.bullet.control.KinematicRagdollControl">
+      <SourceLine classname="com.jme3.bullet.control.KinematicRagdollControl" start="94" end="1334" sourcefile="KinematicRagdollControl.java" sourcepath="com/jme3/bullet/control/KinematicRagdollControl.java"/>
+    </Class>
+    <Method classname="com.jme3.bullet.control.KinematicRagdollControl" name="ikUpdate" signature="(F)V" isStatic="false">
+      <SourceLine classname="com.jme3.bullet.control.KinematicRagdollControl" start="400" end="433" startBytecode="0" endBytecode="725" sourcefile="KinematicRagdollControl.java" sourcepath="com/jme3/bullet/control/KinematicRagdollControl.java"/>
+    </Method>
+    <Field classname="com.jme3.bullet.control.KinematicRagdollControl" name="ikTargets" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="com.jme3.bullet.control.KinematicRagdollControl" sourcefile="KinematicRagdollControl.java" sourcepath="com/jme3/bullet/control/KinematicRagdollControl.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.bullet.control.KinematicRagdollControl" start="417" end="417" startBytecode="129" endBytecode="129" sourcefile="KinematicRagdollControl.java" sourcepath="com/jme3/bullet/control/KinematicRagdollControl.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.bullet.control.KinematicRagdollControl$PhysicsBoneLink">
+      <SourceLine classname="com.jme3.bullet.control.KinematicRagdollControl$PhysicsBoneLink" start="168" end="228" sourcefile="KinematicRagdollControl.java" sourcepath="com/jme3/bullet/control/KinematicRagdollControl.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE">
+    <Class classname="com.jme3.bullet.control.ragdoll.RagdollPreset">
+      <SourceLine classname="com.jme3.bullet.control.ragdoll.RagdollPreset" start="44" end="109" sourcefile="RagdollPreset.java" sourcepath="com/jme3/bullet/control/ragdoll/RagdollPreset.java"/>
+    </Class>
+    <Method classname="com.jme3.bullet.control.ragdoll.RagdollPreset" name="setupJointForBone" signature="(Ljava/lang/String;Lcom/jme3/bullet/joints/SixDofJoint;)V" isStatic="false">
+      <SourceLine classname="com.jme3.bullet.control.ragdoll.RagdollPreset" start="77" end="109" startBytecode="0" endBytecode="460" sourcefile="RagdollPreset.java" sourcepath="com/jme3/bullet/control/ragdoll/RagdollPreset.java"/>
+    </Method>
+    <Field classname="com.jme3.bullet.control.ragdoll.RagdollPreset" name="lexicon" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="com.jme3.bullet.control.ragdoll.RagdollPreset" sourcefile="RagdollPreset.java" sourcepath="com/jme3/bullet/control/ragdoll/RagdollPreset.java"/>
+    </Field>
+    <SourceLine classname="com.jme3.bullet.control.ragdoll.RagdollPreset" start="88" end="88" startBytecode="82" endBytecode="82" sourcefile="RagdollPreset.java" sourcepath="com/jme3/bullet/control/ragdoll/RagdollPreset.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.bullet.control.ragdoll.RagdollPreset$JointPreset">
+      <SourceLine classname="com.jme3.bullet.control.ragdoll.RagdollPreset$JointPreset" start="121" end="155" sourcefile="RagdollPreset.java" sourcepath="com/jme3/bullet/control/ragdoll/RagdollPreset.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="com.jme3.bullet.control.ragdoll.RagdollPreset$LexiconEntry">
+      <SourceLine classname="com.jme3.bullet.control.ragdoll.RagdollPreset$LexiconEntry" start="161" end="187" sourcefile="RagdollPreset.java" sourcepath="com/jme3/bullet/control/ragdoll/RagdollPreset.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE">
+    <Class classname="com.jme3.bullet.control.ragdoll.RagdollPreset$LexiconEntry">
+      <SourceLine classname="com.jme3.bullet.control.ragdoll.RagdollPreset$LexiconEntry" start="161" end="187" sourcefile="RagdollPreset.java" sourcepath="com/jme3/bullet/control/ragdoll/RagdollPreset.java"/>
+    </Class>
+    <Method classname="com.jme3.bullet.control.ragdoll.RagdollPreset$LexiconEntry" name="getScore" signature="(Ljava/lang/String;)I" isStatic="false">
+      <SourceLine classname="com.jme3.bullet.control.ragdoll.RagdollPreset$LexiconEntry" start="180" end="187" startBytecode="0" endBytecode="196" sourcefile="RagdollPreset.java" sourcepath="com/jme3/bullet/control/ragdoll/RagdollPreset.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.bullet.control.ragdoll.RagdollPreset$LexiconEntry" start="184" end="184" startBytecode="53" endBytecode="53" sourcefile="RagdollPreset.java" sourcepath="com/jme3/bullet/control/ragdoll/RagdollPreset.java"/>
+  </BugInstance>
+  <BugInstance type="INT_BAD_COMPARISON_WITH_NONNEGATIVE_VALUE" priority="2" rank="7" abbrev="INT" category="CORRECTNESS">
+    <Class classname="com.jme3.bullet.control.ragdoll.RagdollUtils">
+      <SourceLine classname="com.jme3.bullet.control.ragdoll.RagdollUtils" start="59" end="402" sourcefile="RagdollUtils.java" sourcepath="com/jme3/bullet/control/ragdoll/RagdollUtils.java"/>
+    </Class>
+    <Method classname="com.jme3.bullet.control.ragdoll.RagdollUtils" name="readIndex" signature="(Ljava/nio/Buffer;I)I" isStatic="true">
+      <SourceLine classname="com.jme3.bullet.control.ragdoll.RagdollUtils" start="389" end="402" startBytecode="0" endBytecode="273" sourcefile="RagdollUtils.java" sourcepath="com/jme3/bullet/control/ragdoll/RagdollUtils.java"/>
+    </Method>
+    <Int value="0" role="INT_VALUE"/>
+    <LocalVariable name="result" register="2" pc="79" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.jme3.bullet.control.ragdoll.RagdollUtils" start="401" end="401" startBytecode="79" endBytecode="79" sourcefile="RagdollUtils.java" sourcepath="com/jme3/bullet/control/ragdoll/RagdollUtils.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE">
+    <Class classname="com.jme3.bullet.objects.PhysicsCharacter">
+      <SourceLine classname="com.jme3.bullet.objects.PhysicsCharacter" start="60" end="707" sourcefile="PhysicsCharacter.java" sourcepath="com/jme3/bullet/objects/PhysicsCharacter.java"/>
+    </Class>
+    <Method classname="com.jme3.bullet.objects.PhysicsCharacter" name="setUpAxis" signature="(I)V" isStatic="false">
+      <SourceLine classname="com.jme3.bullet.objects.PhysicsCharacter" start="164" end="176" startBytecode="0" endBytecode="169" sourcefile="PhysicsCharacter.java" sourcepath="com/jme3/bullet/objects/PhysicsCharacter.java"/>
+    </Method>
+    <SourceLine classname="com.jme3.bullet.objects.PhysicsCharacter" start="166" end="174" startBytecode="17" endBytecode="70" sourcefile="PhysicsCharacter.java" sourcepath="com/jme3/bullet/objects/PhysicsCharacter.java"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE">
+    <Class classname="com.jme3.bullet.util.DebugShapeFactory">
+      <SourceLine classname="com.jme3.bullet.util.DebugShapeFactory" start="52" end="136" sourcefile="DebugShapeFactory.java" sourcepath="com/jme3/bullet/util/DebugShapeFactory.java"/>
+    </Class>
+    <Method classname="com.jme3.bullet.util.DebugShapeFactory" name="getDebugShape" signature="(Lcom/jme3/bullet/collision/shapes/CollisionShape;)Lcom/jme3/scene/Spatial;" isStatic="true">
+      <SourceLine classname="com.jme3.bullet.util.DebugShapeFactory" start="69" end="105" startBytecode="0" endBytecode="501" sourcefile="DebugShapeFactory.java" sourcepath="com/jme3/bullet/util/DebugShapeFactory.java"/>
+    </Method>
+    <LocalVariable name="debugShape" register="1" pc="158" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.jme3.bullet.util.DebugShapeFactory" start="101" end="101" startBytecode="159" endBytecode="159" sourcefile="DebugShapeFactory.java" sourcepath="com/jme3/bullet/util/DebugShapeFactory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 18 Apr 2020 15:15:33 +0000" total_classes="91" referenced_classes="256" total_bugs="19" total_size="8598" num_packages="13" java_version="1.8.0_252" vm_version="25.252-b14" cpu_seconds="15.24" clock_seconds="7.75" peak_mbytes="253.20" alloc_mbytes="455.50" gc_seconds="0.62" priority_2="17" priority_1="2">
+    <PackageStats package="com.jme3.bullet" total_bugs="3" total_types="11" total_size="680" priority_2="2" priority_1="1">
+      <ClassStats class="com.jme3.bullet.BulletAppState" sourceFile="BulletAppState.java" interface="false" size="171" bugs="1" priority_1="1"/>
+      <ClassStats class="com.jme3.bullet.BulletAppState$1" sourceFile="BulletAppState.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.BulletAppState$2" sourceFile="BulletAppState.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.BulletAppState$3" sourceFile="BulletAppState.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.BulletAppState$4" sourceFile="BulletAppState.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.BulletAppState$ThreadingType" sourceFile="BulletAppState.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.PhysicsSpace" sourceFile="PhysicsSpace.java" interface="false" size="432" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.bullet.PhysicsSpace$1" sourceFile="PhysicsSpace.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.PhysicsSpace$2" sourceFile="PhysicsSpace.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.PhysicsSpace$BroadphaseType" sourceFile="PhysicsSpace.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.PhysicsTickListener" sourceFile="PhysicsTickListener.java" interface="true" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.bullet.animation" total_bugs="2" total_types="13" total_size="1983" priority_2="2">
+      <ClassStats class="com.jme3.bullet.animation.BoneLink" sourceFile="BoneLink.java" interface="false" size="195" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.animation.BoneLink$1" sourceFile="BoneLink.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.animation.DacConfiguration" sourceFile="DacConfiguration.java" interface="false" size="204" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.animation.DacLinks" sourceFile="DacLinks.java" interface="false" size="458" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.animation.DynamicAnimControl" sourceFile="DynamicAnimControl.java" interface="false" size="199" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.animation.KinematicSubmode" sourceFile="KinematicSubmode.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.animation.PhysicsLink" sourceFile="PhysicsLink.java" interface="false" size="233" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.animation.RagUtils" sourceFile="RagUtils.java" interface="false" size="309" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.bullet.animation.RagdollCollisionListener" sourceFile="RagdollCollisionListener.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.animation.RangeOfMotion" sourceFile="RangeOfMotion.java" interface="false" size="131" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.animation.TorsoLink" sourceFile="TorsoLink.java" interface="false" size="191" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.animation.TorsoLink$1" sourceFile="TorsoLink.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.animation.VectorSet" sourceFile="VectorSet.java" interface="false" size="42" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.bullet.collision" total_bugs="2" total_types="9" total_size="304" priority_2="2">
+      <ClassStats class="com.jme3.bullet.collision.CollisionFlag" sourceFile="CollisionFlag.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.PhysicsCollisionEvent" sourceFile="PhysicsCollisionEvent.java" interface="false" size="122" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.PhysicsCollisionEventFactory" sourceFile="PhysicsCollisionEventFactory.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.PhysicsCollisionGroupListener" sourceFile="PhysicsCollisionGroupListener.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.PhysicsCollisionListener" sourceFile="PhysicsCollisionListener.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.PhysicsCollisionObject" sourceFile="PhysicsCollisionObject.java" interface="false" size="101" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.PhysicsRayTestResult" sourceFile="PhysicsRayTestResult.java" interface="false" size="17" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.bullet.collision.PhysicsSweepTestResult" sourceFile="PhysicsSweepTestResult.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.RagdollCollisionListener" sourceFile="RagdollCollisionListener.java" interface="true" size="2" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.bullet.collision.shapes" total_bugs="2" total_types="13" total_size="746" priority_2="2">
+      <ClassStats class="com.jme3.bullet.collision.shapes.BoxCollisionShape" sourceFile="BoxCollisionShape.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.shapes.CapsuleCollisionShape" sourceFile="CapsuleCollisionShape.java" interface="false" size="53" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.shapes.CollisionShape" sourceFile="CollisionShape.java" interface="false" size="58" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.shapes.CompoundCollisionShape" sourceFile="CompoundCollisionShape.java" interface="false" size="54" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.shapes.ConeCollisionShape" sourceFile="ConeCollisionShape.java" interface="false" size="47" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.shapes.CylinderCollisionShape" sourceFile="CylinderCollisionShape.java" interface="false" size="46" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.shapes.GImpactCollisionShape" sourceFile="GImpactCollisionShape.java" interface="false" size="78" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.shapes.HeightfieldCollisionShape" sourceFile="HeightfieldCollisionShape.java" interface="false" size="83" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.shapes.HullCollisionShape" sourceFile="HullCollisionShape.java" interface="false" size="51" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.bullet.collision.shapes.MeshCollisionShape" sourceFile="MeshCollisionShape.java" interface="false" size="114" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.bullet.collision.shapes.PlaneCollisionShape" sourceFile="PlaneCollisionShape.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.shapes.SimplexCollisionShape" sourceFile="SimplexCollisionShape.java" interface="false" size="67" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.collision.shapes.SphereCollisionShape" sourceFile="SphereCollisionShape.java" interface="false" size="34" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.bullet.collision.shapes.infos" total_bugs="0" total_types="1" total_size="25">
+      <ClassStats class="com.jme3.bullet.collision.shapes.infos.ChildCollisionShape" sourceFile="ChildCollisionShape.java" interface="false" size="25" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.bullet.control" total_bugs="3" total_types="10" total_size="1559" priority_2="2" priority_1="1">
+      <ClassStats class="com.jme3.bullet.control.AbstractPhysicsControl" sourceFile="AbstractPhysicsControl.java" interface="false" size="112" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.control.BetterCharacterControl" sourceFile="BetterCharacterControl.java" interface="false" size="289" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.control.CharacterControl" sourceFile="CharacterControl.java" interface="false" size="135" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.control.GhostControl" sourceFile="GhostControl.java" interface="false" size="106" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.control.KinematicRagdollControl" sourceFile="KinematicRagdollControl.java" interface="false" size="566" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="com.jme3.bullet.control.KinematicRagdollControl$Mode" sourceFile="KinematicRagdollControl.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.control.KinematicRagdollControl$PhysicsBoneLink" sourceFile="KinematicRagdollControl.java" interface="false" size="35" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.bullet.control.PhysicsControl" sourceFile="PhysicsControl.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.control.RigidBodyControl" sourceFile="RigidBodyControl.java" interface="false" size="154" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.control.VehicleControl" sourceFile="VehicleControl.java" interface="false" size="144" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.bullet.control.ragdoll" total_bugs="5" total_types="5" total_size="312" priority_2="5">
+      <ClassStats class="com.jme3.bullet.control.ragdoll.HumanoidRagdollPreset" sourceFile="HumanoidRagdollPreset.java" interface="false" size="68" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.control.ragdoll.RagdollPreset" sourceFile="RagdollPreset.java" interface="false" size="34" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.bullet.control.ragdoll.RagdollPreset$JointPreset" sourceFile="RagdollPreset.java" interface="false" size="28" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.bullet.control.ragdoll.RagdollPreset$LexiconEntry" sourceFile="RagdollPreset.java" interface="false" size="15" bugs="2" priority_2="2"/>
+      <ClassStats class="com.jme3.bullet.control.ragdoll.RagdollUtils" sourceFile="RagdollUtils.java" interface="false" size="167" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.bullet.debug" total_bugs="0" total_types="9" total_size="621">
+      <ClassStats class="com.jme3.bullet.debug.AbstractPhysicsDebugControl" sourceFile="AbstractPhysicsDebugControl.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.debug.BulletCharacterDebugControl" sourceFile="BulletCharacterDebugControl.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.debug.BulletDebugAppState" sourceFile="BulletDebugAppState.java" interface="false" size="208" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.debug.BulletDebugAppState$DebugAppStateFilter" sourceFile="BulletDebugAppState.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.debug.BulletGhostObjectDebugControl" sourceFile="BulletGhostObjectDebugControl.java" interface="false" size="46" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.debug.BulletJointDebugControl" sourceFile="BulletJointDebugControl.java" interface="false" size="49" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.debug.BulletRigidBodyDebugControl" sourceFile="BulletRigidBodyDebugControl.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.debug.BulletVehicleDebugControl" sourceFile="BulletVehicleDebugControl.java" interface="false" size="79" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.debug.DebugTools" sourceFile="DebugTools.java" interface="false" size="117" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.bullet.joints" total_bugs="0" total_types="7" total_size="765">
+      <ClassStats class="com.jme3.bullet.joints.ConeJoint" sourceFile="ConeJoint.java" interface="false" size="66" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.joints.HingeJoint" sourceFile="HingeJoint.java" interface="false" size="97" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.joints.PhysicsJoint" sourceFile="PhysicsJoint.java" interface="false" size="63" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.joints.Point2PointJoint" sourceFile="Point2PointJoint.java" interface="false" size="49" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.joints.SixDofJoint" sourceFile="SixDofJoint.java" interface="false" size="137" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.joints.SixDofSpringJoint" sourceFile="SixDofSpringJoint.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.joints.SliderJoint" sourceFile="SliderJoint.java" interface="false" size="317" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.bullet.joints.motors" total_bugs="0" total_types="2" total_size="144">
+      <ClassStats class="com.jme3.bullet.joints.motors.RotationalLimitMotor" sourceFile="RotationalLimitMotor.java" interface="false" size="79" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.joints.motors.TranslationalLimitMotor" sourceFile="TranslationalLimitMotor.java" interface="false" size="65" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.bullet.objects" total_bugs="1" total_types="5" total_size="1173" priority_2="1">
+      <ClassStats class="com.jme3.bullet.objects.PhysicsCharacter" sourceFile="PhysicsCharacter.java" interface="false" size="237" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.bullet.objects.PhysicsGhostObject" sourceFile="PhysicsGhostObject.java" interface="false" size="127" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.objects.PhysicsRigidBody" sourceFile="PhysicsRigidBody.java" interface="false" size="370" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.objects.PhysicsVehicle" sourceFile="PhysicsVehicle.java" interface="false" size="206" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.objects.VehicleWheel" sourceFile="VehicleWheel.java" interface="false" size="233" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.bullet.objects.infos" total_bugs="0" total_types="2" total_size="82">
+      <ClassStats class="com.jme3.bullet.objects.infos.RigidBodyMotionState" sourceFile="RigidBodyMotionState.java" interface="false" size="67" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.objects.infos.VehicleTuning" sourceFile="VehicleTuning.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jme3.bullet.util" total_bugs="1" total_types="4" total_size="204" priority_2="1">
+      <ClassStats class="com.jme3.bullet.util.CollisionShapeFactory" sourceFile="CollisionShapeFactory.java" interface="false" size="120" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.util.DebugMeshCallback" sourceFile="DebugMeshCallback.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.jme3.bullet.util.DebugShapeFactory" sourceFile="DebugShapeFactory.java" interface="false" size="44" bugs="1" priority_2="1"/>
+      <ClassStats class="com.jme3.bullet.util.NativeMeshUtil" sourceFile="NativeMeshUtil.java" interface="false" size="24" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="654" invocations="1240" avgMicrosecondsPerInvocation="528" maxMicrosecondsPerInvocation="264913" standardDeviationMicrosecondsPerInvocation="7609"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="595" invocations="1224" avgMicrosecondsPerInvocation="486" maxMicrosecondsPerInvocation="66172" standardDeviationMicrosecondsPerInvocation="2568"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="459" invocations="1025" avgMicrosecondsPerInvocation="448" maxMicrosecondsPerInvocation="45790" standardDeviationMicrosecondsPerInvocation="1848"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="412" invocations="1225" avgMicrosecondsPerInvocation="337" maxMicrosecondsPerInvocation="13216" standardDeviationMicrosecondsPerInvocation="1033"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="375" invocations="1336" avgMicrosecondsPerInvocation="281" maxMicrosecondsPerInvocation="14057" standardDeviationMicrosecondsPerInvocation="894"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="305" invocations="1308" avgMicrosecondsPerInvocation="233" maxMicrosecondsPerInvocation="16515" standardDeviationMicrosecondsPerInvocation="789"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="233" invocations="1240" avgMicrosecondsPerInvocation="188" maxMicrosecondsPerInvocation="13332" standardDeviationMicrosecondsPerInvocation="625"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="225" invocations="1918" avgMicrosecondsPerInvocation="117" maxMicrosecondsPerInvocation="12604" standardDeviationMicrosecondsPerInvocation="490"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="219" invocations="256" avgMicrosecondsPerInvocation="855" maxMicrosecondsPerInvocation="15198" standardDeviationMicrosecondsPerInvocation="1721"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="218" invocations="1041" avgMicrosecondsPerInvocation="210" maxMicrosecondsPerInvocation="10164" standardDeviationMicrosecondsPerInvocation="709"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="205" invocations="256" avgMicrosecondsPerInvocation="801" maxMicrosecondsPerInvocation="20313" standardDeviationMicrosecondsPerInvocation="1716"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="166" invocations="1590" avgMicrosecondsPerInvocation="104" maxMicrosecondsPerInvocation="55141" standardDeviationMicrosecondsPerInvocation="1883"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="137" invocations="1029" avgMicrosecondsPerInvocation="133" maxMicrosecondsPerInvocation="4519" standardDeviationMicrosecondsPerInvocation="239"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="99" invocations="1240" avgMicrosecondsPerInvocation="79" maxMicrosecondsPerInvocation="8745" standardDeviationMicrosecondsPerInvocation="443"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="83" invocations="325" avgMicrosecondsPerInvocation="257" maxMicrosecondsPerInvocation="14523" standardDeviationMicrosecondsPerInvocation="1014"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="83" invocations="91" avgMicrosecondsPerInvocation="918" maxMicrosecondsPerInvocation="8533" standardDeviationMicrosecondsPerInvocation="1535"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="81" invocations="91" avgMicrosecondsPerInvocation="895" maxMicrosecondsPerInvocation="14175" standardDeviationMicrosecondsPerInvocation="1763"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="78" invocations="256" avgMicrosecondsPerInvocation="307" maxMicrosecondsPerInvocation="8363" standardDeviationMicrosecondsPerInvocation="707"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="77" invocations="1223" avgMicrosecondsPerInvocation="63" maxMicrosecondsPerInvocation="9849" standardDeviationMicrosecondsPerInvocation="408"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="75" invocations="1224" avgMicrosecondsPerInvocation="61" maxMicrosecondsPerInvocation="8114" standardDeviationMicrosecondsPerInvocation="330"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="72" invocations="256" avgMicrosecondsPerInvocation="283" maxMicrosecondsPerInvocation="20536" standardDeviationMicrosecondsPerInvocation="1533"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="71" invocations="975" avgMicrosecondsPerInvocation="72" maxMicrosecondsPerInvocation="6041" standardDeviationMicrosecondsPerInvocation="275"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="70" invocations="91" avgMicrosecondsPerInvocation="778" maxMicrosecondsPerInvocation="9843" standardDeviationMicrosecondsPerInvocation="1589"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="68" invocations="256" avgMicrosecondsPerInvocation="265" maxMicrosecondsPerInvocation="11055" standardDeviationMicrosecondsPerInvocation="866"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="67" invocations="91" avgMicrosecondsPerInvocation="736" maxMicrosecondsPerInvocation="8768" standardDeviationMicrosecondsPerInvocation="1415"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBadCast2" totalMilliseconds="64" invocations="91" avgMicrosecondsPerInvocation="712" maxMicrosecondsPerInvocation="10116" standardDeviationMicrosecondsPerInvocation="1416"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.IncompatMask" totalMilliseconds="62" invocations="91" avgMicrosecondsPerInvocation="687" maxMicrosecondsPerInvocation="40187" standardDeviationMicrosecondsPerInvocation="4174"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="55" invocations="91" avgMicrosecondsPerInvocation="613" maxMicrosecondsPerInvocation="16180" standardDeviationMicrosecondsPerInvocation="2311"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.MethodReturnCheck" totalMilliseconds="55" invocations="91" avgMicrosecondsPerInvocation="611" maxMicrosecondsPerInvocation="14259" standardDeviationMicrosecondsPerInvocation="1577"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="52" invocations="256" avgMicrosecondsPerInvocation="204" maxMicrosecondsPerInvocation="4636" standardDeviationMicrosecondsPerInvocation="389"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="49" invocations="256" avgMicrosecondsPerInvocation="193" maxMicrosecondsPerInvocation="7715" standardDeviationMicrosecondsPerInvocation="598"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SwitchFallthrough" totalMilliseconds="48" invocations="91" avgMicrosecondsPerInvocation="530" maxMicrosecondsPerInvocation="12109" standardDeviationMicrosecondsPerInvocation="1566"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
