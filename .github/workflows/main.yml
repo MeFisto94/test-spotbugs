@@ -584,7 +584,7 @@ jobs:
       - name: Updating the Engine Expectations
         run: |
           rm -rf .github/spotbugs/*.xml
-          for d in jme3-*; do cp -v "$d/build/reports/spotbugs/main.xml" ".github/spotbugs/$d.xml"
+          for d in jme3-*; do cp -v "$d/build/reports/spotbugs/main.xml" ".github/spotbugs/$d.xml": done
           git config --global user.name "Github Actions"
           git config --global user.email "actions@users.noreply.github.com"
           git add .github/spotbugs/*.xml
