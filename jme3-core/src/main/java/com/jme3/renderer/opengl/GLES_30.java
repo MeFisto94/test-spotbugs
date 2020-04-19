@@ -31,8 +31,6 @@
  */
 package com.jme3.renderer.opengl;
 
-import java.nio.ByteBuffer;
-
 /**
  * GL functions and constants only available on vanilla OpenGL ES 3.0.
  *

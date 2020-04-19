@@ -33,7 +33,6 @@
 package com.jme3.app.state;
 
 import java.util.Arrays;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import com.jme3.app.Application;

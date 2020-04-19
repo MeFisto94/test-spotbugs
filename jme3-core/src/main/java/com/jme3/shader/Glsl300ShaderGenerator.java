@@ -32,7 +32,6 @@
 package com.jme3.shader;
 
 import com.jme3.asset.AssetManager;
-import com.jme3.material.ShaderGenerationInfo;
 import com.jme3.shader.Shader.ShaderType;
 
 
