@@ -582,6 +582,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Updating the Engine Expectations
+        if: github.event_name != 'pull_request'
         run: |
           rm -rf .github/spotbugs/*.xml
           for d in jme3-*; do cp -v "$d/build/reports/spotbugs/main.xml" ".github/spotbugs/$d.xml" || true; done
