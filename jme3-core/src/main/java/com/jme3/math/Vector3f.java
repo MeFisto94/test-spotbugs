@@ -772,12 +772,7 @@ public final class Vector3f implements Savable, Cloneable, java.io.Serializable 
 //        }
 //
 //        return divide(1);
-        float length = x * x + y * y + z * z;
-        if (length != 1f && length != 0f){
-            length = 1.0f / FastMath.sqrt(length);
-            return new Vector3f(x * length, y * length, z * length);
-        }
-        return clone();
+        return normalize();
     }
 
     /**
